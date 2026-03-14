@@ -7,11 +7,13 @@ export default {
   darkMode: 'class',
   theme: {
     extend: {
-      // 1. 新增自定义颜色（核心！解决 border-border 错误）
+      // 补充所有用到的自定义颜色（核心！）
       colors: {
-        background: '#ffffff', // 对应 bg-background 类
-        foreground: '#111827', // 对应 text-foreground 类
-        border: '#e5e7eb',     // 对应 border-border 类
+        background: '#ffffff',
+        foreground: '#111827',
+        border: '#e5e7eb',
+        secondary: '#f3f4f6', // 新增 bg-secondary 对应的颜色（可自定义）
+        primary: '#3b82f6',   // 建议补充，避免后续报 bg-primary 错误
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
