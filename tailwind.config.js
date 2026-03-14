@@ -7,6 +7,12 @@ export default {
   darkMode: 'class',
   theme: {
     extend: {
+      // 1. 新增自定义颜色（核心！解决 border-border 错误）
+      colors: {
+        background: '#ffffff', // 对应 bg-background 类
+        foreground: '#111827', // 对应 text-foreground 类
+        border: '#e5e7eb',     // 对应 border-border 类
+      },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
       },
