@@ -1,0 +1,51 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "blog": "Blog",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "role": "Full Stack Developer & Creator",
+    "description": "I build accessible, pixel-perfect, and performant web experiences. Passionate about open source and modern web technologies.",
+    "ctaPrimary": "View My Work",
+    "ctaSecondary": "Get In Touch"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Passionate developer crafting digital experiences",
+    "description": "I'm a developer who loves building things that live on the internet. I enjoy creating beautiful, functional, and user-friendly applications that solve real problems.",
+    "skills": "Skills & Technologies",
+    "experience": "Experience"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Thoughts, tutorials, and insights about web development",
+    "readMore": "Read More",
+    "publishedOn": "Published on"
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Some things I've built",
+    "viewProject": "View Project",
+    "viewCode": "View Code",
+    "technologies": "Technologies"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Have a project in mind or just want to chat? Feel free to reach out!",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent successfully!",
+    "error": "Something went wrong. Please try again."
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "madeWith": "Made with"
+  }
+}

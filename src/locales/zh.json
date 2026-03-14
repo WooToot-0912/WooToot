@@ -1,0 +1,51 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于",
+    "blog": "博客",
+    "projects": "项目",
+    "contact": "联系"
+  },
+  "hero": {
+    "greeting": "你好，我是",
+    "role": "全栈开发者 & 创作者",
+    "description": "我构建可访问、像素级完美且高性能的网页体验。热衷于开源和现代网络技术。",
+    "ctaPrimary": "查看作品",
+    "ctaSecondary": "联系我"
+  },
+  "about": {
+    "title": "关于我",
+    "subtitle": "热衷于创造数字体验的开发者",
+    "description": "我是一个热爱在互联网上构建事物的开发者。我喜欢创建美观、实用且用户友好的应用程序，解决实际问题。",
+    "skills": "技能与技术",
+    "experience": "工作经历"
+  },
+  "blog": {
+    "title": "博客",
+    "subtitle": "关于网页开发的想法、教程和见解",
+    "readMore": "阅读更多",
+    "publishedOn": "发布于"
+  },
+  "projects": {
+    "title": "项目",
+    "subtitle": "我构建的一些作品",
+    "viewProject": "查看项目",
+    "viewCode": "查看代码",
+    "technologies": "技术栈"
+  },
+  "contact": {
+    "title": "联系我",
+    "subtitle": "有项目想法或只是想聊聊？随时联系我！",
+    "name": "姓名",
+    "email": "邮箱",
+    "message": "留言",
+    "send": "发送消息",
+    "sending": "发送中...",
+    "success": "消息发送成功！",
+    "error": "出了点问题，请重试。"
+  },
+  "footer": {
+    "rights": "保留所有权利。",
+    "madeWith": "用"
+  }
+}
