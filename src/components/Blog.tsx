@@ -6,89 +6,23 @@ import { Calendar, Clock, ArrowRight, MessageCircle } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 
-const blogPosts = [
-  {
-    id: 1,
-    title: 'Building Modern Web Applications with React and TypeScript',
-    excerpt: 'Learn how to build type-safe, scalable web applications using React and TypeScript. Best practices, patterns, and tips.',
-    date: '2024-03-15',
-    readTime: '8 min read',
-    category: 'Development',
-    slug: 'building-modern-web-applications',
-    content: `
-## Introduction
-
-React and TypeScript have become the gold standard for building modern web applications. In this post, I'll share my experience and best practices.
-
-## Why TypeScript?
-
-TypeScript adds static type checking to JavaScript, catching errors at compile time rather than runtime.
-
-## Best Practices
-
-1. **Strict Mode**: Always enable strict mode in your tsconfig.json
-2. **Component Props**: Define interfaces for all component props
-3. **Generic Components**: Use generics for reusable components
-
-## Conclusion
-
-TypeScript is an invaluable tool for React development.
-    `,
-  },
-  {
-    id: 2,
-    title: 'The Future of CSS: Tailwind and Beyond',
-    excerpt: 'Exploring the evolution of CSS frameworks and why utility-first CSS is taking over the web development world.',
-    date: '2024-03-10',
-    readTime: '6 min read',
-    category: 'CSS',
-    slug: 'future-of-css-tailwind',
-    content: `
-## The Rise of Utility-First CSS
-
-Tailwind CSS has revolutionized how we write styles. No more switching between HTML and CSS files.
-
-## Benefits
-
-- **Rapid Development**: Build interfaces faster
-- **Consistency**: Standardized design system
-- **Small Bundle Size**: Purge unused styles
-
-## What's Next?
-
-The future looks bright for CSS-in-JS and utility-first approaches.
-    `,
-  },
-  {
-    id: 3,
-    title: 'Mastering Framer Motion for React Animations',
-    excerpt: 'Create stunning, performant animations in React with Framer Motion. From basics to advanced techniques.',
-    date: '2024-03-05',
-    readTime: '10 min read',
-    category: 'Animation',
-    slug: 'mastering-framer-motion',
-    content: `
-## Getting Started
-
-Framer Motion is a production-ready motion library for React.
-
-## Key Concepts
-
-- **motion components**: Enhanced HTML elements
-- **AnimatePresence**: Handle entering/exiting animations
-- **useAnimation**: Programmatic control
-
-## Advanced Techniques
-
-Learn about layout animations, shared layout animations, and more.
-    `,
-  },
-];
-
 export function Blog() {
   const { t } = useTranslation();
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: '-100px' });
+
+  const postKeys = ['post1', 'post2', 'post3'];
+  const blogPosts = postKeys.map((key, index) => ({
+    id: index + 1,
+    title: t(`blog.posts.${key}.title`),
+    excerpt: t(`blog.posts.${key}.excerpt`),
+    category: t(`blog.posts.${key}.category`),
+    date: ['2024-03-15', '2024-03-10', '2024-03-05'][index],
+    readTime: ['8 min read', '6 min read', '10 min read'][index],
+    slug: key,
+    content: `Detailed content for ${key} would go here...`
+  }));
+
   const [selectedPost, setSelectedPost] = useState<typeof blogPosts[0] | null>(null);
 
   return (

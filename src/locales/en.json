@@ -18,21 +18,60 @@
     "title": "About Me",
     "subtitle": "Passionate developer crafting digital experiences",
     "description": "I'm a developer who loves building things that live on the internet. I enjoy creating beautiful, functional, and user-friendly applications that solve real problems.",
-    "skills": "Skills & Technologies",
-    "experience": "Experience"
+    "skills": "Skills",
+    "experience": "Experience",
+    "stats": {
+      "exp": "Years Experience",
+      "pdone": "Projects Completed",
+      "clients": "Happy Clients"
+    },
+    "skill_names": {
+       "frontend": "Frontend",
+       "backend": "Backend",
+       "database": "Database",
+       "devops": "DevOps",
+       "design": "Design",
+       "tools": "Tools"
+    }
   },
   "blog": {
     "title": "Blog",
     "subtitle": "Thoughts, tutorials, and insights about web development",
     "readMore": "Read More",
-    "publishedOn": "Published on"
+    "publishedOn": "Published on",
+    "posts": {
+      "post1": {
+        "title": "Building Modern Web Applications with React and TypeScript",
+        "excerpt": "Learn how to build type-safe, scalable web applications using React and TypeScript.",
+        "category": "Development"
+      },
+      "post2": {
+        "title": "The Future of CSS: Tailwind and Beyond",
+        "excerpt": "Exploring the evolution of CSS frameworks and utility-first CSS.",
+        "category": "CSS"
+      },
+      "post3": {
+        "title": "Mastering Framer Motion for React Animations",
+        "excerpt": "Create stunning, performant animations in React with Framer Motion.",
+        "category": "Animation"
+      }
+    }
   },
   "projects": {
     "title": "Projects",
     "subtitle": "Some things I've built",
     "viewProject": "View Project",
     "viewCode": "View Code",
-    "technologies": "Technologies"
+    "technologies": "Technologies",
+    "details": "Project Details",
+    "list": {
+      "p1": { "title": "E-Commerce Platform", "description": "Full-featured platform...", "details": "Built a scalable solution..." },
+      "p2": { "title": "Task Management App", "description": "Collaborative tool...", "details": "Developed a Trello-like app..." },
+      "p3": { "title": "AI Content Generator", "description": "AI-powered tool...", "details": "Integrated OpenAI GPT-4..." },
+      "p4": { "title": "Portfolio Dashboard", "description": "Interactive dashboard...", "details": "Created financial dashboard..." },
+      "p5": { "title": "Social Media Analytics", "description": "Analytics platform...", "details": "Built platform for managers..." },
+      "p6": { "title": "Weather Application", "description": "Beautiful weather app...", "details": "Developed cross-platform mobile app..." }
+    }
   },
   "contact": {
     "title": "Get In Touch",

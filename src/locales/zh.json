@@ -20,13 +20,60 @@
     "description": "我是一个热爱在互联网上构建事物的开发者。我喜欢创建美观、实用且用户友好的应用程序，解决实际问题。",
     "extra": "当我不写代码时，你可以发现我在探索新技术、重温经典设计，或者通过博客分享我的见解。",
     "skills": "技能与技术",
-    "experience": "工作经历"
+    "experience": "工作经历",
+    "stats": {
+      "exp": "工作经验",
+      "pdone": "项目完成",
+      "clients": "满意客户服务"
+    },
+    "exp_list": {
+      "e1": {
+        "title": "高级全栈开发工程师",
+        "company": "科技公司",
+        "desc": "领导可扩展 Web 应用的开发，并指导初级开发者。"
+      },
+      "e2": {
+        "title": "全栈开发工程师",
+        "company": "初创企业",
+        "desc": "使用现代技术从零开始构建并部署了多个 Web 应用程序。"
+      },
+      "e3": {
+        "title": "前端开发工程师",
+        "company": "数字代理商",
+        "desc": "为各种客户开发响应式网站和 Web 应用程序。"
+      }
+    },
+    "skill_names": {
+      "frontend": "前端开发",
+      "backend": "后端开发",
+      "database": "数据库",
+      "devops": "运维部署",
+      "design": "设计",
+      "tools": "工具"
+    }
   },
   "blog": {
     "title": "博客",
     "subtitle": "关于网页开发的想法、教程和见解",
     "readMore": "阅读更多",
-    "publishedOn": "发布于"
+    "publishedOn": "发布于",
+    "posts": {
+      "post1": {
+        "title": "使用 React 和 TypeScript 构建现代 Web 应用",
+        "excerpt": "学习如何使用 React 和 TypeScript 构建类型安全、可扩展的 Web 应用。包含最佳实践、模式和技巧。",
+        "category": "开发"
+      },
+      "post2": {
+        "title": "CSS 的未来：Tailwind 及其它",
+        "excerpt": "探索 CSS 框架的演变，以及为什么实用优先的 CSS 正在接管网页开发世界。",
+        "category": "样式"
+      },
+      "post3": {
+        "title": "精通 Framer Motion 实现 React 动画",
+        "excerpt": "使用 Framer Motion 在 React 中创建令人惊叹的高性能动画。从基础到高级技术全覆盖。",
+        "category": "动画"
+      }
+    }
   },
   "projects": {
     "title": "作品集",
@@ -34,7 +81,39 @@
     "viewProject": "查看预览",
     "viewCode": "查看源码",
     "technologies": "所用技术",
-    "details": "项目详情"
+    "details": "项目详情",
+    "list": {
+      "p1": {
+        "title": "电子商务平台",
+        "description": "功能全备的电商平台，具备实时库存管理、支付处理和管理员后台。",
+        "details": "构建了一个可处理每日 10k+ 活跃用户的扩展性电商解决方案。使用 WebSockets 实现了实时库存管理，并集成了 Stripe 支付。"
+      },
+      "p2": {
+        "title": "任务管理应用",
+        "description": "协作式任务管理工具，具有实时更新、团队工作区和高级过滤功能。",
+        "details": "开发了一个类似于 Trello 的应用，具有拖放功能、实时协作特性和全面的团队管理工具。"
+      },
+      "p3": {
+        "title": "AI 内容生成器",
+        "description": "AI 驱动的内容生成工具，帮助创作者编写博客文章、社交媒体内容等。",
+        "details": "集成 OpenAI GPT-4 API 创建智能写作助手。功能包括语气调整、长度控制和多语言支持。"
+      },
+      "p4": {
+        "title": "投资组合看板",
+        "description": "用于跟踪投资、可视化组合绩效和市场分析的交互式仪表板。",
+        "details": "创建了一个全面的财务看板，具有实时数据可视化、使用 D3.js 的交互式图表和个性化投资见解。"
+      },
+      "p5": {
+        "title": "社交媒体分析",
+        "description": "为社交媒体经理提供的分析平台，用于跟踪互动、增长和内容表现。",
+        "details": "构建了一个处理数百万数据点的全面分析平台。功能包括自动报告、竞品分析和趋势预测。"
+      },
+      "p6": {
+        "title": "天气应用程序",
+        "description": "精美的天气应用，具有基于位置的预报、交互式地图和严重天气警报。",
+        "details": "开发了跨平台移动应用，具有准确的天气预报、交互式雷达图和天气警报推送到功能。"
+      }
+    }
   },
   "contact": {
     "title": "联系我",

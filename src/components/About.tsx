@@ -4,101 +4,88 @@ import { useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Code2, Palette, Terminal, Database, Globe, Cpu } from 'lucide-react';
 
-const skills = [
-  { icon: Code2, name: 'Frontend', items: ['React', 'Vue', 'TypeScript', 'Tailwind CSS'] },
-  { icon: Terminal, name: 'Backend', items: ['Node.js', 'Python', 'Go', 'PostgreSQL'] },
-  { icon: Database, name: 'Database', items: ['PostgreSQL', 'MongoDB', 'Redis', 'Prisma'] },
-  { icon: Globe, name: 'DevOps', items: ['Docker', 'Kubernetes', 'CI/CD', 'AWS'] },
-  { icon: Palette, name: 'Design', items: ['Figma', 'Adobe XD', 'UI/UX', 'Motion'] },
-  { icon: Cpu, name: 'Tools', items: ['Git', 'VS Code', 'Vim', 'Linux'] },
-];
-
-const experiences = [
-  {
-    period: '2022 - Present',
-    title: 'Senior Full Stack Developer',
-    company: 'Tech Company',
-    description: 'Leading development of scalable web applications and mentoring junior developers.',
-  },
-  {
-    period: '2020 - 2022',
-    title: 'Full Stack Developer',
-    company: 'Startup',
-    description: 'Built and deployed multiple web applications from scratch using modern technologies.',
-  },
-  {
-    period: '2018 - 2020',
-    title: 'Frontend Developer',
-    company: 'Digital Agency',
-    description: 'Developed responsive websites and web applications for various clients.',
-  },
-];
-
 export function About() {
   const { t } = useTranslation();
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: '-100px' });
 
+  const experienceKeys = ['e1', 'e2', 'e3'];
+  const experiences = experienceKeys.map((key, index) => ({
+    period: ['2022 - Present', '2020 - 2022', '2018 - 2020'][index],
+    title: t(`about.exp_list.${key}.title`),
+    company: t(`about.exp_list.${key}.company`),
+    description: t(`about.exp_list.${key}.desc`),
+  }));
+
+  const skillCategories = [
+    { key: 'frontend', icon: Code2, items: ['React', 'Vue', 'TypeScript', 'Tailwind CSS'] },
+    { key: 'backend', icon: Terminal, items: ['Node.js', 'Python', 'Go', 'PostgreSQL'] },
+    { key: 'database', icon: Database, items: ['PostgreSQL', 'MongoDB', 'Redis', 'Prisma'] },
+    { key: 'devops', icon: Globe, items: ['Docker', 'Kubernetes', 'CI/CD', 'AWS'] },
+    { key: 'design', icon: Palette, items: ['Figma', 'Adobe XD', 'UI/UX', 'Motion'] },
+    { key: 'tools', icon: Cpu, items: ['Git', 'VS Code', 'Vim', 'Linux'] },
+  ];
+
   return (
     <section id="about" className="py-24 md:py-32 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
-          ref={ref}
-          initial={{ opacity: 0, y: 50 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.8 }}
-        >
-          {/* Section Header */}
-          <div className="text-center mb-16">
-            <motion.h2
-              initial={{ opacity: 0, y: 20 }}
-              animate={isInView ? { opacity: 1, y: 0 } : {}}
-              transition={{ delay: 0.2 }}
-              className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4"
-            >
-              {t('about.title')}
-            </motion.h2>
-            <motion.p
-              initial={{ opacity: 0, y: 20 }}
-              animate={isInView ? { opacity: 1, y: 0 } : {}}
-              transition={{ delay: 0.3 }}
-              className="text-muted-foreground text-lg max-w-2xl mx-auto"
-            >
-              {t('about.subtitle')}
-            </motion.p>
-          </div>
-
-          {/* About Content */}
-          <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
-            <motion.div
-              initial={{ opacity: 0, x: -50 }}
-              animate={isInView ? { opacity: 1, x: 0 } : {}}
-              transition={{ delay: 0.4 }}
-              className="space-y-6"
-            >
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                {t('about.description')}
-              </p>
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                {t('about.extra')}
-              </p>
-              <div className="flex items-center space-x-4 pt-4">
-                <div className="text-center">
-                  <div className="text-3xl font-bold gradient-text">5+</div>
-                  <div className="text-sm text-muted-foreground">Years Experience</div>
-                </div>
-                <div className="w-px h-12 bg-border" />
-                <div className="text-center">
-                  <div className="text-3xl font-bold gradient-text">50+</div>
-                  <div className="text-sm text-muted-foreground">Projects Completed</div>
-                </div>
-                <div className="w-px h-12 bg-border" />
-                <div className="text-center">
-                  <div className="text-3xl font-bold gradient-text">20+</div>
-                  <div className="text-sm text-muted-foreground">Happy Clients</div>
-                </div>
-              </div>
-            </motion.div>
+           ref={ref}
+           initial={{ opacity: 0, y: 50 }}
+           animate={isInView ? { opacity: 1, y: 0 } : {}}
+           transition={{ duration: 0.8 }}
+         >
+           {/* Section Header */}
+           <div className="text-center mb-16">
+             <motion.h2
+               initial={{ opacity: 0, y: 20 }}
+               animate={isInView ? { opacity: 1, y: 0 } : {}}
+               transition={{ delay: 0.2 }}
+               className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4"
+             >
+               {t('about.title')}
+             </motion.h2>
+             <motion.p
+               initial={{ opacity: 0, y: 20 }}
+               animate={isInView ? { opacity: 1, y: 0 } : {}}
+               transition={{ delay: 0.3 }}
+               className="text-muted-foreground text-lg max-w-2xl mx-auto"
+             >
+               {t('about.subtitle')}
+             </motion.p>
+           </div>
+ 
+           {/* About Content */}
+           <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
+             <motion.div
+               initial={{ opacity: 0, x: -50 }}
+               animate={isInView ? { opacity: 1, x: 0 } : {}}
+               transition={{ delay: 0.4 }}
+               className="space-y-6"
+             >
+               <p className="text-lg text-muted-foreground leading-relaxed">
+                 {t('about.description')}
+               </p>
+               <p className="text-lg text-muted-foreground leading-relaxed">
+                 {t('about.extra')}
+               </p>
+               <div className="flex items-center space-x-4 pt-4">
+                 <div className="text-center">
+                   <div className="text-3xl font-bold gradient-text">5+</div>
+                   <div className="text-sm text-muted-foreground">{t('about.stats.exp')}</div>
+                 </div>
+                 <div className="w-px h-12 bg-border" />
+                 <div className="text-center">
+                   <div className="text-3xl font-bold gradient-text">50+</div>
+                   <div className="text-sm text-muted-foreground">{t('about.stats.pdone')}</div>
+                 </div>
+                 <div className="w-px h-12 bg-border" />
+                 <div className="text-center">
+                   <div className="text-3xl font-bold gradient-text">20+</div>
+                   <div className="text-sm text-muted-foreground">{t('about.stats.clients')}</div>
+                 </div>
+               </div>
+             </motion.div>
 
             <motion.div
               initial={{ opacity: 0, x: 50 }}
@@ -128,9 +115,9 @@ export function About() {
           >
             <h3 className="text-2xl font-bold mb-8 text-center">{t('about.skills')}</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {skills.map((skill, index) => (
+              {skillCategories.map((skill, index) => (
                 <motion.div
-                  key={skill.name}
+                  key={skill.key}
                   initial={{ opacity: 0, y: 20 }}
                   animate={isInView ? { opacity: 1, y: 0 } : {}}
                   transition={{ delay: 0.7 + index * 0.1 }}
@@ -141,7 +128,7 @@ export function About() {
                     <div className="p-2 rounded-lg bg-primary/10 group-hover:bg-primary/20 transition-colors">
                       <skill.icon className="w-6 h-6 text-primary" />
                     </div>
-                    <h4 className="font-semibold">{skill.name}</h4>
+                    <h4 className="font-semibold">{t(`about.skill_names.${skill.key}`)}</h4>
                   </div>
                   <div className="flex flex-wrap gap-2">
                     {skill.items.map((item) => (
