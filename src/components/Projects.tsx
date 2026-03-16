@@ -9,7 +9,7 @@ const projects = [
     id: 1,
     title: 'E-Commerce Platform',
     description: 'A full-featured e-commerce platform with real-time inventory, payment processing, and admin dashboard.',
-    image: 'E-Commerce',
+    image: '/images/ecommerce.png',
     tags: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
     demoUrl: 'https://example.com',
     repoUrl: 'https://github.com',
@@ -19,7 +19,7 @@ const projects = [
     id: 2,
     title: 'Task Management App',
     description: 'Collaborative task management tool with real-time updates, team workspaces, and advanced filtering.',
-    image: 'Task App',
+    image: '/images/task-manager.png',
     tags: ['Next.js', 'TypeScript', 'Prisma', 'Socket.io'],
     demoUrl: 'https://example.com',
     repoUrl: 'https://github.com',
@@ -29,7 +29,7 @@ const projects = [
     id: 3,
     title: 'AI Content Generator',
     description: 'AI-powered content generation tool that helps creators write blog posts, social media content, and more.',
-    image: 'AI Tool',
+    image: '/images/ai-tool.png',
     tags: ['Python', 'FastAPI', 'OpenAI', 'React'],
     demoUrl: 'https://example.com',
     repoUrl: 'https://github.com',
@@ -39,7 +39,7 @@ const projects = [
     id: 4,
     title: 'Portfolio Dashboard',
     description: 'Interactive dashboard for tracking investments, visualizing portfolio performance, and market analysis.',
-    image: 'Dashboard',
+    image: '/images/ecommerce.png', // Reusing ecommerce for now as a high-tech dashboard placeholder
     tags: ['Vue.js', 'D3.js', 'Firebase', 'Tailwind'],
     demoUrl: 'https://example.com',
     repoUrl: 'https://github.com',
@@ -49,7 +49,7 @@ const projects = [
     id: 5,
     title: 'Social Media Analytics',
     description: 'Analytics platform for social media managers to track engagement, growth, and content performance.',
-    image: 'Analytics',
+    image: '/images/ai-tool.png', // Reusing ai-tool as a tech visualization placeholder
     tags: ['React', 'GraphQL', 'AWS', 'Chart.js'],
     demoUrl: 'https://example.com',
     repoUrl: 'https://github.com',
@@ -59,7 +59,7 @@ const projects = [
     id: 6,
     title: 'Weather Application',
     description: 'Beautiful weather app with location-based forecasts, interactive maps, and severe weather alerts.',
-    image: 'Weather',
+    image: '/images/weather.png',
     tags: ['React Native', 'Expo', 'Weather API', 'Maps'],
     demoUrl: 'https://example.com',
     repoUrl: 'https://github.com',
@@ -115,9 +115,11 @@ export function Projects() {
                 onClick={() => setSelectedProject(project)}
               >
                 <div className="aspect-video bg-gradient-to-br from-blue-500/20 via-purple-500/20 to-pink-500/20 relative overflow-hidden">
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <span className="text-3xl font-bold text-foreground/20">{project.image}</span>
-                  </div>
+                  <img 
+                    src={project.image} 
+                    alt={project.title}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  />
                   <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center space-x-4">
                     <motion.a
                       href={project.demoUrl}
@@ -186,9 +188,11 @@ export function Projects() {
                 onClick={(e) => e.stopPropagation()}
               >
                 <div className="relative aspect-video bg-gradient-to-br from-blue-500/20 via-purple-500/20 to-pink-500/20">
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <span className="text-5xl font-bold text-foreground/20">{selectedProject.image}</span>
-                  </div>
+                  <img 
+                    src={selectedProject.image} 
+                    alt={selectedProject.title}
+                    className="w-full h-full object-cover"
+                  />
                   <button
                     onClick={() => setSelectedProject(null)}
                     className="absolute top-4 right-4 p-2 bg-black/20 hover:bg-black/40 rounded-full transition-colors"

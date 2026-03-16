@@ -1,6 +1,9 @@
-// 删掉这行多余的导入 ↓
-// import React from 'react';
+import React from 'react';
 import { Navigation } from './components/Navigation';
+
+// This is required to satisfy strict tsconfig where React must be imported but might be unused in TSX
+void React;
+
 import { Hero } from './components/Hero';
 import { About } from './components/About';
 import { Blog } from './components/Blog';
