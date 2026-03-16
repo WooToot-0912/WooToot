@@ -9,7 +9,7 @@ export function Hero() {
     { icon: Github, href: 'https://github.com', label: 'GitHub' },
     { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' },
     { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: Mail, href: 'mailto:your@email.com', label: 'Email' },
+    { icon: Mail, href: 'mailto:1950383511@qq.com', label: 'Email' },
   ];
 
   const scrollToAbout = () => {
@@ -70,7 +70,7 @@ export function Hero() {
             transition={{ delay: 0.3, duration: 0.8 }}
             className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6"
           >
-            <span className="gradient-text">682049</span>
+            <span className="gradient-text">{t('brand')}</span>
           </motion.h1>
 
           <motion.h2

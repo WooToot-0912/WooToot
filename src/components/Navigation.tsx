@@ -47,7 +47,7 @@ export function Navigation() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            682049
+            {t('brand')}
           </motion.a>
 
           {/* Desktop Navigation */}

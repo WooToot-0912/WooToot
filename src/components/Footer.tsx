@@ -39,7 +39,7 @@ export function Footer() {
             whileHover={{ scale: 1.05 }}
             className="text-2xl font-bold gradient-text mb-6"
           >
-            682049
+            {t('brand')}
           </motion.a>
 
           {/* Navigation */}
@@ -61,7 +61,7 @@ export function Footer() {
             {socialLinks.map((social) => (
               <motion.a
                 key={social.label}
-                href={social.href}
+                href={social.label === 'Email' ? 'mailto:1950383511@qq.com' : social.href}
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.2, y: -3 }}
@@ -79,7 +79,7 @@ export function Footer() {
 
           {/* Copyright */}
           <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-2 text-sm text-muted-foreground">
-            <span>© {currentYear} 682049. {t('footer.rights')}</span>
+            <span>© {currentYear} {t('brand')}. {t('footer.rights')}</span>
             <span className="hidden md:inline">•</span>
             <span className="flex items-center">
               {t('footer.madeWith')} <Heart className="w-4 h-4 mx-1 text-red-500" /> React & Tailwind

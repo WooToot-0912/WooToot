@@ -39,7 +39,7 @@ export function Contact() {
   };
 
   const contactInfo = [
-    { icon: Mail, label: 'Email', value: 'your@email.com', href: 'mailto:your@email.com' },
+    { icon: Mail, label: 'Email', value: '1950383511@qq.com', href: 'mailto:1950383511@qq.com' },
     { icon: MapPin, label: 'Location', value: 'Remote / Worldwide', href: '#' },
   ];
 

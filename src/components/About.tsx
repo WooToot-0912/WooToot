@@ -80,8 +80,7 @@ export function About() {
                 {t('about.description')}
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                When I'm not coding, you can find me exploring new technologies, contributing to open source projects, 
-                or sharing my knowledge through blog posts and tutorials.
+                {t('about.extra')}
               </p>
               <div className="flex items-center space-x-4 pt-4">
                 <div className="text-center">
@@ -111,7 +110,7 @@ export function About() {
                 <div className="w-full h-full rounded-xl bg-secondary flex items-center justify-center">
                   <div className="text-center">
                     <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-white text-4xl font-bold">
-                      682049
+                      WooToot
                     </div>
                     <p className="text-muted-foreground">Your Photo Here</p>
                   </div>

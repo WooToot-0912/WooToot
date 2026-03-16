@@ -1,4 +1,5 @@
 {
+  "brand": "WooToot",
   "nav": {
     "home": "Home",
     "about": "About",
@@ -47,5 +48,8 @@
   "footer": {
     "rights": "All rights reserved.",
     "madeWith": "Made with"
+  },
+  "common": {
+    "brand": "WooToot"
   }
 }

@@ -1,4 +1,5 @@
 {
+  "brand": "WooToot",
   "nav": {
     "home": "首页",
     "about": "关于",
@@ -17,6 +18,7 @@
     "title": "关于我",
     "subtitle": "热衷于创造数字体验的开发者",
     "description": "我是一个热爱在互联网上构建事物的开发者。我喜欢创建美观、实用且用户友好的应用程序，解决实际问题。",
+    "extra": "当我不写代码时，你可以发现我在探索新技术、重温经典设计，或者通过博客分享我的见解。",
     "skills": "技能与技术",
     "experience": "工作经历"
   },
@@ -27,11 +29,12 @@
     "publishedOn": "发布于"
   },
   "projects": {
-    "title": "项目",
-    "subtitle": "我构建的一些作品",
-    "viewProject": "查看项目",
-    "viewCode": "查看代码",
-    "technologies": "技术栈"
+    "title": "作品集",
+    "subtitle": "我参与并构建的一些项目",
+    "viewProject": "查看预览",
+    "viewCode": "查看源码",
+    "technologies": "所用技术",
+    "details": "项目详情"
   },
   "contact": {
     "title": "联系我",
@@ -47,5 +50,8 @@
   "footer": {
     "rights": "保留所有权利。",
     "madeWith": "用"
+  },
+  "common": {
+    "brand": "WooToot"
   }
 }
