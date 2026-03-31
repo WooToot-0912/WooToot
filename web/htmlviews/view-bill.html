@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>查看账单</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../fonts/fontawesome-free-6.4.0-web/css/all.min.css">
+  <link rel="stylesheet" href="../css/view-bill.css">
+</head>
+<body>
+
+
+<nav class="sidebar">
+  <!-- 导航栏代码保持不变 -->
+</nav>
+
+<div class="main-content">
+  <div class="container">
+    <div class="page-header">
+      <h2><i class="fa fa-file-invoice-dollar"></i> 旅游账单</h2>
+      <p class="subtitle">查看和管理旅游项目账单信息</p>
+    </div>
+
+    <div class="bill-summary">
+      <div class="summary-header">
+        <h3><i class="fa fa-info-circle"></i> 账单概览</h3>
+        <div class="summary-actions">
+          <button class="btn-export">
+            <i class="fa fa-download"></i> 导出账单
+          </button>
+          <button class="btn-print">
+            <i class="fa fa-print"></i> 打印
+          </button>
+        </div>
+      </div>
+      <div class="summary-content">
+        <div class="summary-item">
+          <span class="item-label"><i class="fa fa-bookmark"></i> 项目名称</span>
+          <span class="item-value" id="projectName">云南丽江旅游项目</span>
+        </div>
+        <div class="summary-item">
+          <span class="item-label"><i class="fa fa-calendar"></i> 项目周期</span>
+          <span class="item-value">2024-01-01 至 2024-12-31</span>
+        </div>
+        <div class="summary-item">
+          <span class="item-label"><i class="fa fa-users"></i> 参与人数</span>
+          <span class="item-value">15人</span>
+        </div>
+        <div class="summary-stats">
+          <div class="stat-card">
+            <div class="stat-icon">
+              <i class="fa fa-money-bill-wave"></i>
+            </div>
+            <div class="stat-info">
+              <span class="stat-label">总支出</span>
+              <span class="stat-value" id="totalAmount">¥12,580.00</span>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon">
+              <i class="fa fa-receipt"></i>
+            </div>
+            <div class="stat-info">
+              <span class="stat-label">消费笔数</span>
+              <span class="stat-value">28笔</span>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon">
+              <i class="fa fa-user"></i>
+            </div>
+            <div class="stat-info">
+              <span class="stat-label">人均支出</span>
+              <span class="stat-value">¥838.67</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bill-list">
+      <div class="list-header">
+        <h3><i class="fa fa-list"></i> 消费明细</h3>
+        <div class="list-filter">
+          <select class="form-control">
+            <option value="">全部类型</option>
+            <option value="交通">交通</option>
+            <option value="住宿">住宿</option>
+            <option value="餐饮">餐饮</option>
+            <option value="门票">门票</option>
+          </select>
+          <div class="date-range">
+            <input type="date" class="form-control">
+            <span class="date-separator">至</span>
+            <input type="date" class="form-control">
+          </div>
+        </div>
+      </div>
+      <div class="table-responsive">
+        <table>
+          <thead>
+          <tr>
+            <th>消费类型</th>
+            <th>金额</th>
+            <th>描述</th>
+            <th>消费时间</th>
+            <th>涉及人员</th>
+            <th>操作</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td>
+                  <span class="type-badge type-food">
+                    <i class="fa fa-utensils"></i> 餐饮
+                  </span>
+            </td>
+            <td class="amount">¥100.00</td>
+            <td>团队午餐</td>
+            <td>2024-01-01 12:00</td>
+            <td>
+              <div class="member-list">
+                <span class="member-tag">张三</span>
+                <span class="member-tag">李四</span>
+                <span class="member-tag">王五</span>
+              </div>
+            </td>
+            <td class="action-buttons">
+              <a href="#" class="btn-action" title="查看详情">
+                <i class="fa fa-eye"></i>
+              </a>
+              <a href="#" class="btn-action" title="编辑">
+                <i class="fa fa-edit"></i>
+              </a>
+              <a href="#" class="btn-action" title="删除">
+                <i class="fa fa-trash"></i>
+              </a>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="bill-chart">
+      <div class="chart-header">
+        <h3><i class="fa fa-chart-pie"></i> 消费分析</h3>
+        <select class="form-control">
+          <option value="pie">饼图</option>
+          <option value="bar">柱状图</option>
+        </select>
+      </div>
+      <div class="chart-content">
+        <!-- 这里可以放置图表，需要使用图表库如ECharts -->
+        <div class="placeholder-chart">
+          图表展示区域
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

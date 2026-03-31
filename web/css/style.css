@@ -1,0 +1,204 @@
+/* 侧边栏基础样式 */
+.sidebar {
+    width: 280px;
+    height: 100vh;
+    background: linear-gradient(180deg, #2c3e50 0%, #3498db 100%);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+}
+
+/* Logo区域样式 */
+.logo {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.company-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+/* 导航链接样式 */
+.nav-links {
+    padding: 20px 0;
+    flex-grow: 1;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    display: flex;
+    align-items: center;
+    padding: 12px 25px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+    gap: 12px;
+}
+
+.nav-links a:hover {
+    background: rgba(255,255,255,0.1);
+    transform: translateX(5px);
+}
+
+.nav-links a i {
+    width: 20px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+/* 用户区域样式 */
+.user-section {
+    padding: 20px;
+    background: rgba(0,0,0,0.2);
+    margin-top: auto;
+}
+
+/* 用户信息样式 */
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 8px;
+}
+
+.user-info i {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.user-info span {
+    flex-grow: 1;
+    font-weight: 500;
+}
+
+/* 登出按钮样式 */
+.logout-btn {
+    padding: 8px 15px;
+    background-color: rgba(220, 53, 69, 0.9);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+}
+
+.logout-btn:hover {
+    background-color: #dc3545;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.logout-btn i {
+    font-size: 0.9rem;
+}
+
+/* 未登录状态样式 */
+.login-status {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 8px;
+    font-size: 0.95rem;
+}
+
+.login-status i {
+    color: #ffd700;
+    font-size: 1.1rem;
+}
+
+.login-tip {
+    color: rgba(255,255,255,0.9);
+}
+
+.login-status a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 6px 12px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.login-status a:hover {
+    background: rgba(255,255,255,0.3);
+    transform: translateY(-1px);
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 240px;
+    }
+
+    .company-name {
+        font-size: 1rem;
+    }
+
+    .nav-links a {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+}
+
+/* 动画效果 */
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.sidebar {
+    animation: slideIn 0.3s ease-out;
+}
+
+/* 滚动条样式 */
+.nav-links::-webkit-scrollbar {
+    width: 5px;
+}
+
+.nav-links::-webkit-scrollbar-track {
+    background: rgba(255,255,255,0.1);
+}
+
+.nav-links::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,0.2);
+    border-radius: 3px;
+}
+
+.nav-links::-webkit-scrollbar-thumb:hover {
+    background: rgba(255,255,255,0.3);
+}

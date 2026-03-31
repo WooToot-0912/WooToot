@@ -1,0 +1,72 @@
+
+body {
+    background-image: url('../images/背景1.jpg'); /* 替换为你的图片路径 */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000; /* 设置一个背景颜色，如果图片不够清晰 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    padding: 53px;
+    background: rgba(255, 255, 255, 0.8); /* 半透明背景，调整透明度以适应背景图片 */
+    border-radius: 10px;
+    box-shadow: 0 0 100px rgba(0,0,0,0.5);
+    width: 400px; /* 根据需要调整宽度 */
+}
+
+.login-box h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-buttons button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 70px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.form-buttons a {
+
+    color: dodgerblue;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+

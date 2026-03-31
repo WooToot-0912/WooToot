@@ -1,0 +1,338 @@
+/* 基础布局 */
+.main-content {
+    padding: 2rem;
+    background-color: #f8f9fa;
+    min-height: calc(100vh - 60px);
+    margin-left: 250px;
+    width: calc(100% - 250px);
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* 页面标题样式 */
+.page-header {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #e9ecef;
+}
+
+.page-header h2 {
+    color: #2c3e50;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.page-header h2 i {
+    color: #3498db;
+}
+
+.page-header .subtitle {
+    color: #6c757d;
+    font-size: 1.1rem;
+}
+
+/* 表单区域样式 */
+.team-form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+    margin-bottom: 2rem;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.8rem;
+    color: #2c3e50;
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+
+.form-group label i {
+    margin-right: 0.5rem;
+    color: #3498db;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.3s;
+    box-sizing: border-box;
+}
+
+.form-control:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+    outline: none;
+}
+
+select.form-control {
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 1em;
+    padding-right: 2.5rem;
+}
+
+/* 按钮样式 */
+.form-actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+}
+
+.btn-submit, .btn-cancel {
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    border: none;
+}
+
+.btn-submit {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.btn-submit:hover {
+    background-color: #2980b9;
+}
+
+.btn-cancel {
+    background-color: #e9ecef;
+    color: #495057;
+}
+
+.btn-cancel:hover {
+    background-color: #dee2e6;
+}
+
+/* 团队成员列表样式 */
+.team-list {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.team-list h3 {
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.team-list h3 i {
+    color: #3498db;
+}
+
+.table-responsive {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-bottom: 1rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 600px;
+}
+
+thead {
+    background-color: #f8f9fa;
+}
+
+th {
+    padding: 1rem;
+    text-align: left;
+    color: #495057;
+    font-weight: 600;
+    border-bottom: 2px solid #dee2e6;
+    white-space: nowrap;
+}
+
+td {
+    padding: 1rem;
+    border-bottom: 1px solid #dee2e6;
+    color: #495057;
+}
+
+/* 成员类型标签样式 */
+.type-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    font-size: 0.875rem;
+    white-space: nowrap;
+}
+
+.type-badge.type-团队管理员 {
+    background-color: #e3f2fd;
+    color: #1976d2;
+}
+
+.type-badge.type-普通成员 {
+    background-color: #f5f5f5;
+    color: #616161;
+}
+
+/* 操作按钮样式 */
+.action-buttons {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: nowrap;
+}
+
+.btn-action {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    color: #6c757d;
+    text-decoration: none;
+    transition: all 0.2s;
+    background-color: transparent;
+}
+
+.btn-action:hover {
+    background-color: #f8f9fa;
+    color: #3498db;
+}
+
+/* 消息提示样式 */
+.message-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    z-index: 1000;
+    animation: slideIn 0.3s ease-out;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.message-container.success {
+    background-color: #d4edda;
+    border-left: 4px solid #28a745;
+    color: #155724;
+}
+
+.message-container.error {
+    background-color: #f8d7da;
+    border-left: 4px solid #dc3545;
+    color: #721c24;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* 响应式设计 */
+@media (max-width: 1024px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        margin-left: 0;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .container {
+        padding: 0 10px;
+    }
+
+    .team-form, .team-list {
+        padding: 1.5rem;
+    }
+
+    .form-actions {
+        flex-direction: column;
+    }
+
+    .btn-submit, .btn-cancel {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .table-responsive {
+        margin: 0 -1.5rem;
+        width: calc(100% + 3rem);
+    }
+
+    table {
+        font-size: 0.9rem;
+    }
+
+    td, th {
+        padding: 0.75rem;
+    }
+}
+
+/* 日期时间选择器样式 */
+input[type="datetime-local"] {
+    appearance: none;
+    -webkit-appearance: none;
+    padding: 0.8rem 1rem;
+}
+
+/* 禁用状态样式 */
+.form-control:disabled,
+.form-control[readonly] {
+    background-color: #e9ecef;
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+/* 必填字段标记 */
+.form-group label.required::after {
+    content: "*";
+    color: #dc3545;
+    margin-left: 4px;
+}

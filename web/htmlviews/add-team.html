@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>添加团队成员</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../fonts/fontawesome-free-6.4.0-web/css/all.min.css">
+  <link rel="stylesheet" href="../css/add-team.css">
+</head>
+<body>
+<nav class="sidebar">
+  <!-- 导航栏代码保持不变 -->
+</nav>
+
+<div class="main-content">
+  <div class="container">
+    <div class="page-header">
+      <h2><i class="fa fa-user-plus"></i> 添加团队成员</h2>
+      <p class="subtitle">为项目 "<span id="projectName">探索埃及金字塔</span>" 添加新的团队成员</p>
+    </div>
+
+    <form action="addTeamMember" method="post" class="team-form">
+      <input type="hidden" id="projectid" name="projectid" value="${projectId}">
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="teammemberid">
+            <i class="fa fa-id-card"></i> 成员ID
+          </label>
+          <select id="teammemberid" name="teammemberid" class="form-control" required>
+            <option value="">请选择成员</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="membertype">
+            <i class="fa fa-users"></i> 成员类型
+          </label>
+          <select id="membertype" name="membertype" class="form-control" required>
+            <option value="">请选择成员类型</option>
+            <option value="团队管理员">团队管理员</option>
+            <option value="普通成员">普通成员</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-buttons">
+        <button type="submit" class="btn-submit">
+          <i class="fa fa-check"></i> 添加成员
+        </button>
+        <button type="button" class="btn-cancel" onclick="history.back()">
+          <i class="fa fa-times"></i> 取消
+        </button>
+      </div>
+    </form>
+
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,400 @@
+/* view-bill.css - 账单查看页面专用样式 */
+.main-content {
+    margin-left: 250px;        /* 左侧留出250px给侧边栏 */
+    padding: 20px;             /* 内容区域四周填充20px */
+    background-color: #f5f6fa; /* 设置浅灰色背景 */
+}
+
+.container {
+    max-width: 1200px;         /* 内容最大宽度1200px */
+    margin: 20px auto;         /* 上下20px,左右自动居中 */
+    animation: fadeIn 0.3s ease-out; /* 添加淡入动画效果 */
+}
+
+.page-header {
+    background: white;         /* 白色背景 */
+    padding: 24px 30px;       /* 内边距:上下24px,左右30px */
+    border-radius: 12px;      /* 圆角12px */
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08); /* 添加阴影效果 */
+    margin-bottom: 24px;      /* 底部外边距24px */
+}
+
+.page-header h2 {
+    color: #2c3e50;           /* 标题颜色 */
+    font-size: 24px;          /* 标题字体大小 */
+    font-weight: 600;         /* 字体粗细 */
+    margin: 0;                /* 清除外边距 */
+    display: flex;            /* 弹性布局 */
+    align-items: center;      /* 垂直居中 */
+    gap: 10px;               /* 图标和文字间距 */
+}
+
+.page-header h2 i {
+    color: #1890ff;          /* 图标颜色 */
+}
+
+.page-header .subtitle {
+    color: #666;             /* 副标题颜色 */
+    margin: 8px 0 0;         /* 上边距8px */
+    font-size: 14px;         /* 副标题字体大小 */
+}
+
+/* 账单概览样式 */
+.bill-summary {
+    background: white;        /* 白色背景 */
+    padding: 24px 30px;      /* 内边距 */
+    border-radius: 12px;     /* 圆角 */
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08); /* 阴影效果 */
+    margin-bottom: 24px;     /* 底部外边距 */
+}
+
+.summary-header {
+    display: flex;           /* 弹性布局 */
+    justify-content: space-between; /* 两端对齐 */
+    align-items: center;     /* 垂直居中 */
+    margin-bottom: 20px;     /* 底部外边距 */
+}
+
+.summary-header h3 {
+    color: #2c3e50;         /* 标题颜色 */
+    font-size: 18px;        /* 标题字体大小 */
+    margin: 0;              /* 清除外边距 */
+    display: flex;          /* 弹性布局 */
+    align-items: center;    /* 垂直居中 */
+    gap: 8px;              /* 图标和文字间距 */
+}
+
+.summary-header h3 i {
+    color: #1890ff;        /* 图标颜色 */
+}
+
+.summary-actions {
+    display: flex;         /* 弹性布局 */
+    gap: 12px;            /* 按钮间距 */
+}
+
+.btn-export, .btn-print {
+    padding: 8px 16px;     /* 按钮内边距 */
+    border: 1px solid #d9d9d9; /* 边框样式 */
+    border-radius: 6px;    /* 圆角 */
+    background: white;     /* 背景色 */
+    color: #666;          /* 文字颜色 */
+    cursor: pointer;      /* 鼠标指针样式 */
+    display: flex;        /* 弹性布局 */
+    align-items: center;  /* 垂直居中 */
+    gap: 6px;            /* 图标和文字间距 */
+    transition: all 0.3s ease; /* 过渡动画 */
+}
+
+.btn-export:hover, .btn-print:hover {
+    border-color: #1890ff; /* 悬停时边框颜色 */
+    color: #1890ff;       /* 悬停时文字颜色 */
+}
+
+.summary-content {
+    display: grid;        /* 网格布局 */
+    gap: 20px;           /* 网格间距 */
+}
+
+.summary-item {
+    display: flex;        /* 弹性布局 */
+    align-items: center;  /* 垂直居中 */
+    gap: 8px;            /* 元素间距 */
+}
+
+.item-label {
+    color: #666;         /* 标签颜色 */
+    font-size: 14px;     /* 标签字体大小 */
+    display: flex;       /* 弹性布局 */
+    align-items: center; /* 垂直居中 */
+    gap: 6px;           /* 图标和文字间距 */
+    min-width: 100px;   /* 最小宽度 */
+}
+
+.item-value {
+    color: #2c3e50;     /* 数值颜色 */
+    font-weight: 500;   /* 字体粗细 */
+}
+
+.summary-stats {
+    display: grid;       /* 网格布局 */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* 响应式网格列 */
+    gap: 20px;          /* 网格间距 */
+    margin-top: 20px;   /* 上边距 */
+    padding-top: 20px;  /* 上内边距 */
+    border-top: 1px solid #eee; /* 上边框 */
+}
+
+.stat-card {
+    background: #f8f9fa;  /* 卡片背景色 */
+    padding: 20px;       /* 内边距 */
+    border-radius: 8px;  /* 圆角 */
+    display: flex;       /* 弹性布局 */
+    align-items: center; /* 垂直居中 */
+    gap: 16px;          /* 元素间距 */
+    transition: all 0.3s ease; /* 过渡动画 */
+}
+
+.stat-card:hover {
+    transform: translateY(-2px); /* 悬停时上移 */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* 悬停时阴影 */
+}
+
+.stat-icon {
+    width: 48px;         /* 图标容器宽度 */
+    height: 48px;        /* 图标容器高度 */
+    background: rgba(24,144,255,0.1); /* 图标背景色 */
+    border-radius: 8px;  /* 圆角 */
+    display: flex;       /* 弹性布局 */
+    align-items: center; /* 垂直居中 */
+    justify-content: center; /* 水平居中 */
+}
+
+.stat-icon i {
+    font-size: 24px;    /* 图标大小 */
+    color: #1890ff;     /* 图标颜色 */
+}
+
+.stat-info {
+    display: flex;      /* 弹性布局 */
+    flex-direction: column; /* 垂直排列 */
+    gap: 4px;          /* 元素间距 */
+}
+
+.stat-label {
+    color: #666;       /* 标签颜色 */
+    font-size: 14px;   /* 标签字体大小 */
+}
+
+.stat-value {
+    color: #2c3e50;    /* 数值颜色 */
+    font-size: 20px;   /* 数值字体大小 */
+    font-weight: 600;  /* 字体粗细 */
+}
+
+/* 账单列表样式 */
+.bill-list {
+    background: white;  /* 白色背景 */
+    padding: 24px 30px; /* 内边距 */
+    border-radius: 12px; /* 圆角 */
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08); /* 阴影效果 */
+    margin-bottom: 24px; /* 底部外边距 */
+}
+
+.list-header {
+    display: flex;      /* 弹性布局 */
+    justify-content: space-between; /* 两端对齐 */
+    align-items: center; /* 垂直居中 */
+    margin-bottom: 20px; /* 底部外边距 */
+}
+
+.list-header h3 {
+    color: #2c3e50;    /* 标题颜色 */
+    font-size: 18px;   /* 标题字体大小 */
+    margin: 0;         /* 清除外边距 */
+    display: flex;     /* 弹性布局 */
+    align-items: center; /* 垂直居中 */
+    gap: 8px;         /* 图标和文字间距 */
+}
+
+.list-header h3 i {
+    color: #1890ff;   /* 图标颜色 */
+}
+
+.list-filter {
+    display: flex;    /* 弹性布局 */
+    gap: 16px;       /* 过滤器间距 */
+}
+
+.form-control {
+    padding: 8px 12px; /* 输入框内边距 */
+    border: 1px solid #d9d9d9; /* 边框样式 */
+    border-radius: 6px; /* 圆角 */
+    font-size: 14px;   /* 字体大小 */
+    transition: all 0.3s ease; /* 过渡动画 */
+}
+
+.form-control:focus {
+    border-color: #1890ff; /* 聚焦时边框颜色 */
+    box-shadow: 0 0 0 2px rgba(24,144,255,0.2); /* 聚焦时阴影 */
+    outline: none;     /* 移除默认轮廓 */
+}
+
+.date-range {
+    display: flex;     /* 弹性布局 */
+    align-items: center; /* 垂直居中 */
+    gap: 8px;         /* 日期选择器间距 */
+}
+
+.date-separator {
+    color: #666;      /* 分隔符颜色 */
+}
+
+.table-responsive {
+    overflow-x: auto; /* 允许横向滚动 */
+}
+
+table {
+    width: 100%;     /* 表格宽度 */
+    border-collapse: collapse; /* 合并边框 */
+}
+
+th {
+    background: #fafafa; /* 表头背景色 */
+    padding: 16px;     /* 表头内边距 */
+    text-align: left;  /* 文字左对齐 */
+    font-weight: 600;  /* 字体粗细 */
+    color: #2c3e50;   /* 文字颜色 */
+    border-bottom: 2px solid #f0f0f0; /* 底部边框 */
+}
+
+td {
+    padding: 16px;    /* 单元格内边距 */
+    border-bottom: 1px solid #f0f0f0; /* 底部边框 */
+}
+
+.type-badge {
+    display: inline-flex; /* 内联弹性布局 */
+    align-items: center; /* 垂直居中 */
+    gap: 6px;          /* 图标和文字间距 */
+    padding: 4px 12px; /* 内边距 */
+    border-radius: 20px; /* 圆角 */
+    font-size: 12px;   /* 字体大小 */
+    font-weight: 500;  /* 字体粗细 */
+}
+
+.type-food {
+    background: rgba(82,196,26,0.1); /* 食物类型背景色 */
+    color: #52c41a;   /* 文字颜色 */
+}
+
+.amount {
+    font-family: monospace; /* 等宽字体 */
+    font-weight: 600;     /* 字体粗细 */
+    color: #2c3e50;      /* 文字颜色 */
+}
+
+.member-list {
+    display: flex;       /* 弹性布局 */
+    flex-wrap: wrap;    /* 允许换行 */
+    gap: 6px;          /* 成员标签间距 */
+}
+
+.member-tag {
+    background: #f5f5f5; /* 标签背景色 */
+    padding: 2px 8px;   /* 内边距 */
+    border-radius: 4px; /* 圆角 */
+    font-size: 12px;    /* 字体大小 */
+    color: #666;        /* 文字颜色 */
+}
+
+.action-buttons {
+    display: flex;      /* 弹性布局 */
+    gap: 8px;          /* 按钮间距 */
+}
+
+.btn-action {
+    width: 32px;       /* 按钮宽度 */
+    height: 32px;      /* 按钮高度 */
+    display: flex;     /* 弹性布局 */
+    align-items: center; /* 垂直居中 */
+    justify-content: center; /* 水平居中 */
+    border-radius: 6px; /* 圆角 */
+    color: #666;       /* 图标颜色 */
+    transition: all 0.3s ease; /* 过渡动画 */
+}
+
+.btn-action:hover {
+    background: #f5f5f5; /* 悬停时背景色 */
+    color: #1890ff;     /* 悬停时图标颜色 */
+}
+
+/* 图表区域样式 */
+.bill-chart {
+    background: white;  /* 白色背景 */
+    padding: 24px 30px; /* 内边距 */
+    border-radius: 12px; /* 圆角 */
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08); /* 阴影效果 */
+}
+
+.chart-header {
+    display: flex;     /* 弹性布局 */
+    justify-content: space-between; /* 两端对齐 */
+    align-items: center; /* 垂直居中 */
+    margin-bottom: 20px; /* 底部外边距 */
+}
+
+.chart-header h3 {
+    color: #2c3e50;   /* 标题颜色 */
+    font-size: 18px;  /* 标题字体大小 */
+    margin: 0;        /* 清除外边距 */
+    display: flex;    /* 弹性布局 */
+    align-items: center; /* 垂直居中 */
+    gap: 8px;        /* 图标和文字间距 */
+}
+
+.chart-header h3 i {
+    color: #1890ff;  /* 图标颜色 */
+}
+
+.chart-content {
+    min-height: 300px; /* 最小高度 */
+}
+
+.placeholder-chart {
+    width: 100%;     /* 宽度100% */
+    height: 300px;   /* 高度300px */
+    background: #f8f9fa; /* 背景色 */
+    display: flex;   /* 弹性布局 */
+    align-items: center; /* 垂直居中 */
+    justify-content: center; /* 水平居中 */
+    color: #666;     /* 文字颜色 */
+    border-radius: 8px; /* 圆角 */
+}
+
+/* 添加动画效果 */
+@keyframes fadeIn {
+    from {
+        opacity: 0;    /* 初始透明度 */
+        transform: translateY(10px); /* 初始位置 */
+    }
+    to {
+        opacity: 1;    /* 最终透明度 */
+        transform: translateY(0); /* 最终位置 */
+    }
+}
+
+/* 添加响应式设计 */
+@media (max-width: 1200px) {  /* 屏幕宽度小于1200px时 */
+    .summary-stats {
+        grid-template-columns: repeat(2, 1fr); /* 两列布局 */
+    }
+}
+
+@media (max-width: 768px) {   /* 屏幕宽度小于768px时 */
+    .container {
+        padding: 10px;  /* 减小内边距 */
+    }
+
+    .summary-stats {
+        grid-template-columns: 1fr; /* 单列布局 */
+    }
+
+    .list-header {
+        flex-direction: column; /* 垂直排列 */
+        gap: 16px;            /* 元素间距 */
+    }
+
+    .list-filter {
+        width: 100%;         /* 占满宽度 */
+        flex-direction: column; /* 垂直排列 */
+    }
+
+    .date-range {
+        width: 100%;        /* 占满宽度 */
+    }
+
+    .form-control {
+        width: 100%;       /* 占满宽度 */
+    }
+}

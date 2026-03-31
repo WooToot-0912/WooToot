@@ -1,0 +1,353 @@
+/* 主内容区域布局 */
+.main-content {
+    margin-left: 250px;
+    padding: 30px;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+    transition: all 0.3s;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* 页面标题区域 */
+.page-header {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    margin-bottom: 24px;
+}
+
+.page-header h2 {
+    font-size: 24px;
+    color: #1a1a1a;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.page-header h2 i {
+    color: #1890ff;
+}
+
+.page-header .subtitle {
+    color: #666;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+/* 表单区域 */
+.expense-form {
+    background: #fff;
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    margin-bottom: 24px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #1a1a1a;
+}
+
+.form-group label i {
+    color: #1890ff;
+    margin-right: 8px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    transition: all 0.3s;
+}
+
+.form-control:focus {
+    border-color: #1890ff;
+    box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+    outline: none;
+}
+
+/* 金额输入框特殊样式 */
+.price-input {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.price-input .currency {
+    position: absolute;
+    left: 12px;
+    color: #666;
+    font-weight: 500;
+}
+
+.price-input input {
+    padding-left: 28px;
+}
+
+/* 文本域样式 */
+textarea.form-control {
+    min-height: 120px;
+    resize: vertical;
+}
+
+/* 按钮样式 */
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-top: 24px;
+    padding-top: 20px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.btn-submit, .btn-cancel {
+    padding: 10px 24px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-submit {
+    background: #1890ff;
+    color: white;
+}
+
+.btn-submit:hover {
+    background: #40a9ff;
+}
+
+.btn-cancel {
+    background: #f0f0f0;
+    color: #666;
+}
+
+.btn-cancel:hover {
+    background: #d9d9d9;
+}
+
+/* 消费记录列表 */
+.expense-list {
+    background: #fff;
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.expense-list h3 {
+    font-size: 18px;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #f0f0f0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.expense-list h3 i {
+    color: #1890ff;
+}
+
+/* 表格样式 */
+.table-responsive {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+th {
+    background: #fafafa;
+    padding: 16px;
+    font-weight: 500;
+    color: #1a1a1a;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+td {
+    padding: 16px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+tr:hover {
+    background: #fafafa;
+}
+
+/* 消费类型标签 */
+.type-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    gap: 6px;
+}
+
+.type-badge.type-交通 {
+    background: #e6f7ff;
+    color: #1890ff;
+}
+
+.type-badge.type-住宿 {
+    background: #f6ffed;
+    color: #52c41a;
+}
+
+.type-badge.type-餐饮 {
+    background: #fff7e6;
+    color: #fa8c16;
+}
+
+.type-badge.type-门票 {
+    background: #f9f0ff;
+    color: #722ed1;
+}
+
+.type-badge.type-其他 {
+    background: #f5f5f5;
+    color: #666;
+}
+
+/* 金额列样式 */
+.amount {
+    font-family: monospace;
+    font-weight: 500;
+    color: #1a1a1a;
+}
+
+/* 操作按钮 */
+.action-buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.btn-action {
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    background: #f5f5f5;
+    transition: all 0.3s;
+}
+
+.btn-action:hover {
+    background: #1890ff;
+    color: #fff;
+}
+
+/* 成员标签样式 */
+.member-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.member-tag {
+    background: #f5f5f5;
+    color: #666;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    .main-content {
+        margin-left: 0;
+        padding: 20px;
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    .form-actions {
+        flex-direction: column;
+    }
+
+    .btn-submit,
+    .btn-cancel {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* 动画效果 */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.page-header,
+.expense-form,
+.expense-list {
+    animation: fadeIn 0.3s ease-out;
+}
+
+/* 消息提示样式 */
+.message-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    z-index: 1000;
+    animation: slideIn 0.3s ease-out;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.message-container.success {
+    background-color: #f6ffed;
+    border-left: 4px solid #52c41a;
+    color: #52c41a;
+}
+
+.message-container.error {
+    background-color: #fff2f0;
+    border-left: 4px solid #ff4d4f;
+    color: #ff4d4f;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>导航栏示例</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../fonts/fontawesome-free-6.4.0-web/css/all.min.css">
+  <!-- 添加所有页面的样式 -->
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="stylesheet" href="../css/add-expense.css">
+  <link rel="stylesheet" href="../css/add-team.css">
+  <link rel="stylesheet" href="../css/edit-project.css">
+  <link rel="stylesheet" href="../css/view-bill.css">
+</head>
+
+<body>
+<nav class="sidebar">
+  <div class="logo">
+    <img src="../images/2-12.png" alt="Logo">
+    <span class="company-name">旅游共享记账系统</span>
+  </div>
+  <ul class="nav-links">
+    <li><a href="#" onclick="loadContent('index')"><i class="fas fa-home"></i>首页</a></li>
+    <li><a href="#" onclick="loadContent('add-team')"><i class="fas fa-users"></i>添加团队</a></li>
+    <li><a href="#" onclick="loadContent('add-expense')"><i class="fas fa-money-bill"></i>添加消费</a></li>
+    <li><a href="#" onclick="loadContent('edit-project')"><i class="fas fa-edit"></i>编辑项目</a></li>
+    <li><a href="#" onclick="loadContent('view-bill')"><i class="fas fa-file-invoice"></i>查看账单</a></li>
+    <li class="dropdown">
+      <a href="#"><i class="fas fa-clipboard-list"></i>订单管理<i class="fas fa-chevron-down arrow"></i></a>
+      <ul class="dropdown-content">
+        <li><a href="#"><i class="fas fa-clock"></i>待处理订单</a></li>
+        <li><a href="#"><i class="fas fa-list"></i>订单列表</a></li>
+        <li><a href="#"><i class="fas fa-check-circle"></i>订单验证</a></li>
+        <li><a href="#"><i class="fas fa-cog"></i>订单管理设置</a></li>
+      </ul>
+    </li>
+  </ul>
+  <div class="user-section">
+    <div class="login-button">
+      <i class="fas fa-sign-in-alt"></i>
+      <a href="login.html">登录</a>
+    </div>
+  </div>
+</nav>
+
+<!-- 添加主内容区域 -->
+<div class="main-content" id="mainContent">
+  <!-- 这里将动态加载其他页面的内容 -->
+</div>
+
+<script>
+  // 页面加载完成后默认加载首页
+  document.addEventListener('DOMContentLoaded', function() {
+    loadContent('index');
+  });
+
+  // 加载内容的函数
+  function loadContent(page) {
+    const mainContent = document.getElementById('mainContent');
+
+    // 构建要加载的页面URL
+    const pageUrls = {
+      'index': 'index.html',
+      'add-team': 'add-team.html',
+      'add-expense': 'add-expense.html',
+      'edit-project': 'edit-project.html',
+      'view-bill': 'view-bill.html'
+    };
+
+    // 使用fetch加载页面内容
+    fetch(pageUrls[page])
+            .then(response => response.text())
+            .then(html => {
+              // 解析HTML字符串
+              const parser = new DOMParser();
+              const doc = parser.parseFromString(html, 'text/html');
+
+              // 获取页面主要内容（.container部分）
+              const container = doc.querySelector('.container');
+              if (container) {
+                mainContent.innerHTML = container.outerHTML;
+              }
+            })
+            .catch(error => {
+              console.error('Error loading content:', error);
+              mainContent.innerHTML = '<div class="container"><h2>Error loading content</h2></div>';
+            });
+  }
+</script>
+</body>
+</html>

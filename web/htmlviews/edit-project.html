@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>编辑项目</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../fonts/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+<!-- 左侧导航栏 -->
+<nav class="sidebar">
+    <!-- 导航栏代码与其他页面相同 -->
+</nav>
+
+<!-- 主要内容区域 -->
+<div class="main-content">
+    <div class="header-left">
+        <h1> 编辑项目</h1>
+        <p class="subtitle">管理和编辑项目信息</p>
+    </div>
+    <!-- 统计卡片 -->
+    <div class="stats-overview">
+        <div class="stat-card">
+            <i class="fas fa-project-diagram"></i>
+            <div class="stat-info">
+                <span class="stat-value">28</span>
+                <span class="stat-label">进行中的项目</span>
+            </div>
+        </div>
+        <div class="stat-card">
+            <i class="fas fa-users"></i>
+            <div class="stat-info">
+                <span class="stat-value">156</span>
+                <span class="stat-label">团队成员</span>
+            </div>
+        </div>
+        <div class="stat-card">
+            <i class="fas fa-calendar-check"></i>
+            <div class="stat-info">
+                <span class="stat-value">12</span>
+                <span class="stat-label">本月完成</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 搜索区域 -->
+    <div class="search-section">
+        <div class="search-form">
+            <div class="form-group">
+                <label>年份</label>
+                <select name="year" class="form-control">
+                    <option value="">选择年份</option>
+                    <option value="2024">2024</option>
+                    <option value="2025">2025</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>结束日期</label>
+                <input type="date" name="endDate" class="form-control">
+            </div>
+            <button type="submit" class="btn-search">搜索</button>
+        </div>
+    </div>
+
+    <!-- 添加项目表单区域 -->
+    <div class="tp-add-project-area" style="display: none;" id="addProjectForm">
+        <div class="tp-form-header">
+            <h3><i class="fa fa-plus-circle"></i> 添加新项目</h3>
+            <button type="button" class="tp-btn-close" onclick="toggleAddForm()">
+                <i class="fa fa-times"></i>
+            </button>
+        </div>
+        <div class="tp-form-content">
+            <div class="tp-form-row">
+                <div class="tp-form-item">
+                    <label><i class="fa fa-bookmark"></i> 项目名称</label>
+                    <input type="text" class="tp-form-control" name="projectName" required>
+                </div>
+                <div class="tp-form-item">
+                    <label><i class="fa fa-calendar"></i> 年份</label>
+                    <input type="text" class="tp-form-control" name="year" required>
+                </div>
+                <div class="tp-form-item">
+                    <label><i class="fa fa-map-marker"></i> 地点</label>
+                    <input type="text" class="tp-form-control" name="location" required>
+                </div>
+            </div>
+            <div class="tp-form-row">
+                <div class="tp-form-item">
+                    <label><i class="fa fa-clock-o"></i> 开始时间</label>
+                    <input type="datetime-local" class="tp-form-control" name="startTime" required>
+                </div>
+                <div class="tp-form-item">
+                    <label><i class="fa fa-clock-o"></i> 结束时间</label>
+                    <input type="datetime-local" class="tp-form-control" name="endTime" required>
+                </div>
+                <div class="tp-form-item">
+                    <label><i class="fa fa-tag"></i> 状态</label>
+                    <select class="tp-form-control" name="status" required>
+                        <option value="计划中">计划中</option>
+                        <option value="进行中">进行中</option>
+                        <option value="已完成">已完成</option>
+                    </select>
+                </div>
+            </div>
+            <div class="tp-form-row">
+                <div class="tp-form-item full-width">
+                    <label><i class="fa fa-comment"></i> 备注</label>
+                    <textarea class="tp-form-control" name="notes" rows="3"></textarea>
+                </div>
+            </div>
+            <div class="tp-form-actions">
+                <button type="button" class="tp-btn-cancel" onclick="toggleAddForm()">
+                    <i class="fa fa-times"></i> 取消
+                </button>
+                <button type="button" class="tp-btn-submit" onclick="submitProject()">
+                    <i class="fa fa-check"></i> 提交
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 项目列表 -->
+    <div class="project-list">
+        <table>
+            <thead>
+            <tr>
+                <th>年份</th>
+                <th>开始时间</th>
+                <th>结束时间</th>
+                <th>状态</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>2024</td>
+                <td>2024-01-01</td>
+                <td>2024-12-31</td>
+                <td><span class="status-badge status-active">进行中</span></td>
+                <td class="action-buttons">
+                    <a href="#" class="btn-action" title="编辑"><i class="fas fa-edit"></i></a>
+                    <a href="#" class="btn-action" title="团队"><i class="fas fa-users"></i></a>
+                    <a href="#" class="btn-action" title="消费"><i class="fas fa-receipt"></i></a>
+                    <a href="#" class="btn-action" title="账单"><i class="fas fa-file-invoice-dollar"></i></a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+
+        <!-- 分页 -->
+        <div class="pagination">
+            <a href="#" class="btn-page"><i class="fas fa-angle-left"></i></a>
+            <a href="#" class="btn-page active">1</a>
+            <a href="#" class="btn-page">2</a>
+            <a href="#" class="btn-page">3</a>
+            <span>...</span>
+            <a href="#" class="btn-page">88</a>
+            <a href="#" class="btn-page"><i class="fas fa-angle-right"></i></a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

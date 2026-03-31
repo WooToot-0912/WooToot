@@ -1,0 +1,208 @@
+/* 基础布局 */
+.main-content {
+    padding: 2rem;
+    background-color: #f8f9fa;
+    min-height: calc(100vh - 60px);
+    margin-left: 250px;
+    width: calc(100% - 250px);
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* 页面标题样式 */
+.page-header {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #e9ecef;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.page-header h2 {
+    color: #2c3e50;
+    font-size: 1.8rem;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.page-header h2 i {
+    color: #3498db;
+}
+
+.subtitle {
+    color: #6c757d;
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+/* 警告提示样式 */
+.alert {
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    border-left: 4px solid #28a745;
+    color: #155724;
+}
+
+.alert-error {
+    background-color: #f8d7da;
+    border-left: 4px solid #dc3545;
+    color: #721c24;
+}
+
+/* 编辑表单样式 */
+.edit-project-form {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+    overflow: hidden;
+}
+
+.form-header {
+    padding: 1.5rem 2rem;
+    background: #f8f9fa;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.form-header h3 {
+    margin: 0;
+    color: #2c3e50;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.form-header h3 i {
+    color: #3498db;
+}
+
+.form-content {
+    padding: 2rem;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.form-item label {
+    color: #2c3e50;
+    font-weight: 500;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.form-item label i {
+    color: #3498db;
+}
+
+.form-control {
+    padding: 0.8rem 1rem;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.3s;
+}
+
+.form-control:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+    outline: none;
+}
+
+.form-control:disabled {
+    background-color: #e9ecef;
+    cursor: not-allowed;
+}
+
+/* 按钮样式 */
+.form-actions {
+    padding: 1.5rem 2rem;
+    background: #f8f9fa;
+    border-top: 1px solid #e9ecef;
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+
+.btn-submit, .btn-cancel {
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s;
+}
+
+.btn-submit {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.btn-submit:hover {
+    background-color: #2980b9;
+}
+
+.btn-cancel {
+    background-color: #e9ecef;
+    color: #495057;
+}
+
+.btn-cancel:hover {
+    background-color: #dee2e6;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .main-content {
+        margin-left: 0;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+
+    .form-actions {
+        flex-direction: column;
+    }
+
+    .btn-submit, .btn-cancel {
+        width: 100%;
+        justify-content: center;
+    }
+}
