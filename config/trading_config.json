@@ -1,0 +1,94 @@
+{
+  "system_name": "景陶易购自动交易系统",
+  "version": "2.0.0",
+  "initial_capital": 10000,
+  "strategy": {
+    "adaptive_mode": true,
+    "min_confidence_threshold": 0.6,
+    "signal_cooldown": 30,
+    "strategy_weights": {
+      "red_green_strategy": 0.25,
+      "macd_strategy": 0.2,
+      "price_action_strategy": 0.2,
+      "volume_strategy": 0.15,
+      "trend_following_strategy": 0.2
+    }
+  },
+  "risk": {
+    "max_daily_loss_pct": 0.05,
+    "max_single_loss_pct": 0.02,
+    "max_position_size_pct": 0.2,
+    "max_positions": 5,
+    "enable_circuit_breaker": true,
+    "circuit_breaker_threshold": -100
+  },
+  "monitoring": {
+    "monitor_interval": 5,
+    "notification_channels": [
+      "log",
+      "file"
+    ],
+    "alert_file": "logs/system_alerts.json",
+    "thresholds": {
+      "cpu_usage": 85.0,
+      "memory_usage": 90.0,
+      "daily_loss": 0.05,
+      "error_rate": 0.1
+    }
+  },
+  "ui": {
+    "window_title": "景陶易购",
+    "detection_timeout": 10,
+    "template_threshold": 0.8,
+    "max_retries": 3
+  },
+  "price_detection": {
+    "use_manual_price_selection": true,
+    "ocr_fallback_enabled": true,
+    "price_update_interval": 1.0,
+    "price_validation_range": {
+      "min_price": 500,
+      "max_price": 2000
+    }
+  },
+  "auto_fill": {
+    "enabled": true,
+    "price_adjustment": 0,
+    "fill_interval": 10,
+    "buy_price_offset": 1,
+    "sell_price_offset": -1
+  },
+  "auto_trading": {
+    "enabled": true,
+    "trade_cooldown": 30,
+    "max_trades_per_hour": 10,
+    "profit_threshold": 1.0,
+    "loss_threshold": -3.0,
+    "auto_confirm": true,
+    "confirmation_timeout": 5.0,
+    "yellow_line_sensitivity": 0.1,
+    "value_change_monitoring": true,
+    "risk_limits": {
+      "max_position_value": 10000,
+      "daily_loss_limit": 500,
+      "single_trade_amount": 1
+    }
+  },
+  "trading": {
+    "parameters": {
+      "trade_cooldown": 30
+    },
+    "profit_loss": {
+      "profit_threshold": 1.0,
+      "loss_threshold": -3.0
+    }
+  },
+  "detection": {
+    "yellow_line": {
+      "enabled": true
+    },
+    "profit_loss": {
+      "enabled": true
+    }
+  }
+}

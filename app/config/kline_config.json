@@ -1,0 +1,88 @@
+{
+  "version": "1.0",
+  "description": "K线交易专用配置",
+  "detection": {
+    "signal_cooldown": 1.0,
+    "detection_interval": 0.5,
+    "min_candlestick_area": 15,
+    "color_sensitivity": "high"
+  },
+  "trading": {
+    "auto_trading_enabled": true,
+    "min_trade_interval": 3,
+    "max_trades_per_hour": 20,
+    "enable_buy_signals": true,
+    "enable_sell_signals": true,
+    "risk_management": true
+  },
+  "colors": {
+    "red": {
+      "description": "红色K线 → 买入信号",
+      "hsv_ranges": [
+        {
+          "lower": [
+            0,
+            30,
+            30
+          ],
+          "upper": [
+            15,
+            255,
+            255
+          ]
+        },
+        {
+          "lower": [
+            160,
+            30,
+            30
+          ],
+          "upper": [
+            180,
+            255,
+            255
+          ]
+        }
+      ]
+    },
+    "blue": {
+      "description": "蓝色K线 → 卖出信号",
+      "hsv_ranges": [
+        {
+          "lower": [
+            80,
+            50,
+            50
+          ],
+          "upper": [
+            110,
+            255,
+            255
+          ]
+        }
+      ]
+    },
+    "cyan": {
+      "description": "青色K线 → 卖出信号",
+      "hsv_ranges": [
+        {
+          "lower": [
+            85,
+            100,
+            200
+          ],
+          "upper": [
+            95,
+            255,
+            255
+          ]
+        }
+      ]
+    }
+  },
+  "debug": {
+    "verbose_logging": true,
+    "save_detection_images": false,
+    "signal_output_enhanced": true
+  }
+}

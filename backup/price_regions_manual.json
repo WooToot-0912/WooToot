@@ -1,0 +1,34 @@
+{
+  "main_price": {
+    "name": "main_price",
+    "x": 1633,
+    "y": 650,
+    "width": 103,
+    "height": 76,
+    "description": "主要价格显示区域"
+  },
+  "current_price": {
+    "name": "current_price",
+    "x": 1635,
+    "y": 649,
+    "width": 92,
+    "height": 79,
+    "description": "当前最新价格"
+  },
+  "bid_price": {
+    "name": "bid_price",
+    "x": 136,
+    "y": 1166,
+    "width": 214,
+    "height": 39,
+    "description": "买入价格"
+  },
+  "ask_price": {
+    "name": "ask_price",
+    "x": 138,
+    "y": 1166,
+    "width": 216,
+    "height": 42,
+    "description": "卖出价格"
+  }
+}

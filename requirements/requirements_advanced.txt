@@ -1,0 +1,17 @@
+# 高级图像处理和机器学习依赖
+scikit-image>=0.19.0
+scipy>=1.9.0
+matplotlib>=3.5.0
+
+# 可选的深度学习依赖 (用于更高级的检测)
+# tensorflow>=2.10.0  # 取消注释以启用TensorFlow
+# torch>=1.12.0       # 取消注释以启用PyTorch
+# torchvision>=0.13.0
+
+# 图像处理增强
+Pillow>=9.0.0
+imageio>=2.19.0
+
+# 数学和统计
+pandas>=1.4.0
+scikit-learn>=1.1.0

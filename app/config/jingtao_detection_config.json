@@ -1,0 +1,132 @@
+{
+  "detection_regions": {
+    "description": "景陶易购客户端专用检测区域配置",
+    "screen_resolution_reference": "1920x1080",
+    
+    "kline_chart": {
+      "description": "K线图表区域",
+      "x_ratio": 0.05,
+      "y_ratio": 0.12,
+      "width_ratio": 0.65,
+      "height_ratio": 0.55,
+      "absolute_fallback": {
+        "x": 50,
+        "y": 100,
+        "width": 650,
+        "height": 400
+      }
+    },
+    
+    "macd_indicator": {
+      "description": "MACD指标区域",
+      "x_ratio": 0.05,
+      "y_ratio": 0.72,
+      "width_ratio": 0.65,
+      "height_ratio": 0.15,
+      "absolute_fallback": {
+        "x": 50,
+        "y": 500,
+        "width": 650,
+        "height": 100
+      }
+    },
+    
+    "volume_indicator": {
+      "description": "成交量指标区域",
+      "x_ratio": 0.05,
+      "y_ratio": 0.67,
+      "width_ratio": 0.65,
+      "height_ratio": 0.05,
+      "absolute_fallback": {
+        "x": 50,
+        "y": 450,
+        "width": 650,
+        "height": 40
+      }
+    },
+    
+    "price_panel": {
+      "description": "价格面板区域",
+      "x_ratio": 0.72,
+      "y_ratio": 0.12,
+      "width_ratio": 0.25,
+      "height_ratio": 0.4,
+      "absolute_fallback": {
+        "x": 720,
+        "y": 100,
+        "width": 250,
+        "height": 300
+      }
+    }
+  },
+  
+  "color_detection": {
+    "description": "景陶易购客户端颜色检测配置",
+    
+    "kline_colors": {
+      "bullish": {
+        "name": "青色/蓝绿色K线",
+        "hsv_ranges": [
+          {"lower": [80, 50, 50], "upper": [100, 255, 255]},
+          {"lower": [85, 30, 100], "upper": [95, 255, 255]}
+        ]
+      },
+      "bearish": {
+        "name": "黄色K线",
+        "hsv_ranges": [
+          {"lower": [15, 100, 100], "upper": [35, 255, 255]},
+          {"lower": [20, 50, 150], "upper": [30, 255, 255]}
+        ]
+      }
+    },
+    
+    "macd_colors": {
+      "positive": {
+        "name": "MACD正值",
+        "hsv_ranges": [
+          {"lower": [80, 50, 50], "upper": [100, 255, 255]}
+        ]
+      },
+      "negative": {
+        "name": "MACD负值", 
+        "hsv_ranges": [
+          {"lower": [15, 100, 100], "upper": [35, 255, 255]}
+        ]
+      }
+    },
+    
+    "moving_average_colors": {
+      "ma5": {
+        "name": "5日均线(蓝色)",
+        "hsv_ranges": [
+          {"lower": [100, 50, 50], "upper": [130, 255, 255]}
+        ]
+      },
+      "ma10": {
+        "name": "10日均线(黄色)",
+        "hsv_ranges": [
+          {"lower": [20, 50, 50], "upper": [30, 255, 255]}
+        ]
+      },
+      "ma20": {
+        "name": "20日均线(紫色)",
+        "hsv_ranges": [
+          {"lower": [140, 50, 50], "upper": [160, 255, 255]}
+        ]
+      }
+    }
+  },
+  
+  "detection_thresholds": {
+    "min_pixel_ratio": 0.003,
+    "confidence_multiplier": 80,
+    "max_confidence": 0.9,
+    "signal_ratio_threshold": 1.1
+  },
+  
+  "debug_settings": {
+    "save_debug_images": true,
+    "debug_image_prefix": "jingtao_debug",
+    "color_analysis_enabled": true
+  }
+}

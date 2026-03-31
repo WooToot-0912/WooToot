@@ -1,0 +1,292 @@
+{
+  "system": {
+    "version": "2.0.0",
+    "environment": "production",
+    "debug_mode": false,
+    "log_level": "INFO",
+    "log_file": "trading_system.log",
+    "max_log_size": 10485760,
+    "backup_count": 5,
+    "auto_save_config": true
+  },
+  "dependencies": {
+    "tesseract": {
+      "required": true,
+      "paths": [
+        "D:\\Program Files\\tesseract.exe",
+        "C:\\Program Files\\Tesseract-OCR\\tesseract.exe",
+        "C:\\Users\\{username}\\AppData\\Local\\Programs\\Tesseract-OCR\\tesseract.exe",
+        "tesseract"
+      ],
+      "fallback_enabled": true,
+      "error_handling": "graceful"
+    },
+    "opencv": {
+      "required": true,
+      "min_version": "4.8.0"
+    },
+    "pyautogui": {
+      "required": true,
+      "min_version": "0.9.54"
+    }
+  },
+  "trading": {
+    "strategy": {
+      "name": "enhanced_yellow_line_profit_loss",
+      "version": "2.0",
+      "description": "基于黄线角度变化和货值变化的增强交易策略"
+    },
+    "parameters": {
+      "trade_cooldown": 10,
+      "min_angle_change": 2.0,
+      "fixed_price": 1383,
+      "default_quantity": 1,
+      "max_trades_per_day": 100,
+      "max_loss_per_day": 500,
+      "enable_continuous_ordering": true,
+      "one_position_per_point": true
+    },
+    "profit_loss": {
+      "profit_threshold": 1.0,
+      "loss_threshold": -3.0,
+      "enable_auto_transfer": true,
+      "transfer_confirmation": false,
+      "emergency_stop_loss": -10.0
+    },
+    "risk_management": {
+      "max_daily_trades": 100,
+      "max_daily_loss": 500,
+      "max_consecutive_losses": 5,
+      "position_size_limit": 10,
+      "enable_circuit_breaker": true,
+      "circuit_breaker_threshold": -100
+    }
+  },
+  "detection": {
+    "yellow_line": {
+      "color_ranges": [
+        {
+          "name": "bright_yellow",
+          "lower": [15, 100, 100],
+          "upper": [35, 255, 255]
+        },
+        {
+          "name": "golden_yellow", 
+          "lower": [10, 80, 80],
+          "upper": [40, 255, 255]
+        }
+      ],
+      "min_area": 50,
+      "max_area": 10000,
+      "data_points_used": 2,
+      "angle_calculation_method": "arctangent",
+      "smoothing_enabled": true,
+      "noise_reduction": true
+    },
+    "profit_loss": {
+      "region": {
+        "x_ratio": 0.6,
+        "y_ratio": 0.6,
+        "width_ratio": 0.35,
+        "height_ratio": 0.3
+      },
+      "ocr_configs": [
+        "--psm 8 --oem 3 -c tessedit_char_whitelist=0123456789.-+",
+        "--psm 7 --oem 3 -c tessedit_char_whitelist=0123456789.-+",
+        "--psm 6 --oem 3 -c tessedit_char_whitelist=0123456789.-+",
+        "--psm 13 --oem 3 -c tessedit_char_whitelist=0123456789.-+"
+      ],
+      "preprocessing": {
+        "scale_factor": 2,
+        "denoise": true,
+        "enhance_contrast": true,
+        "binary_threshold": "auto"
+      },
+      "validation": {
+        "min_value": -100,
+        "max_value": 100,
+        "confidence_threshold": 0.7
+      }
+    },
+    "regions": {
+      "chart_area": {
+        "x_ratio": 0.0,
+        "y_ratio": 0.0,
+        "width_ratio": 0.5,
+        "height_ratio": 0.5
+      },
+      "price_area": {
+        "x_ratio": 0.4,
+        "y_ratio": 0.2,
+        "width_ratio": 0.5,
+        "height_ratio": 0.4
+      }
+    }
+  },
+  "ui": {
+    "window": {
+      "width": 1200,
+      "height": 800,
+      "resizable": true,
+      "always_on_top": false
+    },
+    "theme": {
+      "name": "dark",
+      "primary_color": "#2196F3",
+      "secondary_color": "#FFC107",
+      "background_color": "#303030",
+      "text_color": "#FFFFFF"
+    },
+    "updates": {
+      "log_refresh_interval": 100,
+      "status_update_interval": 1000,
+      "chart_update_interval": 5000
+    },
+    "language": "zh_CN"
+  },
+  "client": {
+    "window_titles": [
+      "景陶易购",
+      "DEAL_JCST",
+      "景德镇陶瓷交易所"
+    ],
+    "process_names": [
+      "DEAL_JCST_RNHY_Client.exe",
+      "景陶易购.exe"
+    ],
+    "detection_timeout": 30,
+    "activation_delay": 1.0,
+    "screenshot_interval": 5.0
+  },
+  "button_positions": {
+    "buy_mode_button": {
+      "name": "买入模式按钮",
+      "x": 0.1,
+      "y": 0.3,
+      "confidence": 0.8
+    },
+    "sell_mode_button": {
+      "name": "卖出模式按钮",
+      "x": 0.1,
+      "y": 0.4,
+      "confidence": 0.8
+    },
+    "buy_order_button": {
+      "name": "买入订立按钮",
+      "x": 0.35,
+      "y": 0.85,
+      "confidence": 0.8
+    },
+    "sell_order_button": {
+      "name": "卖出订立按钮",
+      "x": 0.35,
+      "y": 0.85,
+      "confidence": 0.8
+    },
+    "price_input": {
+      "name": "价格输入框",
+      "x": 0.25,
+      "y": 0.7,
+      "confidence": 0.8
+    },
+    "quantity_input": {
+      "name": "数量输入框",
+      "x": 0.25,
+      "y": 0.75,
+      "confidence": 0.8
+    },
+    "confirm_button": {
+      "name": "确认按钮",
+      "x": 0.5,
+      "y": 0.7,
+      "confidence": 0.8
+    },
+    "transfer_out_button": {
+      "name": "转出按钮",
+      "x": 0.6,
+      "y": 0.8,
+      "confidence": 0.8
+    }
+  },
+  "performance": {
+    "screenshot_optimization": true,
+    "image_cache_enabled": true,
+    "max_cache_size": 100,
+    "memory_cleanup_interval": 300,
+    "cpu_usage_limit": 80,
+    "max_concurrent_operations": 3
+  },
+  "data_recording": {
+    "enabled": true,
+    "database_type": "sqlite",
+    "database_path": "trading_data.db",
+    "record_screenshots": false,
+    "record_trades": true,
+    "record_signals": true,
+    "retention_days": 90,
+    "backup_enabled": true,
+    "backup_interval": 86400
+  },
+  "notifications": {
+    "enabled": true,
+    "types": {
+      "trade_executed": true,
+      "profit_loss_trigger": true,
+      "error_occurred": true,
+      "daily_summary": true
+    },
+    "methods": {
+      "popup": true,
+      "sound": false,
+      "email": false,
+      "webhook": false
+    }
+  },
+ 
+  "enhanced_detection": {
+    "enabled": true,
+    "strategies": {
+      "kline_macd_combo": {
+        "enabled": true,
+        "weight": 0.4,
+        "description": "K线+MACD组合策略"
+      },
+      "moving_average_trend": {
+        "enabled": true,
+        "weight": 0.3,
+        "description": "均线趋势跟随策略"
+      },
+      "comprehensive_signal": {
+        "enabled": true,
+        "weight": 0.3,
+        "description": "综合信号策略"
+      }
+    },
+    "regions": {
+      "kline": {
+        "x_ratio": 0.05,
+        "y_ratio": 0.12,
+        "width_ratio": 0.65,
+        "height_ratio": 0.55
+      },
+      "macd": {
+        "x_ratio": 0.05,
+        "y_ratio": 0.72,
+        "width_ratio": 0.65,
+        "height_ratio": 0.15
+      },
+      "volume": {
+        "x_ratio": 0.05,
+        "y_ratio": 0.67,
+        "width_ratio": 0.65,
+        "height_ratio": 0.05
+      }
+    },
+    "signal_thresholds": {
+      "min_confidence": 0.6,
+      "kline_pixel_threshold": 0.01,
+      "macd_pixel_threshold": 10,
+      "trend_slope_threshold": 0.1
+    }
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "version": "2.0",
+  "description": "景陶易购自动交易系统坐标配置 - 来自smart_trading.py的精确配置",
+  "window_detection": {
+    "target_window_title": "景陶易购",
+    "detection_timeout": 50,
+    "retry_interval": 5
+  },
+  "button_positions": {
+    "buy_mode_button": {
+      "name": "买入模式按钮",
+      "x": 0.01395348837209302,
+      "y": 0.7064516129032258,
+      "calibrated_absolute": {
+        "x": 36,
+        "y": 1095
+      },
+      "description": "左侧红色的买按钮"
+    },
+    "sell_mode_button": {
+      "name": "卖出模式按钮",
+      "x": 0.01434108527131783,
+      "y": 0.7819354838709677,
+      "calibrated_absolute": {
+        "x": 37,
+        "y": 1212
+      },
+      "description": "左侧绿色的卖按钮"
+    },
+    "buy_order_button": {
+      "name": "买入订立按钮",
+      "x": 0.07829457364341084,
+      "y": 0.9270967741935484,
+      "calibrated_absolute": {
+        "x": 202,
+        "y": 1437
+      },
+      "description": "底部的买入订立按钮"
+    },
+    "sell_order_button": {
+      "name": "卖出订立按钮",
+      "x": 0.07946511627906976,
+      "y": 0.9296774193548387,
+      "calibrated_absolute": {
+        "x": 205,
+        "y": 1441
+      },
+      "description": "底部的卖出订立按钮"
+    },
+    "price_input": {
+      "name": "价格输入框",
+      "x": 0.095,
+      "y": 0.768,
+      "calibrated_absolute": {
+        "x": 234,
+        "y": 1180
+      },
+      "description": "价格输入区域"
+    },
+    "quantity_input": {
+      "name": "数量输入框",
+      "x": 0.093,
+      "y": 0.814,
+      "calibrated_absolute": {
+        "x": 230,
+        "y": 1250
+      },
+      "description": "数量输入区域"
+    },
+    "confirm_button": {
+      "name": "确认按钮",
+      "x": 0.43488372093023253,
+      "y": 0.5419354838709677,
+      "calibrated_absolute": {
+        "x": 1123,
+        "y": 840
+      },
+      "description": "弹出对话框中的确定按钮"
+    },
+    "transfer_out_button": {
+      "name": "银证转出按钮",
+      "x": 0.1182170542635659,
+      "y": 0.7251612903225806,
+      "calibrated_absolute": {
+        "x": 305,
+        "y": 1124
+      },
+      "description": "银证转出按钮"
+    },
+    "order_mode_button": {
+      "name": "订立模式按钮",
+      "x": 0.05968992248062015,
+      "y": 0.7283870967741936,
+      "calibrated_absolute": {
+        "x": 154,
+        "y": 1129
+      },
+      "description": "切换到订立模式的按钮"
+    }
+  },
+  "coordinates": {
+    "buy_mode_button": {
+      "x": 0.01395348837209302,
+      "y": 0.7064516129032258
+    },
+    "sell_mode_button": {
+      "x": 0.01434108527131783,
+      "y": 0.7819354838709677
+    },
+    "buy_order_button": {
+      "x": 0.07829457364341084,
+      "y": 0.9270967741935484
+    },
+    "sell_order_button": {
+      "x": 0.07946511627906976,
+      "y": 0.9296774193548387
+    },
+    "price_input": {
+      "x": 0.095,
+      "y": 0.768
+    },
+    "quantity_input": {
+      "x": 0.093,
+      "y": 0.814
+    },
+    "confirm_button": {
+      "x": 0.43488372093023253,
+      "y": 0.5419354838709677
+    },
+    "transfer_out_button": {
+      "x": 0.1182170542635659,
+      "y": 0.7251612903225806
+    },
+    "order_mode_button": {
+      "x": 0.05968992248062015,
+      "y": 0.7283870967741936
+    }
+  },
+  "calibration_info": {
+    "last_calibrated": "从smart_trading.py导入",
+    "calibrated_resolution": "精确配置",
+    "notes": "已使用smart_trading.py中的精确坐标配置"
+  },
+  "detection_regions": {
+    "yellow_line_roi": {
+      "x": 962,
+      "y": 260,
+      "width": 548,
+      "height": 444,
+      "description": "黄线检测区域"
+    }
+  }
+}

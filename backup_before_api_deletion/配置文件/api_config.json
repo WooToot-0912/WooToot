@@ -1,0 +1,62 @@
+{
+  "api_settings": {
+    "base_url": "https://zxyw.ceramic-copyright.com/apigateway",
+    "kline_url": "https://zxyt.ceramic-copyright.com/qtfront_tq",
+    "timeout": 30,
+    "retry_attempts": 3,
+    "heartbeat_interval": 300
+  },
+  "trading_settings": {
+    "default_trading_mode": "manual",
+    "max_daily_orders": 100,
+    "max_position_size": 10,
+    "min_signal_confidence": 0.6,
+    "max_order_history": 1000,
+    "order_check_interval": 5,
+    "auto_cancel_timeout": 3600
+  },
+  "risk_management": {
+    "enable_risk_check": true,
+    "max_daily_loss": 10000,
+    "max_single_order_value": 50000,
+    "position_limit_per_commodity": 5,
+    "enable_circuit_breaker": true,
+    "circuit_breaker_threshold": -5000
+  },
+  "ui_settings": {
+    "auto_refresh_interval": 1000,
+    "max_log_lines": 100,
+    "show_notifications": true,
+    "sound_alerts": false
+  },
+  "logging": {
+    "level": "INFO",
+    "file_path": "logs/api_trading.log",
+    "max_file_size": "10MB",
+    "backup_count": 5
+  },
+  "commodities": {
+    "1001": {
+      "name": "商品1",
+      "min_price": 50.0,
+      "max_price": 200.0,
+      "price_step": 0.1,
+      "min_quantity": 1,
+      "max_quantity": 100
+    },
+    "1002": {
+      "name": "商品2", 
+      "min_price": 80.0,
+      "max_price": 300.0,
+      "price_step": 0.1,
+      "min_quantity": 1,
+      "max_quantity": 50
+    }
+  },
+  "integration": {
+    "enable_signal_forwarding": true,
+    "signal_check_interval": 5000,
+    "auto_execute_signals": false,
+    "require_manual_confirmation": true
+  }
+}
