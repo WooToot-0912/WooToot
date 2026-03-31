@@ -1,0 +1,29 @@
+{
+  "trading": {
+    "take_profit_points": 3.0,
+    "stop_loss_points": 2.0,
+    "max_trades_per_day": 20,
+    "position_size": 1,
+    "enable_auto_trading": true
+  },
+  "api": {
+    "timeout": 30,
+    "retry_count": 3,
+    "base_url": "https://api.jingtao.com"
+  },
+  "image": {
+    "screenshot_interval": 2.0,
+    "detection_accuracy": 0.8,
+    "enable_debug": false
+  },
+  "fusion": {
+    "api_weight": 0.6,
+    "image_weight": 0.4,
+    "confirmation_threshold": 0.7
+  },
+  "risk": {
+    "max_daily_loss": 500.0,
+    "max_consecutive_losses": 3,
+    "enable_risk_control": true
+  }
+}

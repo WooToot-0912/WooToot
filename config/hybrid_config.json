@@ -1,0 +1,49 @@
+{
+  "system": {
+    "name": "智能量化交易系统",
+    "version": "1.0.0",
+    "description": "基于多模态信号融合的智能量化交易系统"
+  },
+  "trading_modes": {
+    "default_mode": "auto",
+    "available_modes": [
+      "api_only",
+      "image_only",
+      "hybrid",
+      "auto"
+    ],
+    "mode_descriptions": {
+      "api_only": "纯API模式 - 使用Main项目的API交易",
+      "image_only": "纯图像模式 - 使用图像识别交易",
+      "hybrid": "混合模式 - API和图像信号融合",
+      "auto": "自动模式 - 智能选择最佳方式"
+    }
+  },
+  "signal_fusion": {
+    "api_weight": 0.6,
+    "image_weight": 0.4,
+    "confidence_threshold": 0.7,
+    "fusion_algorithms": [
+      "weighted_average",
+      "confidence_based",
+      "consensus"
+    ]
+  },
+  "execution": {
+    "primary_method": "api",
+    "fallback_method": "image",
+    "retry_attempts": 3,
+    "execution_timeout": 30
+  },
+  "monitoring": {
+    "check_interval": 5,
+    "screenshot_interval": 2,
+    "signal_cooldown": 30
+  },
+  "risk_management": {
+    "max_daily_trades": 20,
+    "position_limit": 5,
+    "stop_loss_percentage": 2.0,
+    "take_profit_percentage": 3.0
+  }
+}

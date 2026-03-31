@@ -1,0 +1,22 @@
+{
+  "users": {
+    "17508840912": {
+      "password": "327b77fa8761b11b9fd5acc3cf5466bc",
+      "nickname": "鲁博",
+      "last_login": "2025-08-26 18:54:02",
+      "login_count": 1
+    },
+    "184813800138000": {
+      "password": "de7dd8e280a7974de5945ae75f2ee406",
+      "nickname": "184813800138000",
+      "last_login": "",
+      "login_count": 0,
+      "role": "user"
+    }
+  },
+  "settings": {
+    "remember_login": true,
+    "auto_login": false,
+    "last_user": "17508840912"
+  }
+}

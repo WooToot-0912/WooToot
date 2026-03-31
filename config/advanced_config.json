@@ -1,0 +1,137 @@
+{
+  "trading": {
+    "max_trades_per_day": 50,
+    "risk_level": "medium",
+    "auto_stop_loss": true,
+    "auto_take_profit": true,
+    "position_size": 1.0,
+    "slippage_tolerance": 0.5,
+    "default_take_profit": 3.0,
+    "default_stop_loss": 2.0,
+    "max_position_count": 5,
+    "enable_trailing_stop": true,
+    "trailing_stop_distance": 1.0
+  },
+  "monitoring": {
+    "update_interval": 1.0,
+    "enable_sound_alerts": true,
+    "enable_popup_alerts": false,
+    "log_level": "INFO",
+    "max_log_lines": 1000,
+    "enable_detailed_logging": true,
+    "auto_scroll_logs": true,
+    "log_rotation_size": "10MB",
+    "log_retention_days": 30
+  },
+  "display": {
+    "theme": "default",
+    "font_size": 9,
+    "show_advanced_controls": true,
+    "auto_scroll_logs": true,
+    "highlight_important": true,
+    "show_tooltips": true,
+    "animation_enabled": true,
+    "compact_mode": false
+  },
+  "api": {
+    "timeout": 30,
+    "retry_count": 3,
+    "rate_limit": 10,
+    "enable_debug": false,
+    "connection_pool_size": 5,
+    "keep_alive": true,
+    "verify_ssl": true,
+    "user_agent": "AdvancedTradingSystem/2.0"
+  },
+  "signal_fusion": {
+    "api_weight": 0.6,
+    "image_weight": 0.4,
+    "confirmation_threshold": 0.7,
+    "enable_signal_history": true,
+    "signal_history_length": 100,
+    "enable_signal_filtering": true,
+    "min_signal_strength": 0.5
+  },
+  "risk_management": {
+    "enable_daily_loss_limit": true,
+    "daily_loss_limit": 500.0,
+    "max_risk_per_trade": 2.0,
+    "enable_consecutive_loss_limit": true,
+    "max_consecutive_losses": 3,
+    "enable_drawdown_limit": true,
+    "max_drawdown_percent": 10.0,
+    "enable_position_sizing": true,
+    "position_sizing_method": "fixed"
+  },
+  "image_recognition": {
+    "accuracy_threshold": 0.8,
+    "screenshot_interval": 2.0,
+    "enable_debug_mode": false,
+    "save_debug_images": false,
+    "image_cache_size": 50,
+    "preprocessing_enabled": true,
+    "noise_reduction": true,
+    "contrast_enhancement": true
+  },
+  "strategies": {
+    "default_strategy": "trend_following",
+    "enable_multiple_strategies": false,
+    "strategy_weights": {
+      "trend_following": 0.4,
+      "mean_reversion": 0.3,
+      "breakout": 0.2,
+      "scalping": 0.1
+    },
+    "enable_strategy_switching": true,
+    "strategy_switch_threshold": 0.6
+  },
+  "time_filters": {
+    "enable_time_filtering": true,
+    "trading_start_time": "09:00",
+    "trading_end_time": "15:00",
+    "lunch_break_start": "11:30",
+    "lunch_break_end": "13:00",
+    "enable_lunch_break": true,
+    "weekend_trading": false,
+    "holiday_trading": false
+  },
+  "performance": {
+    "enable_multithreading": true,
+    "thread_pool_size": 4,
+    "enable_caching": true,
+    "cache_size": 1000,
+    "enable_compression": false,
+    "memory_limit_mb": 512,
+    "cpu_usage_limit": 80.0
+  },
+  "alerts": {
+    "enable_email_alerts": false,
+    "email_smtp_server": "",
+    "email_port": 587,
+    "email_username": "",
+    "email_password": "",
+    "enable_webhook_alerts": false,
+    "webhook_url": "",
+    "alert_levels": ["ERROR", "WARNING"],
+    "enable_desktop_notifications": true
+  },
+  "backup": {
+    "enable_auto_backup": true,
+    "backup_interval_hours": 24,
+    "backup_retention_days": 7,
+    "backup_location": "backups/",
+    "compress_backups": true,
+    "backup_config": true,
+    "backup_logs": true,
+    "backup_data": true
+  },
+  "advanced": {
+    "enable_experimental_features": false,
+    "debug_mode": false,
+    "profiling_enabled": false,
+    "memory_profiling": false,
+    "performance_monitoring": true,
+    "crash_reporting": true,
+    "telemetry_enabled": false
+  }
+}
