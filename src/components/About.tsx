@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Code2, Palette, Terminal, Database, Globe, Cpu } from 'lucide-react';
+import { Code2, Terminal, Database, Globe, Cpu } from 'lucide-react';
 
 export function About() {
   const { t } = useTranslation();
