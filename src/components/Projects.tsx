@@ -17,8 +17,8 @@ export function Projects() {
       details: t('projects.list.p1.details'),
       image: '/images/projects/tobacco-expert.png',
       tags: ['YOLOv8', 'ECA Attention', 'Python', 'OpenCV'],
-      demoUrl: 'https://github.com/WooToot-0912',
-      repoUrl: 'https://github.com/WooToot-0912',
+      demoUrl: 'https://github.com/WooToot-0912/WooToot/tree/%E7%83%A4%E7%83%9F%E7%97%85%E5%AE%B3%E6%A3%80%E6%B5%8B%E9%A1%B9%E7%9B%AE',
+      repoUrl: 'https://github.com/WooToot-0912/WooToot/tree/%E7%83%A4%E7%83%9F%E7%97%85%E5%AE%B3%E6%A3%80%E6%B5%8B%E9%A1%B9%E7%9B%AE',
     },
     {
       id: 'p2',
@@ -27,8 +27,8 @@ export function Projects() {
       details: t('projects.list.p2.details'),
       image: '/images/projects/quant-trading.png',
       tags: ['Python', 'OpenCV', 'Linear Regression', 'Threading'],
-      demoUrl: 'https://github.com/WooToot-0912',
-      repoUrl: 'https://github.com/WooToot-0912',
+      demoUrl: 'https://github.com/WooToot-0912/WooToot/tree/%E6%99%BA%E8%83%BD%E9%87%8F%E5%8C%96%E4%BA%A4%E6%98%93%E7%9B%91%E6%8E%A7%E7%B3%BB%E7%BB%9F',
+      repoUrl: 'https://github.com/WooToot-0912/WooToot/tree/%E6%99%BA%E8%83%BD%E9%87%8F%E5%8C%96%E4%BA%A4%E6%98%93%E7%9B%91%E6%8E%A7%E7%B3%BB%E7%BB%9F',
     },
     {
       id: 'p3',
@@ -37,8 +37,8 @@ export function Projects() {
       details: t('projects.list.p3.details'),
       image: '/images/projects/quant-trading.png',
       tags: ['Python', 'PyQt5', 'UI Automation', 'RPA'],
-      demoUrl: 'https://github.com/WooToot-0912',
-      repoUrl: 'https://github.com/WooToot-0912',
+      demoUrl: 'https://github.com/WooToot-0912/WooToot/tree/%E8%87%AA%E5%8A%A8%E4%BA%A4%E6%98%93%E6%9C%BA%E5%99%25A8%E4%25BA%25BA-RPA',
+      repoUrl: 'https://github.com/WooToot-0912/WooToot/tree/%E8%87%AA%E5%8A%A8%E4%BA%A4%E6%98%93%E6%9C%BA%E5%99%25A8%E4%25BA%25BA-RPA',
     },
     {
       id: 'p4',
@@ -47,8 +47,8 @@ export function Projects() {
       details: t('projects.list.p4.details'),
       image: '/images/projects/tsa-system.png',
       tags: ['Java', 'Servlet', 'JDBC', 'MySQL'],
-      demoUrl: 'https://github.com/WooToot-0912',
-      repoUrl: 'https://github.com/WooToot-0912',
+      demoUrl: 'https://github.com/WooToot-0912/WooToot/tree/TSA%E4%BC%81%E4%B8%9A%E7%BA%A7%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-JavaWeb',
+      repoUrl: 'https://github.com/WooToot-0912/WooToot/tree/TSA%E4%BC%81%E4%B8%9A%E7%BA%A7%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-JavaWeb',
     },
     {
       id: 'p5',
@@ -57,8 +57,8 @@ export function Projects() {
       details: t('projects.list.p5.details'),
       image: '/images/projects/ai-assistant.png',
       tags: ['Flask', 'OpenAI', 'WechatSI', 'JavaScript'],
-      demoUrl: 'https://github.com/WooToot-0912',
-      repoUrl: 'https://github.com/WooToot-0912',
+      demoUrl: 'https://github.com/WooToot-0912/WooToot/tree/AI%E6%99%BA%E8%83%BD%E8%AF%AD%E9%9F%B3%E5%8A%A9%E6%89%8B',
+      repoUrl: 'https://github.com/WooToot-0912/WooToot/tree/AI%E6%99%BA%E8%83%BD%E8%AF%AD%E9%9F%B3%E5%8A%A9%E6%89%8B',
     },
     {
       id: 'p6',
@@ -67,8 +67,8 @@ export function Projects() {
       details: t('projects.list.p6.details'),
       image: '/images/projects/qq-manager.png',
       tags: ['C#', 'WinForms', 'MDI', 'SQL Server'],
-      demoUrl: 'https://github.com/WooToot-0912',
-      repoUrl: 'https://github.com/WooToot-0912',
+      demoUrl: 'https://github.com/WooToot-0912/WooToot/tree/QQ%E7%2599%25BB%25E5%2575%25E7%25AE%25A1%25E7%2590%2586%25E7%25B3%25BB%25E7%25BB%259F-WinForm',
+      repoUrl: 'https://github.com/WooToot-0912/WooToot/tree/QQ%E7%2599%25BB%25E5%2575%25E7%25AE%25A1%25E7%2590%2586%25E7%25B3%25BB%25E7%25BB%259F-WinForm',
     },
   ];
 
