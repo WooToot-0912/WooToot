@@ -9,33 +9,68 @@ export function Projects() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: '-100px' });
 
-  const projectKeys = ['p1', 'p2', 'p3', 'p4', 'p5', 'p6', 'p7'];
-  const projects = projectKeys.map((key, index) => ({
-    id: index + 1,
-    title: t(`projects.list.${key}.title`),
-    description: t(`projects.list.${key}.description`),
-    details: t(`projects.list.${key}.details`),
-    image: [
-      '/images/ecommerce.png',
-      '/images/task-manager.png',
-      '/images/ai-tool.png',
-      '/images/ecommerce.png',
-      '/images/ai-tool.png',
-      '/images/weather.png',
-      '/images/tobacco-detection.png'
-    ][index],
-    tags: [
-      ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
-      ['Next.js', 'TypeScript', 'Prisma', 'Socket.io'],
-      ['Python', 'FastAPI', 'OpenAI', 'React'],
-      ['Vue.js', 'D3.js', 'Firebase', 'Tailwind'],
-      ['React', 'GraphQL', 'AWS', 'Chart.js'],
-      ['React Native', 'Expo', 'Weather API', 'Maps'],
-      ['Python', 'Flask', 'YOLOv8', 'JavaScript']
-    ][index],
-    demoUrl: index === 6 ? 'https://github.com/WooToot-0912/WooToot/tree/%E7%83%A4%E7%83%9F%E7%97%85%E5%AE%B3%E6%A3%80%E6%B5%8B%E9%A1%B9%E7%9B%AE' : 'https://example.com',
-    repoUrl: index === 6 ? 'https://github.com/WooToot-0912/WooToot/tree/%E7%83%A4%E7%83%9F%E7%97%85%E5%AE%B3%E6%A3%80%E6%B5%8B%E9%A1%B9%E7%9B%AE' : 'https://github.com',
-  }));
+  const projects = [
+    {
+      id: 'p1',
+      title: t('projects.list.p1.title'),
+      description: t('projects.list.p1.description'),
+      details: t('projects.list.p1.details'),
+      image: '/images/projects/tobacco-expert.png',
+      tags: ['YOLOv8', 'ECA Attention', 'Python', 'OpenCV'],
+      demoUrl: 'https://github.com/WooToot-0912',
+      repoUrl: 'https://github.com/WooToot-0912',
+    },
+    {
+      id: 'p2',
+      title: t('projects.list.p2.title'),
+      description: t('projects.list.p2.description'),
+      details: t('projects.list.p2.details'),
+      image: '/images/projects/quant-trading.png',
+      tags: ['Python', 'OpenCV', 'Linear Regression', 'Threading'],
+      demoUrl: 'https://github.com/WooToot-0912',
+      repoUrl: 'https://github.com/WooToot-0912',
+    },
+    {
+      id: 'p3',
+      title: t('projects.list.p3.title'),
+      description: t('projects.list.p3.description'),
+      details: t('projects.list.p3.details'),
+      image: '/images/projects/quant-trading.png',
+      tags: ['Python', 'PyQt5', 'UI Automation', 'RPA'],
+      demoUrl: 'https://github.com/WooToot-0912',
+      repoUrl: 'https://github.com/WooToot-0912',
+    },
+    {
+      id: 'p4',
+      title: t('projects.list.p4.title'),
+      description: t('projects.list.p4.description'),
+      details: t('projects.list.p4.details'),
+      image: '/images/projects/tsa-system.png',
+      tags: ['Java', 'Servlet', 'JDBC', 'MySQL'],
+      demoUrl: 'https://github.com/WooToot-0912',
+      repoUrl: 'https://github.com/WooToot-0912',
+    },
+    {
+      id: 'p5',
+      title: t('projects.list.p5.title'),
+      description: t('projects.list.p5.description'),
+      details: t('projects.list.p5.details'),
+      image: '/images/projects/ai-assistant.png',
+      tags: ['Flask', 'OpenAI', 'WechatSI', 'JavaScript'],
+      demoUrl: 'https://github.com/WooToot-0912',
+      repoUrl: 'https://github.com/WooToot-0912',
+    },
+    {
+      id: 'p6',
+      title: t('projects.list.p6.title'),
+      description: t('projects.list.p6.description'),
+      details: t('projects.list.p6.details'),
+      image: '/images/projects/qq-manager.png',
+      tags: ['C#', 'WinForms', 'MDI', 'SQL Server'],
+      demoUrl: 'https://github.com/WooToot-0912',
+      repoUrl: 'https://github.com/WooToot-0912',
+    },
+  ];
 
   const [selectedProject, setSelectedProject] = useState<typeof projects[0] | null>(null);
 

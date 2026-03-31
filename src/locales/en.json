@@ -92,16 +92,35 @@
     "technologies": "Technologies",
     "details": "Project Details",
     "list": {
-      "p1": { "title": "E-Commerce Platform", "description": "Full-featured platform...", "details": "Built a scalable solution..." },
-      "p2": { "title": "Task Management App", "description": "Collaborative tool...", "details": "Developed a Trello-like app..." },
-      "p3": { "title": "AI Content Generator", "description": "AI-powered tool...", "details": "Integrated OpenAI GPT-4..." },
-      "p4": { "title": "Portfolio Dashboard", "description": "Interactive dashboard...", "details": "Created financial dashboard..." },
-      "p5": { "title": "Social Media Analytics", "description": "Analytics platform...", "details": "Built platform for managers..." },
-      "p6": { "title": "Weather Application", "description": "Beautiful weather app...", "details": "Developed cross-platform mobile app..." },
-      "p7": {
-        "title": "Smart Tobacco Disease Expert System",
-        "description": "Real-time tobacco disease detection platform based on deep learning and multimodal analysis.",
-        "details": "Integrated YOLOv8, ECA attention visualization, and multimodal data analysis. Features a high-tech dark UI with real-time history persistence and big data analytics."
+      "p1": {
+        "title": "Tobacco Disease Detection Expert System",
+        "description": "Industrial inspection platform with YOLOv8 & ECA mechanism, 5M+ daily identification.",
+        "details": "Integrated XAI heatmaps and multimodal data fusion. Tech-style dark UI with millisecond OCR and backend QPS 1500+ usage."
+      },
+      "p2": {
+        "title": "Intelligent Quant Trading Monitor",
+        "description": "K-line trend prediction platform using OpenCV and linear regression for 20° angle detection.",
+        "details": "Extracted signals via screenshot algorithms and handled high-frequency data streams with custom ThreadPool for millisecond precision."
+      },
+      "p3": {
+        "title": "Auto Trading RPA Bot",
+        "description": "Closed-loop automated order system based on Python intelligent UI recognition.",
+        "details": "Handles UI confirmation dialogs and dynamic coordinate calibration. Designed for low-latency automatic execution via enhanced detectors."
+      },
+      "p4": {
+        "title": "TSA Enterprise Management System",
+        "description": "Robust backend using Java Servlet & JDBC with layered DAO architecture and security audit logs.",
+        "details": "Independent persistence layer design mapping complex business entities. Features multi-role RBAC and secure Filter interceptors."
+      },
+      "p5": {
+        "title": "AI Voice Hub & Intelligent Assistant",
+        "description": "Cross-platform assistant with OpenAI integration and WechatSI voice synthesis for natural interaction.",
+        "details": "Built on a Flask async message flow. Seamlessly bridges mini-programs with AI models. Supports voice wake-up and local media scheduling."
+      },
+      "p6": {
+        "title": "QQ & Business Management Hub",
+        "description": "High-performance Windows app using C# WinForm MDI architecture for multi-window data tasks.",
+        "details": "Solved multi-task window conflicts with standard MDI patterns. Independent DB connection pool for reliable account verification."
       }
     }
   },
