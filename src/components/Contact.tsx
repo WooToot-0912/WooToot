@@ -8,6 +8,7 @@ export function Contact() {
   const { t } = useTranslation();
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: '-100px' });
+  const [showWechat, setShowWechat] = useState(false);
   const [formState, setFormState] = useState({
     name: '',
     email: '',
@@ -39,8 +40,18 @@ export function Contact() {
   };
 
   const contactInfo = [
-    { icon: Mail, label: 'Email', value: '1950383511@qq.com', href: 'mailto:1950383511@qq.com' },
-    { icon: MapPin, label: 'Location', value: 'Remote / Worldwide', href: '#' },
+    { icon: Mail, label: t('contact.email'), value: '1950383511@qq.com', href: 'mailto:1950383511@qq.com' },
+    { 
+      icon: () => (
+        <svg viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 text-primary">
+          <path d="M8.225 3.197c-3.953 0-7.158 2.656-7.158 5.928 0 1.83.992 3.473 2.54 4.606l-.64 2.316 2.138-1.118c.365.097.74.153 1.12.153.284 0 .563-.03.834-.077-.253-.55-.39-1.16-.39-1.808 0-2.457 2.05-4.453 4.544-4.505-.515-3.13-4.04-5.495-3-5.495zm-3.023 3.52c-.443 0-.802-.348-.802-.78s.359-.78.802-.78.802.348.802.78-.359.78-.802.78zm3.626 0c-.443 0-.802-.348-.802-.78s.359-.78.802-.78.802.348.802.78-.359.78-.802.78zm10.744 3.916c-3.294 0-5.965 2.213-5.965 4.94 0 1.523.826 2.894 2.116 3.838l-.534 1.93 1.782-.931c.3.08.618.128.948.128.324 0 .638-.046.94-.132.8-.822 1.29-1.927 1.29-3.14 0-2.42-1.74-4.43-4.08-4.633a5.21 5.21 0 0 1 .494-.02zM14.63 13.1c-.368 0-.668-.29-.668-.65s.3-.65.668-.65.668.29.668.65-.3.65-.668.65zm3.023 0c-.368 0-.668-.29-.668-.65s.3-.65.668-.65.668.29.668.65-.3.65-.668.65z"/>
+        </svg>
+      ), 
+      label: t('contact.wechat'), 
+      value: 'Scan QR Code', 
+      isWechat: true 
+    },
+    { icon: MapPin, label: t('contact.location'), value: 'Remote / Worldwide', href: '#' },
   ];
 
   const socialLinks = [
@@ -88,25 +99,50 @@ export function Contact() {
             >
               <div className="space-y-6">
                 {contactInfo.map((item, index) => (
-                  <motion.a
+                  <motion.div
                     key={item.label}
-                    href={item.href}
+                    onClick={() => item.isWechat ? setShowWechat(!showWechat) : item.href && window.open(item.href, '_blank')}
                     initial={{ opacity: 0, y: 20 }}
                     animate={isInView ? { opacity: 1, y: 0 } : {}}
                     transition={{ delay: 0.5 + index * 0.1 }}
                     whileHover={{ x: 5 }}
-                    className="flex items-center space-x-4 p-4 rounded-xl bg-card border border-border hover:border-primary/50 transition-colors"
+                    className="flex items-center space-x-4 p-4 rounded-xl bg-card border border-border hover:border-primary/50 transition-colors cursor-pointer"
                   >
                     <div className="p-3 rounded-lg bg-primary/10">
-                      <item.icon className="w-6 h-6 text-primary" />
+                      {index === 1 ? (
+                        <item.icon />
+                      ) : (
+                        item.icon && <item.icon className="w-6 h-6 text-primary" />
+                      )}
                     </div>
                     <div>
                       <p className="text-sm text-muted-foreground">{item.label}</p>
-                      <p className="font-medium">{item.value}</p>
+                      <p className="font-medium font-inter">{item.value}</p>
                     </div>
-                  </motion.a>
+                  </motion.div>
                 ))}
               </div>
+
+              {/* WeChat QR Hover/Popup */}
+              {showWechat && (
+                <motion.div
+                  initial={{ opacity: 0, scale: 0.9, y: 10 }}
+                  animate={{ opacity: 1, scale: 1, y: 0 }}
+                  className="p-6 bg-card border border-border rounded-2xl shadow-xl flex flex-col items-center space-y-4 max-w-[280px] mx-auto lg:mx-0"
+                >
+                  <div className="relative group">
+                    <img 
+                      src="/images/wechat-qr.png" 
+                      alt="WeChat QR Code" 
+                      className="w-48 h-48 rounded-lg shadow-inner"
+                    />
+                    <div className="absolute inset-0 bg-primary/5 rounded-lg pointer-events-none" />
+                  </div>
+                  <p className="text-sm text-muted-foreground text-center font-medium">
+                    {t('contact.scanWechat')}
+                  </p>
+                </motion.div>
+              )}
 
               <div>
                 <h3 className="text-lg font-semibold mb-4">Follow Me</h3>
