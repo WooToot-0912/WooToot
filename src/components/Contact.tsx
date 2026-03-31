@@ -30,7 +30,7 @@ export function Contact() {
           'Accept': 'application/json'
         },
         body: JSON.stringify({
-          access_key: "a1780014-8df8-4245-80ef-963f0de7ca5e", 
+          access_key: "a1780014-8df8-4245-80ef-963f0de7ca5e", //生成密钥填入这 
           name: formState.name,
           email: formState.email,
           message: formState.message,
@@ -62,21 +62,21 @@ export function Contact() {
 
   const contactInfo = [
     { icon: Mail, label: t('contact.email'), value: '1950383511@qq.com', href: 'mailto:1950383511@qq.com' },
-    { 
+    {
       icon: () => (
         <svg viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 text-primary">
-          <path d="M8.225 3.197c-3.953 0-7.158 2.656-7.158 5.928 0 1.83.992 3.473 2.54 4.606l-.64 2.316 2.138-1.118c.365.097.74.153 1.12.153.284 0 .563-.03.834-.077-.253-.55-.39-1.16-.39-1.808 0-2.457 2.05-4.453 4.544-4.505-.515-3.13-4.04-5.495-3-5.495zm-3.023 3.52c-.443 0-.802-.348-.802-.78s.359-.78.802-.78.802.348.802.78-.359.78-.802.78zm3.626 0c-.443 0-.802-.348-.802-.78s.359-.78.802-.78.802.348.802.78-.359.78-.802.78zm10.744 3.916c-3.294 0-5.965 2.213-5.965 4.94 0 1.523.826 2.894 2.116 3.838l-.534 1.93 1.782-.931c.3.08.618.128.948.128.324 0 .638-.046.94-.132.8-.822 1.29-1.927 1.29-3.14 0-2.42-1.74-4.43-4.08-4.633a5.21 5.21 0 0 1 .494-.02zM14.63 13.1c-.368 0-.668-.29-.668-.65s.3-.65.668-.65.668.29.668.65-.3.65-.668.65zm3.023 0c-.368 0-.668-.29-.668-.65s.3-.65.668-.65.668.29.668.65-.3.65-.668.65z"/>
+          <path d="M8.225 3.197c-3.953 0-7.158 2.656-7.158 5.928 0 1.83.992 3.473 2.54 4.606l-.64 2.316 2.138-1.118c.365.097.74.153 1.12.153.284 0 .563-.03.834-.077-.253-.55-.39-1.16-.39-1.808 0-2.457 2.05-4.453 4.544-4.505-.515-3.13-4.04-5.495-3-5.495zm-3.023 3.52c-.443 0-.802-.348-.802-.78s.359-.78.802-.78.802.348.802.78-.359.78-.802.78zm3.626 0c-.443 0-.802-.348-.802-.78s.359-.78.802-.78.802.348.802.78-.359.78-.802.78zm10.744 3.916c-3.294 0-5.965 2.213-5.965 4.94 0 1.523.826 2.894 2.116 3.838l-.534 1.93 1.782-.931c.3.08.618.128.948.128.324 0 .638-.046.94-.132.8-.822 1.29-1.927 1.29-3.14 0-2.42-1.74-4.43-4.08-4.633a5.21 5.21 0 0 1 .494-.02zM14.63 13.1c-.368 0-.668-.29-.668-.65s.3-.65.668-.65.668.29.668.65-.3.65-.668.65zm3.023 0c-.368 0-.668-.29-.668-.65s.3-.65.668-.65.668.29.668.65-.3.65-.668.65z" />
         </svg>
-      ), 
-      label: t('contact.wechat'), 
-      value: 'Scan QR Code', 
-      isWechat: true 
+      ),
+      label: t('contact.wechat'),
+      value: 'Scan QR Code',
+      isWechat: true
     },
     { icon: MapPin, label: t('contact.location'), value: 'Remote / Worldwide', href: '#' },
   ];
 
   const socialLinks = [
-    { icon: Github, label: 'GitHub', href: 'https://github.com' },
+    { icon: Github, label: 'GitHub', href: 'https://github.com/WooToot-0912' },
     { icon: Twitter, label: 'Twitter', href: 'https://twitter.com' },
     { icon: Linkedin, label: 'LinkedIn', href: 'https://linkedin.com' },
   ];
@@ -152,9 +152,9 @@ export function Contact() {
                   className="p-6 bg-card border border-border rounded-2xl shadow-xl flex flex-col items-center space-y-4 max-w-[280px] mx-auto lg:mx-0"
                 >
                   <div className="relative group">
-                    <img 
-                      src="/images/wechat-qr.png" 
-                      alt="WeChat QR Code" 
+                    <img
+                      src="/images/wechat-qr.png"
+                      alt="WeChat QR Code"
                       className="w-48 h-48 rounded-lg shadow-inner"
                     />
                     <div className="absolute inset-0 bg-primary/5 rounded-lg pointer-events-none" />
@@ -191,7 +191,7 @@ export function Contact() {
               <div className="p-6 rounded-xl bg-gradient-to-br from-blue-500/10 via-purple-500/10 to-pink-500/10 border border-border">
                 <h3 className="font-semibold mb-2">Open for Opportunities</h3>
                 <p className="text-sm text-muted-foreground">
-                  I'm currently available for freelance projects and full-time positions. 
+                  I'm currently available for freelance projects and full-time positions.
                   Let's build something amazing together!
                 </p>
               </div>
@@ -297,10 +297,10 @@ export function Contact() {
               </form>
 
               <p className="mt-4 text-sm text-muted-foreground text-center">
-                Form powered by Formspree. 
-                <a 
-                  href="https://formspree.io" 
-                  target="_blank" 
+                Form powered by Formspree.
+                <a
+                  href="https://formspree.io"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary hover:underline ml-1"
                 >

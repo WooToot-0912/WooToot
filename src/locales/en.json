@@ -9,8 +9,8 @@
   },
   "hero": {
     "greeting": "Hello, I'm",
-    "role": "Full Stack Developer & Creator",
-    "description": "I build accessible, pixel-perfect, and performant web experiences. Passionate about open source and modern web technologies.",
+    "role": "C++ Software Engineer & Full Stack Developer",
+    "description": "Specializing in high-performance C++ backend services and industrial-grade host computer software. Bridging the gap between embedded control and modern web experiences.",
     "ctaPrimary": "View My Work",
     "ctaSecondary": "Get In Touch"
   },

@@ -18,12 +18,12 @@ export function About() {
   }));
 
   const skillCategories = [
-    { key: 'frontend', icon: Code2, items: ['React', 'Vue', 'TypeScript', 'Tailwind CSS'] },
-    { key: 'backend', icon: Terminal, items: ['Node.js', 'Python', 'Go', 'PostgreSQL'] },
-    { key: 'database', icon: Database, items: ['PostgreSQL', 'MongoDB', 'Redis', 'Prisma'] },
-    { key: 'devops', icon: Globe, items: ['Docker', 'Kubernetes', 'CI/CD', 'AWS'] },
-    { key: 'design', icon: Palette, items: ['Figma', 'Adobe XD', 'UI/UX', 'Motion'] },
-    { key: 'tools', icon: Cpu, items: ['Git', 'VS Code', 'Vim', 'Linux'] },
+    { key: 'cpp', icon: Terminal, items: ['C++ 11/14', 'STL', 'Multi-threading', 'Linux Socket'] },
+    { key: 'industrial', icon: Cpu, items: ['OPC UA', 'C# WinForm/WPF', 'ESP32/MQTT', 'GDB/CMake'] },
+    { key: 'fullstack', icon: Globe, items: ['React/Vue', 'Spring Boot', 'Python', 'Tailwind'] },
+    { key: 'database', icon: Database, items: ['MySQL/PostgreSQL', 'Redis', 'SQL Server 分区', '分布式锁'] },
+    { key: 'ai', icon: Code2, items: ['DeepSeek-R1', 'PaddleOCR', 'OpenCV', '缺陷检测'] },
+    { key: 'tools', icon: Terminal, items: ['Git/VS Code', 'Shell 脚本', 'Wireshark', 'Vim'] },
   ];
 
   return (
