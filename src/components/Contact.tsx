@@ -20,16 +20,37 @@ export function Contact() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
+    setSubmitStatus('idle');
 
-    // Simulate form submission
-    // In production, replace this with actual form handling service like Formspree
-    await new Promise((resolve) => setTimeout(resolve, 1500));
+    try {
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify({
+          access_key: "a1780014-8df8-4245-80ef-963f0de7ca5e", 
+          name: formState.name,
+          email: formState.email,
+          message: formState.message,
+          subject: `个人网站来自 ${formState.name} 的联系请求`
+        }),
+      });
 
-    setIsSubmitting(false);
-    setSubmitStatus('success');
-    setFormState({ name: '', email: '', message: '' });
-
-    setTimeout(() => setSubmitStatus('idle'), 5000);
+      const result = await response.json();
+      if (result.success) {
+        setSubmitStatus('success');
+        setFormState({ name: '', email: '', message: '' });
+      } else {
+        setSubmitStatus('error');
+      }
+    } catch (error) {
+      setSubmitStatus('error');
+    } finally {
+      setIsSubmitting(false);
+      setTimeout(() => setSubmitStatus('idle'), 5000);
+    }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
