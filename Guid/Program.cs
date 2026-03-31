@@ -1,0 +1,7 @@
+﻿// See https://aka.ms/new-console-template for more information
+
+Console.WriteLine(Guid.NewGuid().ToString());
+Console.WriteLine(Guid.NewGuid().ToString());
+Console.WriteLine(Guid.NewGuid().ToString());
+Console.WriteLine(Guid.NewGuid().ToString());
+Console.WriteLine(Guid.NewGuid().ToString());
