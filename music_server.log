@@ -1,0 +1,2319 @@
+2025-06-07 18:29:47,327 - __main__ - INFO - 确保目录存在: C:\Users\鲁博\Desktop\weixin\download\music
+2025-06-07 18:29:47,329 - __main__ - INFO - 确保目录存在: C:\Users\鲁博\Desktop\weixin\download\cover
+2025-06-07 18:29:47,329 - __main__ - INFO - 确保目录存在: C:\Users\鲁博\Desktop\weixin\download\cache
+2025-06-07 18:29:47,374 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.10.3:5000
+2025-06-07 18:29:47,374 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-07 18:29:58,316 - __main__ - INFO - 接收到搜索请求: 晚风, 平台: local
+2025-06-07 18:29:58,319 - __main__ - WARNING - 跳过无效歌曲数据: Always Online
+2025-06-07 18:29:58,319 - __main__ - WARNING - 跳过无效歌曲数据: APT
+2025-06-07 18:29:58,319 - __main__ - WARNING - 跳过无效歌曲数据: Baby Dont Cry 人鱼的眼泪
+2025-06-07 18:29:58,319 - __main__ - WARNING - 跳过无效歌曲数据: I Love You So
+2025-06-07 18:29:58,319 - __main__ - WARNING - 跳过无效歌曲数据: Leave Me Alone寂寞作伴
+2025-06-07 18:29:58,320 - __main__ - WARNING - 跳过无效歌曲数据: Lemon
+2025-06-07 18:29:58,320 - __main__ - WARNING - 跳过无效歌曲数据: Letting Go
+2025-06-07 18:29:58,320 - __main__ - WARNING - 跳过无效歌曲数据: My love
+2025-06-07 18:29:58,320 - __main__ - WARNING - 跳过无效歌曲数据: time machine feat aren park
+2025-06-07 18:29:58,320 - __main__ - WARNING - 跳过无效歌曲数据: 一点 Live版
+2025-06-07 18:29:58,320 - __main__ - WARNING - 跳过无效歌曲数据: 一点
+2025-06-07 18:29:58,321 - __main__ - WARNING - 跳过无效歌曲数据: 一程山路
+2025-06-07 18:29:58,321 - __main__ - WARNING - 跳过无效歌曲数据: 下一个天亮
+2025-06-07 18:29:58,321 - __main__ - WARNING - 跳过无效歌曲数据: 不如回家喝自来水 Live版
+2025-06-07 18:29:58,321 - __main__ - WARNING - 跳过无效歌曲数据: 不要说话
+2025-06-07 18:29:58,321 - __main__ - WARNING - 跳过无效歌曲数据: 不说 原来是不说
+2025-06-07 18:29:58,321 - __main__ - WARNING - 跳过无效歌曲数据: 与我无关
+2025-06-07 18:29:58,321 - __main__ - WARNING - 跳过无效歌曲数据: 世界赠予我的
+2025-06-07 18:29:58,321 - __main__ - WARNING - 跳过无效歌曲数据: 两 难
+2025-06-07 18:29:58,322 - __main__ - WARNING - 跳过无效歌曲数据: 主 动
+2025-06-07 18:29:58,322 - __main__ - WARNING - 跳过无效歌曲数据: 九万字 Live版
+2025-06-07 18:29:58,322 - __main__ - WARNING - 跳过无效歌曲数据: 九万字
+2025-06-07 18:29:58,322 - __main__ - WARNING - 跳过无效歌曲数据: 予你
+2025-06-07 18:29:58,322 - __main__ - WARNING - 跳过无效歌曲数据: 于是
+2025-06-07 18:29:58,322 - __main__ - WARNING - 跳过无效歌曲数据: 亲爱的你啊
+2025-06-07 18:29:58,322 - __main__ - WARNING - 跳过无效歌曲数据: 人鱼的眼泪 Live版
+2025-06-07 18:29:58,323 - __main__ - WARNING - 跳过无效歌曲数据: 他不懂
+2025-06-07 18:29:58,323 - __main__ - WARNING - 跳过无效歌曲数据: 他只是经过
+2025-06-07 18:29:58,323 - __main__ - WARNING - 跳过无效歌曲数据: 你
+2025-06-07 18:29:58,323 - __main__ - WARNING - 跳过无效歌曲数据: 你要的全拿走
+2025-06-07 18:29:58,323 - __main__ - WARNING - 跳过无效歌曲数据: 倒数
+2025-06-07 18:29:58,323 - __main__ - WARNING - 跳过无效歌曲数据: 偏爱
+2025-06-07 18:29:58,324 - __main__ - WARNING - 跳过无效歌曲数据: 像晴天像雨天
+2025-06-07 18:29:58,324 - __main__ - WARNING - 跳过无效歌曲数据: 再次爱上你
+2025-06-07 18:29:58,324 - __main__ - WARNING - 跳过无效歌曲数据: 再等冬天Memories
+2025-06-07 18:29:58,324 - __main__ - WARNING - 跳过无效歌曲数据: 冬眠
+2025-06-07 18:29:58,324 - __main__ - WARNING - 跳过无效歌曲数据: 凄美地
+2025-06-07 18:29:58,324 - __main__ - WARNING - 跳过无效歌曲数据: 出现又离开 Live
+2025-06-07 18:29:58,324 - __main__ - WARNING - 跳过无效歌曲数据: 别让爱凋落 Live版
+2025-06-07 18:29:58,325 - __main__ - WARNING - 跳过无效歌曲数据: 千万次想象
+2025-06-07 18:29:58,325 - __main__ - WARNING - 跳过无效歌曲数据: 半句再见
+2025-06-07 18:29:58,325 - __main__ - WARNING - 跳过无效歌曲数据: 原来
+2025-06-07 18:29:58,325 - __main__ - WARNING - 跳过无效歌曲数据: 去北极忘记你
+2025-06-07 18:29:58,325 - __main__ - WARNING - 跳过无效歌曲数据: 去远方
+2025-06-07 18:29:58,325 - __main__ - WARNING - 跳过无效歌曲数据: 又是艳阳天
+2025-06-07 18:29:58,325 - __main__ - WARNING - 跳过无效歌曲数据: 句号
+2025-06-07 18:29:58,325 - __main__ - WARNING - 跳过无效歌曲数据: 只为你着迷 Live版
+2025-06-07 18:29:58,325 - __main__ - WARNING - 跳过无效歌曲数据: 只为你着迷
+2025-06-07 18:29:58,326 - __main__ - WARNING - 跳过无效歌曲数据: 可不可以
+2025-06-07 18:29:58,326 - __main__ - WARNING - 跳过无效歌曲数据: 同花顺
+2025-06-07 18:29:58,326 - __main__ - WARNING - 跳过无效歌曲数据: 向云端
+2025-06-07 18:29:58,326 - __main__ - WARNING - 跳过无效歌曲数据: 呓语
+2025-06-07 18:29:58,326 - __main__ - WARNING - 跳过无效歌曲数据: 命运
+2025-06-07 18:29:58,326 - __main__ - WARNING - 跳过无效歌曲数据: 和你
+2025-06-07 18:29:58,326 - __main__ - WARNING - 跳过无效歌曲数据: 哪里都是你
+2025-06-07 18:29:58,326 - __main__ - WARNING - 跳过无效歌曲数据: 唯一
+2025-06-07 18:29:58,327 - __main__ - WARNING - 跳过无效歌曲数据: 唯一
+2025-06-07 18:29:58,327 - __main__ - WARNING - 跳过无效歌曲数据: 嗜好
+2025-06-07 18:29:58,327 - __main__ - WARNING - 跳过无效歌曲数据: 四点的海棠花未眠
+2025-06-07 18:29:58,327 - __main__ - WARNING - 跳过无效歌曲数据: 土坡上的狗尾草 Live版
+2025-06-07 18:29:58,327 - __main__ - WARNING - 跳过无效歌曲数据: 在你的身边
+2025-06-07 18:29:58,327 - __main__ - WARNING - 跳过无效歌曲数据: 在加纳共和国离婚 你还爱我吗
+2025-06-07 18:29:58,327 - __main__ - WARNING - 跳过无效歌曲数据: 城北的花 Live版
+2025-06-07 18:29:58,327 - __main__ - WARNING - 跳过无效歌曲数据: 夏夜最后的烟火
+2025-06-07 18:29:58,327 - __main__ - WARNING - 跳过无效歌曲数据: 多远都要在一起
+2025-06-07 18:29:58,327 - __main__ - WARNING - 跳过无效歌曲数据: 大山 Live版
+2025-06-07 18:29:58,328 - __main__ - WARNING - 跳过无效歌曲数据: 天天
+2025-06-07 18:29:58,328 - __main__ - WARNING - 跳过无效歌曲数据: 天空 live
+2025-06-07 18:29:58,328 - __main__ - WARNING - 跳过无效歌曲数据: 太聪明
+2025-06-07 18:29:58,328 - __main__ - WARNING - 跳过无效歌曲数据: 如愿
+2025-06-07 18:29:58,328 - __main__ - WARNING - 跳过无效歌曲数据: 如果可以 Live版
+2025-06-07 18:29:58,328 - __main__ - WARNING - 跳过无效歌曲数据: 如果可以
+2025-06-07 18:29:58,328 - __main__ - WARNING - 跳过无效歌曲数据: 如果呢
+2025-06-07 18:29:58,328 - __main__ - WARNING - 跳过无效歌曲数据: 如果爱忘了 live
+2025-06-07 18:29:58,328 - __main__ - WARNING - 跳过无效歌曲数据: 孤独患者
+2025-06-07 18:29:58,329 - __main__ - WARNING - 跳过无效歌曲数据: 富士山下
+2025-06-07 18:29:58,329 - __main__ - WARNING - 跳过无效歌曲数据: 将故事写成我们
+2025-06-07 18:29:58,329 - __main__ - WARNING - 跳过无效歌曲数据: 小孩
+2025-06-07 18:29:58,329 - __main__ - WARNING - 跳过无效歌曲数据: 小美满
+2025-06-07 18:29:58,329 - __main__ - WARNING - 跳过无效歌曲数据: 小胡同
+2025-06-07 18:29:58,329 - __main__ - WARNING - 跳过无效歌曲数据: 少一点天分
+2025-06-07 18:29:58,329 - __main__ - WARNING - 跳过无效歌曲数据: 岁月神偷
+2025-06-07 18:29:58,329 - __main__ - WARNING - 跳过无效歌曲数据: 带我去找夜生活
+2025-06-07 18:29:58,329 - __main__ - WARNING - 跳过无效歌曲数据: 座位 Live版
+2025-06-07 18:29:58,330 - __main__ - WARNING - 跳过无效歌曲数据: 座位
+2025-06-07 18:29:58,330 - __main__ - WARNING - 跳过无效歌曲数据: 开始懂了
+2025-06-07 18:29:58,330 - __main__ - WARNING - 跳过无效歌曲数据: 形容
+2025-06-07 18:29:58,330 - __main__ - WARNING - 跳过无效歌曲数据: 心跳
+2025-06-07 18:29:58,330 - __main__ - WARNING - 跳过无效歌曲数据: 忘不掉的你
+2025-06-07 18:29:58,330 - __main__ - WARNING - 跳过无效歌曲数据: 思念回响
+2025-06-07 18:29:58,330 - __main__ - WARNING - 跳过无效歌曲数据: 总有一天你会出现在我身边
+2025-06-07 18:29:58,330 - __main__ - WARNING - 跳过无效歌曲数据: 恶作剧
+2025-06-07 18:29:58,330 - __main__ - WARNING - 跳过无效歌曲数据: 悬溺
+2025-06-07 18:29:58,331 - __main__ - WARNING - 跳过无效歌曲数据: 想你时风起
+2025-06-07 18:29:58,331 - __main__ - WARNING - 跳过无效歌曲数据: 愿与愁
+2025-06-07 18:29:58,331 - __main__ - WARNING - 跳过无效歌曲数据: 我们的歌
+2025-06-07 18:29:58,331 - __main__ - WARNING - 跳过无效歌曲数据: 我只能离开
+2025-06-07 18:29:58,331 - __main__ - WARNING - 跳过无效歌曲数据: 我怀念的
+2025-06-07 18:29:58,331 - __main__ - WARNING - 跳过无效歌曲数据: 我想念
+2025-06-07 18:29:58,331 - __main__ - WARNING - 跳过无效歌曲数据: 我愿
+2025-06-07 18:29:58,331 - __main__ - WARNING - 跳过无效歌曲数据: 我爱你但是我要回家
+2025-06-07 18:29:58,332 - __main__ - WARNING - 跳过无效歌曲数据: 我知道
+2025-06-07 18:29:58,332 - __main__ - WARNING - 跳过无效歌曲数据: 我记得
+2025-06-07 18:29:58,332 - __main__ - WARNING - 跳过无效歌曲数据: 我还想她
+2025-06-07 18:29:58,332 - __main__ - WARNING - 跳过无效歌曲数据: 才二十三
+2025-06-07 18:29:58,332 - __main__ - WARNING - 跳过无效歌曲数据: 把回忆拼好给你
+2025-06-07 18:29:58,332 - __main__ - WARNING - 跳过无效歌曲数据: 指纹
+2025-06-07 18:29:58,332 - __main__ - WARNING - 跳过无效歌曲数据: 推开世界的门
+2025-06-07 18:29:58,332 - __main__ - WARNING - 跳过无效歌曲数据: 摘朵马兰你就走吧
+2025-06-07 18:29:58,332 - __main__ - WARNING - 跳过无效歌曲数据: 无名的人
+2025-06-07 18:29:58,332 - __main__ - WARNING - 跳过无效歌曲数据: 春雪
+2025-06-07 18:29:58,333 - __main__ - WARNING - 跳过无效歌曲数据: 晚安
+2025-06-07 18:29:58,333 - __main__ - WARNING - 跳过无效歌曲数据: 晚风
+2025-06-07 18:29:58,333 - __main__ - WARNING - 跳过无效歌曲数据: 普通女孩
+2025-06-07 18:29:58,333 - __main__ - WARNING - 跳过无效歌曲数据: 普通朋友
+2025-06-07 18:29:58,333 - __main__ - WARNING - 跳过无效歌曲数据: 暖一杯茶
+2025-06-07 18:29:58,333 - __main__ - WARNING - 跳过无效歌曲数据: 曾经是情侣 Live
+2025-06-07 18:29:58,333 - __main__ - WARNING - 跳过无效歌曲数据: 最佳损友
+2025-06-07 18:29:58,333 - __main__ - WARNING - 跳过无效歌曲数据: 最后一页
+2025-06-07 18:29:58,333 - __main__ - WARNING - 跳过无效歌曲数据: 有些
+2025-06-07 18:29:58,333 - __main__ - WARNING - 跳过无效歌曲数据: 有我呢
+2025-06-07 18:29:58,334 - __main__ - WARNING - 跳过无效歌曲数据: 此生不换
+2025-06-07 18:29:58,334 - __main__ - WARNING - 跳过无效歌曲数据: 死疙瘩
+2025-06-07 18:29:58,334 - __main__ - WARNING - 跳过无效歌曲数据: 水星记
+2025-06-07 18:29:58,334 - __main__ - WARNING - 跳过无效歌曲数据: 江南
+2025-06-07 18:29:58,334 - __main__ - WARNING - 跳过无效歌曲数据: 沉沦与遐想
+2025-06-07 18:29:58,334 - __main__ - WARNING - 跳过无效歌曲数据: 沉溺 你让我的心不再结冰
+2025-06-07 18:29:58,334 - __main__ - WARNING - 跳过无效歌曲数据: 没关系
+2025-06-07 18:29:58,334 - __main__ - WARNING - 跳过无效歌曲数据: 沦陷
+2025-06-07 18:29:58,334 - __main__ - WARNING - 跳过无效歌曲数据: 浆果
+2025-06-07 18:29:58,335 - __main__ - WARNING - 跳过无效歌曲数据: 淘汰
+2025-06-07 18:29:58,335 - __main__ - WARNING - 跳过无效歌曲数据: 烟火里的尘埃
+2025-06-07 18:29:58,335 - __main__ - WARNING - 跳过无效歌曲数据: 爱人错过
+2025-06-07 18:29:58,335 - __main__ - WARNING - 跳过无效歌曲数据: 爱情讯息
+2025-06-07 18:29:58,335 - __main__ - WARNING - 跳过无效歌曲数据: 爱我还是他
+2025-06-07 18:29:58,335 - __main__ - WARNING - 跳过无效歌曲数据: 爱错
+2025-06-07 18:29:58,336 - __main__ - WARNING - 跳过无效歌曲数据: 牵丝戏
+2025-06-07 18:29:58,336 - __main__ - WARNING - 跳过无效歌曲数据: 特别的人
+2025-06-07 18:29:58,336 - __main__ - WARNING - 跳过无效歌曲数据: 珠玉
+2025-06-07 18:29:58,336 - __main__ - WARNING - 跳过无效歌曲数据: 知我
+2025-06-07 18:29:58,336 - __main__ - WARNING - 跳过无效歌曲数据: 祝你爱我到天荒地老
+2025-06-07 18:29:58,337 - __main__ - WARNING - 跳过无效歌曲数据: 离别开出花
+2025-06-07 18:29:58,337 - __main__ - WARNING - 跳过无效歌曲数据: 秋风
+2025-06-07 18:29:58,337 - __main__ - WARNING - 跳过无效歌曲数据: 程艾影
+2025-06-07 18:29:58,337 - __main__ - WARNING - 跳过无效歌曲数据: 稳稳的幸福
+2025-06-07 18:29:58,337 - __main__ - WARNING - 跳过无效歌曲数据: 第57次取消发送 Live版
+2025-06-07 18:29:58,337 - __main__ - WARNING - 跳过无效歌曲数据: 算了吧
+2025-06-07 18:29:58,337 - __main__ - WARNING - 跳过无效歌曲数据: 精卫
+2025-06-07 18:29:58,337 - __main__ - WARNING - 跳过无效歌曲数据: 素颜
+2025-06-07 18:29:58,337 - __main__ - WARNING - 跳过无效歌曲数据: 紫荆花盛开
+2025-06-07 18:29:58,337 - __main__ - WARNING - 跳过无效歌曲数据: 红
+2025-06-07 18:29:58,338 - __main__ - WARNING - 跳过无效歌曲数据: 红色高跟鞋
+2025-06-07 18:29:58,338 - __main__ - WARNING - 跳过无效歌曲数据: 给你呀又名for ya
+2025-06-07 18:29:58,338 - __main__ - WARNING - 跳过无效歌曲数据: 绽放
+2025-06-07 18:29:58,338 - __main__ - WARNING - 跳过无效歌曲数据: 罗生门Follow
+2025-06-07 18:29:58,338 - __main__ - WARNING - 跳过无效歌曲数据: 美人鱼
+2025-06-07 18:29:58,338 - __main__ - WARNING - 跳过无效歌曲数据: 肩上蝶
+2025-06-07 18:29:58,338 - __main__ - WARNING - 跳过无效歌曲数据: 舍得
+2025-06-07 18:29:58,338 - __main__ - WARNING - 跳过无效歌曲数据: 若月亮没来 Live版
+2025-06-07 18:29:58,338 - __main__ - WARNING - 跳过无效歌曲数据: 若月亮没来 若是月亮还没来
+2025-06-07 18:29:58,339 - __main__ - WARNING - 跳过无效歌曲数据: 苦茶子
+2025-06-07 18:29:58,339 - __main__ - WARNING - 跳过无效歌曲数据: 茫
+2025-06-07 18:29:58,339 - __main__ - WARNING - 跳过无效歌曲数据: 茶花开了
+2025-06-07 18:29:58,339 - __main__ - WARNING - 跳过无效歌曲数据: 落空
+2025-06-07 18:29:58,339 - __main__ - WARNING - 跳过无效歌曲数据: 虚拟
+2025-06-07 18:29:58,339 - __main__ - WARNING - 跳过无效歌曲数据: 触碰不到的你
+2025-06-07 18:29:58,339 - __main__ - WARNING - 跳过无效歌曲数据: 诀别书
+2025-06-07 18:29:58,340 - __main__ - WARNING - 跳过无效歌曲数据: 起风了
+2025-06-07 18:29:58,340 - __main__ - WARNING - 跳过无效歌曲数据: 越来越不懂
+2025-06-07 18:29:58,340 - __main__ - WARNING - 跳过无效歌曲数据: 跳楼机
+2025-06-07 18:29:58,340 - __main__ - WARNING - 跳过无效歌曲数据: 转身即心痛 Live版
+2025-06-07 18:29:58,340 - __main__ - WARNING - 跳过无效歌曲数据: 还是会想你
+2025-06-07 18:29:58,340 - __main__ - WARNING - 跳过无效歌曲数据: 还是分开
+2025-06-07 18:29:58,340 - __main__ - WARNING - 跳过无效歌曲数据: 这世界那么多人
+2025-06-07 18:29:58,340 - __main__ - WARNING - 跳过无效歌曲数据: 遇上你之前的我
+2025-06-07 18:29:58,340 - __main__ - WARNING - 跳过无效歌曲数据: 遇见
+2025-06-07 18:29:58,340 - __main__ - WARNING - 跳过无效歌曲数据: 遐想
+2025-06-07 18:29:58,341 - __main__ - WARNING - 跳过无效歌曲数据: 雨爱
+2025-06-07 18:29:58,341 - __main__ - WARNING - 跳过无效歌曲数据: 零距离的思念
+2025-06-07 18:29:58,341 - __main__ - WARNING - 跳过无效歌曲数据: 青花
+2025-06-07 18:29:58,341 - __main__ - WARNING - 跳过无效歌曲数据: 风铃
+2025-06-07 18:29:58,341 - __main__ - WARNING - 跳过无效歌曲数据: 麦恩莉
+2025-06-07 18:29:58,349 - __main__ - INFO - 加载音乐索引成功，共 349 首有效歌曲
+2025-06-07 18:29:58,349 - __main__ - INFO - 本地搜索关键词 '晚风' 找到 1 首歌曲
+2025-06-07 18:29:58,349 - __main__ - INFO - 搜索结果数量: 1
+2025-06-07 18:29:58,350 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:29:58] "GET /api/search?keyword=晚风&platform=local HTTP/1.1" 200 -
+2025-06-07 18:29:59,878 - __main__ - INFO - 接收到播放请求，歌曲ID: 7cd003f1c5a0813fe966e275c5c0a516
+2025-06-07 18:29:59,879 - __main__ - INFO - 索引中的歌曲ID数量: 349
+2025-06-07 18:29:59,879 - __main__ - INFO - 找到匹配歌曲: 7opy - 晚风
+2025-06-07 18:29:59,879 - __main__ - INFO - 歌曲文件存在: C:\Users\鲁博\Desktop\weixin\download\music\7opy_晚风.mp3
+2025-06-07 18:29:59,879 - __main__ - INFO - 歌曲文件大小: 3243875 字节
+2025-06-07 18:29:59,879 - __main__ - WARNING - 文件大小 3243875 字节超过2MB限制，进行转码
+2025-06-07 18:29:59,880 - __main__ - INFO - 使用缓存的转码文件: C:\Users\鲁博\Desktop\weixin\download\cache\7c8170608d9d2ac24a1f9b017bc6ef7e_small.mp3, 大小: 2097152 字节
+2025-06-07 18:29:59,880 - __main__ - INFO - 转码成功，使用转码后的文件: C:\Users\鲁博\Desktop\weixin\download\cache\7c8170608d9d2ac24a1f9b017bc6ef7e_small.mp3
+2025-06-07 18:29:59,881 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:29:59] "[35m[1mGET /api/play/7cd003f1c5a0813fe966e275c5c0a516 HTTP/1.1[0m" 206 -
+2025-06-07 18:30:00,019 - __main__ - INFO - 接收到播放请求，歌曲ID: 7cd003f1c5a0813fe966e275c5c0a516
+2025-06-07 18:30:00,019 - __main__ - INFO - 索引中的歌曲ID数量: 349
+2025-06-07 18:30:00,020 - __main__ - INFO - 找到匹配歌曲: 7opy - 晚风
+2025-06-07 18:30:00,020 - __main__ - INFO - 歌曲文件存在: C:\Users\鲁博\Desktop\weixin\download\music\7opy_晚风.mp3
+2025-06-07 18:30:00,020 - __main__ - INFO - 歌曲文件大小: 3243875 字节
+2025-06-07 18:30:00,020 - __main__ - WARNING - 文件大小 3243875 字节超过2MB限制，进行转码
+2025-06-07 18:30:00,020 - __main__ - INFO - 使用缓存的转码文件: C:\Users\鲁博\Desktop\weixin\download\cache\7c8170608d9d2ac24a1f9b017bc6ef7e_small.mp3, 大小: 2097152 字节
+2025-06-07 18:30:00,020 - __main__ - INFO - 转码成功，使用转码后的文件: C:\Users\鲁博\Desktop\weixin\download\cache\7c8170608d9d2ac24a1f9b017bc6ef7e_small.mp3
+2025-06-07 18:30:00,021 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:30:00] "[35m[1mGET /api/play/7cd003f1c5a0813fe966e275c5c0a516 HTTP/1.1[0m" 206 -
+2025-06-07 18:30:00,022 - __main__ - INFO - 接收到播放请求，歌曲ID: 7cd003f1c5a0813fe966e275c5c0a516
+2025-06-07 18:30:00,022 - __main__ - INFO - 索引中的歌曲ID数量: 349
+2025-06-07 18:30:00,022 - __main__ - INFO - 找到匹配歌曲: 7opy - 晚风
+2025-06-07 18:30:00,023 - __main__ - INFO - 歌曲文件存在: C:\Users\鲁博\Desktop\weixin\download\music\7opy_晚风.mp3
+2025-06-07 18:30:00,023 - __main__ - INFO - 歌曲文件大小: 3243875 字节
+2025-06-07 18:30:00,023 - __main__ - WARNING - 文件大小 3243875 字节超过2MB限制，进行转码
+2025-06-07 18:30:00,023 - __main__ - INFO - 使用缓存的转码文件: C:\Users\鲁博\Desktop\weixin\download\cache\7c8170608d9d2ac24a1f9b017bc6ef7e_small.mp3, 大小: 2097152 字节
+2025-06-07 18:30:00,023 - __main__ - INFO - 转码成功，使用转码后的文件: C:\Users\鲁博\Desktop\weixin\download\cache\7c8170608d9d2ac24a1f9b017bc6ef7e_small.mp3
+2025-06-07 18:30:00,024 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:30:00] "[35m[1mGET /api/play/7cd003f1c5a0813fe966e275c5c0a516 HTTP/1.1[0m" 206 -
+2025-06-07 18:30:11,836 - __main__ - INFO - 接收到搜索请求: 一点, 平台: local
+2025-06-07 18:30:11,837 - __main__ - INFO - 本地搜索关键词 '一点' 找到 4 首歌曲
+2025-06-07 18:30:11,837 - __main__ - INFO - 搜索结果数量: 4
+2025-06-07 18:30:11,837 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:30:11] "GET /api/search?keyword=一点&platform=local HTTP/1.1" 200 -
+2025-06-07 18:30:16,120 - __main__ - INFO - 接收到播放请求，歌曲ID: 617ec5cd921aea1bc16b27d66475ca7f
+2025-06-07 18:30:16,121 - __main__ - INFO - 索引中的歌曲ID数量: 349
+2025-06-07 18:30:16,121 - __main__ - INFO - 找到匹配歌曲: 黄子弘凡 - 一点 Live版
+2025-06-07 18:30:16,121 - __main__ - INFO - 歌曲文件存在: C:\Users\鲁博\Desktop\weixin\download\music\黄子弘凡_一点 Live版.mp3
+2025-06-07 18:30:16,121 - __main__ - INFO - 歌曲文件大小: 3510573 字节
+2025-06-07 18:30:16,121 - __main__ - WARNING - 文件大小 3510573 字节超过2MB限制，进行转码
+2025-06-07 18:30:16,121 - __main__ - INFO - 执行转码命令: ffmpeg -y -i C:\Users\鲁博\Desktop\weixin\download\music\黄子弘凡_一点 Live版.mp3 -ss 0 -t 30 -b:a 64k -ar 22050 -ac 1 C:\Users\鲁博\Desktop\weixin\download\cache\61ed6fc8a5a1ab19eaabc69770d1a7ca_small.mp3
+2025-06-07 18:30:16,126 - __main__ - ERROR - 执行ffmpeg转码时出错: [WinError 2] 系统找不到指定的文件。
+2025-06-07 18:30:16,126 - __main__ - INFO - 尝试使用简单方法：截取文件前2MB
+2025-06-07 18:30:16,128 - __main__ - INFO - 转码成功，使用转码后的文件: C:\Users\鲁博\Desktop\weixin\download\cache\61ed6fc8a5a1ab19eaabc69770d1a7ca_small.mp3
+2025-06-07 18:30:16,140 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:30:16] "[35m[1mGET /api/play/617ec5cd921aea1bc16b27d66475ca7f HTTP/1.1[0m" 206 -
+2025-06-07 18:30:16,176 - __main__ - INFO - 接收到播放请求，歌曲ID: 617ec5cd921aea1bc16b27d66475ca7f
+2025-06-07 18:30:16,176 - __main__ - INFO - 索引中的歌曲ID数量: 349
+2025-06-07 18:30:16,176 - __main__ - INFO - 找到匹配歌曲: 黄子弘凡 - 一点 Live版
+2025-06-07 18:30:16,177 - __main__ - INFO - 歌曲文件存在: C:\Users\鲁博\Desktop\weixin\download\music\黄子弘凡_一点 Live版.mp3
+2025-06-07 18:30:16,177 - __main__ - INFO - 歌曲文件大小: 3510573 字节
+2025-06-07 18:30:16,177 - __main__ - WARNING - 文件大小 3510573 字节超过2MB限制，进行转码
+2025-06-07 18:30:16,177 - __main__ - INFO - 使用缓存的转码文件: C:\Users\鲁博\Desktop\weixin\download\cache\61ed6fc8a5a1ab19eaabc69770d1a7ca_small.mp3, 大小: 2097152 字节
+2025-06-07 18:30:16,177 - __main__ - INFO - 转码成功，使用转码后的文件: C:\Users\鲁博\Desktop\weixin\download\cache\61ed6fc8a5a1ab19eaabc69770d1a7ca_small.mp3
+2025-06-07 18:30:16,178 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:30:16] "[35m[1mGET /api/play/617ec5cd921aea1bc16b27d66475ca7f HTTP/1.1[0m" 206 -
+2025-06-07 18:30:16,179 - __main__ - INFO - 接收到播放请求，歌曲ID: 617ec5cd921aea1bc16b27d66475ca7f
+2025-06-07 18:30:16,179 - __main__ - INFO - 索引中的歌曲ID数量: 349
+2025-06-07 18:30:16,179 - __main__ - INFO - 找到匹配歌曲: 黄子弘凡 - 一点 Live版
+2025-06-07 18:30:16,179 - __main__ - INFO - 歌曲文件存在: C:\Users\鲁博\Desktop\weixin\download\music\黄子弘凡_一点 Live版.mp3
+2025-06-07 18:30:16,179 - __main__ - INFO - 歌曲文件大小: 3510573 字节
+2025-06-07 18:30:16,179 - __main__ - WARNING - 文件大小 3510573 字节超过2MB限制，进行转码
+2025-06-07 18:30:16,179 - __main__ - INFO - 使用缓存的转码文件: C:\Users\鲁博\Desktop\weixin\download\cache\61ed6fc8a5a1ab19eaabc69770d1a7ca_small.mp3, 大小: 2097152 字节
+2025-06-07 18:30:16,179 - __main__ - INFO - 转码成功，使用转码后的文件: C:\Users\鲁博\Desktop\weixin\download\cache\61ed6fc8a5a1ab19eaabc69770d1a7ca_small.mp3
+2025-06-07 18:30:16,180 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:30:16] "[35m[1mGET /api/play/617ec5cd921aea1bc16b27d66475ca7f HTTP/1.1[0m" 206 -
+2025-06-07 18:30:17,524 - simple_local_music - ERROR - Exception on /api/status [GET]
+Traceback (most recent call last):
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\鲁博\Desktop\weixin\simple_local_music.py", line 319, in api_status
+    return jsonify({
+        'code': 200,
+    ...<16 lines>...
+        }
+    })
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\json\__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)  # type: ignore[return-value]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\json\provider.py", line 214, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+       ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\json\provider.py", line 179, in dumps
+    return json.dumps(obj, **kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\json\provider.py", line 121, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type WindowsPath is not JSON serializable
+2025-06-07 18:30:17,645 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:30:17] "[35m[1mGET /api/status HTTP/1.1[0m" 500 -
+2025-06-07 18:30:19,254 - __main__ - INFO - 接收到搜索请求: 一点, 平台: local
+2025-06-07 18:30:19,254 - __main__ - INFO - 本地搜索关键词 '一点' 找到 4 首歌曲
+2025-06-07 18:30:19,254 - __main__ - INFO - 搜索结果数量: 4
+2025-06-07 18:30:19,255 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 18:30:19] "GET /api/search?keyword=一点&platform=local HTTP/1.1" 200 -
+2025-06-09 23:25:39,028 - __main__ - INFO - 确保目录存在: C:\Users\鲁博\Desktop\weixin\download\music
+2025-06-09 23:25:39,029 - __main__ - INFO - 确保目录存在: C:\Users\鲁博\Desktop\weixin\download\cover
+2025-06-09 23:25:39,029 - __main__ - INFO - 确保目录存在: C:\Users\鲁博\Desktop\weixin\download\cache
+2025-06-09 23:25:39,066 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.10.3:5000
+2025-06-09 23:25:39,067 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-09 23:25:50,809 - simple_local_music - ERROR - Exception on /api/status [GET]
+Traceback (most recent call last):
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\鲁博\Desktop\weixin\simple_local_music.py", line 319, in api_status
+    return jsonify({
+        'code': 200,
+    ...<16 lines>...
+        }
+    })
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\json\__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)  # type: ignore[return-value]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\json\provider.py", line 214, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+       ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\json\provider.py", line 179, in dumps
+    return json.dumps(obj, **kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\json\provider.py", line 121, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type WindowsPath is not JSON serializable
+2025-06-09 23:25:50,950 - werkzeug - INFO - 127.0.0.1 - - [09/Jun/2025 23:25:50] "[35m[1mGET /api/status HTTP/1.1[0m" 500 -
+2025-06-09 23:25:53,691 - __main__ - INFO - 接收到搜索请求: 一点, 平台: local
+2025-06-09 23:25:53,694 - __main__ - WARNING - 跳过无效歌曲数据: Always Online
+2025-06-09 23:25:53,694 - __main__ - WARNING - 跳过无效歌曲数据: APT
+2025-06-09 23:25:53,694 - __main__ - WARNING - 跳过无效歌曲数据: Baby Dont Cry 人鱼的眼泪
+2025-06-09 23:25:53,694 - __main__ - WARNING - 跳过无效歌曲数据: I Love You So
+2025-06-09 23:25:53,694 - __main__ - WARNING - 跳过无效歌曲数据: Leave Me Alone寂寞作伴
+2025-06-09 23:25:53,695 - __main__ - WARNING - 跳过无效歌曲数据: Lemon
+2025-06-09 23:25:53,695 - __main__ - WARNING - 跳过无效歌曲数据: Letting Go
+2025-06-09 23:25:53,695 - __main__ - WARNING - 跳过无效歌曲数据: My love
+2025-06-09 23:25:53,695 - __main__ - WARNING - 跳过无效歌曲数据: time machine feat aren park
+2025-06-09 23:25:53,695 - __main__ - WARNING - 跳过无效歌曲数据: 一点 Live版
+2025-06-09 23:25:53,695 - __main__ - WARNING - 跳过无效歌曲数据: 一点
+2025-06-09 23:25:53,695 - __main__ - WARNING - 跳过无效歌曲数据: 一程山路
+2025-06-09 23:25:53,695 - __main__ - WARNING - 跳过无效歌曲数据: 下一个天亮
+2025-06-09 23:25:53,695 - __main__ - WARNING - 跳过无效歌曲数据: 不如回家喝自来水 Live版
+2025-06-09 23:25:53,696 - __main__ - WARNING - 跳过无效歌曲数据: 不要说话
+2025-06-09 23:25:53,696 - __main__ - WARNING - 跳过无效歌曲数据: 不说 原来是不说
+2025-06-09 23:25:53,696 - __main__ - WARNING - 跳过无效歌曲数据: 与我无关
+2025-06-09 23:25:53,696 - __main__ - WARNING - 跳过无效歌曲数据: 世界赠予我的
+2025-06-09 23:25:53,696 - __main__ - WARNING - 跳过无效歌曲数据: 两 难
+2025-06-09 23:25:53,696 - __main__ - WARNING - 跳过无效歌曲数据: 主 动
+2025-06-09 23:25:53,696 - __main__ - WARNING - 跳过无效歌曲数据: 九万字 Live版
+2025-06-09 23:25:53,696 - __main__ - WARNING - 跳过无效歌曲数据: 九万字
+2025-06-09 23:25:53,696 - __main__ - WARNING - 跳过无效歌曲数据: 予你
+2025-06-09 23:25:53,697 - __main__ - WARNING - 跳过无效歌曲数据: 于是
+2025-06-09 23:25:53,697 - __main__ - WARNING - 跳过无效歌曲数据: 亲爱的你啊
+2025-06-09 23:25:53,697 - __main__ - WARNING - 跳过无效歌曲数据: 人鱼的眼泪 Live版
+2025-06-09 23:25:53,697 - __main__ - WARNING - 跳过无效歌曲数据: 他不懂
+2025-06-09 23:25:53,697 - __main__ - WARNING - 跳过无效歌曲数据: 他只是经过
+2025-06-09 23:25:53,697 - __main__ - WARNING - 跳过无效歌曲数据: 你
+2025-06-09 23:25:53,698 - __main__ - WARNING - 跳过无效歌曲数据: 你要的全拿走
+2025-06-09 23:25:53,698 - __main__ - WARNING - 跳过无效歌曲数据: 倒数
+2025-06-09 23:25:53,698 - __main__ - WARNING - 跳过无效歌曲数据: 偏爱
+2025-06-09 23:25:53,698 - __main__ - WARNING - 跳过无效歌曲数据: 像晴天像雨天
+2025-06-09 23:25:53,698 - __main__ - WARNING - 跳过无效歌曲数据: 再次爱上你
+2025-06-09 23:25:53,698 - __main__ - WARNING - 跳过无效歌曲数据: 再等冬天Memories
+2025-06-09 23:25:53,698 - __main__ - WARNING - 跳过无效歌曲数据: 冬眠
+2025-06-09 23:25:53,698 - __main__ - WARNING - 跳过无效歌曲数据: 凄美地
+2025-06-09 23:25:53,699 - __main__ - WARNING - 跳过无效歌曲数据: 出现又离开 Live
+2025-06-09 23:25:53,699 - __main__ - WARNING - 跳过无效歌曲数据: 别让爱凋落 Live版
+2025-06-09 23:25:53,699 - __main__ - WARNING - 跳过无效歌曲数据: 千万次想象
+2025-06-09 23:25:53,699 - __main__ - WARNING - 跳过无效歌曲数据: 半句再见
+2025-06-09 23:25:53,699 - __main__ - WARNING - 跳过无效歌曲数据: 原来
+2025-06-09 23:25:53,699 - __main__ - WARNING - 跳过无效歌曲数据: 去北极忘记你
+2025-06-09 23:25:53,699 - __main__ - WARNING - 跳过无效歌曲数据: 去远方
+2025-06-09 23:25:53,699 - __main__ - WARNING - 跳过无效歌曲数据: 又是艳阳天
+2025-06-09 23:25:53,699 - __main__ - WARNING - 跳过无效歌曲数据: 句号
+2025-06-09 23:25:53,699 - __main__ - WARNING - 跳过无效歌曲数据: 只为你着迷 Live版
+2025-06-09 23:25:53,700 - __main__ - WARNING - 跳过无效歌曲数据: 只为你着迷
+2025-06-09 23:25:53,700 - __main__ - WARNING - 跳过无效歌曲数据: 可不可以
+2025-06-09 23:25:53,700 - __main__ - WARNING - 跳过无效歌曲数据: 同花顺
+2025-06-09 23:25:53,700 - __main__ - WARNING - 跳过无效歌曲数据: 向云端
+2025-06-09 23:25:53,700 - __main__ - WARNING - 跳过无效歌曲数据: 呓语
+2025-06-09 23:25:53,700 - __main__ - WARNING - 跳过无效歌曲数据: 命运
+2025-06-09 23:25:53,700 - __main__ - WARNING - 跳过无效歌曲数据: 和你
+2025-06-09 23:25:53,700 - __main__ - WARNING - 跳过无效歌曲数据: 哪里都是你
+2025-06-09 23:25:53,700 - __main__ - WARNING - 跳过无效歌曲数据: 唯一
+2025-06-09 23:25:53,701 - __main__ - WARNING - 跳过无效歌曲数据: 唯一
+2025-06-09 23:25:53,701 - __main__ - WARNING - 跳过无效歌曲数据: 嗜好
+2025-06-09 23:25:53,701 - __main__ - WARNING - 跳过无效歌曲数据: 四点的海棠花未眠
+2025-06-09 23:25:53,701 - __main__ - WARNING - 跳过无效歌曲数据: 土坡上的狗尾草 Live版
+2025-06-09 23:25:53,701 - __main__ - WARNING - 跳过无效歌曲数据: 在你的身边
+2025-06-09 23:25:53,701 - __main__ - WARNING - 跳过无效歌曲数据: 在加纳共和国离婚 你还爱我吗
+2025-06-09 23:25:53,701 - __main__ - WARNING - 跳过无效歌曲数据: 城北的花 Live版
+2025-06-09 23:25:53,701 - __main__ - WARNING - 跳过无效歌曲数据: 夏夜最后的烟火
+2025-06-09 23:25:53,702 - __main__ - WARNING - 跳过无效歌曲数据: 多远都要在一起
+2025-06-09 23:25:53,702 - __main__ - WARNING - 跳过无效歌曲数据: 大山 Live版
+2025-06-09 23:25:53,702 - __main__ - WARNING - 跳过无效歌曲数据: 天天
+2025-06-09 23:25:53,702 - __main__ - WARNING - 跳过无效歌曲数据: 天空 live
+2025-06-09 23:25:53,702 - __main__ - WARNING - 跳过无效歌曲数据: 太聪明
+2025-06-09 23:25:53,703 - __main__ - WARNING - 跳过无效歌曲数据: 如愿
+2025-06-09 23:25:53,703 - __main__ - WARNING - 跳过无效歌曲数据: 如果可以 Live版
+2025-06-09 23:25:53,703 - __main__ - WARNING - 跳过无效歌曲数据: 如果可以
+2025-06-09 23:25:53,703 - __main__ - WARNING - 跳过无效歌曲数据: 如果呢
+2025-06-09 23:25:53,703 - __main__ - WARNING - 跳过无效歌曲数据: 如果爱忘了 live
+2025-06-09 23:25:53,703 - __main__ - WARNING - 跳过无效歌曲数据: 孤独患者
+2025-06-09 23:25:53,703 - __main__ - WARNING - 跳过无效歌曲数据: 富士山下
+2025-06-09 23:25:53,703 - __main__ - WARNING - 跳过无效歌曲数据: 将故事写成我们
+2025-06-09 23:25:53,703 - __main__ - WARNING - 跳过无效歌曲数据: 小孩
+2025-06-09 23:25:53,703 - __main__ - WARNING - 跳过无效歌曲数据: 小美满
+2025-06-09 23:25:53,703 - __main__ - WARNING - 跳过无效歌曲数据: 小胡同
+2025-06-09 23:25:53,703 - __main__ - WARNING - 跳过无效歌曲数据: 少一点天分
+2025-06-09 23:25:53,704 - __main__ - WARNING - 跳过无效歌曲数据: 岁月神偷
+2025-06-09 23:25:53,704 - __main__ - WARNING - 跳过无效歌曲数据: 带我去找夜生活
+2025-06-09 23:25:53,704 - __main__ - WARNING - 跳过无效歌曲数据: 座位 Live版
+2025-06-09 23:25:53,704 - __main__ - WARNING - 跳过无效歌曲数据: 座位
+2025-06-09 23:25:53,704 - __main__ - WARNING - 跳过无效歌曲数据: 开始懂了
+2025-06-09 23:25:53,704 - __main__ - WARNING - 跳过无效歌曲数据: 形容
+2025-06-09 23:25:53,704 - __main__ - WARNING - 跳过无效歌曲数据: 心跳
+2025-06-09 23:25:53,704 - __main__ - WARNING - 跳过无效歌曲数据: 忘不掉的你
+2025-06-09 23:25:53,704 - __main__ - WARNING - 跳过无效歌曲数据: 思念回响
+2025-06-09 23:25:53,704 - __main__ - WARNING - 跳过无效歌曲数据: 总有一天你会出现在我身边
+2025-06-09 23:25:53,704 - __main__ - WARNING - 跳过无效歌曲数据: 恶作剧
+2025-06-09 23:25:53,704 - __main__ - WARNING - 跳过无效歌曲数据: 悬溺
+2025-06-09 23:25:53,704 - __main__ - WARNING - 跳过无效歌曲数据: 想你时风起
+2025-06-09 23:25:53,705 - __main__ - WARNING - 跳过无效歌曲数据: 愿与愁
+2025-06-09 23:25:53,705 - __main__ - WARNING - 跳过无效歌曲数据: 我们的歌
+2025-06-09 23:25:53,705 - __main__ - WARNING - 跳过无效歌曲数据: 我只能离开
+2025-06-09 23:25:53,705 - __main__ - WARNING - 跳过无效歌曲数据: 我怀念的
+2025-06-09 23:25:53,705 - __main__ - WARNING - 跳过无效歌曲数据: 我想念
+2025-06-09 23:25:53,705 - __main__ - WARNING - 跳过无效歌曲数据: 我愿
+2025-06-09 23:25:53,705 - __main__ - WARNING - 跳过无效歌曲数据: 我爱你但是我要回家
+2025-06-09 23:25:53,705 - __main__ - WARNING - 跳过无效歌曲数据: 我知道
+2025-06-09 23:25:53,705 - __main__ - WARNING - 跳过无效歌曲数据: 我记得
+2025-06-09 23:25:53,706 - __main__ - WARNING - 跳过无效歌曲数据: 我还想她
+2025-06-09 23:25:53,706 - __main__ - WARNING - 跳过无效歌曲数据: 才二十三
+2025-06-09 23:25:53,706 - __main__ - WARNING - 跳过无效歌曲数据: 把回忆拼好给你
+2025-06-09 23:25:53,706 - __main__ - WARNING - 跳过无效歌曲数据: 指纹
+2025-06-09 23:25:53,706 - __main__ - WARNING - 跳过无效歌曲数据: 推开世界的门
+2025-06-09 23:25:53,706 - __main__ - WARNING - 跳过无效歌曲数据: 摘朵马兰你就走吧
+2025-06-09 23:25:53,707 - __main__ - WARNING - 跳过无效歌曲数据: 无名的人
+2025-06-09 23:25:53,707 - __main__ - WARNING - 跳过无效歌曲数据: 春雪
+2025-06-09 23:25:53,707 - __main__ - WARNING - 跳过无效歌曲数据: 晚安
+2025-06-09 23:25:53,707 - __main__ - WARNING - 跳过无效歌曲数据: 晚风
+2025-06-09 23:25:53,707 - __main__ - WARNING - 跳过无效歌曲数据: 普通女孩
+2025-06-09 23:25:53,707 - __main__ - WARNING - 跳过无效歌曲数据: 普通朋友
+2025-06-09 23:25:53,707 - __main__ - WARNING - 跳过无效歌曲数据: 暖一杯茶
+2025-06-09 23:25:53,707 - __main__ - WARNING - 跳过无效歌曲数据: 曾经是情侣 Live
+2025-06-09 23:25:53,707 - __main__ - WARNING - 跳过无效歌曲数据: 最佳损友
+2025-06-09 23:25:53,708 - __main__ - WARNING - 跳过无效歌曲数据: 最后一页
+2025-06-09 23:25:53,708 - __main__ - WARNING - 跳过无效歌曲数据: 有些
+2025-06-09 23:25:53,708 - __main__ - WARNING - 跳过无效歌曲数据: 有我呢
+2025-06-09 23:25:53,708 - __main__ - WARNING - 跳过无效歌曲数据: 此生不换
+2025-06-09 23:25:53,708 - __main__ - WARNING - 跳过无效歌曲数据: 死疙瘩
+2025-06-09 23:25:53,708 - __main__ - WARNING - 跳过无效歌曲数据: 水星记
+2025-06-09 23:25:53,708 - __main__ - WARNING - 跳过无效歌曲数据: 江南
+2025-06-09 23:25:53,708 - __main__ - WARNING - 跳过无效歌曲数据: 沉沦与遐想
+2025-06-09 23:25:53,708 - __main__ - WARNING - 跳过无效歌曲数据: 沉溺 你让我的心不再结冰
+2025-06-09 23:25:53,708 - __main__ - WARNING - 跳过无效歌曲数据: 没关系
+2025-06-09 23:25:53,709 - __main__ - WARNING - 跳过无效歌曲数据: 沦陷
+2025-06-09 23:25:53,709 - __main__ - WARNING - 跳过无效歌曲数据: 浆果
+2025-06-09 23:25:53,709 - __main__ - WARNING - 跳过无效歌曲数据: 淘汰
+2025-06-09 23:25:53,709 - __main__ - WARNING - 跳过无效歌曲数据: 烟火里的尘埃
+2025-06-09 23:25:53,709 - __main__ - WARNING - 跳过无效歌曲数据: 爱人错过
+2025-06-09 23:25:53,709 - __main__ - WARNING - 跳过无效歌曲数据: 爱情讯息
+2025-06-09 23:25:53,709 - __main__ - WARNING - 跳过无效歌曲数据: 爱我还是他
+2025-06-09 23:25:53,709 - __main__ - WARNING - 跳过无效歌曲数据: 爱错
+2025-06-09 23:25:53,709 - __main__ - WARNING - 跳过无效歌曲数据: 牵丝戏
+2025-06-09 23:25:53,709 - __main__ - WARNING - 跳过无效歌曲数据: 特别的人
+2025-06-09 23:25:53,710 - __main__ - WARNING - 跳过无效歌曲数据: 珠玉
+2025-06-09 23:25:53,710 - __main__ - WARNING - 跳过无效歌曲数据: 知我
+2025-06-09 23:25:53,710 - __main__ - WARNING - 跳过无效歌曲数据: 祝你爱我到天荒地老
+2025-06-09 23:25:53,710 - __main__ - WARNING - 跳过无效歌曲数据: 离别开出花
+2025-06-09 23:25:53,710 - __main__ - WARNING - 跳过无效歌曲数据: 秋风
+2025-06-09 23:25:53,710 - __main__ - WARNING - 跳过无效歌曲数据: 程艾影
+2025-06-09 23:25:53,710 - __main__ - WARNING - 跳过无效歌曲数据: 稳稳的幸福
+2025-06-09 23:25:53,710 - __main__ - WARNING - 跳过无效歌曲数据: 第57次取消发送 Live版
+2025-06-09 23:25:53,710 - __main__ - WARNING - 跳过无效歌曲数据: 算了吧
+2025-06-09 23:25:53,710 - __main__ - WARNING - 跳过无效歌曲数据: 精卫
+2025-06-09 23:25:53,710 - __main__ - WARNING - 跳过无效歌曲数据: 素颜
+2025-06-09 23:25:53,711 - __main__ - WARNING - 跳过无效歌曲数据: 紫荆花盛开
+2025-06-09 23:25:53,711 - __main__ - WARNING - 跳过无效歌曲数据: 红
+2025-06-09 23:25:53,711 - __main__ - WARNING - 跳过无效歌曲数据: 红色高跟鞋
+2025-06-09 23:25:53,711 - __main__ - WARNING - 跳过无效歌曲数据: 给你呀又名for ya
+2025-06-09 23:25:53,711 - __main__ - WARNING - 跳过无效歌曲数据: 绽放
+2025-06-09 23:25:53,711 - __main__ - WARNING - 跳过无效歌曲数据: 罗生门Follow
+2025-06-09 23:25:53,711 - __main__ - WARNING - 跳过无效歌曲数据: 美人鱼
+2025-06-09 23:25:53,711 - __main__ - WARNING - 跳过无效歌曲数据: 肩上蝶
+2025-06-09 23:25:53,711 - __main__ - WARNING - 跳过无效歌曲数据: 舍得
+2025-06-09 23:25:53,711 - __main__ - WARNING - 跳过无效歌曲数据: 若月亮没来 Live版
+2025-06-09 23:25:53,711 - __main__ - WARNING - 跳过无效歌曲数据: 若月亮没来 若是月亮还没来
+2025-06-09 23:25:53,711 - __main__ - WARNING - 跳过无效歌曲数据: 苦茶子
+2025-06-09 23:25:53,712 - __main__ - WARNING - 跳过无效歌曲数据: 茫
+2025-06-09 23:25:53,712 - __main__ - WARNING - 跳过无效歌曲数据: 茶花开了
+2025-06-09 23:25:53,712 - __main__ - WARNING - 跳过无效歌曲数据: 落空
+2025-06-09 23:25:53,712 - __main__ - WARNING - 跳过无效歌曲数据: 虚拟
+2025-06-09 23:25:53,712 - __main__ - WARNING - 跳过无效歌曲数据: 触碰不到的你
+2025-06-09 23:25:53,712 - __main__ - WARNING - 跳过无效歌曲数据: 诀别书
+2025-06-09 23:25:53,712 - __main__ - WARNING - 跳过无效歌曲数据: 起风了
+2025-06-09 23:25:53,712 - __main__ - WARNING - 跳过无效歌曲数据: 越来越不懂
+2025-06-09 23:25:53,712 - __main__ - WARNING - 跳过无效歌曲数据: 跳楼机
+2025-06-09 23:25:53,712 - __main__ - WARNING - 跳过无效歌曲数据: 转身即心痛 Live版
+2025-06-09 23:25:53,713 - __main__ - WARNING - 跳过无效歌曲数据: 还是会想你
+2025-06-09 23:25:53,713 - __main__ - WARNING - 跳过无效歌曲数据: 还是分开
+2025-06-09 23:25:53,713 - __main__ - WARNING - 跳过无效歌曲数据: 这世界那么多人
+2025-06-09 23:25:53,713 - __main__ - WARNING - 跳过无效歌曲数据: 遇上你之前的我
+2025-06-09 23:25:53,713 - __main__ - WARNING - 跳过无效歌曲数据: 遇见
+2025-06-09 23:25:53,713 - __main__ - WARNING - 跳过无效歌曲数据: 遐想
+2025-06-09 23:25:53,713 - __main__ - WARNING - 跳过无效歌曲数据: 雨爱
+2025-06-09 23:25:53,713 - __main__ - WARNING - 跳过无效歌曲数据: 零距离的思念
+2025-06-09 23:25:53,713 - __main__ - WARNING - 跳过无效歌曲数据: 青花
+2025-06-09 23:25:53,713 - __main__ - WARNING - 跳过无效歌曲数据: 风铃
+2025-06-09 23:25:53,713 - __main__ - WARNING - 跳过无效歌曲数据: 麦恩莉
+2025-06-09 23:25:53,721 - __main__ - INFO - 加载音乐索引成功，共 349 首有效歌曲
+2025-06-09 23:25:53,721 - __main__ - INFO - 本地搜索关键词 '一点' 找到 4 首歌曲
+2025-06-09 23:25:53,721 - __main__ - INFO - 搜索结果数量: 4
+2025-06-09 23:25:53,722 - werkzeug - INFO - 127.0.0.1 - - [09/Jun/2025 23:25:53] "GET /api/search?keyword=一点&platform=local HTTP/1.1" 200 -
+2025-06-09 23:25:56,988 - __main__ - INFO - 接收到播放请求，歌曲ID: a71962311c9973885e48649188203f3b
+2025-06-09 23:25:56,988 - __main__ - INFO - 索引中的歌曲ID数量: 349
+2025-06-09 23:25:56,988 - __main__ - INFO - 找到匹配歌曲: Lil Ghost小鬼 - 一点 Live
+2025-06-09 23:25:56,988 - __main__ - INFO - 歌曲文件存在: C:\Users\鲁博\Desktop\weixin\download\music\Lil Ghost小鬼_一点 Live.mp3
+2025-06-09 23:25:56,988 - __main__ - INFO - 歌曲文件大小: 3445293 字节
+2025-06-09 23:25:56,988 - __main__ - WARNING - 文件大小 3445293 字节超过2MB限制，进行转码
+2025-06-09 23:25:56,989 - __main__ - INFO - 执行转码命令: ffmpeg -y -i C:\Users\鲁博\Desktop\weixin\download\music\Lil Ghost小鬼_一点 Live.mp3 -ss 0 -t 30 -b:a 64k -ar 22050 -ac 1 C:\Users\鲁博\Desktop\weixin\download\cache\24e72b5b8b19f5e7952cbbd63f46688a_small.mp3
+2025-06-09 23:25:56,993 - __main__ - ERROR - 执行ffmpeg转码时出错: [WinError 2] 系统找不到指定的文件。
+2025-06-09 23:25:56,993 - __main__ - INFO - 尝试使用简单方法：截取文件前2MB
+2025-06-09 23:25:56,997 - __main__ - INFO - 转码成功，使用转码后的文件: C:\Users\鲁博\Desktop\weixin\download\cache\24e72b5b8b19f5e7952cbbd63f46688a_small.mp3
+2025-06-09 23:25:57,010 - werkzeug - INFO - 127.0.0.1 - - [09/Jun/2025 23:25:57] "[35m[1mGET /api/play/a71962311c9973885e48649188203f3b HTTP/1.1[0m" 206 -
+2025-06-09 23:25:57,048 - __main__ - INFO - 接收到播放请求，歌曲ID: a71962311c9973885e48649188203f3b
+2025-06-09 23:25:57,049 - __main__ - INFO - 索引中的歌曲ID数量: 349
+2025-06-09 23:25:57,049 - __main__ - INFO - 找到匹配歌曲: Lil Ghost小鬼 - 一点 Live
+2025-06-09 23:25:57,049 - __main__ - INFO - 歌曲文件存在: C:\Users\鲁博\Desktop\weixin\download\music\Lil Ghost小鬼_一点 Live.mp3
+2025-06-09 23:25:57,049 - __main__ - INFO - 歌曲文件大小: 3445293 字节
+2025-06-09 23:25:57,049 - __main__ - WARNING - 文件大小 3445293 字节超过2MB限制，进行转码
+2025-06-09 23:25:57,049 - __main__ - INFO - 使用缓存的转码文件: C:\Users\鲁博\Desktop\weixin\download\cache\24e72b5b8b19f5e7952cbbd63f46688a_small.mp3, 大小: 2097152 字节
+2025-06-09 23:25:57,049 - __main__ - INFO - 转码成功，使用转码后的文件: C:\Users\鲁博\Desktop\weixin\download\cache\24e72b5b8b19f5e7952cbbd63f46688a_small.mp3
+2025-06-09 23:25:57,050 - werkzeug - INFO - 127.0.0.1 - - [09/Jun/2025 23:25:57] "[35m[1mGET /api/play/a71962311c9973885e48649188203f3b HTTP/1.1[0m" 206 -
+2025-06-09 23:25:57,051 - __main__ - INFO - 接收到播放请求，歌曲ID: a71962311c9973885e48649188203f3b
+2025-06-09 23:25:57,051 - __main__ - INFO - 索引中的歌曲ID数量: 349
+2025-06-09 23:25:57,051 - __main__ - INFO - 找到匹配歌曲: Lil Ghost小鬼 - 一点 Live
+2025-06-09 23:25:57,051 - __main__ - INFO - 歌曲文件存在: C:\Users\鲁博\Desktop\weixin\download\music\Lil Ghost小鬼_一点 Live.mp3
+2025-06-09 23:25:57,052 - __main__ - INFO - 歌曲文件大小: 3445293 字节
+2025-06-09 23:25:57,052 - __main__ - WARNING - 文件大小 3445293 字节超过2MB限制，进行转码
+2025-06-09 23:25:57,052 - __main__ - INFO - 使用缓存的转码文件: C:\Users\鲁博\Desktop\weixin\download\cache\24e72b5b8b19f5e7952cbbd63f46688a_small.mp3, 大小: 2097152 字节
+2025-06-09 23:25:57,052 - __main__ - INFO - 转码成功，使用转码后的文件: C:\Users\鲁博\Desktop\weixin\download\cache\24e72b5b8b19f5e7952cbbd63f46688a_small.mp3
+2025-06-09 23:25:57,052 - werkzeug - INFO - 127.0.0.1 - - [09/Jun/2025 23:25:57] "[35m[1mGET /api/play/a71962311c9973885e48649188203f3b HTTP/1.1[0m" 206 -
+2025-06-09 23:25:58,433 - simple_local_music - ERROR - Exception on /api/status [GET]
+Traceback (most recent call last):
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\鲁博\Desktop\weixin\simple_local_music.py", line 319, in api_status
+    return jsonify({
+        'code': 200,
+    ...<16 lines>...
+        }
+    })
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\json\__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)  # type: ignore[return-value]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\json\provider.py", line 214, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+       ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\json\provider.py", line 179, in dumps
+    return json.dumps(obj, **kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\json\provider.py", line 121, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type WindowsPath is not JSON serializable
+2025-06-09 23:25:58,435 - werkzeug - INFO - 127.0.0.1 - - [09/Jun/2025 23:25:58] "[35m[1mGET /api/status HTTP/1.1[0m" 500 -
+2025-06-09 23:26:00,733 - __main__ - INFO - 接收到搜索请求: 一点, 平台: local
+2025-06-09 23:26:00,733 - __main__ - INFO - 本地搜索关键词 '一点' 找到 4 首歌曲
+2025-06-09 23:26:00,734 - __main__ - INFO - 搜索结果数量: 4
+2025-06-09 23:26:00,734 - werkzeug - INFO - 127.0.0.1 - - [09/Jun/2025 23:26:00] "GET /api/search?keyword=一点&platform=local HTTP/1.1" 200 -
+2025-06-09 23:31:31,206 - simple_local_music - ERROR - Exception on /api/status [GET]
+Traceback (most recent call last):
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\鲁博\Desktop\weixin\simple_local_music.py", line 319, in api_status
+    return jsonify({
+        'code': 200,
+    ...<16 lines>...
+        }
+    })
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\json\__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)  # type: ignore[return-value]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\json\provider.py", line 214, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+       ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\json\provider.py", line 179, in dumps
+    return json.dumps(obj, **kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\json\provider.py", line 121, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type WindowsPath is not JSON serializable
+2025-06-09 23:31:31,208 - werkzeug - INFO - 127.0.0.1 - - [09/Jun/2025 23:31:31] "[35m[1mGET /api/status HTTP/1.1[0m" 500 -
+2025-06-09 23:31:35,638 - __main__ - INFO - 接收到搜索请求: 一点, 平台: local
+2025-06-09 23:31:35,641 - __main__ - WARNING - 跳过无效歌曲数据: Always Online
+2025-06-09 23:31:35,641 - __main__ - WARNING - 跳过无效歌曲数据: APT
+2025-06-09 23:31:35,641 - __main__ - WARNING - 跳过无效歌曲数据: Baby Dont Cry 人鱼的眼泪
+2025-06-09 23:31:35,642 - __main__ - WARNING - 跳过无效歌曲数据: I Love You So
+2025-06-09 23:31:35,642 - __main__ - WARNING - 跳过无效歌曲数据: Leave Me Alone寂寞作伴
+2025-06-09 23:31:35,642 - __main__ - WARNING - 跳过无效歌曲数据: Lemon
+2025-06-09 23:31:35,642 - __main__ - WARNING - 跳过无效歌曲数据: Letting Go
+2025-06-09 23:31:35,642 - __main__ - WARNING - 跳过无效歌曲数据: My love
+2025-06-09 23:31:35,642 - __main__ - WARNING - 跳过无效歌曲数据: time machine feat aren park
+2025-06-09 23:31:35,643 - __main__ - WARNING - 跳过无效歌曲数据: 一点 Live版
+2025-06-09 23:31:35,643 - __main__ - WARNING - 跳过无效歌曲数据: 一点
+2025-06-09 23:31:35,643 - __main__ - WARNING - 跳过无效歌曲数据: 一程山路
+2025-06-09 23:31:35,643 - __main__ - WARNING - 跳过无效歌曲数据: 下一个天亮
+2025-06-09 23:31:35,644 - __main__ - WARNING - 跳过无效歌曲数据: 不如回家喝自来水 Live版
+2025-06-09 23:31:35,644 - __main__ - WARNING - 跳过无效歌曲数据: 不要说话
+2025-06-09 23:31:35,644 - __main__ - WARNING - 跳过无效歌曲数据: 不说 原来是不说
+2025-06-09 23:31:35,644 - __main__ - WARNING - 跳过无效歌曲数据: 与我无关
+2025-06-09 23:31:35,644 - __main__ - WARNING - 跳过无效歌曲数据: 世界赠予我的
+2025-06-09 23:31:35,645 - __main__ - WARNING - 跳过无效歌曲数据: 两 难
+2025-06-09 23:31:35,645 - __main__ - WARNING - 跳过无效歌曲数据: 主 动
+2025-06-09 23:31:35,645 - __main__ - WARNING - 跳过无效歌曲数据: 九万字 Live版
+2025-06-09 23:31:35,645 - __main__ - WARNING - 跳过无效歌曲数据: 九万字
+2025-06-09 23:31:35,645 - __main__ - WARNING - 跳过无效歌曲数据: 予你
+2025-06-09 23:31:35,646 - __main__ - WARNING - 跳过无效歌曲数据: 于是
+2025-06-09 23:31:35,646 - __main__ - WARNING - 跳过无效歌曲数据: 亲爱的你啊
+2025-06-09 23:31:35,646 - __main__ - WARNING - 跳过无效歌曲数据: 人鱼的眼泪 Live版
+2025-06-09 23:31:35,646 - __main__ - WARNING - 跳过无效歌曲数据: 他不懂
+2025-06-09 23:31:35,646 - __main__ - WARNING - 跳过无效歌曲数据: 他只是经过
+2025-06-09 23:31:35,646 - __main__ - WARNING - 跳过无效歌曲数据: 你
+2025-06-09 23:31:35,646 - __main__ - WARNING - 跳过无效歌曲数据: 你要的全拿走
+2025-06-09 23:31:35,646 - __main__ - WARNING - 跳过无效歌曲数据: 倒数
+2025-06-09 23:31:35,646 - __main__ - WARNING - 跳过无效歌曲数据: 偏爱
+2025-06-09 23:31:35,647 - __main__ - WARNING - 跳过无效歌曲数据: 像晴天像雨天
+2025-06-09 23:31:35,647 - __main__ - WARNING - 跳过无效歌曲数据: 再次爱上你
+2025-06-09 23:31:35,647 - __main__ - WARNING - 跳过无效歌曲数据: 再等冬天Memories
+2025-06-09 23:31:35,647 - __main__ - WARNING - 跳过无效歌曲数据: 冬眠
+2025-06-09 23:31:35,647 - __main__ - WARNING - 跳过无效歌曲数据: 凄美地
+2025-06-09 23:31:35,647 - __main__ - WARNING - 跳过无效歌曲数据: 出现又离开 Live
+2025-06-09 23:31:35,647 - __main__ - WARNING - 跳过无效歌曲数据: 别让爱凋落 Live版
+2025-06-09 23:31:35,647 - __main__ - WARNING - 跳过无效歌曲数据: 千万次想象
+2025-06-09 23:31:35,648 - __main__ - WARNING - 跳过无效歌曲数据: 半句再见
+2025-06-09 23:31:35,648 - __main__ - WARNING - 跳过无效歌曲数据: 原来
+2025-06-09 23:31:35,648 - __main__ - WARNING - 跳过无效歌曲数据: 去北极忘记你
+2025-06-09 23:31:35,648 - __main__ - WARNING - 跳过无效歌曲数据: 去远方
+2025-06-09 23:31:35,648 - __main__ - WARNING - 跳过无效歌曲数据: 又是艳阳天
+2025-06-09 23:31:35,648 - __main__ - WARNING - 跳过无效歌曲数据: 句号
+2025-06-09 23:31:35,649 - __main__ - WARNING - 跳过无效歌曲数据: 只为你着迷 Live版
+2025-06-09 23:31:35,649 - __main__ - WARNING - 跳过无效歌曲数据: 只为你着迷
+2025-06-09 23:31:35,649 - __main__ - WARNING - 跳过无效歌曲数据: 可不可以
+2025-06-09 23:31:35,649 - __main__ - WARNING - 跳过无效歌曲数据: 同花顺
+2025-06-09 23:31:35,649 - __main__ - WARNING - 跳过无效歌曲数据: 向云端
+2025-06-09 23:31:35,649 - __main__ - WARNING - 跳过无效歌曲数据: 呓语
+2025-06-09 23:31:35,649 - __main__ - WARNING - 跳过无效歌曲数据: 命运
+2025-06-09 23:31:35,649 - __main__ - WARNING - 跳过无效歌曲数据: 和你
+2025-06-09 23:31:35,649 - __main__ - WARNING - 跳过无效歌曲数据: 哪里都是你
+2025-06-09 23:31:35,649 - __main__ - WARNING - 跳过无效歌曲数据: 唯一
+2025-06-09 23:31:35,649 - __main__ - WARNING - 跳过无效歌曲数据: 唯一
+2025-06-09 23:31:35,649 - __main__ - WARNING - 跳过无效歌曲数据: 嗜好
+2025-06-09 23:31:35,650 - __main__ - WARNING - 跳过无效歌曲数据: 四点的海棠花未眠
+2025-06-09 23:31:35,650 - __main__ - WARNING - 跳过无效歌曲数据: 土坡上的狗尾草 Live版
+2025-06-09 23:31:35,650 - __main__ - WARNING - 跳过无效歌曲数据: 在你的身边
+2025-06-09 23:31:35,650 - __main__ - WARNING - 跳过无效歌曲数据: 在加纳共和国离婚 你还爱我吗
+2025-06-09 23:31:35,650 - __main__ - WARNING - 跳过无效歌曲数据: 城北的花 Live版
+2025-06-09 23:31:35,650 - __main__ - WARNING - 跳过无效歌曲数据: 夏夜最后的烟火
+2025-06-09 23:31:35,650 - __main__ - WARNING - 跳过无效歌曲数据: 多远都要在一起
+2025-06-09 23:31:35,650 - __main__ - WARNING - 跳过无效歌曲数据: 大山 Live版
+2025-06-09 23:31:35,651 - __main__ - WARNING - 跳过无效歌曲数据: 天天
+2025-06-09 23:31:35,651 - __main__ - WARNING - 跳过无效歌曲数据: 天空 live
+2025-06-09 23:31:35,651 - __main__ - WARNING - 跳过无效歌曲数据: 太聪明
+2025-06-09 23:31:35,651 - __main__ - WARNING - 跳过无效歌曲数据: 如愿
+2025-06-09 23:31:35,651 - __main__ - WARNING - 跳过无效歌曲数据: 如果可以 Live版
+2025-06-09 23:31:35,651 - __main__ - WARNING - 跳过无效歌曲数据: 如果可以
+2025-06-09 23:31:35,651 - __main__ - WARNING - 跳过无效歌曲数据: 如果呢
+2025-06-09 23:31:35,651 - __main__ - WARNING - 跳过无效歌曲数据: 如果爱忘了 live
+2025-06-09 23:31:35,651 - __main__ - WARNING - 跳过无效歌曲数据: 孤独患者
+2025-06-09 23:31:35,652 - __main__ - WARNING - 跳过无效歌曲数据: 富士山下
+2025-06-09 23:31:35,652 - __main__ - WARNING - 跳过无效歌曲数据: 将故事写成我们
+2025-06-09 23:31:35,652 - __main__ - WARNING - 跳过无效歌曲数据: 小孩
+2025-06-09 23:31:35,652 - __main__ - WARNING - 跳过无效歌曲数据: 小美满
+2025-06-09 23:31:35,652 - __main__ - WARNING - 跳过无效歌曲数据: 小胡同
+2025-06-09 23:31:35,652 - __main__ - WARNING - 跳过无效歌曲数据: 少一点天分
+2025-06-09 23:31:35,652 - __main__ - WARNING - 跳过无效歌曲数据: 岁月神偷
+2025-06-09 23:31:35,652 - __main__ - WARNING - 跳过无效歌曲数据: 带我去找夜生活
+2025-06-09 23:31:35,652 - __main__ - WARNING - 跳过无效歌曲数据: 座位 Live版
+2025-06-09 23:31:35,653 - __main__ - WARNING - 跳过无效歌曲数据: 座位
+2025-06-09 23:31:35,653 - __main__ - WARNING - 跳过无效歌曲数据: 开始懂了
+2025-06-09 23:31:35,653 - __main__ - WARNING - 跳过无效歌曲数据: 形容
+2025-06-09 23:31:35,653 - __main__ - WARNING - 跳过无效歌曲数据: 心跳
+2025-06-09 23:31:35,653 - __main__ - WARNING - 跳过无效歌曲数据: 忘不掉的你
+2025-06-09 23:31:35,653 - __main__ - WARNING - 跳过无效歌曲数据: 思念回响
+2025-06-09 23:31:35,653 - __main__ - WARNING - 跳过无效歌曲数据: 总有一天你会出现在我身边
+2025-06-09 23:31:35,653 - __main__ - WARNING - 跳过无效歌曲数据: 恶作剧
+2025-06-09 23:31:35,653 - __main__ - WARNING - 跳过无效歌曲数据: 悬溺
+2025-06-09 23:31:35,653 - __main__ - WARNING - 跳过无效歌曲数据: 想你时风起
+2025-06-09 23:31:35,653 - __main__ - WARNING - 跳过无效歌曲数据: 愿与愁
+2025-06-09 23:31:35,653 - __main__ - WARNING - 跳过无效歌曲数据: 我们的歌
+2025-06-09 23:31:35,654 - __main__ - WARNING - 跳过无效歌曲数据: 我只能离开
+2025-06-09 23:31:35,654 - __main__ - WARNING - 跳过无效歌曲数据: 我怀念的
+2025-06-09 23:31:35,654 - __main__ - WARNING - 跳过无效歌曲数据: 我想念
+2025-06-09 23:31:35,654 - __main__ - WARNING - 跳过无效歌曲数据: 我愿
+2025-06-09 23:31:35,654 - __main__ - WARNING - 跳过无效歌曲数据: 我爱你但是我要回家
+2025-06-09 23:31:35,654 - __main__ - WARNING - 跳过无效歌曲数据: 我知道
+2025-06-09 23:31:35,654 - __main__ - WARNING - 跳过无效歌曲数据: 我记得
+2025-06-09 23:31:35,654 - __main__ - WARNING - 跳过无效歌曲数据: 我还想她
+2025-06-09 23:31:35,654 - __main__ - WARNING - 跳过无效歌曲数据: 才二十三
+2025-06-09 23:31:35,655 - __main__ - WARNING - 跳过无效歌曲数据: 把回忆拼好给你
+2025-06-09 23:31:35,655 - __main__ - WARNING - 跳过无效歌曲数据: 指纹
+2025-06-09 23:31:35,655 - __main__ - WARNING - 跳过无效歌曲数据: 推开世界的门
+2025-06-09 23:31:35,655 - __main__ - WARNING - 跳过无效歌曲数据: 摘朵马兰你就走吧
+2025-06-09 23:31:35,655 - __main__ - WARNING - 跳过无效歌曲数据: 无名的人
+2025-06-09 23:31:35,655 - __main__ - WARNING - 跳过无效歌曲数据: 春雪
+2025-06-09 23:31:35,655 - __main__ - WARNING - 跳过无效歌曲数据: 晚安
+2025-06-09 23:31:35,655 - __main__ - WARNING - 跳过无效歌曲数据: 晚风
+2025-06-09 23:31:35,655 - __main__ - WARNING - 跳过无效歌曲数据: 普通女孩
+2025-06-09 23:31:35,655 - __main__ - WARNING - 跳过无效歌曲数据: 普通朋友
+2025-06-09 23:31:35,656 - __main__ - WARNING - 跳过无效歌曲数据: 暖一杯茶
+2025-06-09 23:31:35,656 - __main__ - WARNING - 跳过无效歌曲数据: 曾经是情侣 Live
+2025-06-09 23:31:35,656 - __main__ - WARNING - 跳过无效歌曲数据: 最佳损友
+2025-06-09 23:31:35,656 - __main__ - WARNING - 跳过无效歌曲数据: 最后一页
+2025-06-09 23:31:35,656 - __main__ - WARNING - 跳过无效歌曲数据: 有些
+2025-06-09 23:31:35,656 - __main__ - WARNING - 跳过无效歌曲数据: 有我呢
+2025-06-09 23:31:35,656 - __main__ - WARNING - 跳过无效歌曲数据: 此生不换
+2025-06-09 23:31:35,656 - __main__ - WARNING - 跳过无效歌曲数据: 死疙瘩
+2025-06-09 23:31:35,656 - __main__ - WARNING - 跳过无效歌曲数据: 水星记
+2025-06-09 23:31:35,656 - __main__ - WARNING - 跳过无效歌曲数据: 江南
+2025-06-09 23:31:35,656 - __main__ - WARNING - 跳过无效歌曲数据: 沉沦与遐想
+2025-06-09 23:31:35,656 - __main__ - WARNING - 跳过无效歌曲数据: 沉溺 你让我的心不再结冰
+2025-06-09 23:31:35,657 - __main__ - WARNING - 跳过无效歌曲数据: 没关系
+2025-06-09 23:31:35,657 - __main__ - WARNING - 跳过无效歌曲数据: 沦陷
+2025-06-09 23:31:35,657 - __main__ - WARNING - 跳过无效歌曲数据: 浆果
+2025-06-09 23:31:35,657 - __main__ - WARNING - 跳过无效歌曲数据: 淘汰
+2025-06-09 23:31:35,657 - __main__ - WARNING - 跳过无效歌曲数据: 烟火里的尘埃
+2025-06-09 23:31:35,657 - __main__ - WARNING - 跳过无效歌曲数据: 爱人错过
+2025-06-09 23:31:35,657 - __main__ - WARNING - 跳过无效歌曲数据: 爱情讯息
+2025-06-09 23:31:35,657 - __main__ - WARNING - 跳过无效歌曲数据: 爱我还是他
+2025-06-09 23:31:35,657 - __main__ - WARNING - 跳过无效歌曲数据: 爱错
+2025-06-09 23:31:35,657 - __main__ - WARNING - 跳过无效歌曲数据: 牵丝戏
+2025-06-09 23:31:35,657 - __main__ - WARNING - 跳过无效歌曲数据: 特别的人
+2025-06-09 23:31:35,657 - __main__ - WARNING - 跳过无效歌曲数据: 珠玉
+2025-06-09 23:31:35,658 - __main__ - WARNING - 跳过无效歌曲数据: 知我
+2025-06-09 23:31:35,658 - __main__ - WARNING - 跳过无效歌曲数据: 祝你爱我到天荒地老
+2025-06-09 23:31:35,658 - __main__ - WARNING - 跳过无效歌曲数据: 离别开出花
+2025-06-09 23:31:35,658 - __main__ - WARNING - 跳过无效歌曲数据: 秋风
+2025-06-09 23:31:35,658 - __main__ - WARNING - 跳过无效歌曲数据: 程艾影
+2025-06-09 23:31:35,658 - __main__ - WARNING - 跳过无效歌曲数据: 稳稳的幸福
+2025-06-09 23:31:35,658 - __main__ - WARNING - 跳过无效歌曲数据: 第57次取消发送 Live版
+2025-06-09 23:31:35,658 - __main__ - WARNING - 跳过无效歌曲数据: 算了吧
+2025-06-09 23:31:35,658 - __main__ - WARNING - 跳过无效歌曲数据: 精卫
+2025-06-09 23:31:35,659 - __main__ - WARNING - 跳过无效歌曲数据: 素颜
+2025-06-09 23:31:35,659 - __main__ - WARNING - 跳过无效歌曲数据: 紫荆花盛开
+2025-06-09 23:31:35,659 - __main__ - WARNING - 跳过无效歌曲数据: 红
+2025-06-09 23:31:35,659 - __main__ - WARNING - 跳过无效歌曲数据: 红色高跟鞋
+2025-06-09 23:31:35,659 - __main__ - WARNING - 跳过无效歌曲数据: 给你呀又名for ya
+2025-06-09 23:31:35,659 - __main__ - WARNING - 跳过无效歌曲数据: 绽放
+2025-06-09 23:31:35,659 - __main__ - WARNING - 跳过无效歌曲数据: 罗生门Follow
+2025-06-09 23:31:35,659 - __main__ - WARNING - 跳过无效歌曲数据: 美人鱼
+2025-06-09 23:31:35,660 - __main__ - WARNING - 跳过无效歌曲数据: 肩上蝶
+2025-06-09 23:31:35,660 - __main__ - WARNING - 跳过无效歌曲数据: 舍得
+2025-06-09 23:31:35,660 - __main__ - WARNING - 跳过无效歌曲数据: 若月亮没来 Live版
+2025-06-09 23:31:35,660 - __main__ - WARNING - 跳过无效歌曲数据: 若月亮没来 若是月亮还没来
+2025-06-09 23:31:35,660 - __main__ - WARNING - 跳过无效歌曲数据: 苦茶子
+2025-06-09 23:31:35,660 - __main__ - WARNING - 跳过无效歌曲数据: 茫
+2025-06-09 23:31:35,660 - __main__ - WARNING - 跳过无效歌曲数据: 茶花开了
+2025-06-09 23:31:35,660 - __main__ - WARNING - 跳过无效歌曲数据: 落空
+2025-06-09 23:31:35,660 - __main__ - WARNING - 跳过无效歌曲数据: 虚拟
+2025-06-09 23:31:35,660 - __main__ - WARNING - 跳过无效歌曲数据: 触碰不到的你
+2025-06-09 23:31:35,661 - __main__ - WARNING - 跳过无效歌曲数据: 诀别书
+2025-06-09 23:31:35,661 - __main__ - WARNING - 跳过无效歌曲数据: 起风了
+2025-06-09 23:31:35,661 - __main__ - WARNING - 跳过无效歌曲数据: 越来越不懂
+2025-06-09 23:31:35,661 - __main__ - WARNING - 跳过无效歌曲数据: 跳楼机
+2025-06-09 23:31:35,661 - __main__ - WARNING - 跳过无效歌曲数据: 转身即心痛 Live版
+2025-06-09 23:31:35,661 - __main__ - WARNING - 跳过无效歌曲数据: 还是会想你
+2025-06-09 23:31:35,661 - __main__ - WARNING - 跳过无效歌曲数据: 还是分开
+2025-06-09 23:31:35,661 - __main__ - WARNING - 跳过无效歌曲数据: 这世界那么多人
+2025-06-09 23:31:35,661 - __main__ - WARNING - 跳过无效歌曲数据: 遇上你之前的我
+2025-06-09 23:31:35,661 - __main__ - WARNING - 跳过无效歌曲数据: 遇见
+2025-06-09 23:31:35,661 - __main__ - WARNING - 跳过无效歌曲数据: 遐想
+2025-06-09 23:31:35,662 - __main__ - WARNING - 跳过无效歌曲数据: 雨爱
+2025-06-09 23:31:35,662 - __main__ - WARNING - 跳过无效歌曲数据: 零距离的思念
+2025-06-09 23:31:35,662 - __main__ - WARNING - 跳过无效歌曲数据: 青花
+2025-06-09 23:31:35,662 - __main__ - WARNING - 跳过无效歌曲数据: 风铃
+2025-06-09 23:31:35,662 - __main__ - WARNING - 跳过无效歌曲数据: 麦恩莉
+2025-06-09 23:31:35,670 - __main__ - INFO - 加载音乐索引成功，共 349 首有效歌曲
+2025-06-09 23:31:35,670 - __main__ - INFO - 本地搜索关键词 '一点' 找到 4 首歌曲
+2025-06-09 23:31:35,670 - __main__ - INFO - 搜索结果数量: 4
+2025-06-09 23:31:35,671 - werkzeug - INFO - 127.0.0.1 - - [09/Jun/2025 23:31:35] "GET /api/search?keyword=一点&platform=local HTTP/1.1" 200 -
+2025-06-09 23:31:37,305 - __main__ - INFO - 接收到播放请求，歌曲ID: 781510fed072c55aabb1c7831ef7d422
+2025-06-09 23:31:37,305 - __main__ - INFO - 索引中的歌曲ID数量: 349
+2025-06-09 23:31:37,305 - __main__ - INFO - 找到匹配歌曲: Muyoi - 一点
+2025-06-09 23:31:37,305 - __main__ - INFO - 歌曲文件存在: C:\Users\鲁博\Desktop\weixin\download\music\Muyoi_一点.mp3
+2025-06-09 23:31:37,306 - __main__ - INFO - 歌曲文件大小: 3400365 字节
+2025-06-09 23:31:37,306 - __main__ - WARNING - 文件大小 3400365 字节超过2MB限制，进行转码
+2025-06-09 23:31:37,306 - __main__ - INFO - 执行转码命令: ffmpeg -y -i C:\Users\鲁博\Desktop\weixin\download\music\Muyoi_一点.mp3 -ss 0 -t 30 -b:a 64k -ar 22050 -ac 1 C:\Users\鲁博\Desktop\weixin\download\cache\2358a5601f89652d28a0d81e25b294e6_small.mp3
+2025-06-09 23:31:37,311 - __main__ - ERROR - 执行ffmpeg转码时出错: [WinError 2] 系统找不到指定的文件。
+2025-06-09 23:31:37,311 - __main__ - INFO - 尝试使用简单方法：截取文件前2MB
+2025-06-09 23:31:37,315 - __main__ - INFO - 转码成功，使用转码后的文件: C:\Users\鲁博\Desktop\weixin\download\cache\2358a5601f89652d28a0d81e25b294e6_small.mp3
+2025-06-09 23:31:37,326 - werkzeug - INFO - 127.0.0.1 - - [09/Jun/2025 23:31:37] "[35m[1mGET /api/play/781510fed072c55aabb1c7831ef7d422 HTTP/1.1[0m" 206 -
+2025-06-09 23:31:37,365 - __main__ - INFO - 接收到播放请求，歌曲ID: 781510fed072c55aabb1c7831ef7d422
+2025-06-09 23:31:37,365 - __main__ - INFO - 索引中的歌曲ID数量: 349
+2025-06-09 23:31:37,365 - __main__ - INFO - 找到匹配歌曲: Muyoi - 一点
+2025-06-09 23:31:37,365 - __main__ - INFO - 歌曲文件存在: C:\Users\鲁博\Desktop\weixin\download\music\Muyoi_一点.mp3
+2025-06-09 23:31:37,365 - __main__ - INFO - 歌曲文件大小: 3400365 字节
+2025-06-09 23:31:37,365 - __main__ - WARNING - 文件大小 3400365 字节超过2MB限制，进行转码
+2025-06-09 23:31:37,366 - __main__ - INFO - 使用缓存的转码文件: C:\Users\鲁博\Desktop\weixin\download\cache\2358a5601f89652d28a0d81e25b294e6_small.mp3, 大小: 2097152 字节
+2025-06-09 23:31:37,366 - __main__ - INFO - 转码成功，使用转码后的文件: C:\Users\鲁博\Desktop\weixin\download\cache\2358a5601f89652d28a0d81e25b294e6_small.mp3
+2025-06-09 23:31:37,366 - werkzeug - INFO - 127.0.0.1 - - [09/Jun/2025 23:31:37] "[35m[1mGET /api/play/781510fed072c55aabb1c7831ef7d422 HTTP/1.1[0m" 206 -
+2025-06-09 23:31:37,367 - __main__ - INFO - 接收到播放请求，歌曲ID: 781510fed072c55aabb1c7831ef7d422
+2025-06-09 23:31:37,367 - __main__ - INFO - 索引中的歌曲ID数量: 349
+2025-06-09 23:31:37,367 - __main__ - INFO - 找到匹配歌曲: Muyoi - 一点
+2025-06-09 23:31:37,368 - __main__ - INFO - 歌曲文件存在: C:\Users\鲁博\Desktop\weixin\download\music\Muyoi_一点.mp3
+2025-06-09 23:31:37,368 - __main__ - INFO - 歌曲文件大小: 3400365 字节
+2025-06-09 23:31:37,368 - __main__ - WARNING - 文件大小 3400365 字节超过2MB限制，进行转码
+2025-06-09 23:31:37,368 - __main__ - INFO - 使用缓存的转码文件: C:\Users\鲁博\Desktop\weixin\download\cache\2358a5601f89652d28a0d81e25b294e6_small.mp3, 大小: 2097152 字节
+2025-06-09 23:31:37,368 - __main__ - INFO - 转码成功，使用转码后的文件: C:\Users\鲁博\Desktop\weixin\download\cache\2358a5601f89652d28a0d81e25b294e6_small.mp3
+2025-06-09 23:31:37,369 - werkzeug - INFO - 127.0.0.1 - - [09/Jun/2025 23:31:37] "[35m[1mGET /api/play/781510fed072c55aabb1c7831ef7d422 HTTP/1.1[0m" 206 -
+2025-06-09 23:31:38,408 - simple_local_music - ERROR - Exception on /api/status [GET]
+Traceback (most recent call last):
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\鲁博\Desktop\weixin\simple_local_music.py", line 319, in api_status
+    return jsonify({
+        'code': 200,
+    ...<16 lines>...
+        }
+    })
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\json\__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)  # type: ignore[return-value]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\json\provider.py", line 214, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+       ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\json\provider.py", line 179, in dumps
+    return json.dumps(obj, **kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\json\provider.py", line 121, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type WindowsPath is not JSON serializable
+2025-06-09 23:31:38,410 - werkzeug - INFO - 127.0.0.1 - - [09/Jun/2025 23:31:38] "[35m[1mGET /api/status HTTP/1.1[0m" 500 -
+2025-06-09 23:31:42,485 - __main__ - INFO - 接收到搜索请求: 一点, 平台: local
+2025-06-09 23:31:42,486 - __main__ - INFO - 本地搜索关键词 '一点' 找到 4 首歌曲
+2025-06-09 23:31:42,486 - __main__ - INFO - 搜索结果数量: 4
+2025-06-09 23:31:42,486 - werkzeug - INFO - 127.0.0.1 - - [09/Jun/2025 23:31:42] "GET /api/search?keyword=一点&platform=local HTTP/1.1" 200 -
+2025-06-10 09:18:01,772 - __main__ - INFO - 确保目录存在: C:\Users\鲁博\Desktop\weixin\download\music
+2025-06-10 09:18:01,773 - __main__ - INFO - 确保目录存在: C:\Users\鲁博\Desktop\weixin\download\cover
+2025-06-10 09:18:01,773 - __main__ - INFO - 确保目录存在: C:\Users\鲁博\Desktop\weixin\download\cache
+2025-06-10 09:18:01,793 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.10.3:5000
+2025-06-10 09:18:01,794 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-10 09:34:58,598 - simple_local_music - ERROR - Exception on /api/status [GET]
+Traceback (most recent call last):
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\鲁博\Desktop\weixin\simple_local_music.py", line 319, in api_status
+    return jsonify({
+        'code': 200,
+    ...<16 lines>...
+        }
+    })
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\json\__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)  # type: ignore[return-value]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\json\provider.py", line 214, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+       ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\json\provider.py", line 179, in dumps
+    return json.dumps(obj, **kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\json\provider.py", line 121, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type WindowsPath is not JSON serializable
+2025-06-10 09:34:58,664 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2025 09:34:58] "[35m[1mGET /api/status HTTP/1.1[0m" 500 -
+2025-06-10 09:35:09,496 - __main__ - INFO - 接收到搜索请求: 晚风, 平台: local
+2025-06-10 09:35:09,498 - __main__ - WARNING - 跳过无效歌曲数据: Always Online
+2025-06-10 09:35:09,498 - __main__ - WARNING - 跳过无效歌曲数据: APT
+2025-06-10 09:35:09,498 - __main__ - WARNING - 跳过无效歌曲数据: Baby Dont Cry 人鱼的眼泪
+2025-06-10 09:35:09,498 - __main__ - WARNING - 跳过无效歌曲数据: I Love You So
+2025-06-10 09:35:09,498 - __main__ - WARNING - 跳过无效歌曲数据: Leave Me Alone寂寞作伴
+2025-06-10 09:35:09,498 - __main__ - WARNING - 跳过无效歌曲数据: Lemon
+2025-06-10 09:35:09,498 - __main__ - WARNING - 跳过无效歌曲数据: Letting Go
+2025-06-10 09:35:09,499 - __main__ - WARNING - 跳过无效歌曲数据: My love
+2025-06-10 09:35:09,499 - __main__ - WARNING - 跳过无效歌曲数据: time machine feat aren park
+2025-06-10 09:35:09,499 - __main__ - WARNING - 跳过无效歌曲数据: 一点 Live版
+2025-06-10 09:35:09,499 - __main__ - WARNING - 跳过无效歌曲数据: 一点
+2025-06-10 09:35:09,499 - __main__ - WARNING - 跳过无效歌曲数据: 一程山路
+2025-06-10 09:35:09,499 - __main__ - WARNING - 跳过无效歌曲数据: 下一个天亮
+2025-06-10 09:35:09,499 - __main__ - WARNING - 跳过无效歌曲数据: 不如回家喝自来水 Live版
+2025-06-10 09:35:09,499 - __main__ - WARNING - 跳过无效歌曲数据: 不要说话
+2025-06-10 09:35:09,499 - __main__ - WARNING - 跳过无效歌曲数据: 不说 原来是不说
+2025-06-10 09:35:09,499 - __main__ - WARNING - 跳过无效歌曲数据: 与我无关
+2025-06-10 09:35:09,499 - __main__ - WARNING - 跳过无效歌曲数据: 世界赠予我的
+2025-06-10 09:35:09,499 - __main__ - WARNING - 跳过无效歌曲数据: 两 难
+2025-06-10 09:35:09,499 - __main__ - WARNING - 跳过无效歌曲数据: 主 动
+2025-06-10 09:35:09,500 - __main__ - WARNING - 跳过无效歌曲数据: 九万字 Live版
+2025-06-10 09:35:09,500 - __main__ - WARNING - 跳过无效歌曲数据: 九万字
+2025-06-10 09:35:09,500 - __main__ - WARNING - 跳过无效歌曲数据: 予你
+2025-06-10 09:35:09,500 - __main__ - WARNING - 跳过无效歌曲数据: 于是
+2025-06-10 09:35:09,500 - __main__ - WARNING - 跳过无效歌曲数据: 亲爱的你啊
+2025-06-10 09:35:09,501 - __main__ - WARNING - 跳过无效歌曲数据: 人鱼的眼泪 Live版
+2025-06-10 09:35:09,501 - __main__ - WARNING - 跳过无效歌曲数据: 他不懂
+2025-06-10 09:35:09,501 - __main__ - WARNING - 跳过无效歌曲数据: 他只是经过
+2025-06-10 09:35:09,501 - __main__ - WARNING - 跳过无效歌曲数据: 你
+2025-06-10 09:35:09,501 - __main__ - WARNING - 跳过无效歌曲数据: 你要的全拿走
+2025-06-10 09:35:09,501 - __main__ - WARNING - 跳过无效歌曲数据: 倒数
+2025-06-10 09:35:09,501 - __main__ - WARNING - 跳过无效歌曲数据: 偏爱
+2025-06-10 09:35:09,501 - __main__ - WARNING - 跳过无效歌曲数据: 像晴天像雨天
+2025-06-10 09:35:09,502 - __main__ - WARNING - 跳过无效歌曲数据: 再次爱上你
+2025-06-10 09:35:09,502 - __main__ - WARNING - 跳过无效歌曲数据: 再等冬天Memories
+2025-06-10 09:35:09,502 - __main__ - WARNING - 跳过无效歌曲数据: 冬眠
+2025-06-10 09:35:09,502 - __main__ - WARNING - 跳过无效歌曲数据: 凄美地
+2025-06-10 09:35:09,502 - __main__ - WARNING - 跳过无效歌曲数据: 出现又离开 Live
+2025-06-10 09:35:09,502 - __main__ - WARNING - 跳过无效歌曲数据: 别让爱凋落 Live版
+2025-06-10 09:35:09,503 - __main__ - WARNING - 跳过无效歌曲数据: 千万次想象
+2025-06-10 09:35:09,503 - __main__ - WARNING - 跳过无效歌曲数据: 半句再见
+2025-06-10 09:35:09,503 - __main__ - WARNING - 跳过无效歌曲数据: 原来
+2025-06-10 09:35:09,503 - __main__ - WARNING - 跳过无效歌曲数据: 去北极忘记你
+2025-06-10 09:35:09,503 - __main__ - WARNING - 跳过无效歌曲数据: 去远方
+2025-06-10 09:35:09,503 - __main__ - WARNING - 跳过无效歌曲数据: 又是艳阳天
+2025-06-10 09:35:09,504 - __main__ - WARNING - 跳过无效歌曲数据: 句号
+2025-06-10 09:35:09,504 - __main__ - WARNING - 跳过无效歌曲数据: 只为你着迷 Live版
+2025-06-10 09:35:09,504 - __main__ - WARNING - 跳过无效歌曲数据: 只为你着迷
+2025-06-10 09:35:09,504 - __main__ - WARNING - 跳过无效歌曲数据: 可不可以
+2025-06-10 09:35:09,504 - __main__ - WARNING - 跳过无效歌曲数据: 同花顺
+2025-06-10 09:35:09,504 - __main__ - WARNING - 跳过无效歌曲数据: 向云端
+2025-06-10 09:35:09,504 - __main__ - WARNING - 跳过无效歌曲数据: 呓语
+2025-06-10 09:35:09,504 - __main__ - WARNING - 跳过无效歌曲数据: 命运
+2025-06-10 09:35:09,505 - __main__ - WARNING - 跳过无效歌曲数据: 和你
+2025-06-10 09:35:09,505 - __main__ - WARNING - 跳过无效歌曲数据: 哪里都是你
+2025-06-10 09:35:09,505 - __main__ - WARNING - 跳过无效歌曲数据: 唯一
+2025-06-10 09:35:09,505 - __main__ - WARNING - 跳过无效歌曲数据: 唯一
+2025-06-10 09:35:09,505 - __main__ - WARNING - 跳过无效歌曲数据: 嗜好
+2025-06-10 09:35:09,505 - __main__ - WARNING - 跳过无效歌曲数据: 四点的海棠花未眠
+2025-06-10 09:35:09,506 - __main__ - WARNING - 跳过无效歌曲数据: 土坡上的狗尾草 Live版
+2025-06-10 09:35:09,506 - __main__ - WARNING - 跳过无效歌曲数据: 在你的身边
+2025-06-10 09:35:09,506 - __main__ - WARNING - 跳过无效歌曲数据: 在加纳共和国离婚 你还爱我吗
+2025-06-10 09:35:09,506 - __main__ - WARNING - 跳过无效歌曲数据: 城北的花 Live版
+2025-06-10 09:35:09,506 - __main__ - WARNING - 跳过无效歌曲数据: 夏夜最后的烟火
+2025-06-10 09:35:09,506 - __main__ - WARNING - 跳过无效歌曲数据: 多远都要在一起
+2025-06-10 09:35:09,506 - __main__ - WARNING - 跳过无效歌曲数据: 大山 Live版
+2025-06-10 09:35:09,506 - __main__ - WARNING - 跳过无效歌曲数据: 天天
+2025-06-10 09:35:09,506 - __main__ - WARNING - 跳过无效歌曲数据: 天空 live
+2025-06-10 09:35:09,507 - __main__ - WARNING - 跳过无效歌曲数据: 太聪明
+2025-06-10 09:35:09,507 - __main__ - WARNING - 跳过无效歌曲数据: 如愿
+2025-06-10 09:35:09,507 - __main__ - WARNING - 跳过无效歌曲数据: 如果可以 Live版
+2025-06-10 09:35:09,507 - __main__ - WARNING - 跳过无效歌曲数据: 如果可以
+2025-06-10 09:35:09,507 - __main__ - WARNING - 跳过无效歌曲数据: 如果呢
+2025-06-10 09:35:09,507 - __main__ - WARNING - 跳过无效歌曲数据: 如果爱忘了 live
+2025-06-10 09:35:09,508 - __main__ - WARNING - 跳过无效歌曲数据: 孤独患者
+2025-06-10 09:35:09,508 - __main__ - WARNING - 跳过无效歌曲数据: 富士山下
+2025-06-10 09:35:09,508 - __main__ - WARNING - 跳过无效歌曲数据: 将故事写成我们
+2025-06-10 09:35:09,508 - __main__ - WARNING - 跳过无效歌曲数据: 小孩
+2025-06-10 09:35:09,508 - __main__ - WARNING - 跳过无效歌曲数据: 小美满
+2025-06-10 09:35:09,508 - __main__ - WARNING - 跳过无效歌曲数据: 小胡同
+2025-06-10 09:35:09,508 - __main__ - WARNING - 跳过无效歌曲数据: 少一点天分
+2025-06-10 09:35:09,508 - __main__ - WARNING - 跳过无效歌曲数据: 岁月神偷
+2025-06-10 09:35:09,508 - __main__ - WARNING - 跳过无效歌曲数据: 带我去找夜生活
+2025-06-10 09:35:09,508 - __main__ - WARNING - 跳过无效歌曲数据: 座位 Live版
+2025-06-10 09:35:09,508 - __main__ - WARNING - 跳过无效歌曲数据: 座位
+2025-06-10 09:35:09,508 - __main__ - WARNING - 跳过无效歌曲数据: 开始懂了
+2025-06-10 09:35:09,508 - __main__ - WARNING - 跳过无效歌曲数据: 形容
+2025-06-10 09:35:09,508 - __main__ - WARNING - 跳过无效歌曲数据: 心跳
+2025-06-10 09:35:09,508 - __main__ - WARNING - 跳过无效歌曲数据: 忘不掉的你
+2025-06-10 09:35:09,509 - __main__ - WARNING - 跳过无效歌曲数据: 思念回响
+2025-06-10 09:35:09,509 - __main__ - WARNING - 跳过无效歌曲数据: 总有一天你会出现在我身边
+2025-06-10 09:35:09,509 - __main__ - WARNING - 跳过无效歌曲数据: 恶作剧
+2025-06-10 09:35:09,509 - __main__ - WARNING - 跳过无效歌曲数据: 悬溺
+2025-06-10 09:35:09,509 - __main__ - WARNING - 跳过无效歌曲数据: 想你时风起
+2025-06-10 09:35:09,509 - __main__ - WARNING - 跳过无效歌曲数据: 愿与愁
+2025-06-10 09:35:09,509 - __main__ - WARNING - 跳过无效歌曲数据: 我们的歌
+2025-06-10 09:35:09,509 - __main__ - WARNING - 跳过无效歌曲数据: 我只能离开
+2025-06-10 09:35:09,509 - __main__ - WARNING - 跳过无效歌曲数据: 我怀念的
+2025-06-10 09:35:09,509 - __main__ - WARNING - 跳过无效歌曲数据: 我想念
+2025-06-10 09:35:09,509 - __main__ - WARNING - 跳过无效歌曲数据: 我愿
+2025-06-10 09:35:09,509 - __main__ - WARNING - 跳过无效歌曲数据: 我爱你但是我要回家
+2025-06-10 09:35:09,510 - __main__ - WARNING - 跳过无效歌曲数据: 我知道
+2025-06-10 09:35:09,510 - __main__ - WARNING - 跳过无效歌曲数据: 我记得
+2025-06-10 09:35:09,510 - __main__ - WARNING - 跳过无效歌曲数据: 我还想她
+2025-06-10 09:35:09,510 - __main__ - WARNING - 跳过无效歌曲数据: 才二十三
+2025-06-10 09:35:09,510 - __main__ - WARNING - 跳过无效歌曲数据: 把回忆拼好给你
+2025-06-10 09:35:09,510 - __main__ - WARNING - 跳过无效歌曲数据: 指纹
+2025-06-10 09:35:09,510 - __main__ - WARNING - 跳过无效歌曲数据: 推开世界的门
+2025-06-10 09:35:09,510 - __main__ - WARNING - 跳过无效歌曲数据: 摘朵马兰你就走吧
+2025-06-10 09:35:09,511 - __main__ - WARNING - 跳过无效歌曲数据: 无名的人
+2025-06-10 09:35:09,511 - __main__ - WARNING - 跳过无效歌曲数据: 春雪
+2025-06-10 09:35:09,511 - __main__ - WARNING - 跳过无效歌曲数据: 晚安
+2025-06-10 09:35:09,511 - __main__ - WARNING - 跳过无效歌曲数据: 晚风
+2025-06-10 09:35:09,511 - __main__ - WARNING - 跳过无效歌曲数据: 普通女孩
+2025-06-10 09:35:09,511 - __main__ - WARNING - 跳过无效歌曲数据: 普通朋友
+2025-06-10 09:35:09,511 - __main__ - WARNING - 跳过无效歌曲数据: 暖一杯茶
+2025-06-10 09:35:09,511 - __main__ - WARNING - 跳过无效歌曲数据: 曾经是情侣 Live
+2025-06-10 09:35:09,511 - __main__ - WARNING - 跳过无效歌曲数据: 最佳损友
+2025-06-10 09:35:09,512 - __main__ - WARNING - 跳过无效歌曲数据: 最后一页
+2025-06-10 09:35:09,512 - __main__ - WARNING - 跳过无效歌曲数据: 有些
+2025-06-10 09:35:09,512 - __main__ - WARNING - 跳过无效歌曲数据: 有我呢
+2025-06-10 09:35:09,512 - __main__ - WARNING - 跳过无效歌曲数据: 此生不换
+2025-06-10 09:35:09,512 - __main__ - WARNING - 跳过无效歌曲数据: 死疙瘩
+2025-06-10 09:35:09,512 - __main__ - WARNING - 跳过无效歌曲数据: 水星记
+2025-06-10 09:35:09,512 - __main__ - WARNING - 跳过无效歌曲数据: 江南
+2025-06-10 09:35:09,512 - __main__ - WARNING - 跳过无效歌曲数据: 沉沦与遐想
+2025-06-10 09:35:09,512 - __main__ - WARNING - 跳过无效歌曲数据: 沉溺 你让我的心不再结冰
+2025-06-10 09:35:09,512 - __main__ - WARNING - 跳过无效歌曲数据: 没关系
+2025-06-10 09:35:09,512 - __main__ - WARNING - 跳过无效歌曲数据: 沦陷
+2025-06-10 09:35:09,512 - __main__ - WARNING - 跳过无效歌曲数据: 浆果
+2025-06-10 09:35:09,513 - __main__ - WARNING - 跳过无效歌曲数据: 淘汰
+2025-06-10 09:35:09,513 - __main__ - WARNING - 跳过无效歌曲数据: 烟火里的尘埃
+2025-06-10 09:35:09,513 - __main__ - WARNING - 跳过无效歌曲数据: 爱人错过
+2025-06-10 09:35:09,513 - __main__ - WARNING - 跳过无效歌曲数据: 爱情讯息
+2025-06-10 09:35:09,513 - __main__ - WARNING - 跳过无效歌曲数据: 爱我还是他
+2025-06-10 09:35:09,513 - __main__ - WARNING - 跳过无效歌曲数据: 爱错
+2025-06-10 09:35:09,513 - __main__ - WARNING - 跳过无效歌曲数据: 牵丝戏
+2025-06-10 09:35:09,513 - __main__ - WARNING - 跳过无效歌曲数据: 特别的人
+2025-06-10 09:35:09,513 - __main__ - WARNING - 跳过无效歌曲数据: 珠玉
+2025-06-10 09:35:09,513 - __main__ - WARNING - 跳过无效歌曲数据: 知我
+2025-06-10 09:35:09,513 - __main__ - WARNING - 跳过无效歌曲数据: 祝你爱我到天荒地老
+2025-06-10 09:35:09,514 - __main__ - WARNING - 跳过无效歌曲数据: 离别开出花
+2025-06-10 09:35:09,514 - __main__ - WARNING - 跳过无效歌曲数据: 秋风
+2025-06-10 09:35:09,514 - __main__ - WARNING - 跳过无效歌曲数据: 程艾影
+2025-06-10 09:35:09,514 - __main__ - WARNING - 跳过无效歌曲数据: 稳稳的幸福
+2025-06-10 09:35:09,514 - __main__ - WARNING - 跳过无效歌曲数据: 第57次取消发送 Live版
+2025-06-10 09:35:09,514 - __main__ - WARNING - 跳过无效歌曲数据: 算了吧
+2025-06-10 09:35:09,514 - __main__ - WARNING - 跳过无效歌曲数据: 精卫
+2025-06-10 09:35:09,514 - __main__ - WARNING - 跳过无效歌曲数据: 素颜
+2025-06-10 09:35:09,514 - __main__ - WARNING - 跳过无效歌曲数据: 紫荆花盛开
+2025-06-10 09:35:09,514 - __main__ - WARNING - 跳过无效歌曲数据: 红
+2025-06-10 09:35:09,514 - __main__ - WARNING - 跳过无效歌曲数据: 红色高跟鞋
+2025-06-10 09:35:09,514 - __main__ - WARNING - 跳过无效歌曲数据: 给你呀又名for ya
+2025-06-10 09:35:09,515 - __main__ - WARNING - 跳过无效歌曲数据: 绽放
+2025-06-10 09:35:09,515 - __main__ - WARNING - 跳过无效歌曲数据: 罗生门Follow
+2025-06-10 09:35:09,515 - __main__ - WARNING - 跳过无效歌曲数据: 美人鱼
+2025-06-10 09:35:09,515 - __main__ - WARNING - 跳过无效歌曲数据: 肩上蝶
+2025-06-10 09:35:09,515 - __main__ - WARNING - 跳过无效歌曲数据: 舍得
+2025-06-10 09:35:09,515 - __main__ - WARNING - 跳过无效歌曲数据: 若月亮没来 Live版
+2025-06-10 09:35:09,515 - __main__ - WARNING - 跳过无效歌曲数据: 若月亮没来 若是月亮还没来
+2025-06-10 09:35:09,515 - __main__ - WARNING - 跳过无效歌曲数据: 苦茶子
+2025-06-10 09:35:09,515 - __main__ - WARNING - 跳过无效歌曲数据: 茫
+2025-06-10 09:35:09,515 - __main__ - WARNING - 跳过无效歌曲数据: 茶花开了
+2025-06-10 09:35:09,515 - __main__ - WARNING - 跳过无效歌曲数据: 落空
+2025-06-10 09:35:09,516 - __main__ - WARNING - 跳过无效歌曲数据: 虚拟
+2025-06-10 09:35:09,516 - __main__ - WARNING - 跳过无效歌曲数据: 触碰不到的你
+2025-06-10 09:35:09,516 - __main__ - WARNING - 跳过无效歌曲数据: 诀别书
+2025-06-10 09:35:09,516 - __main__ - WARNING - 跳过无效歌曲数据: 起风了
+2025-06-10 09:35:09,516 - __main__ - WARNING - 跳过无效歌曲数据: 越来越不懂
+2025-06-10 09:35:09,516 - __main__ - WARNING - 跳过无效歌曲数据: 跳楼机
+2025-06-10 09:35:09,516 - __main__ - WARNING - 跳过无效歌曲数据: 转身即心痛 Live版
+2025-06-10 09:35:09,517 - __main__ - WARNING - 跳过无效歌曲数据: 还是会想你
+2025-06-10 09:35:09,517 - __main__ - WARNING - 跳过无效歌曲数据: 还是分开
+2025-06-10 09:35:09,517 - __main__ - WARNING - 跳过无效歌曲数据: 这世界那么多人
+2025-06-10 09:35:09,517 - __main__ - WARNING - 跳过无效歌曲数据: 遇上你之前的我
+2025-06-10 09:35:09,517 - __main__ - WARNING - 跳过无效歌曲数据: 遇见
+2025-06-10 09:35:09,517 - __main__ - WARNING - 跳过无效歌曲数据: 遐想
+2025-06-10 09:35:09,517 - __main__ - WARNING - 跳过无效歌曲数据: 雨爱
+2025-06-10 09:35:09,517 - __main__ - WARNING - 跳过无效歌曲数据: 零距离的思念
+2025-06-10 09:35:09,517 - __main__ - WARNING - 跳过无效歌曲数据: 青花
+2025-06-10 09:35:09,517 - __main__ - WARNING - 跳过无效歌曲数据: 风铃
+2025-06-10 09:35:09,517 - __main__ - WARNING - 跳过无效歌曲数据: 麦恩莉
+2025-06-10 09:35:09,525 - __main__ - INFO - 加载音乐索引成功，共 349 首有效歌曲
+2025-06-10 09:35:09,526 - __main__ - INFO - 本地搜索关键词 '晚风' 找到 1 首歌曲
+2025-06-10 09:35:09,526 - __main__ - INFO - 搜索结果数量: 1
+2025-06-10 09:35:09,526 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2025 09:35:09] "GET /api/search?keyword=晚风&platform=local HTTP/1.1" 200 -
+2025-06-10 09:35:12,261 - __main__ - INFO - 接收到播放请求，歌曲ID: 7cd003f1c5a0813fe966e275c5c0a516
+2025-06-10 09:35:12,261 - __main__ - INFO - 索引中的歌曲ID数量: 349
+2025-06-10 09:35:12,261 - __main__ - INFO - 找到匹配歌曲: 7opy - 晚风
+2025-06-10 09:35:12,261 - __main__ - INFO - 歌曲文件存在: C:\Users\鲁博\Desktop\weixin\download\music\7opy_晚风.mp3
+2025-06-10 09:35:12,262 - __main__ - INFO - 歌曲文件大小: 3243875 字节
+2025-06-10 09:35:12,262 - __main__ - WARNING - 文件大小 3243875 字节超过2MB限制，进行转码
+2025-06-10 09:35:12,263 - __main__ - INFO - 使用缓存的转码文件: C:\Users\鲁博\Desktop\weixin\download\cache\7c8170608d9d2ac24a1f9b017bc6ef7e_small.mp3, 大小: 2097152 字节
+2025-06-10 09:35:12,263 - __main__ - INFO - 转码成功，使用转码后的文件: C:\Users\鲁博\Desktop\weixin\download\cache\7c8170608d9d2ac24a1f9b017bc6ef7e_small.mp3
+2025-06-10 09:35:12,265 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2025 09:35:12] "[35m[1mGET /api/play/7cd003f1c5a0813fe966e275c5c0a516 HTTP/1.1[0m" 206 -
+2025-06-10 09:35:12,310 - __main__ - INFO - 接收到播放请求，歌曲ID: 7cd003f1c5a0813fe966e275c5c0a516
+2025-06-10 09:35:12,310 - __main__ - INFO - 索引中的歌曲ID数量: 349
+2025-06-10 09:35:12,310 - __main__ - INFO - 找到匹配歌曲: 7opy - 晚风
+2025-06-10 09:35:12,311 - __main__ - INFO - 歌曲文件存在: C:\Users\鲁博\Desktop\weixin\download\music\7opy_晚风.mp3
+2025-06-10 09:35:12,311 - __main__ - INFO - 歌曲文件大小: 3243875 字节
+2025-06-10 09:35:12,311 - __main__ - WARNING - 文件大小 3243875 字节超过2MB限制，进行转码
+2025-06-10 09:35:12,311 - __main__ - INFO - 使用缓存的转码文件: C:\Users\鲁博\Desktop\weixin\download\cache\7c8170608d9d2ac24a1f9b017bc6ef7e_small.mp3, 大小: 2097152 字节
+2025-06-10 09:35:12,311 - __main__ - INFO - 转码成功，使用转码后的文件: C:\Users\鲁博\Desktop\weixin\download\cache\7c8170608d9d2ac24a1f9b017bc6ef7e_small.mp3
+2025-06-10 09:35:12,312 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2025 09:35:12] "[35m[1mGET /api/play/7cd003f1c5a0813fe966e275c5c0a516 HTTP/1.1[0m" 206 -
+2025-06-10 09:35:12,313 - __main__ - INFO - 接收到播放请求，歌曲ID: 7cd003f1c5a0813fe966e275c5c0a516
+2025-06-10 09:35:12,313 - __main__ - INFO - 索引中的歌曲ID数量: 349
+2025-06-10 09:35:12,313 - __main__ - INFO - 找到匹配歌曲: 7opy - 晚风
+2025-06-10 09:35:12,314 - __main__ - INFO - 歌曲文件存在: C:\Users\鲁博\Desktop\weixin\download\music\7opy_晚风.mp3
+2025-06-10 09:35:12,314 - __main__ - INFO - 歌曲文件大小: 3243875 字节
+2025-06-10 09:35:12,314 - __main__ - WARNING - 文件大小 3243875 字节超过2MB限制，进行转码
+2025-06-10 09:35:12,314 - __main__ - INFO - 使用缓存的转码文件: C:\Users\鲁博\Desktop\weixin\download\cache\7c8170608d9d2ac24a1f9b017bc6ef7e_small.mp3, 大小: 2097152 字节
+2025-06-10 09:35:12,314 - __main__ - INFO - 转码成功，使用转码后的文件: C:\Users\鲁博\Desktop\weixin\download\cache\7c8170608d9d2ac24a1f9b017bc6ef7e_small.mp3
+2025-06-10 09:35:12,315 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2025 09:35:12] "[35m[1mGET /api/play/7cd003f1c5a0813fe966e275c5c0a516 HTTP/1.1[0m" 206 -
+2025-06-11 22:20:43,995 - __main__ - INFO - 确保目录存在: C:\Users\鲁博\Desktop\第十二组-期末作业\第十二组-AI助手\download\music
+2025-06-11 22:20:43,996 - __main__ - INFO - 确保目录存在: C:\Users\鲁博\Desktop\第十二组-期末作业\第十二组-AI助手\download\cover
+2025-06-11 22:20:43,996 - __main__ - INFO - 确保目录存在: C:\Users\鲁博\Desktop\第十二组-期末作业\第十二组-AI助手\download\cache
+2025-06-11 22:20:44,043 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.10.3:5000
+2025-06-11 22:20:44,044 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-11 22:20:48,164 - simple_local_music - ERROR - Exception on /api/status [GET]
+Traceback (most recent call last):
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\鲁博\Desktop\第十二组-期末作业\第十二组-AI助手\simple_local_music.py", line 319, in api_status
+    return jsonify({
+        'code': 200,
+    ...<16 lines>...
+        }
+    })
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\json\__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)  # type: ignore[return-value]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\json\provider.py", line 214, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+       ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\json\provider.py", line 179, in dumps
+    return json.dumps(obj, **kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\鲁博\AppData\Roaming\Python\Python313\site-packages\flask\json\provider.py", line 121, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type WindowsPath is not JSON serializable
+2025-06-11 22:20:48,281 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2025 22:20:48] "[35m[1mGET /api/status HTTP/1.1[0m" 500 -
+2025-06-11 22:21:00,822 - __main__ - INFO - 接收到搜索请求: 晚风, 平台: local
+2025-06-11 22:21:00,825 - __main__ - WARNING - 跳过无效歌曲数据: Always Online
+2025-06-11 22:21:00,826 - __main__ - WARNING - 跳过无效歌曲数据: APT
+2025-06-11 22:21:00,826 - __main__ - WARNING - 跳过无效歌曲数据: Baby Dont Cry 人鱼的眼泪
+2025-06-11 22:21:00,826 - __main__ - WARNING - 跳过无效歌曲数据: I Love You So
+2025-06-11 22:21:00,827 - __main__ - WARNING - 跳过无效歌曲数据: Leave Me Alone寂寞作伴
+2025-06-11 22:21:00,827 - __main__ - WARNING - 跳过无效歌曲数据: Lemon
+2025-06-11 22:21:00,827 - __main__ - WARNING - 跳过无效歌曲数据: Letting Go
+2025-06-11 22:21:00,827 - __main__ - WARNING - 跳过无效歌曲数据: My love
+2025-06-11 22:21:00,827 - __main__ - WARNING - 跳过无效歌曲数据: time machine feat aren park
+2025-06-11 22:21:00,827 - __main__ - WARNING - 跳过无效歌曲数据: 一点 Live版
+2025-06-11 22:21:00,827 - __main__ - WARNING - 跳过无效歌曲数据: 一点
+2025-06-11 22:21:00,827 - __main__ - WARNING - 跳过无效歌曲数据: 一程山路
+2025-06-11 22:21:00,828 - __main__ - WARNING - 跳过无效歌曲数据: 下一个天亮
+2025-06-11 22:21:00,828 - __main__ - WARNING - 跳过无效歌曲数据: 不如回家喝自来水 Live版
+2025-06-11 22:21:00,828 - __main__ - WARNING - 跳过无效歌曲数据: 不要说话
+2025-06-11 22:21:00,828 - __main__ - WARNING - 跳过无效歌曲数据: 不说 原来是不说
+2025-06-11 22:21:00,828 - __main__ - WARNING - 跳过无效歌曲数据: 与我无关
+2025-06-11 22:21:00,829 - __main__ - WARNING - 跳过无效歌曲数据: 世界赠予我的
+2025-06-11 22:21:00,829 - __main__ - WARNING - 跳过无效歌曲数据: 两 难
+2025-06-11 22:21:00,829 - __main__ - WARNING - 跳过无效歌曲数据: 主 动
+2025-06-11 22:21:00,829 - __main__ - WARNING - 跳过无效歌曲数据: 九万字 Live版
+2025-06-11 22:21:00,829 - __main__ - WARNING - 跳过无效歌曲数据: 九万字
+2025-06-11 22:21:00,829 - __main__ - WARNING - 跳过无效歌曲数据: 予你
+2025-06-11 22:21:00,830 - __main__ - WARNING - 跳过无效歌曲数据: 于是
+2025-06-11 22:21:00,830 - __main__ - WARNING - 跳过无效歌曲数据: 亲爱的你啊
+2025-06-11 22:21:00,830 - __main__ - WARNING - 跳过无效歌曲数据: 人鱼的眼泪 Live版
+2025-06-11 22:21:00,830 - __main__ - WARNING - 跳过无效歌曲数据: 他不懂
+2025-06-11 22:21:00,830 - __main__ - WARNING - 跳过无效歌曲数据: 他只是经过
+2025-06-11 22:21:00,830 - __main__ - WARNING - 跳过无效歌曲数据: 你
+2025-06-11 22:21:00,830 - __main__ - WARNING - 跳过无效歌曲数据: 你要的全拿走
+2025-06-11 22:21:00,830 - __main__ - WARNING - 跳过无效歌曲数据: 倒数
+2025-06-11 22:21:00,830 - __main__ - WARNING - 跳过无效歌曲数据: 偏爱
+2025-06-11 22:21:00,830 - __main__ - WARNING - 跳过无效歌曲数据: 像晴天像雨天
+2025-06-11 22:21:00,830 - __main__ - WARNING - 跳过无效歌曲数据: 再次爱上你
+2025-06-11 22:21:00,830 - __main__ - WARNING - 跳过无效歌曲数据: 再等冬天Memories
+2025-06-11 22:21:00,831 - __main__ - WARNING - 跳过无效歌曲数据: 冬眠
+2025-06-11 22:21:00,831 - __main__ - WARNING - 跳过无效歌曲数据: 凄美地
+2025-06-11 22:21:00,831 - __main__ - WARNING - 跳过无效歌曲数据: 出现又离开 Live
+2025-06-11 22:21:00,831 - __main__ - WARNING - 跳过无效歌曲数据: 别让爱凋落 Live版
+2025-06-11 22:21:00,831 - __main__ - WARNING - 跳过无效歌曲数据: 千万次想象
+2025-06-11 22:21:00,831 - __main__ - WARNING - 跳过无效歌曲数据: 半句再见
+2025-06-11 22:21:00,831 - __main__ - WARNING - 跳过无效歌曲数据: 原来
+2025-06-11 22:21:00,831 - __main__ - WARNING - 跳过无效歌曲数据: 去北极忘记你
+2025-06-11 22:21:00,831 - __main__ - WARNING - 跳过无效歌曲数据: 去远方
+2025-06-11 22:21:00,831 - __main__ - WARNING - 跳过无效歌曲数据: 又是艳阳天
+2025-06-11 22:21:00,831 - __main__ - WARNING - 跳过无效歌曲数据: 句号
+2025-06-11 22:21:00,831 - __main__ - WARNING - 跳过无效歌曲数据: 只为你着迷 Live版
+2025-06-11 22:21:00,832 - __main__ - WARNING - 跳过无效歌曲数据: 只为你着迷
+2025-06-11 22:21:00,832 - __main__ - WARNING - 跳过无效歌曲数据: 可不可以
+2025-06-11 22:21:00,832 - __main__ - WARNING - 跳过无效歌曲数据: 同花顺
+2025-06-11 22:21:00,832 - __main__ - WARNING - 跳过无效歌曲数据: 向云端
+2025-06-11 22:21:00,832 - __main__ - WARNING - 跳过无效歌曲数据: 呓语
+2025-06-11 22:21:00,832 - __main__ - WARNING - 跳过无效歌曲数据: 命运
+2025-06-11 22:21:00,833 - __main__ - WARNING - 跳过无效歌曲数据: 和你
+2025-06-11 22:21:00,833 - __main__ - WARNING - 跳过无效歌曲数据: 哪里都是你
+2025-06-11 22:21:00,833 - __main__ - WARNING - 跳过无效歌曲数据: 唯一
+2025-06-11 22:21:00,833 - __main__ - WARNING - 跳过无效歌曲数据: 唯一
+2025-06-11 22:21:00,833 - __main__ - WARNING - 跳过无效歌曲数据: 嗜好
+2025-06-11 22:21:00,833 - __main__ - WARNING - 跳过无效歌曲数据: 四点的海棠花未眠
+2025-06-11 22:21:00,833 - __main__ - WARNING - 跳过无效歌曲数据: 土坡上的狗尾草 Live版
+2025-06-11 22:21:00,834 - __main__ - WARNING - 跳过无效歌曲数据: 在你的身边
+2025-06-11 22:21:00,834 - __main__ - WARNING - 跳过无效歌曲数据: 在加纳共和国离婚 你还爱我吗
+2025-06-11 22:21:00,834 - __main__ - WARNING - 跳过无效歌曲数据: 城北的花 Live版
+2025-06-11 22:21:00,834 - __main__ - WARNING - 跳过无效歌曲数据: 夏夜最后的烟火
+2025-06-11 22:21:00,834 - __main__ - WARNING - 跳过无效歌曲数据: 多远都要在一起
+2025-06-11 22:21:00,834 - __main__ - WARNING - 跳过无效歌曲数据: 大山 Live版
+2025-06-11 22:21:00,835 - __main__ - WARNING - 跳过无效歌曲数据: 天天
+2025-06-11 22:21:00,835 - __main__ - WARNING - 跳过无效歌曲数据: 天空 live
+2025-06-11 22:21:00,835 - __main__ - WARNING - 跳过无效歌曲数据: 太聪明
+2025-06-11 22:21:00,835 - __main__ - WARNING - 跳过无效歌曲数据: 如愿
+2025-06-11 22:21:00,835 - __main__ - WARNING - 跳过无效歌曲数据: 如果可以 Live版
+2025-06-11 22:21:00,835 - __main__ - WARNING - 跳过无效歌曲数据: 如果可以
+2025-06-11 22:21:00,835 - __main__ - WARNING - 跳过无效歌曲数据: 如果呢
+2025-06-11 22:21:00,835 - __main__ - WARNING - 跳过无效歌曲数据: 如果爱忘了 live
+2025-06-11 22:21:00,835 - __main__ - WARNING - 跳过无效歌曲数据: 孤独患者
+2025-06-11 22:21:00,836 - __main__ - WARNING - 跳过无效歌曲数据: 富士山下
+2025-06-11 22:21:00,836 - __main__ - WARNING - 跳过无效歌曲数据: 将故事写成我们
+2025-06-11 22:21:00,836 - __main__ - WARNING - 跳过无效歌曲数据: 小孩
+2025-06-11 22:21:00,836 - __main__ - WARNING - 跳过无效歌曲数据: 小美满
+2025-06-11 22:21:00,836 - __main__ - WARNING - 跳过无效歌曲数据: 小胡同
+2025-06-11 22:21:00,836 - __main__ - WARNING - 跳过无效歌曲数据: 少一点天分
+2025-06-11 22:21:00,836 - __main__ - WARNING - 跳过无效歌曲数据: 岁月神偷
+2025-06-11 22:21:00,836 - __main__ - WARNING - 跳过无效歌曲数据: 带我去找夜生活
+2025-06-11 22:21:00,837 - __main__ - WARNING - 跳过无效歌曲数据: 座位 Live版
+2025-06-11 22:21:00,837 - __main__ - WARNING - 跳过无效歌曲数据: 座位
+2025-06-11 22:21:00,837 - __main__ - WARNING - 跳过无效歌曲数据: 开始懂了
+2025-06-11 22:21:00,837 - __main__ - WARNING - 跳过无效歌曲数据: 形容
+2025-06-11 22:21:00,837 - __main__ - WARNING - 跳过无效歌曲数据: 心跳
+2025-06-11 22:21:00,837 - __main__ - WARNING - 跳过无效歌曲数据: 忘不掉的你
+2025-06-11 22:21:00,837 - __main__ - WARNING - 跳过无效歌曲数据: 思念回响
+2025-06-11 22:21:00,837 - __main__ - WARNING - 跳过无效歌曲数据: 总有一天你会出现在我身边
+2025-06-11 22:21:00,838 - __main__ - WARNING - 跳过无效歌曲数据: 恶作剧
+2025-06-11 22:21:00,838 - __main__ - WARNING - 跳过无效歌曲数据: 悬溺
+2025-06-11 22:21:00,838 - __main__ - WARNING - 跳过无效歌曲数据: 想你时风起
+2025-06-11 22:21:00,838 - __main__ - WARNING - 跳过无效歌曲数据: 愿与愁
+2025-06-11 22:21:00,838 - __main__ - WARNING - 跳过无效歌曲数据: 我们的歌
+2025-06-11 22:21:00,838 - __main__ - WARNING - 跳过无效歌曲数据: 我只能离开
+2025-06-11 22:21:00,838 - __main__ - WARNING - 跳过无效歌曲数据: 我怀念的
+2025-06-11 22:21:00,838 - __main__ - WARNING - 跳过无效歌曲数据: 我想念
+2025-06-11 22:21:00,838 - __main__ - WARNING - 跳过无效歌曲数据: 我愿
+2025-06-11 22:21:00,839 - __main__ - WARNING - 跳过无效歌曲数据: 我爱你但是我要回家
+2025-06-11 22:21:00,839 - __main__ - WARNING - 跳过无效歌曲数据: 我知道
+2025-06-11 22:21:00,839 - __main__ - WARNING - 跳过无效歌曲数据: 我记得
+2025-06-11 22:21:00,839 - __main__ - WARNING - 跳过无效歌曲数据: 我还想她
+2025-06-11 22:21:00,839 - __main__ - WARNING - 跳过无效歌曲数据: 才二十三
+2025-06-11 22:21:00,839 - __main__ - WARNING - 跳过无效歌曲数据: 把回忆拼好给你
+2025-06-11 22:21:00,840 - __main__ - WARNING - 跳过无效歌曲数据: 指纹
+2025-06-11 22:21:00,840 - __main__ - WARNING - 跳过无效歌曲数据: 推开世界的门
+2025-06-11 22:21:00,840 - __main__ - WARNING - 跳过无效歌曲数据: 摘朵马兰你就走吧
+2025-06-11 22:21:00,840 - __main__ - WARNING - 跳过无效歌曲数据: 无名的人
+2025-06-11 22:21:00,840 - __main__ - WARNING - 跳过无效歌曲数据: 春雪
+2025-06-11 22:21:00,840 - __main__ - WARNING - 跳过无效歌曲数据: 晚安
+2025-06-11 22:21:00,840 - __main__ - WARNING - 跳过无效歌曲数据: 晚风
+2025-06-11 22:21:00,840 - __main__ - WARNING - 跳过无效歌曲数据: 普通女孩
+2025-06-11 22:21:00,841 - __main__ - WARNING - 跳过无效歌曲数据: 普通朋友
+2025-06-11 22:21:00,841 - __main__ - WARNING - 跳过无效歌曲数据: 暖一杯茶
+2025-06-11 22:21:00,841 - __main__ - WARNING - 跳过无效歌曲数据: 曾经是情侣 Live
+2025-06-11 22:21:00,841 - __main__ - WARNING - 跳过无效歌曲数据: 最佳损友
+2025-06-11 22:21:00,841 - __main__ - WARNING - 跳过无效歌曲数据: 最后一页
+2025-06-11 22:21:00,841 - __main__ - WARNING - 跳过无效歌曲数据: 有些
+2025-06-11 22:21:00,841 - __main__ - WARNING - 跳过无效歌曲数据: 有我呢
+2025-06-11 22:21:00,841 - __main__ - WARNING - 跳过无效歌曲数据: 此生不换
+2025-06-11 22:21:00,842 - __main__ - WARNING - 跳过无效歌曲数据: 死疙瘩
+2025-06-11 22:21:00,842 - __main__ - WARNING - 跳过无效歌曲数据: 水星记
+2025-06-11 22:21:00,842 - __main__ - WARNING - 跳过无效歌曲数据: 江南
+2025-06-11 22:21:00,842 - __main__ - WARNING - 跳过无效歌曲数据: 沉沦与遐想
+2025-06-11 22:21:00,842 - __main__ - WARNING - 跳过无效歌曲数据: 沉溺 你让我的心不再结冰
+2025-06-11 22:21:00,842 - __main__ - WARNING - 跳过无效歌曲数据: 没关系
+2025-06-11 22:21:00,842 - __main__ - WARNING - 跳过无效歌曲数据: 沦陷
+2025-06-11 22:21:00,843 - __main__ - WARNING - 跳过无效歌曲数据: 浆果
+2025-06-11 22:21:00,843 - __main__ - WARNING - 跳过无效歌曲数据: 淘汰
+2025-06-11 22:21:00,843 - __main__ - WARNING - 跳过无效歌曲数据: 烟火里的尘埃
+2025-06-11 22:21:00,843 - __main__ - WARNING - 跳过无效歌曲数据: 爱人错过
+2025-06-11 22:21:00,843 - __main__ - WARNING - 跳过无效歌曲数据: 爱情讯息
+2025-06-11 22:21:00,843 - __main__ - WARNING - 跳过无效歌曲数据: 爱我还是他
+2025-06-11 22:21:00,843 - __main__ - WARNING - 跳过无效歌曲数据: 爱错
+2025-06-11 22:21:00,843 - __main__ - WARNING - 跳过无效歌曲数据: 牵丝戏
+2025-06-11 22:21:00,843 - __main__ - WARNING - 跳过无效歌曲数据: 特别的人
+2025-06-11 22:21:00,843 - __main__ - WARNING - 跳过无效歌曲数据: 珠玉
+2025-06-11 22:21:00,843 - __main__ - WARNING - 跳过无效歌曲数据: 知我
+2025-06-11 22:21:00,843 - __main__ - WARNING - 跳过无效歌曲数据: 祝你爱我到天荒地老
+2025-06-11 22:21:00,843 - __main__ - WARNING - 跳过无效歌曲数据: 离别开出花
+2025-06-11 22:21:00,843 - __main__ - WARNING - 跳过无效歌曲数据: 秋风
+2025-06-11 22:21:00,844 - __main__ - WARNING - 跳过无效歌曲数据: 程艾影
+2025-06-11 22:21:00,844 - __main__ - WARNING - 跳过无效歌曲数据: 稳稳的幸福
+2025-06-11 22:21:00,844 - __main__ - WARNING - 跳过无效歌曲数据: 第57次取消发送 Live版
+2025-06-11 22:21:00,844 - __main__ - WARNING - 跳过无效歌曲数据: 算了吧
+2025-06-11 22:21:00,844 - __main__ - WARNING - 跳过无效歌曲数据: 精卫
+2025-06-11 22:21:00,844 - __main__ - WARNING - 跳过无效歌曲数据: 素颜
+2025-06-11 22:21:00,844 - __main__ - WARNING - 跳过无效歌曲数据: 紫荆花盛开
+2025-06-11 22:21:00,844 - __main__ - WARNING - 跳过无效歌曲数据: 红
+2025-06-11 22:21:00,844 - __main__ - WARNING - 跳过无效歌曲数据: 红色高跟鞋
+2025-06-11 22:21:00,844 - __main__ - WARNING - 跳过无效歌曲数据: 给你呀又名for ya
+2025-06-11 22:21:00,844 - __main__ - WARNING - 跳过无效歌曲数据: 绽放
+2025-06-11 22:21:00,844 - __main__ - WARNING - 跳过无效歌曲数据: 罗生门Follow
+2025-06-11 22:21:00,845 - __main__ - WARNING - 跳过无效歌曲数据: 美人鱼
+2025-06-11 22:21:00,845 - __main__ - WARNING - 跳过无效歌曲数据: 肩上蝶
+2025-06-11 22:21:00,845 - __main__ - WARNING - 跳过无效歌曲数据: 舍得
+2025-06-11 22:21:00,845 - __main__ - WARNING - 跳过无效歌曲数据: 若月亮没来 Live版
+2025-06-11 22:21:00,845 - __main__ - WARNING - 跳过无效歌曲数据: 若月亮没来 若是月亮还没来
+2025-06-11 22:21:00,845 - __main__ - WARNING - 跳过无效歌曲数据: 苦茶子
+2025-06-11 22:21:00,845 - __main__ - WARNING - 跳过无效歌曲数据: 茫
+2025-06-11 22:21:00,845 - __main__ - WARNING - 跳过无效歌曲数据: 茶花开了
+2025-06-11 22:21:00,845 - __main__ - WARNING - 跳过无效歌曲数据: 落空
+2025-06-11 22:21:00,845 - __main__ - WARNING - 跳过无效歌曲数据: 虚拟
+2025-06-11 22:21:00,845 - __main__ - WARNING - 跳过无效歌曲数据: 触碰不到的你
+2025-06-11 22:21:00,845 - __main__ - WARNING - 跳过无效歌曲数据: 诀别书
+2025-06-11 22:21:00,845 - __main__ - WARNING - 跳过无效歌曲数据: 起风了
+2025-06-11 22:21:00,846 - __main__ - WARNING - 跳过无效歌曲数据: 越来越不懂
+2025-06-11 22:21:00,846 - __main__ - WARNING - 跳过无效歌曲数据: 跳楼机
+2025-06-11 22:21:00,846 - __main__ - WARNING - 跳过无效歌曲数据: 转身即心痛 Live版
+2025-06-11 22:21:00,846 - __main__ - WARNING - 跳过无效歌曲数据: 还是会想你
+2025-06-11 22:21:00,846 - __main__ - WARNING - 跳过无效歌曲数据: 还是分开
+2025-06-11 22:21:00,846 - __main__ - WARNING - 跳过无效歌曲数据: 这世界那么多人
+2025-06-11 22:21:00,846 - __main__ - WARNING - 跳过无效歌曲数据: 遇上你之前的我
+2025-06-11 22:21:00,847 - __main__ - WARNING - 跳过无效歌曲数据: 遇见
+2025-06-11 22:21:00,847 - __main__ - WARNING - 跳过无效歌曲数据: 遐想
+2025-06-11 22:21:00,847 - __main__ - WARNING - 跳过无效歌曲数据: 雨爱
+2025-06-11 22:21:00,847 - __main__ - WARNING - 跳过无效歌曲数据: 零距离的思念
+2025-06-11 22:21:00,847 - __main__ - WARNING - 跳过无效歌曲数据: 青花
+2025-06-11 22:21:00,847 - __main__ - WARNING - 跳过无效歌曲数据: 风铃
+2025-06-11 22:21:00,847 - __main__ - WARNING - 跳过无效歌曲数据: 麦恩莉
+2025-06-11 22:21:00,848 - __main__ - WARNING - 跳过无效歌曲数据: 7opy
+2025-06-11 22:21:00,848 - __main__ - WARNING - 跳过无效歌曲数据: 30年前50年后
+2025-06-11 22:21:00,848 - __main__ - WARNING - 跳过无效歌曲数据: Aioz
+2025-06-11 22:21:00,848 - __main__ - WARNING - 跳过无效歌曲数据: By2
+2025-06-11 22:21:00,848 - __main__ - WARNING - 跳过无效歌曲数据: CHØPE
+2025-06-11 22:21:00,848 - __main__ - WARNING - 跳过无效歌曲数据: ET
+2025-06-11 22:21:00,848 - __main__ - WARNING - 跳过无效歌曲数据: Alex LeMirage
+2025-06-11 22:21:00,849 - __main__ - WARNING - 跳过无效歌曲数据: BAEKHYUN
+2025-06-11 22:21:00,849 - __main__ - WARNING - 跳过无效歌曲数据: Billie Eilish
+2025-06-11 22:21:00,849 - __main__ - WARNING - 跳过无效歌曲数据: Carpetman
+2025-06-11 22:21:00,849 - __main__ - WARNING - 跳过无效歌曲数据: Connor Price
+2025-06-11 22:21:00,849 - __main__ - WARNING - 跳过无效歌曲数据: DEV
+2025-06-11 22:21:00,849 - __main__ - WARNING - 跳过无效歌曲数据: DEV
+2025-06-11 22:21:00,849 - __main__ - WARNING - 跳过无效歌曲数据: Doechii
+2025-06-11 22:21:00,849 - __main__ - WARNING - 跳过无效歌曲数据: Elhé
+2025-06-11 22:21:00,850 - __main__ - WARNING - 跳过无效歌曲数据: Emma艾玛
+2025-06-11 22:21:00,850 - __main__ - WARNING - 跳过无效歌曲数据: huhu胡胡
+2025-06-11 22:21:00,850 - __main__ - WARNING - 跳过无效歌曲数据: IU
+2025-06-11 22:21:00,850 - __main__ - WARNING - 跳过无效歌曲数据: IU
+2025-06-11 22:21:00,850 - __main__ - WARNING - 跳过无效歌曲数据: IU
+2025-06-11 22:21:00,850 - __main__ - WARNING - 跳过无效歌曲数据: IU
+2025-06-11 22:21:00,850 - __main__ - WARNING - 跳过无效歌曲数据: IU
+2025-06-11 22:21:00,850 - __main__ - WARNING - 跳过无效歌曲数据: IU
+2025-06-11 22:21:00,850 - __main__ - WARNING - 跳过无效歌曲数据: Jaydon
+2025-06-11 22:21:00,850 - __main__ - WARNING - 跳过无效歌曲数据: Jaydon
+2025-06-11 22:21:00,850 - __main__ - WARNING - 跳过无效歌曲数据: Jesse Barrera
+2025-06-11 22:21:00,850 - __main__ - WARNING - 跳过无效歌曲数据: Ka
+2025-06-11 22:21:00,851 - __main__ - WARNING - 跳过无效歌曲数据: Lady Gaga
+2025-06-11 22:21:00,851 - __main__ - WARNING - 跳过无效歌曲数据: LBI利比
+2025-06-11 22:21:00,851 - __main__ - WARNING - 跳过无效歌曲数据: LBI利比
+2025-06-11 22:21:00,851 - __main__ - WARNING - 跳过无效歌曲数据: LBI利比
+2025-06-11 22:21:00,851 - __main__ - WARNING - 跳过无效歌曲数据: Lil Ghost小鬼
+2025-06-11 22:21:00,851 - __main__ - WARNING - 跳过无效歌曲数据: Lunak
+2025-06-11 22:21:00,851 - __main__ - WARNING - 跳过无效歌曲数据: M3mo
+2025-06-11 22:21:00,851 - __main__ - WARNING - 跳过无效歌曲数据: Moliy
+2025-06-11 22:21:00,851 - __main__ - WARNING - 跳过无效歌曲数据: NOVALEXO
+2025-06-11 22:21:00,851 - __main__ - WARNING - 跳过无效歌曲数据: Opizzi
+2025-06-11 22:21:00,852 - __main__ - WARNING - 跳过无效歌曲数据: PHONKY BRO
+2025-06-11 22:21:00,852 - __main__ - WARNING - 跳过无效歌曲数据: RED
+2025-06-11 22:21:00,852 - __main__ - WARNING - 跳过无效歌曲数据: SASIOVERLXRD
+2025-06-11 22:21:00,852 - __main__ - WARNING - 跳过无效歌曲数据: SASIOVERLXRD
+2025-06-11 22:21:00,852 - __main__ - WARNING - 跳过无效歌曲数据: Sasuke
+2025-06-11 22:21:00,852 - __main__ - WARNING - 跳过无效歌曲数据: SENWUZM
+2025-06-11 22:21:00,852 - __main__ - WARNING - 跳过无效歌曲数据: SkiesNoLuv
+2025-06-11 22:21:00,852 - __main__ - WARNING - 跳过无效歌曲数据: soldier
+2025-06-11 22:21:00,853 - __main__ - WARNING - 跳过无效歌曲数据: Soulloom苏洛牧
+2025-06-11 22:21:00,853 - __main__ - WARNING - 跳过无效歌曲数据: THOME
+2025-06-11 22:21:00,853 - __main__ - WARNING - 跳过无效歌曲数据: TINY7
+2025-06-11 22:21:00,853 - __main__ - WARNING - 跳过无效歌曲数据: vine
+2025-06-11 22:21:00,853 - __main__ - WARNING - 跳过无效歌曲数据: ZaZaZsu
+2025-06-11 22:21:00,854 - __main__ - WARNING - 跳过无效歌曲数据: 爱新觉罗媚aimei媚
+2025-06-11 22:21:00,854 - __main__ - WARNING - 跳过无效歌曲数据: 安扬August
+2025-06-11 22:21:00,854 - __main__ - WARNING - 跳过无效歌曲数据: 巴音孟克 Maj7_Music
+2025-06-11 22:21:00,854 - __main__ - WARNING - 跳过无效歌曲数据: 曾婕JoeyZ
+2025-06-11 22:21:00,854 - __main__ - WARNING - 跳过无效歌曲数据: 陈蕾
+2025-06-11 22:21:00,855 - __main__ - WARNING - 跳过无效歌曲数据: 陈抒妮
+2025-06-11 22:21:00,855 - __main__ - WARNING - 跳过无效歌曲数据: 陈翔
+2025-06-11 22:21:00,855 - __main__ - WARNING - 跳过无效歌曲数据: 陈小春
+2025-06-11 22:21:00,855 - __main__ - WARNING - 跳过无效歌曲数据: 葱香科学家王悠然
+2025-06-11 22:21:00,855 - __main__ - WARNING - 跳过无效歌曲数据: 邓丽君
+2025-06-11 22:21:00,855 - __main__ - WARNING - 跳过无效歌曲数据: 杜大发
+2025-06-11 22:21:00,855 - __main__ - WARNING - 跳过无效歌曲数据: 肚子又饿了
+2025-06-11 22:21:00,855 - __main__ - WARNING - 跳过无效歌曲数据: 供销社乐队
+2025-06-11 22:21:00,855 - __main__ - WARNING - 跳过无效歌曲数据: 郭静
+2025-06-11 22:21:00,856 - __main__ - WARNING - 跳过无效歌曲数据: 韩小九
+2025-06-11 22:21:00,856 - __main__ - WARNING - 跳过无效歌曲数据: 后弦
+2025-06-11 22:21:00,856 - __main__ - WARNING - 跳过无效歌曲数据: 黄龄
+2025-06-11 22:21:00,856 - __main__ - WARNING - 跳过无效歌曲数据: 黄诗扶
+2025-06-11 22:21:00,856 - __main__ - WARNING - 跳过无效歌曲数据: 黄子弘凡
+2025-06-11 22:21:00,856 - __main__ - WARNING - 跳过无效歌曲数据: 回春丹
+2025-06-11 22:21:00,856 - __main__ - WARNING - 跳过无效歌曲数据: 寂
+2025-06-11 22:21:00,856 - __main__ - WARNING - 跳过无效歌曲数据: 加木
+2025-06-11 22:21:00,856 - __main__ - WARNING - 跳过无效歌曲数据: 江辰
+2025-06-11 22:21:00,856 - __main__ - WARNING - 跳过无效歌曲数据: 江泽伟
+2025-06-11 22:21:00,856 - __main__ - WARNING - 跳过无效歌曲数据: 江泽伟
+2025-06-11 22:21:00,856 - __main__ - WARNING - 跳过无效歌曲数据: 卡西恩Cacien
+2025-06-11 22:21:00,856 - __main__ - WARNING - 跳过无效歌曲数据: 李雪萌
+2025-06-11 22:21:00,856 - __main__ - WARNING - 跳过无效歌曲数据: 林渝植Anoryz
+2025-06-11 22:21:00,857 - __main__ - WARNING - 跳过无效歌曲数据: 刘若英
+2025-06-11 22:21:00,857 - __main__ - WARNING - 跳过无效歌曲数据: 刘宇
+2025-06-11 22:21:00,857 - __main__ - WARNING - 跳过无效歌曲数据: 猫头英
+2025-06-11 22:21:00,857 - __main__ - WARNING - 跳过无效歌曲数据: 米茄子乐队
+2025-06-11 22:21:00,857 - __main__ - WARNING - 跳过无效歌曲数据: 任素汐
+2025-06-11 22:21:00,857 - __main__ - WARNING - 跳过无效歌曲数据: 胜屿
+2025-06-11 22:21:00,858 - __main__ - WARNING - 跳过无效歌曲数据: 万乐体
+2025-06-11 22:21:00,858 - __main__ - WARNING - 跳过无效歌曲数据: 王赫野
+2025-06-11 22:21:00,858 - __main__ - WARNING - 跳过无效歌曲数据: 祥嘞嘞
+2025-06-11 22:21:00,858 - __main__ - WARNING - 跳过无效歌曲数据: 向思思
+2025-06-11 22:21:00,858 - __main__ - WARNING - 跳过无效歌曲数据: 小洛龙王
+2025-06-11 22:21:00,859 - __main__ - WARNING - 跳过无效歌曲数据: 徐良
+2025-06-11 22:21:00,859 - __main__ - WARNING - 跳过无效歌曲数据: 许嵩
+2025-06-11 22:21:00,859 - __main__ - WARNING - 跳过无效歌曲数据: 许嵩
+2025-06-11 22:21:00,859 - __main__ - WARNING - 跳过无效歌曲数据: 许嵩
+2025-06-11 22:21:00,859 - __main__ - WARNING - 跳过无效歌曲数据: 许巍
+2025-06-11 22:21:00,859 - __main__ - WARNING - 跳过无效歌曲数据: 杨树人
+2025-06-11 22:21:00,859 - __main__ - WARNING - 跳过无效歌曲数据: 姚晓棠
+2025-06-11 22:21:00,859 - __main__ - WARNING - 跳过无效歌曲数据: 尹美莱
+2025-06-11 22:21:00,859 - __main__ - WARNING - 跳过无效歌曲数据: 元
+2025-06-11 22:21:00,860 - __main__ - WARNING - 跳过无效歌曲数据: 袁娅维TIA RAY
+2025-06-11 22:21:00,860 - __main__ - WARNING - 跳过无效歌曲数据: 泽予
+2025-06-11 22:21:00,860 - __main__ - WARNING - 跳过无效歌曲数据: 真心的鸽子 纯音乐
+2025-06-11 22:21:00,860 - __main__ - WARNING - 跳过无效歌曲数据: 周柏豪
+2025-06-11 22:21:00,860 - __main__ - WARNING - 跳过无效歌曲数据: 周深
+2025-06-11 22:21:00,860 - __main__ - WARNING - 跳过无效歌曲数据: 粥粥和小伙
+2025-06-11 22:21:00,860 - __main__ - WARNING - 跳过无效歌曲数据: 庄东茹豆芽鱼
+2025-06-11 22:21:00,860 - __main__ - WARNING - 跳过无效歌曲数据: 邹沛沛
+2025-06-11 22:21:00,860 - __main__ - WARNING - 跳过无效歌曲数据: EXO
+2025-06-11 22:21:00,861 - __main__ - WARNING - 跳过无效歌曲数据: GarethT
+2025-06-11 22:21:00,861 - __main__ - WARNING - 跳过无效歌曲数据: GarethT
+2025-06-11 22:21:00,861 - __main__ - WARNING - 跳过无效歌曲数据: GEM邓紫棋
+2025-06-11 22:21:00,861 - __main__ - WARNING - 跳过无效歌曲数据: GEM邓紫棋
+2025-06-11 22:21:00,861 - __main__ - WARNING - 跳过无效歌曲数据: GEM邓紫棋
+2025-06-11 22:21:00,861 - __main__ - WARNING - 跳过无效歌曲数据: GEM邓紫棋
+2025-06-11 22:21:00,861 - __main__ - WARNING - 跳过无效歌曲数据: h3R3
+2025-06-11 22:21:00,861 - __main__ - WARNING - 跳过无效歌曲数据: h3R3
+2025-06-11 22:21:00,862 - __main__ - WARNING - 跳过无效歌曲数据: h3R3
+2025-06-11 22:21:00,862 - __main__ - WARNING - 跳过无效歌曲数据: Ice Paper
+2025-06-11 22:21:00,862 - __main__ - WARNING - 跳过无效歌曲数据: JuggShots
+2025-06-11 22:21:00,862 - __main__ - WARNING - 跳过无效歌曲数据: Kirsty刘瑾睿
+2025-06-11 22:21:00,862 - __main__ - WARNING - 跳过无效歌曲数据: LBI利比
+2025-06-11 22:21:00,862 - __main__ - WARNING - 跳过无效歌曲数据: mj apanay
+2025-06-11 22:21:00,862 - __main__ - WARNING - 跳过无效歌曲数据: Muyoi
+2025-06-11 22:21:00,862 - __main__ - WARNING - 跳过无效歌曲数据: ROSÉ
+2025-06-11 22:21:00,862 - __main__ - WARNING - 跳过无效歌曲数据: Starling8
+2025-06-11 22:21:00,862 - __main__ - WARNING - 跳过无效歌曲数据: TC
+2025-06-11 22:21:00,862 - __main__ - WARNING - 跳过无效歌曲数据: The Walters
+2025-06-11 22:21:00,862 - __main__ - WARNING - 跳过无效歌曲数据: TINY7
+2025-06-11 22:21:00,862 - __main__ - WARNING - 跳过无效歌曲数据: 阿YueYue
+2025-06-11 22:21:00,863 - __main__ - WARNING - 跳过无效歌曲数据: 阿冗
+2025-06-11 22:21:00,863 - __main__ - WARNING - 跳过无效歌曲数据: 阿虾
+2025-06-11 22:21:00,863 - __main__ - WARNING - 跳过无效歌曲数据: 蔡健雅
+2025-06-11 22:21:00,863 - __main__ - WARNING - 跳过无效歌曲数据: 蔡健雅
+2025-06-11 22:21:00,863 - __main__ - WARNING - 跳过无效歌曲数据: 蔡健雅
+2025-06-11 22:21:00,863 - __main__ - WARNING - 跳过无效歌曲数据: 陈楚生
+2025-06-11 22:21:00,863 - __main__ - WARNING - 跳过无效歌曲数据: 陈粒
+2025-06-11 22:21:00,863 - __main__ - WARNING - 跳过无效歌曲数据: 陈绮贞
+2025-06-11 22:21:00,863 - __main__ - WARNING - 跳过无效歌曲数据: 陈奕迅
+2025-06-11 22:21:00,864 - __main__ - WARNING - 跳过无效歌曲数据: 陈奕迅
+2025-06-11 22:21:00,864 - __main__ - WARNING - 跳过无效歌曲数据: 陈奕迅
+2025-06-11 22:21:00,864 - __main__ - WARNING - 跳过无效歌曲数据: 陈奕迅
+2025-06-11 22:21:00,864 - __main__ - WARNING - 跳过无效歌曲数据: 陈奕迅
+2025-06-11 22:21:00,864 - __main__ - WARNING - 跳过无效歌曲数据: 陈奕迅
+2025-06-11 22:21:00,864 - __main__ - WARNING - 跳过无效歌曲数据: 崔十八
+2025-06-11 22:21:00,864 - __main__ - WARNING - 跳过无效歌曲数据: 单依纯
+2025-06-11 22:21:00,864 - __main__ - WARNING - 跳过无效歌曲数据: 单依纯
+2025-06-11 22:21:00,864 - __main__ - WARNING - 跳过无效歌曲数据: 单依纯
+2025-06-11 22:21:00,864 - __main__ - WARNING - 跳过无效歌曲数据: 邓垚
+2025-06-11 22:21:00,864 - __main__ - WARNING - 跳过无效歌曲数据: 杜宣达
+2025-06-11 22:21:00,864 - __main__ - WARNING - 跳过无效歌曲数据: 渡
+2025-06-11 22:21:00,864 - __main__ - WARNING - 跳过无效歌曲数据: 队长
+2025-06-11 22:21:00,865 - __main__ - WARNING - 跳过无效歌曲数据: 队长
+2025-06-11 22:21:00,865 - __main__ - WARNING - 跳过无效歌曲数据: 队长
+2025-06-11 22:21:00,865 - __main__ - WARNING - 跳过无效歌曲数据: 方大同
+2025-06-11 22:21:00,865 - __main__ - WARNING - 跳过无效歌曲数据: 方大同
+2025-06-11 22:21:00,865 - __main__ - WARNING - 跳过无效歌曲数据: 方大同
+2025-06-11 22:21:00,865 - __main__ - WARNING - 跳过无效歌曲数据: 方大同
+2025-06-11 22:21:00,865 - __main__ - WARNING - 跳过无效歌曲数据: 菲道尔
+2025-06-11 22:21:00,866 - __main__ - WARNING - 跳过无效歌曲数据: 付俊乐
+2025-06-11 22:21:00,866 - __main__ - WARNING - 跳过无效歌曲数据: 告五人
+2025-06-11 22:21:00,866 - __main__ - WARNING - 跳过无效歌曲数据: 告五人
+2025-06-11 22:21:00,866 - __main__ - WARNING - 跳过无效歌曲数据: 告五人
+2025-06-11 22:21:00,866 - __main__ - WARNING - 跳过无效歌曲数据: 葛东琪
+2025-06-11 22:21:00,866 - __main__ - WARNING - 跳过无效歌曲数据: 郭顶
+2025-06-11 22:21:00,866 - __main__ - WARNING - 跳过无效歌曲数据: 郭顶
+2025-06-11 22:21:00,866 - __main__ - WARNING - 跳过无效歌曲数据: 郭静
+2025-06-11 22:21:00,866 - __main__ - WARNING - 跳过无效歌曲数据: 郭静
+2025-06-11 22:21:00,867 - __main__ - WARNING - 跳过无效歌曲数据: 郭一凡
+2025-06-11 22:21:00,867 - __main__ - WARNING - 跳过无效歌曲数据: 国风堂
+2025-06-11 22:21:00,867 - __main__ - WARNING - 跳过无效歌曲数据: 海洋Bo
+2025-06-11 22:21:00,867 - __main__ - WARNING - 跳过无效歌曲数据: 胡彦斌
+2025-06-11 22:21:00,867 - __main__ - WARNING - 跳过无效歌曲数据: 华晨宇
+2025-06-11 22:21:00,867 - __main__ - WARNING - 跳过无效歌曲数据: 黄子弘凡
+2025-06-11 22:21:00,867 - __main__ - WARNING - 跳过无效歌曲数据: 黄子弘凡
+2025-06-11 22:21:00,867 - __main__ - WARNING - 跳过无效歌曲数据: 加木
+2025-06-11 22:21:00,867 - __main__ - WARNING - 跳过无效歌曲数据: 家家
+2025-06-11 22:21:00,867 - __main__ - WARNING - 跳过无效歌曲数据: 江语晨
+2025-06-11 22:21:00,868 - __main__ - WARNING - 跳过无效歌曲数据: 蒋小呢
+2025-06-11 22:21:00,868 - __main__ - WARNING - 跳过无效歌曲数据: 蒋孜怡
+2025-06-11 22:21:00,868 - __main__ - WARNING - 跳过无效歌曲数据: 金润吉
+2025-06-11 22:21:00,868 - __main__ - WARNING - 跳过无效歌曲数据: 金玟岐
+2025-06-11 22:21:00,868 - __main__ - WARNING - 跳过无效歌曲数据: 金志文
+2025-06-11 22:21:00,868 - __main__ - WARNING - 跳过无效歌曲数据: 就是南方凯
+2025-06-11 22:21:00,868 - __main__ - WARNING - 跳过无效歌曲数据: 棱镜乐队
+2025-06-11 22:21:00,868 - __main__ - WARNING - 跳过无效歌曲数据: 梨冻紧
+2025-06-11 22:21:00,868 - __main__ - WARNING - 跳过无效歌曲数据: 李秉成
+2025-06-11 22:21:00,868 - __main__ - WARNING - 跳过无效歌曲数据: 李荣浩
+2025-06-11 22:21:00,868 - __main__ - WARNING - 跳过无效歌曲数据: 李润祺
+2025-06-11 22:21:00,868 - __main__ - WARNING - 跳过无效歌曲数据: 梁博
+2025-06-11 22:21:00,869 - __main__ - WARNING - 跳过无效歌曲数据: 梁博
+2025-06-11 22:21:00,869 - __main__ - WARNING - 跳过无效歌曲数据: 梁博
+2025-06-11 22:21:00,869 - __main__ - WARNING - 跳过无效歌曲数据: 梁静茹
+2025-06-11 22:21:00,869 - __main__ - WARNING - 跳过无效歌曲数据: 林达浪
+2025-06-11 22:21:00,869 - __main__ - WARNING - 跳过无效歌曲数据: 林俊杰
+2025-06-11 22:21:00,869 - __main__ - WARNING - 跳过无效歌曲数据: 林俊杰
+2025-06-11 22:21:00,869 - __main__ - WARNING - 跳过无效歌曲数据: 林俊杰
+2025-06-11 22:21:00,869 - __main__ - WARNING - 跳过无效歌曲数据: 林俊杰
+2025-06-11 22:21:00,869 - __main__ - WARNING - 跳过无效歌曲数据: 林俊杰
+2025-06-11 22:21:00,869 - __main__ - WARNING - 跳过无效歌曲数据: 林俊杰
+2025-06-11 22:21:00,869 - __main__ - WARNING - 跳过无效歌曲数据: 林倛玉
+2025-06-11 22:21:00,870 - __main__ - WARNING - 跳过无效歌曲数据: 林依晨
+2025-06-11 22:21:00,870 - __main__ - WARNING - 跳过无效歌曲数据: 陆虎
+2025-06-11 22:21:00,870 - __main__ - WARNING - 跳过无效歌曲数据: 罗森涛
+2025-06-11 22:21:00,870 - __main__ - WARNING - 跳过无效歌曲数据: 罗言
+2025-06-11 22:21:00,870 - __main__ - WARNING - 跳过无效歌曲数据: 马思唯
+2025-06-11 22:21:00,870 - __main__ - WARNING - 跳过无效歌曲数据: 买辣椒也用券
+2025-06-11 22:21:00,870 - __main__ - WARNING - 跳过无效歌曲数据: 毛不易
+2025-06-11 22:21:00,870 - __main__ - WARNING - 跳过无效歌曲数据: 毛不易
+2025-06-11 22:21:00,870 - __main__ - WARNING - 跳过无效歌曲数据: 毛不易
+2025-06-11 22:21:00,871 - __main__ - WARNING - 跳过无效歌曲数据: 米津玄師
+2025-06-11 22:21:00,871 - __main__ - WARNING - 跳过无效歌曲数据: 绵阳STAR
+2025-06-11 22:21:00,871 - __main__ - WARNING - 跳过无效歌曲数据: 摩登兄弟刘宇宁
+2025-06-11 22:21:00,871 - __main__ - WARNING - 跳过无效歌曲数据: 莫文蔚
+2025-06-11 22:21:00,871 - __main__ - WARNING - 跳过无效歌曲数据: 南征北战NZBZ
+2025-06-11 22:21:00,871 - __main__ - WARNING - 跳过无效歌曲数据: 青鸟飞鱼
+2025-06-11 22:21:00,871 - __main__ - WARNING - 跳过无效歌曲数据: 裘德
+2025-06-11 22:21:00,871 - __main__ - WARNING - 跳过无效歌曲数据: 容祖儿
+2025-06-11 22:21:00,871 - __main__ - WARNING - 跳过无效歌曲数据: 沙一汀EL
+2025-06-11 22:21:00,872 - __main__ - WARNING - 跳过无效歌曲数据: 邵帅
+2025-06-11 22:21:00,872 - __main__ - WARNING - 跳过无效歌曲数据: 沈以诚
+2025-06-11 22:21:00,872 - __main__ - WARNING - 跳过无效歌曲数据: 盛哲
+2025-06-11 22:21:00,872 - __main__ - WARNING - 跳过无效歌曲数据: 四熹丸子
+2025-06-11 22:21:00,872 - __main__ - WARNING - 跳过无效歌曲数据: 孙盛希
+2025-06-11 22:21:00,872 - __main__ - WARNING - 跳过无效歌曲数据: 孙燕姿
+2025-06-11 22:21:00,872 - __main__ - WARNING - 跳过无效歌曲数据: 孙燕姿
+2025-06-11 22:21:00,872 - __main__ - WARNING - 跳过无效歌曲数据: 孙燕姿
+2025-06-11 22:21:00,873 - __main__ - WARNING - 跳过无效歌曲数据: 孙燕姿
+2025-06-11 22:21:00,873 - __main__ - WARNING - 跳过无效歌曲数据: 谭维维
+2025-06-11 22:21:00,873 - __main__ - WARNING - 跳过无效歌曲数据: 陶喆
+2025-06-11 22:21:00,873 - __main__ - WARNING - 跳过无效歌曲数据: 陶喆
+2025-06-11 22:21:00,873 - __main__ - WARNING - 跳过无效歌曲数据: 陶喆
+2025-06-11 22:21:00,873 - __main__ - WARNING - 跳过无效歌曲数据: 汪苏泷
+2025-06-11 22:21:00,873 - __main__ - WARNING - 跳过无效歌曲数据: 汪苏泷
+2025-06-11 22:21:00,873 - __main__ - WARNING - 跳过无效歌曲数据: 汪苏泷
+2025-06-11 22:21:00,873 - __main__ - WARNING - 跳过无效歌曲数据: 汪苏泷
+2025-06-11 22:21:00,873 - __main__ - WARNING - 跳过无效歌曲数据: 王贰浪
+2025-06-11 22:21:00,874 - __main__ - WARNING - 跳过无效歌曲数据: 王菲
+2025-06-11 22:21:00,874 - __main__ - WARNING - 跳过无效歌曲数据: 王菲
+2025-06-11 22:21:00,874 - __main__ - WARNING - 跳过无效歌曲数据: 王赫野
+2025-06-11 22:21:00,874 - __main__ - WARNING - 跳过无效歌曲数据: 王力宏
+2025-06-11 22:21:00,874 - __main__ - WARNING - 跳过无效歌曲数据: 王力宏
+2025-06-11 22:21:00,874 - __main__ - WARNING - 跳过无效歌曲数据: 王力宏
+2025-06-11 22:21:00,874 - __main__ - WARNING - 跳过无效歌曲数据: 王睿卓
+2025-06-11 22:21:00,874 - __main__ - WARNING - 跳过无效歌曲数据: 王唯旖
+2025-06-11 22:21:00,874 - __main__ - WARNING - 跳过无效歌曲数据: 王宇宙Leto
+2025-06-11 22:21:00,874 - __main__ - WARNING - 跳过无效歌曲数据: 王源
+2025-06-11 22:21:00,875 - __main__ - WARNING - 跳过无效歌曲数据: 韦礼安
+2025-06-11 22:21:00,875 - __main__ - WARNING - 跳过无效歌曲数据: 夏日入侵企画
+2025-06-11 22:21:00,875 - __main__ - WARNING - 跳过无效歌曲数据: 小霞
+2025-06-11 22:21:00,875 - __main__ - WARNING - 跳过无效歌曲数据: 徐佳莹
+2025-06-11 22:21:00,875 - __main__ - WARNING - 跳过无效歌曲数据: 颜人中
+2025-06-11 22:21:00,875 - __main__ - WARNING - 跳过无效歌曲数据: 颜人中
+2025-06-11 22:21:00,875 - __main__ - WARNING - 跳过无效歌曲数据: 颜人中
+2025-06-11 22:21:00,875 - __main__ - WARNING - 跳过无效歌曲数据: 颜人中
+2025-06-11 22:21:00,875 - __main__ - WARNING - 跳过无效歌曲数据: 颜人中
+2025-06-11 22:21:00,875 - __main__ - WARNING - 跳过无效歌曲数据: 颜人中
+2025-06-11 22:21:00,875 - __main__ - WARNING - 跳过无效歌曲数据: 颜人中
+2025-06-11 22:21:00,875 - __main__ - WARNING - 跳过无效歌曲数据: 杨丞琳
+2025-06-11 22:21:00,876 - __main__ - WARNING - 跳过无效歌曲数据: 杨乃文
+2025-06-11 22:21:00,876 - __main__ - WARNING - 跳过无效歌曲数据: 杨宗纬
+2025-06-11 22:21:00,876 - __main__ - WARNING - 跳过无效歌曲数据: 银临
+2025-06-11 22:21:00,876 - __main__ - WARNING - 跳过无效歌曲数据: 印子月
+2025-06-11 22:21:00,876 - __main__ - WARNING - 跳过无效歌曲数据: 于冬然
+2025-06-11 22:21:00,876 - __main__ - WARNING - 跳过无效歌曲数据: 余佳运
+2025-06-11 22:21:00,876 - __main__ - WARNING - 跳过无效歌曲数据: 余佳运
+2025-06-11 22:21:00,876 - __main__ - WARNING - 跳过无效歌曲数据: 张碧晨
+2025-06-11 22:21:00,876 - __main__ - WARNING - 跳过无效歌曲数据: 张杰
+2025-06-11 22:21:00,876 - __main__ - WARNING - 跳过无效歌曲数据: 张杰
+2025-06-11 22:21:00,876 - __main__ - WARNING - 跳过无效歌曲数据: 张靓颖
+2025-06-11 22:21:00,876 - __main__ - WARNING - 跳过无效歌曲数据: 张靓颖
+2025-06-11 22:21:00,876 - __main__ - WARNING - 跳过无效歌曲数据: 张叶蕾
+2025-06-11 22:21:00,877 - __main__ - WARNING - 跳过无效歌曲数据: 张芸京
+2025-06-11 22:21:00,877 - __main__ - WARNING - 跳过无效歌曲数据: 张紫豪
+2025-06-11 22:21:00,877 - __main__ - WARNING - 跳过无效歌曲数据: 赵雷
+2025-06-11 22:21:00,877 - __main__ - WARNING - 跳过无效歌曲数据: 赵雷
+2025-06-11 22:21:00,877 - __main__ - WARNING - 跳过无效歌曲数据: 郑润泽
+2025-06-11 22:21:00,877 - __main__ - WARNING - 跳过无效歌曲数据: 郑润泽
+2025-06-11 22:21:00,877 - __main__ - WARNING - 跳过无效歌曲数据: 郑润泽
+2025-06-11 22:21:00,877 - __main__ - WARNING - 跳过无效歌曲数据: 郑润泽
+2025-06-11 22:21:00,878 - __main__ - WARNING - 跳过无效歌曲数据: 郑润泽
+2025-06-11 22:21:00,878 - __main__ - WARNING - 跳过无效歌曲数据: 郑润泽
+2025-06-11 22:21:00,878 - __main__ - WARNING - 跳过无效歌曲数据: 周传雄
+2025-06-11 22:21:00,878 - __main__ - WARNING - 跳过无效歌曲数据: 周公
+2025-06-11 22:21:00,878 - __main__ - WARNING - 跳过无效歌曲数据: 周深
+2025-06-11 22:21:00,878 - __main__ - WARNING - 跳过无效歌曲数据: 邹沛沛
+2025-06-11 22:21:00,878 - __main__ - WARNING - 跳过无效歌曲数据: 828
+2025-06-11 22:21:00,878 - __main__ - WARNING - 跳过无效歌曲数据: AIYUE
+2025-06-11 22:21:00,879 - __main__ - WARNING - 跳过无效歌曲数据: Badynow
+2025-06-11 22:21:00,879 - __main__ - WARNING - 跳过无效歌曲数据: BAEKHYUN
+2025-06-11 22:21:00,879 - __main__ - WARNING - 跳过无效歌曲数据: Bo Peep
+2025-06-11 22:21:00,879 - __main__ - WARNING - 跳过无效歌曲数据: Chance Peña
+2025-06-11 22:21:00,879 - __main__ - WARNING - 跳过无效歌曲数据: Christopher
+2025-06-11 22:21:00,880 - __main__ - WARNING - 跳过无效歌曲数据: en王翊恩
+2025-06-11 22:21:00,880 - __main__ - WARNING - 跳过无效歌曲数据: GAI周延
+2025-06-11 22:21:00,880 - __main__ - WARNING - 跳过无效歌曲数据: GarethT
+2025-06-11 22:21:00,880 - __main__ - WARNING - 跳过无效歌曲数据: Lil Ghost小鬼
+2025-06-11 22:21:00,880 - __main__ - WARNING - 跳过无效歌曲数据: Lil Ghost小鬼
+2025-06-11 22:21:00,880 - __main__ - WARNING - 跳过无效歌曲数据: Lunak
+2025-06-11 22:21:00,880 - __main__ - WARNING - 跳过无效歌曲数据: ROSÉ
+2025-06-11 22:21:00,880 - __main__ - WARNING - 跳过无效歌曲数据: TF家族
+2025-06-11 22:21:00,880 - __main__ - WARNING - 跳过无效歌曲数据: XG
+2025-06-11 22:21:00,880 - __main__ - WARNING - 跳过无效歌曲数据: XMASwu吴骜
+2025-06-11 22:21:00,880 - __main__ - WARNING - 跳过无效歌曲数据: YOASOBI
+2025-06-11 22:21:00,881 - __main__ - WARNING - 跳过无效歌曲数据: Zzh
+2025-06-11 22:21:00,881 - __main__ - WARNING - 跳过无效歌曲数据: 布瑞吉Bridge
+2025-06-11 22:21:00,881 - __main__ - WARNING - 跳过无效歌曲数据: 陈楚生
+2025-06-11 22:21:00,881 - __main__ - WARNING - 跳过无效歌曲数据: 陈楚生
+2025-06-11 22:21:00,881 - __main__ - WARNING - 跳过无效歌曲数据: 陈昊宇
+2025-06-11 22:21:00,881 - __main__ - WARNING - 跳过无效歌曲数据: 承麟
+2025-06-11 22:21:00,881 - __main__ - WARNING - 跳过无效歌曲数据: 单依纯
+2025-06-11 22:21:00,882 - __main__ - WARNING - 跳过无效歌曲数据: 单依纯
+2025-06-11 22:21:00,882 - __main__ - WARNING - 跳过无效歌曲数据: 隔壁老樊
+2025-06-11 22:21:00,882 - __main__ - WARNING - 跳过无效歌曲数据: 海南小崇
+2025-06-11 22:21:00,882 - __main__ - WARNING - 跳过无效歌曲数据: 海洋Bo
+2025-06-11 22:21:00,882 - __main__ - WARNING - 跳过无效歌曲数据: 华云龙KLE
+2025-06-11 22:21:00,882 - __main__ - WARNING - 跳过无效歌曲数据: 华云龙KLE
+2025-06-11 22:21:00,882 - __main__ - WARNING - 跳过无效歌曲数据: 华云龙KLE
+2025-06-11 22:21:00,882 - __main__ - WARNING - 跳过无效歌曲数据: 黄子弘凡
+2025-06-11 22:21:00,882 - __main__ - WARNING - 跳过无效歌曲数据: 加木
+2025-06-11 22:21:00,882 - __main__ - WARNING - 跳过无效歌曲数据: 加木
+2025-06-11 22:21:00,883 - __main__ - WARNING - 跳过无效歌曲数据: 江泽伟
+2025-06-11 22:21:00,883 - __main__ - WARNING - 跳过无效歌曲数据: 空罐子
+2025-06-11 22:21:00,883 - __main__ - WARNING - 跳过无效歌曲数据: 棱镜乐队
+2025-06-11 22:21:00,883 - __main__ - WARNING - 跳过无效歌曲数据: 鹿晗
+2025-06-11 22:21:00,883 - __main__ - WARNING - 跳过无效歌曲数据: 鹿晗
+2025-06-11 22:21:00,883 - __main__ - WARNING - 跳过无效歌曲数据: 马伯骞Victor Ma
+2025-06-11 22:21:00,883 - __main__ - WARNING - 跳过无效歌曲数据: 马嘉祺
+2025-06-11 22:21:00,884 - __main__ - WARNING - 跳过无效歌曲数据: 马健博
+2025-06-11 22:21:00,884 - __main__ - WARNING - 跳过无效歌曲数据: 摩登兄弟刘宇宁
+2025-06-11 22:21:00,884 - __main__ - WARNING - 跳过无效歌曲数据: 摩登兄弟刘宇宁
+2025-06-11 22:21:00,884 - __main__ - WARNING - 跳过无效歌曲数据: 塞壬唱片
+2025-06-11 22:21:00,884 - __main__ - WARNING - 跳过无效歌曲数据: 石凯
+2025-06-11 22:21:00,885 - __main__ - WARNING - 跳过无效歌曲数据: 谭维维
+2025-06-11 22:21:00,885 - __main__ - WARNING - 跳过无效歌曲数据: 顽童MJ116
+2025-06-11 22:21:00,885 - __main__ - WARNING - 跳过无效歌曲数据: 王赫野
+2025-06-11 22:21:00,885 - __main__ - WARNING - 跳过无效歌曲数据: 王睿卓
+2025-06-11 22:21:00,885 - __main__ - WARNING - 跳过无效歌曲数据: 王源
+2025-06-11 22:21:00,885 - __main__ - WARNING - 跳过无效歌曲数据: 王源
+2025-06-11 22:21:00,885 - __main__ - WARNING - 跳过无效歌曲数据: 王子健
+2025-06-11 22:21:00,886 - __main__ - WARNING - 跳过无效歌曲数据: 吴亮希
+2025-06-11 22:21:00,886 - __main__ - WARNING - 跳过无效歌曲数据: 伍六七
+2025-06-11 22:21:00,886 - __main__ - WARNING - 跳过无效歌曲数据: 小七Max
+2025-06-11 22:21:00,886 - __main__ - WARNING - 跳过无效歌曲数据: 杨坤
+2025-06-11 22:21:00,886 - __main__ - WARNING - 跳过无效歌曲数据: 杨坤
+2025-06-11 22:21:00,886 - __main__ - WARNING - 跳过无效歌曲数据: 杨昔默
+2025-06-11 22:21:00,886 - __main__ - WARNING - 跳过无效歌曲数据: 姚晓棠
+2025-06-11 22:21:00,886 - __main__ - WARNING - 跳过无效歌曲数据: 张碧晨
+2025-06-11 22:21:00,886 - __main__ - WARNING - 跳过无效歌曲数据: 张靓颖
+2025-06-11 22:21:00,886 - __main__ - WARNING - 跳过无效歌曲数据: 张靓颖
+2025-06-11 22:21:00,886 - __main__ - WARNING - 跳过无效歌曲数据: 张震岳
+2025-06-11 22:21:00,887 - __main__ - INFO - 加载音乐索引成功，共 0 首有效歌曲
+2025-06-11 22:21:00,887 - __main__ - INFO - 搜索结果数量: 0
+2025-06-11 22:21:00,887 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2025 22:21:00] "GET /api/search?keyword=晚风&platform=local HTTP/1.1" 200 -
+2025-06-11 22:21:05,204 - __main__ - INFO - 接收到搜索请求: 晚风, 平台: local
+2025-06-11 22:21:05,204 - __main__ - INFO - 搜索结果数量: 0
+2025-06-11 22:21:05,204 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2025 22:21:05] "GET /api/search?keyword=晚风&platform=local HTTP/1.1" 200 -
+2025-06-11 22:21:06,297 - __main__ - INFO - 接收到搜索请求: 晚风, 平台: local
+2025-06-11 22:21:06,297 - __main__ - INFO - 搜索结果数量: 0
+2025-06-11 22:21:06,297 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2025 22:21:06] "GET /api/search?keyword=晚风&platform=local HTTP/1.1" 200 -
+2025-06-11 22:21:07,193 - __main__ - INFO - 接收到搜索请求: 晚风, 平台: local
+2025-06-11 22:21:07,193 - __main__ - INFO - 搜索结果数量: 0
+2025-06-11 22:21:07,194 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2025 22:21:07] "GET /api/search?keyword=晚风&platform=local HTTP/1.1" 200 -
+2025-06-11 22:21:07,785 - __main__ - INFO - 接收到搜索请求: 晚风, 平台: local
+2025-06-11 22:21:07,785 - __main__ - INFO - 搜索结果数量: 0
+2025-06-11 22:21:07,785 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2025 22:21:07] "GET /api/search?keyword=晚风&platform=local HTTP/1.1" 200 -
+2025-06-11 22:21:08,008 - __main__ - INFO - 接收到搜索请求: 晚风, 平台: local
+2025-06-11 22:21:08,008 - __main__ - INFO - 搜索结果数量: 0
+2025-06-11 22:21:08,009 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2025 22:21:08] "GET /api/search?keyword=晚风&platform=local HTTP/1.1" 200 -
+2025-06-11 22:21:08,240 - __main__ - INFO - 接收到搜索请求: 晚风, 平台: local
+2025-06-11 22:21:08,241 - __main__ - INFO - 搜索结果数量: 0
+2025-06-11 22:21:08,241 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2025 22:21:08] "GET /api/search?keyword=晚风&platform=local HTTP/1.1" 200 -
+2025-06-11 22:21:37,931 - __main__ - INFO - 确保目录存在: C:\Users\鲁博\Desktop\第十二组-期末作业\第十二组-AI助手\download\music
+2025-06-11 22:21:37,932 - __main__ - INFO - 确保目录存在: C:\Users\鲁博\Desktop\第十二组-期末作业\第十二组-AI助手\download\cover
+2025-06-11 22:21:37,932 - __main__ - INFO - 确保目录存在: C:\Users\鲁博\Desktop\第十二组-期末作业\第十二组-AI助手\download\cache
+2025-06-11 22:21:37,951 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.10.3:5000
+2025-06-11 22:21:37,951 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-11 22:21:41,237 - __main__ - INFO - 接收到搜索请求: 晚风, 平台: local
+2025-06-11 22:21:41,239 - __main__ - WARNING - 跳过无效歌曲数据: Always Online
+2025-06-11 22:21:41,239 - __main__ - WARNING - 跳过无效歌曲数据: APT
+2025-06-11 22:21:41,240 - __main__ - WARNING - 跳过无效歌曲数据: Baby Dont Cry 人鱼的眼泪
+2025-06-11 22:21:41,240 - __main__ - WARNING - 跳过无效歌曲数据: I Love You So
+2025-06-11 22:21:41,240 - __main__ - WARNING - 跳过无效歌曲数据: Leave Me Alone寂寞作伴
+2025-06-11 22:21:41,240 - __main__ - WARNING - 跳过无效歌曲数据: Lemon
+2025-06-11 22:21:41,240 - __main__ - WARNING - 跳过无效歌曲数据: Letting Go
+2025-06-11 22:21:41,240 - __main__ - WARNING - 跳过无效歌曲数据: My love
+2025-06-11 22:21:41,241 - __main__ - WARNING - 跳过无效歌曲数据: time machine feat aren park
+2025-06-11 22:21:41,241 - __main__ - WARNING - 跳过无效歌曲数据: 一点 Live版
+2025-06-11 22:21:41,241 - __main__ - WARNING - 跳过无效歌曲数据: 一点
+2025-06-11 22:21:41,241 - __main__ - WARNING - 跳过无效歌曲数据: 一程山路
+2025-06-11 22:21:41,241 - __main__ - WARNING - 跳过无效歌曲数据: 下一个天亮
+2025-06-11 22:21:41,241 - __main__ - WARNING - 跳过无效歌曲数据: 不如回家喝自来水 Live版
+2025-06-11 22:21:41,241 - __main__ - WARNING - 跳过无效歌曲数据: 不要说话
+2025-06-11 22:21:41,241 - __main__ - WARNING - 跳过无效歌曲数据: 不说 原来是不说
+2025-06-11 22:21:41,242 - __main__ - WARNING - 跳过无效歌曲数据: 与我无关
+2025-06-11 22:21:41,242 - __main__ - WARNING - 跳过无效歌曲数据: 世界赠予我的
+2025-06-11 22:21:41,242 - __main__ - WARNING - 跳过无效歌曲数据: 两 难
+2025-06-11 22:21:41,242 - __main__ - WARNING - 跳过无效歌曲数据: 主 动
+2025-06-11 22:21:41,242 - __main__ - WARNING - 跳过无效歌曲数据: 九万字 Live版
+2025-06-11 22:21:41,242 - __main__ - WARNING - 跳过无效歌曲数据: 九万字
+2025-06-11 22:21:41,242 - __main__ - WARNING - 跳过无效歌曲数据: 予你
+2025-06-11 22:21:41,242 - __main__ - WARNING - 跳过无效歌曲数据: 于是
+2025-06-11 22:21:41,243 - __main__ - WARNING - 跳过无效歌曲数据: 亲爱的你啊
+2025-06-11 22:21:41,243 - __main__ - WARNING - 跳过无效歌曲数据: 人鱼的眼泪 Live版
+2025-06-11 22:21:41,243 - __main__ - WARNING - 跳过无效歌曲数据: 他不懂
+2025-06-11 22:21:41,243 - __main__ - WARNING - 跳过无效歌曲数据: 他只是经过
+2025-06-11 22:21:41,243 - __main__ - WARNING - 跳过无效歌曲数据: 你
+2025-06-11 22:21:41,243 - __main__ - WARNING - 跳过无效歌曲数据: 你要的全拿走
+2025-06-11 22:21:41,243 - __main__ - WARNING - 跳过无效歌曲数据: 倒数
+2025-06-11 22:21:41,244 - __main__ - WARNING - 跳过无效歌曲数据: 偏爱
+2025-06-11 22:21:41,244 - __main__ - WARNING - 跳过无效歌曲数据: 像晴天像雨天
+2025-06-11 22:21:41,244 - __main__ - WARNING - 跳过无效歌曲数据: 再次爱上你
+2025-06-11 22:21:41,244 - __main__ - WARNING - 跳过无效歌曲数据: 再等冬天Memories
+2025-06-11 22:21:41,244 - __main__ - WARNING - 跳过无效歌曲数据: 冬眠
+2025-06-11 22:21:41,244 - __main__ - WARNING - 跳过无效歌曲数据: 凄美地
+2025-06-11 22:21:41,244 - __main__ - WARNING - 跳过无效歌曲数据: 出现又离开 Live
+2025-06-11 22:21:41,244 - __main__ - WARNING - 跳过无效歌曲数据: 别让爱凋落 Live版
+2025-06-11 22:21:41,245 - __main__ - WARNING - 跳过无效歌曲数据: 千万次想象
+2025-06-11 22:21:41,245 - __main__ - WARNING - 跳过无效歌曲数据: 半句再见
+2025-06-11 22:21:41,245 - __main__ - WARNING - 跳过无效歌曲数据: 原来
+2025-06-11 22:21:41,245 - __main__ - WARNING - 跳过无效歌曲数据: 去北极忘记你
+2025-06-11 22:21:41,245 - __main__ - WARNING - 跳过无效歌曲数据: 去远方
+2025-06-11 22:21:41,245 - __main__ - WARNING - 跳过无效歌曲数据: 又是艳阳天
+2025-06-11 22:21:41,245 - __main__ - WARNING - 跳过无效歌曲数据: 句号
+2025-06-11 22:21:41,245 - __main__ - WARNING - 跳过无效歌曲数据: 只为你着迷 Live版
+2025-06-11 22:21:41,245 - __main__ - WARNING - 跳过无效歌曲数据: 只为你着迷
+2025-06-11 22:21:41,245 - __main__ - WARNING - 跳过无效歌曲数据: 可不可以
+2025-06-11 22:21:41,246 - __main__ - WARNING - 跳过无效歌曲数据: 同花顺
+2025-06-11 22:21:41,246 - __main__ - WARNING - 跳过无效歌曲数据: 向云端
+2025-06-11 22:21:41,246 - __main__ - WARNING - 跳过无效歌曲数据: 呓语
+2025-06-11 22:21:41,246 - __main__ - WARNING - 跳过无效歌曲数据: 命运
+2025-06-11 22:21:41,246 - __main__ - WARNING - 跳过无效歌曲数据: 和你
+2025-06-11 22:21:41,246 - __main__ - WARNING - 跳过无效歌曲数据: 哪里都是你
+2025-06-11 22:21:41,246 - __main__ - WARNING - 跳过无效歌曲数据: 唯一
+2025-06-11 22:21:41,246 - __main__ - WARNING - 跳过无效歌曲数据: 唯一
+2025-06-11 22:21:41,246 - __main__ - WARNING - 跳过无效歌曲数据: 嗜好
+2025-06-11 22:21:41,246 - __main__ - WARNING - 跳过无效歌曲数据: 四点的海棠花未眠
+2025-06-11 22:21:41,247 - __main__ - WARNING - 跳过无效歌曲数据: 土坡上的狗尾草 Live版
+2025-06-11 22:21:41,247 - __main__ - WARNING - 跳过无效歌曲数据: 在你的身边
+2025-06-11 22:21:41,247 - __main__ - WARNING - 跳过无效歌曲数据: 在加纳共和国离婚 你还爱我吗
+2025-06-11 22:21:41,247 - __main__ - WARNING - 跳过无效歌曲数据: 城北的花 Live版
+2025-06-11 22:21:41,247 - __main__ - WARNING - 跳过无效歌曲数据: 夏夜最后的烟火
+2025-06-11 22:21:41,247 - __main__ - WARNING - 跳过无效歌曲数据: 多远都要在一起
+2025-06-11 22:21:41,247 - __main__ - WARNING - 跳过无效歌曲数据: 大山 Live版
+2025-06-11 22:21:41,247 - __main__ - WARNING - 跳过无效歌曲数据: 天天
+2025-06-11 22:21:41,247 - __main__ - WARNING - 跳过无效歌曲数据: 天空 live
+2025-06-11 22:21:41,247 - __main__ - WARNING - 跳过无效歌曲数据: 太聪明
+2025-06-11 22:21:41,247 - __main__ - WARNING - 跳过无效歌曲数据: 如愿
+2025-06-11 22:21:41,248 - __main__ - WARNING - 跳过无效歌曲数据: 如果可以 Live版
+2025-06-11 22:21:41,248 - __main__ - WARNING - 跳过无效歌曲数据: 如果可以
+2025-06-11 22:21:41,248 - __main__ - WARNING - 跳过无效歌曲数据: 如果呢
+2025-06-11 22:21:41,248 - __main__ - WARNING - 跳过无效歌曲数据: 如果爱忘了 live
+2025-06-11 22:21:41,248 - __main__ - WARNING - 跳过无效歌曲数据: 孤独患者
+2025-06-11 22:21:41,248 - __main__ - WARNING - 跳过无效歌曲数据: 富士山下
+2025-06-11 22:21:41,248 - __main__ - WARNING - 跳过无效歌曲数据: 将故事写成我们
+2025-06-11 22:21:41,248 - __main__ - WARNING - 跳过无效歌曲数据: 小孩
+2025-06-11 22:21:41,248 - __main__ - WARNING - 跳过无效歌曲数据: 小美满
+2025-06-11 22:21:41,249 - __main__ - WARNING - 跳过无效歌曲数据: 小胡同
+2025-06-11 22:21:41,249 - __main__ - WARNING - 跳过无效歌曲数据: 少一点天分
+2025-06-11 22:21:41,249 - __main__ - WARNING - 跳过无效歌曲数据: 岁月神偷
+2025-06-11 22:21:41,249 - __main__ - WARNING - 跳过无效歌曲数据: 带我去找夜生活
+2025-06-11 22:21:41,249 - __main__ - WARNING - 跳过无效歌曲数据: 座位 Live版
+2025-06-11 22:21:41,249 - __main__ - WARNING - 跳过无效歌曲数据: 座位
+2025-06-11 22:21:41,249 - __main__ - WARNING - 跳过无效歌曲数据: 开始懂了
+2025-06-11 22:21:41,249 - __main__ - WARNING - 跳过无效歌曲数据: 形容
+2025-06-11 22:21:41,249 - __main__ - WARNING - 跳过无效歌曲数据: 心跳
+2025-06-11 22:21:41,249 - __main__ - WARNING - 跳过无效歌曲数据: 忘不掉的你
+2025-06-11 22:21:41,249 - __main__ - WARNING - 跳过无效歌曲数据: 思念回响
+2025-06-11 22:21:41,249 - __main__ - WARNING - 跳过无效歌曲数据: 总有一天你会出现在我身边
+2025-06-11 22:21:41,250 - __main__ - WARNING - 跳过无效歌曲数据: 恶作剧
+2025-06-11 22:21:41,250 - __main__ - WARNING - 跳过无效歌曲数据: 悬溺
+2025-06-11 22:21:41,250 - __main__ - WARNING - 跳过无效歌曲数据: 想你时风起
+2025-06-11 22:21:41,250 - __main__ - WARNING - 跳过无效歌曲数据: 愿与愁
+2025-06-11 22:21:41,250 - __main__ - WARNING - 跳过无效歌曲数据: 我们的歌
+2025-06-11 22:21:41,250 - __main__ - WARNING - 跳过无效歌曲数据: 我只能离开
+2025-06-11 22:21:41,250 - __main__ - WARNING - 跳过无效歌曲数据: 我怀念的
+2025-06-11 22:21:41,250 - __main__ - WARNING - 跳过无效歌曲数据: 我想念
+2025-06-11 22:21:41,250 - __main__ - WARNING - 跳过无效歌曲数据: 我愿
+2025-06-11 22:21:41,250 - __main__ - WARNING - 跳过无效歌曲数据: 我爱你但是我要回家
+2025-06-11 22:21:41,250 - __main__ - WARNING - 跳过无效歌曲数据: 我知道
+2025-06-11 22:21:41,250 - __main__ - WARNING - 跳过无效歌曲数据: 我记得
+2025-06-11 22:21:41,250 - __main__ - WARNING - 跳过无效歌曲数据: 我还想她
+2025-06-11 22:21:41,250 - __main__ - WARNING - 跳过无效歌曲数据: 才二十三
+2025-06-11 22:21:41,250 - __main__ - WARNING - 跳过无效歌曲数据: 把回忆拼好给你
+2025-06-11 22:21:41,251 - __main__ - WARNING - 跳过无效歌曲数据: 指纹
+2025-06-11 22:21:41,251 - __main__ - WARNING - 跳过无效歌曲数据: 推开世界的门
+2025-06-11 22:21:41,251 - __main__ - WARNING - 跳过无效歌曲数据: 摘朵马兰你就走吧
+2025-06-11 22:21:41,251 - __main__ - WARNING - 跳过无效歌曲数据: 无名的人
+2025-06-11 22:21:41,251 - __main__ - WARNING - 跳过无效歌曲数据: 春雪
+2025-06-11 22:21:41,251 - __main__ - WARNING - 跳过无效歌曲数据: 晚安
+2025-06-11 22:21:41,251 - __main__ - WARNING - 跳过无效歌曲数据: 晚风
+2025-06-11 22:21:41,251 - __main__ - WARNING - 跳过无效歌曲数据: 普通女孩
+2025-06-11 22:21:41,251 - __main__ - WARNING - 跳过无效歌曲数据: 普通朋友
+2025-06-11 22:21:41,251 - __main__ - WARNING - 跳过无效歌曲数据: 暖一杯茶
+2025-06-11 22:21:41,251 - __main__ - WARNING - 跳过无效歌曲数据: 曾经是情侣 Live
+2025-06-11 22:21:41,251 - __main__ - WARNING - 跳过无效歌曲数据: 最佳损友
+2025-06-11 22:21:41,251 - __main__ - WARNING - 跳过无效歌曲数据: 最后一页
+2025-06-11 22:21:41,251 - __main__ - WARNING - 跳过无效歌曲数据: 有些
+2025-06-11 22:21:41,251 - __main__ - WARNING - 跳过无效歌曲数据: 有我呢
+2025-06-11 22:21:41,251 - __main__ - WARNING - 跳过无效歌曲数据: 此生不换
+2025-06-11 22:21:41,251 - __main__ - WARNING - 跳过无效歌曲数据: 死疙瘩
+2025-06-11 22:21:41,252 - __main__ - WARNING - 跳过无效歌曲数据: 水星记
+2025-06-11 22:21:41,252 - __main__ - WARNING - 跳过无效歌曲数据: 江南
+2025-06-11 22:21:41,252 - __main__ - WARNING - 跳过无效歌曲数据: 沉沦与遐想
+2025-06-11 22:21:41,252 - __main__ - WARNING - 跳过无效歌曲数据: 沉溺 你让我的心不再结冰
+2025-06-11 22:21:41,252 - __main__ - WARNING - 跳过无效歌曲数据: 没关系
+2025-06-11 22:21:41,252 - __main__ - WARNING - 跳过无效歌曲数据: 沦陷
+2025-06-11 22:21:41,252 - __main__ - WARNING - 跳过无效歌曲数据: 浆果
+2025-06-11 22:21:41,252 - __main__ - WARNING - 跳过无效歌曲数据: 淘汰
+2025-06-11 22:21:41,252 - __main__ - WARNING - 跳过无效歌曲数据: 烟火里的尘埃
+2025-06-11 22:21:41,252 - __main__ - WARNING - 跳过无效歌曲数据: 爱人错过
+2025-06-11 22:21:41,252 - __main__ - WARNING - 跳过无效歌曲数据: 爱情讯息
+2025-06-11 22:21:41,252 - __main__ - WARNING - 跳过无效歌曲数据: 爱我还是他
+2025-06-11 22:21:41,252 - __main__ - WARNING - 跳过无效歌曲数据: 爱错
+2025-06-11 22:21:41,252 - __main__ - WARNING - 跳过无效歌曲数据: 牵丝戏
+2025-06-11 22:21:41,253 - __main__ - WARNING - 跳过无效歌曲数据: 特别的人
+2025-06-11 22:21:41,253 - __main__ - WARNING - 跳过无效歌曲数据: 珠玉
+2025-06-11 22:21:41,253 - __main__ - WARNING - 跳过无效歌曲数据: 知我
+2025-06-11 22:21:41,253 - __main__ - WARNING - 跳过无效歌曲数据: 祝你爱我到天荒地老
+2025-06-11 22:21:41,253 - __main__ - WARNING - 跳过无效歌曲数据: 离别开出花
+2025-06-11 22:21:41,253 - __main__ - WARNING - 跳过无效歌曲数据: 秋风
+2025-06-11 22:21:41,253 - __main__ - WARNING - 跳过无效歌曲数据: 程艾影
+2025-06-11 22:21:41,253 - __main__ - WARNING - 跳过无效歌曲数据: 稳稳的幸福
+2025-06-11 22:21:41,253 - __main__ - WARNING - 跳过无效歌曲数据: 第57次取消发送 Live版
+2025-06-11 22:21:41,253 - __main__ - WARNING - 跳过无效歌曲数据: 算了吧
+2025-06-11 22:21:41,253 - __main__ - WARNING - 跳过无效歌曲数据: 精卫
+2025-06-11 22:21:41,253 - __main__ - WARNING - 跳过无效歌曲数据: 素颜
+2025-06-11 22:21:41,253 - __main__ - WARNING - 跳过无效歌曲数据: 紫荆花盛开
+2025-06-11 22:21:41,253 - __main__ - WARNING - 跳过无效歌曲数据: 红
+2025-06-11 22:21:41,253 - __main__ - WARNING - 跳过无效歌曲数据: 红色高跟鞋
+2025-06-11 22:21:41,253 - __main__ - WARNING - 跳过无效歌曲数据: 给你呀又名for ya
+2025-06-11 22:21:41,254 - __main__ - WARNING - 跳过无效歌曲数据: 绽放
+2025-06-11 22:21:41,254 - __main__ - WARNING - 跳过无效歌曲数据: 罗生门Follow
+2025-06-11 22:21:41,254 - __main__ - WARNING - 跳过无效歌曲数据: 美人鱼
+2025-06-11 22:21:41,254 - __main__ - WARNING - 跳过无效歌曲数据: 肩上蝶
+2025-06-11 22:21:41,254 - __main__ - WARNING - 跳过无效歌曲数据: 舍得
+2025-06-11 22:21:41,254 - __main__ - WARNING - 跳过无效歌曲数据: 若月亮没来 Live版
+2025-06-11 22:21:41,254 - __main__ - WARNING - 跳过无效歌曲数据: 若月亮没来 若是月亮还没来
+2025-06-11 22:21:41,254 - __main__ - WARNING - 跳过无效歌曲数据: 苦茶子
+2025-06-11 22:21:41,254 - __main__ - WARNING - 跳过无效歌曲数据: 茫
+2025-06-11 22:21:41,254 - __main__ - WARNING - 跳过无效歌曲数据: 茶花开了
+2025-06-11 22:21:41,254 - __main__ - WARNING - 跳过无效歌曲数据: 落空
+2025-06-11 22:21:41,254 - __main__ - WARNING - 跳过无效歌曲数据: 虚拟
+2025-06-11 22:21:41,254 - __main__ - WARNING - 跳过无效歌曲数据: 触碰不到的你
+2025-06-11 22:21:41,254 - __main__ - WARNING - 跳过无效歌曲数据: 诀别书
+2025-06-11 22:21:41,254 - __main__ - WARNING - 跳过无效歌曲数据: 起风了
+2025-06-11 22:21:41,254 - __main__ - WARNING - 跳过无效歌曲数据: 越来越不懂
+2025-06-11 22:21:41,254 - __main__ - WARNING - 跳过无效歌曲数据: 跳楼机
+2025-06-11 22:21:41,255 - __main__ - WARNING - 跳过无效歌曲数据: 转身即心痛 Live版
+2025-06-11 22:21:41,255 - __main__ - WARNING - 跳过无效歌曲数据: 还是会想你
+2025-06-11 22:21:41,255 - __main__ - WARNING - 跳过无效歌曲数据: 还是分开
+2025-06-11 22:21:41,255 - __main__ - WARNING - 跳过无效歌曲数据: 这世界那么多人
+2025-06-11 22:21:41,255 - __main__ - WARNING - 跳过无效歌曲数据: 遇上你之前的我
+2025-06-11 22:21:41,255 - __main__ - WARNING - 跳过无效歌曲数据: 遇见
+2025-06-11 22:21:41,255 - __main__ - WARNING - 跳过无效歌曲数据: 遐想
+2025-06-11 22:21:41,255 - __main__ - WARNING - 跳过无效歌曲数据: 雨爱
+2025-06-11 22:21:41,255 - __main__ - WARNING - 跳过无效歌曲数据: 零距离的思念
+2025-06-11 22:21:41,255 - __main__ - WARNING - 跳过无效歌曲数据: 青花
+2025-06-11 22:21:41,255 - __main__ - WARNING - 跳过无效歌曲数据: 风铃
+2025-06-11 22:21:41,255 - __main__ - WARNING - 跳过无效歌曲数据: 麦恩莉
+2025-06-11 22:21:41,255 - __main__ - WARNING - 跳过无效歌曲数据: 7opy
+2025-06-11 22:21:41,255 - __main__ - WARNING - 跳过无效歌曲数据: 30年前50年后
+2025-06-11 22:21:41,255 - __main__ - WARNING - 跳过无效歌曲数据: Aioz
+2025-06-11 22:21:41,255 - __main__ - WARNING - 跳过无效歌曲数据: By2
+2025-06-11 22:21:41,256 - __main__ - WARNING - 跳过无效歌曲数据: CHØPE
+2025-06-11 22:21:41,256 - __main__ - WARNING - 跳过无效歌曲数据: ET
+2025-06-11 22:21:41,256 - __main__ - WARNING - 跳过无效歌曲数据: Alex LeMirage
+2025-06-11 22:21:41,256 - __main__ - WARNING - 跳过无效歌曲数据: BAEKHYUN
+2025-06-11 22:21:41,256 - __main__ - WARNING - 跳过无效歌曲数据: Billie Eilish
+2025-06-11 22:21:41,256 - __main__ - WARNING - 跳过无效歌曲数据: Carpetman
+2025-06-11 22:21:41,256 - __main__ - WARNING - 跳过无效歌曲数据: Connor Price
+2025-06-11 22:21:41,256 - __main__ - WARNING - 跳过无效歌曲数据: DEV
+2025-06-11 22:21:41,256 - __main__ - WARNING - 跳过无效歌曲数据: DEV
+2025-06-11 22:21:41,256 - __main__ - WARNING - 跳过无效歌曲数据: Doechii
+2025-06-11 22:21:41,256 - __main__ - WARNING - 跳过无效歌曲数据: Elhé
+2025-06-11 22:21:41,256 - __main__ - WARNING - 跳过无效歌曲数据: Emma艾玛
+2025-06-11 22:21:41,256 - __main__ - WARNING - 跳过无效歌曲数据: huhu胡胡
+2025-06-11 22:21:41,256 - __main__ - WARNING - 跳过无效歌曲数据: IU
+2025-06-11 22:21:41,256 - __main__ - WARNING - 跳过无效歌曲数据: IU
+2025-06-11 22:21:41,257 - __main__ - WARNING - 跳过无效歌曲数据: IU
+2025-06-11 22:21:41,257 - __main__ - WARNING - 跳过无效歌曲数据: IU
+2025-06-11 22:21:41,257 - __main__ - WARNING - 跳过无效歌曲数据: IU
+2025-06-11 22:21:41,257 - __main__ - WARNING - 跳过无效歌曲数据: IU
+2025-06-11 22:21:41,257 - __main__ - WARNING - 跳过无效歌曲数据: Jaydon
+2025-06-11 22:21:41,257 - __main__ - WARNING - 跳过无效歌曲数据: Jaydon
+2025-06-11 22:21:41,257 - __main__ - WARNING - 跳过无效歌曲数据: Jesse Barrera
+2025-06-11 22:21:41,257 - __main__ - WARNING - 跳过无效歌曲数据: Ka
+2025-06-11 22:21:41,257 - __main__ - WARNING - 跳过无效歌曲数据: Lady Gaga
+2025-06-11 22:21:41,257 - __main__ - WARNING - 跳过无效歌曲数据: LBI利比
+2025-06-11 22:21:41,257 - __main__ - WARNING - 跳过无效歌曲数据: LBI利比
+2025-06-11 22:21:41,257 - __main__ - WARNING - 跳过无效歌曲数据: LBI利比
+2025-06-11 22:21:41,257 - __main__ - WARNING - 跳过无效歌曲数据: Lil Ghost小鬼
+2025-06-11 22:21:41,257 - __main__ - WARNING - 跳过无效歌曲数据: Lunak
+2025-06-11 22:21:41,257 - __main__ - WARNING - 跳过无效歌曲数据: M3mo
+2025-06-11 22:21:41,258 - __main__ - WARNING - 跳过无效歌曲数据: Moliy
+2025-06-11 22:21:41,258 - __main__ - WARNING - 跳过无效歌曲数据: NOVALEXO
+2025-06-11 22:21:41,258 - __main__ - WARNING - 跳过无效歌曲数据: Opizzi
+2025-06-11 22:21:41,258 - __main__ - WARNING - 跳过无效歌曲数据: PHONKY BRO
+2025-06-11 22:21:41,258 - __main__ - WARNING - 跳过无效歌曲数据: RED
+2025-06-11 22:21:41,258 - __main__ - WARNING - 跳过无效歌曲数据: SASIOVERLXRD
+2025-06-11 22:21:41,258 - __main__ - WARNING - 跳过无效歌曲数据: SASIOVERLXRD
+2025-06-11 22:21:41,258 - __main__ - WARNING - 跳过无效歌曲数据: Sasuke
+2025-06-11 22:21:41,258 - __main__ - WARNING - 跳过无效歌曲数据: SENWUZM
+2025-06-11 22:21:41,258 - __main__ - WARNING - 跳过无效歌曲数据: SkiesNoLuv
+2025-06-11 22:21:41,258 - __main__ - WARNING - 跳过无效歌曲数据: soldier
+2025-06-11 22:21:41,258 - __main__ - WARNING - 跳过无效歌曲数据: Soulloom苏洛牧
+2025-06-11 22:21:41,259 - __main__ - WARNING - 跳过无效歌曲数据: THOME
+2025-06-11 22:21:41,259 - __main__ - WARNING - 跳过无效歌曲数据: TINY7
+2025-06-11 22:21:41,259 - __main__ - WARNING - 跳过无效歌曲数据: vine
+2025-06-11 22:21:41,259 - __main__ - WARNING - 跳过无效歌曲数据: ZaZaZsu
+2025-06-11 22:21:41,259 - __main__ - WARNING - 跳过无效歌曲数据: 爱新觉罗媚aimei媚
+2025-06-11 22:21:41,259 - __main__ - WARNING - 跳过无效歌曲数据: 安扬August
+2025-06-11 22:21:41,259 - __main__ - WARNING - 跳过无效歌曲数据: 巴音孟克 Maj7_Music
+2025-06-11 22:21:41,259 - __main__ - WARNING - 跳过无效歌曲数据: 曾婕JoeyZ
+2025-06-11 22:21:41,259 - __main__ - WARNING - 跳过无效歌曲数据: 陈蕾
+2025-06-11 22:21:41,259 - __main__ - WARNING - 跳过无效歌曲数据: 陈抒妮
+2025-06-11 22:21:41,259 - __main__ - WARNING - 跳过无效歌曲数据: 陈翔
+2025-06-11 22:21:41,260 - __main__ - WARNING - 跳过无效歌曲数据: 陈小春
+2025-06-11 22:21:41,260 - __main__ - WARNING - 跳过无效歌曲数据: 葱香科学家王悠然
+2025-06-11 22:21:41,260 - __main__ - WARNING - 跳过无效歌曲数据: 邓丽君
+2025-06-11 22:21:41,260 - __main__ - WARNING - 跳过无效歌曲数据: 杜大发
+2025-06-11 22:21:41,260 - __main__ - WARNING - 跳过无效歌曲数据: 肚子又饿了
+2025-06-11 22:21:41,260 - __main__ - WARNING - 跳过无效歌曲数据: 供销社乐队
+2025-06-11 22:21:41,260 - __main__ - WARNING - 跳过无效歌曲数据: 郭静
+2025-06-11 22:21:41,260 - __main__ - WARNING - 跳过无效歌曲数据: 韩小九
+2025-06-11 22:21:41,261 - __main__ - WARNING - 跳过无效歌曲数据: 后弦
+2025-06-11 22:21:41,261 - __main__ - WARNING - 跳过无效歌曲数据: 黄龄
+2025-06-11 22:21:41,261 - __main__ - WARNING - 跳过无效歌曲数据: 黄诗扶
+2025-06-11 22:21:41,261 - __main__ - WARNING - 跳过无效歌曲数据: 黄子弘凡
+2025-06-11 22:21:41,261 - __main__ - WARNING - 跳过无效歌曲数据: 回春丹
+2025-06-11 22:21:41,261 - __main__ - WARNING - 跳过无效歌曲数据: 寂
+2025-06-11 22:21:41,261 - __main__ - WARNING - 跳过无效歌曲数据: 加木
+2025-06-11 22:21:41,261 - __main__ - WARNING - 跳过无效歌曲数据: 江辰
+2025-06-11 22:21:41,261 - __main__ - WARNING - 跳过无效歌曲数据: 江泽伟
+2025-06-11 22:21:41,261 - __main__ - WARNING - 跳过无效歌曲数据: 江泽伟
+2025-06-11 22:21:41,261 - __main__ - WARNING - 跳过无效歌曲数据: 卡西恩Cacien
+2025-06-11 22:21:41,262 - __main__ - WARNING - 跳过无效歌曲数据: 李雪萌
+2025-06-11 22:21:41,262 - __main__ - WARNING - 跳过无效歌曲数据: 林渝植Anoryz
+2025-06-11 22:21:41,262 - __main__ - WARNING - 跳过无效歌曲数据: 刘若英
+2025-06-11 22:21:41,262 - __main__ - WARNING - 跳过无效歌曲数据: 刘宇
+2025-06-11 22:21:41,262 - __main__ - WARNING - 跳过无效歌曲数据: 猫头英
+2025-06-11 22:21:41,262 - __main__ - WARNING - 跳过无效歌曲数据: 米茄子乐队
+2025-06-11 22:21:41,263 - __main__ - WARNING - 跳过无效歌曲数据: 任素汐
+2025-06-11 22:21:41,263 - __main__ - WARNING - 跳过无效歌曲数据: 胜屿
+2025-06-11 22:21:41,263 - __main__ - WARNING - 跳过无效歌曲数据: 万乐体
+2025-06-11 22:21:41,263 - __main__ - WARNING - 跳过无效歌曲数据: 王赫野
+2025-06-11 22:21:41,263 - __main__ - WARNING - 跳过无效歌曲数据: 祥嘞嘞
+2025-06-11 22:21:41,263 - __main__ - WARNING - 跳过无效歌曲数据: 向思思
+2025-06-11 22:21:41,263 - __main__ - WARNING - 跳过无效歌曲数据: 小洛龙王
+2025-06-11 22:21:41,264 - __main__ - WARNING - 跳过无效歌曲数据: 徐良
+2025-06-11 22:21:41,264 - __main__ - WARNING - 跳过无效歌曲数据: 许嵩
+2025-06-11 22:21:41,264 - __main__ - WARNING - 跳过无效歌曲数据: 许嵩
+2025-06-11 22:21:41,264 - __main__ - WARNING - 跳过无效歌曲数据: 许嵩
+2025-06-11 22:21:41,264 - __main__ - WARNING - 跳过无效歌曲数据: 许巍
+2025-06-11 22:21:41,264 - __main__ - WARNING - 跳过无效歌曲数据: 杨树人
+2025-06-11 22:21:41,265 - __main__ - WARNING - 跳过无效歌曲数据: 姚晓棠
+2025-06-11 22:21:41,265 - __main__ - WARNING - 跳过无效歌曲数据: 尹美莱
+2025-06-11 22:21:41,265 - __main__ - WARNING - 跳过无效歌曲数据: 元
+2025-06-11 22:21:41,265 - __main__ - WARNING - 跳过无效歌曲数据: 袁娅维TIA RAY
+2025-06-11 22:21:41,266 - __main__ - WARNING - 跳过无效歌曲数据: 泽予
+2025-06-11 22:21:41,266 - __main__ - WARNING - 跳过无效歌曲数据: 真心的鸽子 纯音乐
+2025-06-11 22:21:41,266 - __main__ - WARNING - 跳过无效歌曲数据: 周柏豪
+2025-06-11 22:21:41,266 - __main__ - WARNING - 跳过无效歌曲数据: 周深
+2025-06-11 22:21:41,266 - __main__ - WARNING - 跳过无效歌曲数据: 粥粥和小伙
+2025-06-11 22:21:41,266 - __main__ - WARNING - 跳过无效歌曲数据: 庄东茹豆芽鱼
+2025-06-11 22:21:41,266 - __main__ - WARNING - 跳过无效歌曲数据: 邹沛沛
+2025-06-11 22:21:41,267 - __main__ - WARNING - 跳过无效歌曲数据: EXO
+2025-06-11 22:21:41,267 - __main__ - WARNING - 跳过无效歌曲数据: GarethT
+2025-06-11 22:21:41,267 - __main__ - WARNING - 跳过无效歌曲数据: GarethT
+2025-06-11 22:21:41,267 - __main__ - WARNING - 跳过无效歌曲数据: GEM邓紫棋
+2025-06-11 22:21:41,267 - __main__ - WARNING - 跳过无效歌曲数据: GEM邓紫棋
+2025-06-11 22:21:41,267 - __main__ - WARNING - 跳过无效歌曲数据: GEM邓紫棋
+2025-06-11 22:21:41,267 - __main__ - WARNING - 跳过无效歌曲数据: GEM邓紫棋
+2025-06-11 22:21:41,268 - __main__ - WARNING - 跳过无效歌曲数据: h3R3
+2025-06-11 22:21:41,268 - __main__ - WARNING - 跳过无效歌曲数据: h3R3
+2025-06-11 22:21:41,268 - __main__ - WARNING - 跳过无效歌曲数据: h3R3
+2025-06-11 22:21:41,268 - __main__ - WARNING - 跳过无效歌曲数据: Ice Paper
+2025-06-11 22:21:41,268 - __main__ - WARNING - 跳过无效歌曲数据: JuggShots
+2025-06-11 22:21:41,268 - __main__ - WARNING - 跳过无效歌曲数据: Kirsty刘瑾睿
+2025-06-11 22:21:41,268 - __main__ - WARNING - 跳过无效歌曲数据: LBI利比
+2025-06-11 22:21:41,268 - __main__ - WARNING - 跳过无效歌曲数据: mj apanay
+2025-06-11 22:21:41,269 - __main__ - WARNING - 跳过无效歌曲数据: Muyoi
+2025-06-11 22:21:41,269 - __main__ - WARNING - 跳过无效歌曲数据: ROSÉ
+2025-06-11 22:21:41,269 - __main__ - WARNING - 跳过无效歌曲数据: Starling8
+2025-06-11 22:21:41,269 - __main__ - WARNING - 跳过无效歌曲数据: TC
+2025-06-11 22:21:41,269 - __main__ - WARNING - 跳过无效歌曲数据: The Walters
+2025-06-11 22:21:41,269 - __main__ - WARNING - 跳过无效歌曲数据: TINY7
+2025-06-11 22:21:41,269 - __main__ - WARNING - 跳过无效歌曲数据: 阿YueYue
+2025-06-11 22:21:41,269 - __main__ - WARNING - 跳过无效歌曲数据: 阿冗
+2025-06-11 22:21:41,270 - __main__ - WARNING - 跳过无效歌曲数据: 阿虾
+2025-06-11 22:21:41,270 - __main__ - WARNING - 跳过无效歌曲数据: 蔡健雅
+2025-06-11 22:21:41,270 - __main__ - WARNING - 跳过无效歌曲数据: 蔡健雅
+2025-06-11 22:21:41,270 - __main__ - WARNING - 跳过无效歌曲数据: 蔡健雅
+2025-06-11 22:21:41,270 - __main__ - WARNING - 跳过无效歌曲数据: 陈楚生
+2025-06-11 22:21:41,270 - __main__ - WARNING - 跳过无效歌曲数据: 陈粒
+2025-06-11 22:21:41,270 - __main__ - WARNING - 跳过无效歌曲数据: 陈绮贞
+2025-06-11 22:21:41,270 - __main__ - WARNING - 跳过无效歌曲数据: 陈奕迅
+2025-06-11 22:21:41,271 - __main__ - WARNING - 跳过无效歌曲数据: 陈奕迅
+2025-06-11 22:21:41,271 - __main__ - WARNING - 跳过无效歌曲数据: 陈奕迅
+2025-06-11 22:21:41,271 - __main__ - WARNING - 跳过无效歌曲数据: 陈奕迅
+2025-06-11 22:21:41,271 - __main__ - WARNING - 跳过无效歌曲数据: 陈奕迅
+2025-06-11 22:21:41,271 - __main__ - WARNING - 跳过无效歌曲数据: 陈奕迅
+2025-06-11 22:21:41,271 - __main__ - WARNING - 跳过无效歌曲数据: 崔十八
+2025-06-11 22:21:41,271 - __main__ - WARNING - 跳过无效歌曲数据: 单依纯
+2025-06-11 22:21:41,271 - __main__ - WARNING - 跳过无效歌曲数据: 单依纯
+2025-06-11 22:21:41,271 - __main__ - WARNING - 跳过无效歌曲数据: 单依纯
+2025-06-11 22:21:41,271 - __main__ - WARNING - 跳过无效歌曲数据: 邓垚
+2025-06-11 22:21:41,272 - __main__ - WARNING - 跳过无效歌曲数据: 杜宣达
+2025-06-11 22:21:41,272 - __main__ - WARNING - 跳过无效歌曲数据: 渡
+2025-06-11 22:21:41,272 - __main__ - WARNING - 跳过无效歌曲数据: 队长
+2025-06-11 22:21:41,272 - __main__ - WARNING - 跳过无效歌曲数据: 队长
+2025-06-11 22:21:41,272 - __main__ - WARNING - 跳过无效歌曲数据: 队长
+2025-06-11 22:21:41,272 - __main__ - WARNING - 跳过无效歌曲数据: 方大同
+2025-06-11 22:21:41,272 - __main__ - WARNING - 跳过无效歌曲数据: 方大同
+2025-06-11 22:21:41,272 - __main__ - WARNING - 跳过无效歌曲数据: 方大同
+2025-06-11 22:21:41,272 - __main__ - WARNING - 跳过无效歌曲数据: 方大同
+2025-06-11 22:21:41,272 - __main__ - WARNING - 跳过无效歌曲数据: 菲道尔
+2025-06-11 22:21:41,273 - __main__ - WARNING - 跳过无效歌曲数据: 付俊乐
+2025-06-11 22:21:41,273 - __main__ - WARNING - 跳过无效歌曲数据: 告五人
+2025-06-11 22:21:41,273 - __main__ - WARNING - 跳过无效歌曲数据: 告五人
+2025-06-11 22:21:41,273 - __main__ - WARNING - 跳过无效歌曲数据: 告五人
+2025-06-11 22:21:41,273 - __main__ - WARNING - 跳过无效歌曲数据: 葛东琪
+2025-06-11 22:21:41,273 - __main__ - WARNING - 跳过无效歌曲数据: 郭顶
+2025-06-11 22:21:41,273 - __main__ - WARNING - 跳过无效歌曲数据: 郭顶
+2025-06-11 22:21:41,273 - __main__ - WARNING - 跳过无效歌曲数据: 郭静
+2025-06-11 22:21:41,273 - __main__ - WARNING - 跳过无效歌曲数据: 郭静
+2025-06-11 22:21:41,274 - __main__ - WARNING - 跳过无效歌曲数据: 郭一凡
+2025-06-11 22:21:41,274 - __main__ - WARNING - 跳过无效歌曲数据: 国风堂
+2025-06-11 22:21:41,274 - __main__ - WARNING - 跳过无效歌曲数据: 海洋Bo
+2025-06-11 22:21:41,274 - __main__ - WARNING - 跳过无效歌曲数据: 胡彦斌
+2025-06-11 22:21:41,274 - __main__ - WARNING - 跳过无效歌曲数据: 华晨宇
+2025-06-11 22:21:41,274 - __main__ - WARNING - 跳过无效歌曲数据: 黄子弘凡
+2025-06-11 22:21:41,274 - __main__ - WARNING - 跳过无效歌曲数据: 黄子弘凡
+2025-06-11 22:21:41,274 - __main__ - WARNING - 跳过无效歌曲数据: 加木
+2025-06-11 22:21:41,274 - __main__ - WARNING - 跳过无效歌曲数据: 家家
+2025-06-11 22:21:41,274 - __main__ - WARNING - 跳过无效歌曲数据: 江语晨
+2025-06-11 22:21:41,274 - __main__ - WARNING - 跳过无效歌曲数据: 蒋小呢
+2025-06-11 22:21:41,274 - __main__ - WARNING - 跳过无效歌曲数据: 蒋孜怡
+2025-06-11 22:21:41,274 - __main__ - WARNING - 跳过无效歌曲数据: 金润吉
+2025-06-11 22:21:41,274 - __main__ - WARNING - 跳过无效歌曲数据: 金玟岐
+2025-06-11 22:21:41,275 - __main__ - WARNING - 跳过无效歌曲数据: 金志文
+2025-06-11 22:21:41,275 - __main__ - WARNING - 跳过无效歌曲数据: 就是南方凯
+2025-06-11 22:21:41,275 - __main__ - WARNING - 跳过无效歌曲数据: 棱镜乐队
+2025-06-11 22:21:41,275 - __main__ - WARNING - 跳过无效歌曲数据: 梨冻紧
+2025-06-11 22:21:41,275 - __main__ - WARNING - 跳过无效歌曲数据: 李秉成
+2025-06-11 22:21:41,275 - __main__ - WARNING - 跳过无效歌曲数据: 李荣浩
+2025-06-11 22:21:41,275 - __main__ - WARNING - 跳过无效歌曲数据: 李润祺
+2025-06-11 22:21:41,275 - __main__ - WARNING - 跳过无效歌曲数据: 梁博
+2025-06-11 22:21:41,275 - __main__ - WARNING - 跳过无效歌曲数据: 梁博
+2025-06-11 22:21:41,275 - __main__ - WARNING - 跳过无效歌曲数据: 梁博
+2025-06-11 22:21:41,275 - __main__ - WARNING - 跳过无效歌曲数据: 梁静茹
+2025-06-11 22:21:41,276 - __main__ - WARNING - 跳过无效歌曲数据: 林达浪
+2025-06-11 22:21:41,276 - __main__ - WARNING - 跳过无效歌曲数据: 林俊杰
+2025-06-11 22:21:41,276 - __main__ - WARNING - 跳过无效歌曲数据: 林俊杰
+2025-06-11 22:21:41,276 - __main__ - WARNING - 跳过无效歌曲数据: 林俊杰
+2025-06-11 22:21:41,276 - __main__ - WARNING - 跳过无效歌曲数据: 林俊杰
+2025-06-11 22:21:41,276 - __main__ - WARNING - 跳过无效歌曲数据: 林俊杰
+2025-06-11 22:21:41,276 - __main__ - WARNING - 跳过无效歌曲数据: 林俊杰
+2025-06-11 22:21:41,276 - __main__ - WARNING - 跳过无效歌曲数据: 林倛玉
+2025-06-11 22:21:41,276 - __main__ - WARNING - 跳过无效歌曲数据: 林依晨
+2025-06-11 22:21:41,276 - __main__ - WARNING - 跳过无效歌曲数据: 陆虎
+2025-06-11 22:21:41,276 - __main__ - WARNING - 跳过无效歌曲数据: 罗森涛
+2025-06-11 22:21:41,276 - __main__ - WARNING - 跳过无效歌曲数据: 罗言
+2025-06-11 22:21:41,276 - __main__ - WARNING - 跳过无效歌曲数据: 马思唯
+2025-06-11 22:21:41,277 - __main__ - WARNING - 跳过无效歌曲数据: 买辣椒也用券
+2025-06-11 22:21:41,277 - __main__ - WARNING - 跳过无效歌曲数据: 毛不易
+2025-06-11 22:21:41,277 - __main__ - WARNING - 跳过无效歌曲数据: 毛不易
+2025-06-11 22:21:41,277 - __main__ - WARNING - 跳过无效歌曲数据: 毛不易
+2025-06-11 22:21:41,277 - __main__ - WARNING - 跳过无效歌曲数据: 米津玄師
+2025-06-11 22:21:41,277 - __main__ - WARNING - 跳过无效歌曲数据: 绵阳STAR
+2025-06-11 22:21:41,277 - __main__ - WARNING - 跳过无效歌曲数据: 摩登兄弟刘宇宁
+2025-06-11 22:21:41,277 - __main__ - WARNING - 跳过无效歌曲数据: 莫文蔚
+2025-06-11 22:21:41,277 - __main__ - WARNING - 跳过无效歌曲数据: 南征北战NZBZ
+2025-06-11 22:21:41,277 - __main__ - WARNING - 跳过无效歌曲数据: 青鸟飞鱼
+2025-06-11 22:21:41,277 - __main__ - WARNING - 跳过无效歌曲数据: 裘德
+2025-06-11 22:21:41,278 - __main__ - WARNING - 跳过无效歌曲数据: 容祖儿
+2025-06-11 22:21:41,278 - __main__ - WARNING - 跳过无效歌曲数据: 沙一汀EL
+2025-06-11 22:21:41,278 - __main__ - WARNING - 跳过无效歌曲数据: 邵帅
+2025-06-11 22:21:41,278 - __main__ - WARNING - 跳过无效歌曲数据: 沈以诚
+2025-06-11 22:21:41,278 - __main__ - WARNING - 跳过无效歌曲数据: 盛哲
+2025-06-11 22:21:41,278 - __main__ - WARNING - 跳过无效歌曲数据: 四熹丸子
+2025-06-11 22:21:41,278 - __main__ - WARNING - 跳过无效歌曲数据: 孙盛希
+2025-06-11 22:21:41,278 - __main__ - WARNING - 跳过无效歌曲数据: 孙燕姿
+2025-06-11 22:21:41,278 - __main__ - WARNING - 跳过无效歌曲数据: 孙燕姿
+2025-06-11 22:21:41,278 - __main__ - WARNING - 跳过无效歌曲数据: 孙燕姿
+2025-06-11 22:21:41,279 - __main__ - WARNING - 跳过无效歌曲数据: 孙燕姿
+2025-06-11 22:21:41,279 - __main__ - WARNING - 跳过无效歌曲数据: 谭维维
+2025-06-11 22:21:41,279 - __main__ - WARNING - 跳过无效歌曲数据: 陶喆
+2025-06-11 22:21:41,279 - __main__ - WARNING - 跳过无效歌曲数据: 陶喆
+2025-06-11 22:21:41,279 - __main__ - WARNING - 跳过无效歌曲数据: 陶喆
+2025-06-11 22:21:41,279 - __main__ - WARNING - 跳过无效歌曲数据: 汪苏泷
+2025-06-11 22:21:41,279 - __main__ - WARNING - 跳过无效歌曲数据: 汪苏泷
+2025-06-11 22:21:41,279 - __main__ - WARNING - 跳过无效歌曲数据: 汪苏泷
+2025-06-11 22:21:41,279 - __main__ - WARNING - 跳过无效歌曲数据: 汪苏泷
+2025-06-11 22:21:41,279 - __main__ - WARNING - 跳过无效歌曲数据: 王贰浪
+2025-06-11 22:21:41,279 - __main__ - WARNING - 跳过无效歌曲数据: 王菲
+2025-06-11 22:21:41,280 - __main__ - WARNING - 跳过无效歌曲数据: 王菲
+2025-06-11 22:21:41,280 - __main__ - WARNING - 跳过无效歌曲数据: 王赫野
+2025-06-11 22:21:41,280 - __main__ - WARNING - 跳过无效歌曲数据: 王力宏
+2025-06-11 22:21:41,280 - __main__ - WARNING - 跳过无效歌曲数据: 王力宏
+2025-06-11 22:21:41,280 - __main__ - WARNING - 跳过无效歌曲数据: 王力宏
+2025-06-11 22:21:41,280 - __main__ - WARNING - 跳过无效歌曲数据: 王睿卓
+2025-06-11 22:21:41,280 - __main__ - WARNING - 跳过无效歌曲数据: 王唯旖
+2025-06-11 22:21:41,280 - __main__ - WARNING - 跳过无效歌曲数据: 王宇宙Leto
+2025-06-11 22:21:41,280 - __main__ - WARNING - 跳过无效歌曲数据: 王源
+2025-06-11 22:21:41,280 - __main__ - WARNING - 跳过无效歌曲数据: 韦礼安
+2025-06-11 22:21:41,280 - __main__ - WARNING - 跳过无效歌曲数据: 夏日入侵企画
+2025-06-11 22:21:41,280 - __main__ - WARNING - 跳过无效歌曲数据: 小霞
+2025-06-11 22:21:41,280 - __main__ - WARNING - 跳过无效歌曲数据: 徐佳莹
+2025-06-11 22:21:41,280 - __main__ - WARNING - 跳过无效歌曲数据: 颜人中
+2025-06-11 22:21:41,281 - __main__ - WARNING - 跳过无效歌曲数据: 颜人中
+2025-06-11 22:21:41,281 - __main__ - WARNING - 跳过无效歌曲数据: 颜人中
+2025-06-11 22:21:41,281 - __main__ - WARNING - 跳过无效歌曲数据: 颜人中
+2025-06-11 22:21:41,281 - __main__ - WARNING - 跳过无效歌曲数据: 颜人中
+2025-06-11 22:21:41,281 - __main__ - WARNING - 跳过无效歌曲数据: 颜人中
+2025-06-11 22:21:41,281 - __main__ - WARNING - 跳过无效歌曲数据: 颜人中
+2025-06-11 22:21:41,281 - __main__ - WARNING - 跳过无效歌曲数据: 杨丞琳
+2025-06-11 22:21:41,281 - __main__ - WARNING - 跳过无效歌曲数据: 杨乃文
+2025-06-11 22:21:41,281 - __main__ - WARNING - 跳过无效歌曲数据: 杨宗纬
+2025-06-11 22:21:41,281 - __main__ - WARNING - 跳过无效歌曲数据: 银临
+2025-06-11 22:21:41,281 - __main__ - WARNING - 跳过无效歌曲数据: 印子月
+2025-06-11 22:21:41,281 - __main__ - WARNING - 跳过无效歌曲数据: 于冬然
+2025-06-11 22:21:41,281 - __main__ - WARNING - 跳过无效歌曲数据: 余佳运
+2025-06-11 22:21:41,282 - __main__ - WARNING - 跳过无效歌曲数据: 余佳运
+2025-06-11 22:21:41,282 - __main__ - WARNING - 跳过无效歌曲数据: 张碧晨
+2025-06-11 22:21:41,282 - __main__ - WARNING - 跳过无效歌曲数据: 张杰
+2025-06-11 22:21:41,282 - __main__ - WARNING - 跳过无效歌曲数据: 张杰
+2025-06-11 22:21:41,282 - __main__ - WARNING - 跳过无效歌曲数据: 张靓颖
+2025-06-11 22:21:41,282 - __main__ - WARNING - 跳过无效歌曲数据: 张靓颖
+2025-06-11 22:21:41,282 - __main__ - WARNING - 跳过无效歌曲数据: 张叶蕾
+2025-06-11 22:21:41,282 - __main__ - WARNING - 跳过无效歌曲数据: 张芸京
+2025-06-11 22:21:41,283 - __main__ - WARNING - 跳过无效歌曲数据: 张紫豪
+2025-06-11 22:21:41,283 - __main__ - WARNING - 跳过无效歌曲数据: 赵雷
+2025-06-11 22:21:41,283 - __main__ - WARNING - 跳过无效歌曲数据: 赵雷
+2025-06-11 22:21:41,283 - __main__ - WARNING - 跳过无效歌曲数据: 郑润泽
+2025-06-11 22:21:41,283 - __main__ - WARNING - 跳过无效歌曲数据: 郑润泽
+2025-06-11 22:21:41,283 - __main__ - WARNING - 跳过无效歌曲数据: 郑润泽
+2025-06-11 22:21:41,283 - __main__ - WARNING - 跳过无效歌曲数据: 郑润泽
+2025-06-11 22:21:41,284 - __main__ - WARNING - 跳过无效歌曲数据: 郑润泽
+2025-06-11 22:21:41,284 - __main__ - WARNING - 跳过无效歌曲数据: 郑润泽
+2025-06-11 22:21:41,284 - __main__ - WARNING - 跳过无效歌曲数据: 周传雄
+2025-06-11 22:21:41,284 - __main__ - WARNING - 跳过无效歌曲数据: 周公
+2025-06-11 22:21:41,284 - __main__ - WARNING - 跳过无效歌曲数据: 周深
+2025-06-11 22:21:41,284 - __main__ - WARNING - 跳过无效歌曲数据: 邹沛沛
+2025-06-11 22:21:41,284 - __main__ - WARNING - 跳过无效歌曲数据: 828
+2025-06-11 22:21:41,284 - __main__ - WARNING - 跳过无效歌曲数据: AIYUE
+2025-06-11 22:21:41,285 - __main__ - WARNING - 跳过无效歌曲数据: Badynow
+2025-06-11 22:21:41,285 - __main__ - WARNING - 跳过无效歌曲数据: BAEKHYUN
+2025-06-11 22:21:41,285 - __main__ - WARNING - 跳过无效歌曲数据: Bo Peep
+2025-06-11 22:21:41,285 - __main__ - WARNING - 跳过无效歌曲数据: Chance Peña
+2025-06-11 22:21:41,285 - __main__ - WARNING - 跳过无效歌曲数据: Christopher
+2025-06-11 22:21:41,285 - __main__ - WARNING - 跳过无效歌曲数据: en王翊恩
+2025-06-11 22:21:41,285 - __main__ - WARNING - 跳过无效歌曲数据: GAI周延
+2025-06-11 22:21:41,285 - __main__ - WARNING - 跳过无效歌曲数据: GarethT
+2025-06-11 22:21:41,285 - __main__ - WARNING - 跳过无效歌曲数据: Lil Ghost小鬼
+2025-06-11 22:21:41,285 - __main__ - WARNING - 跳过无效歌曲数据: Lil Ghost小鬼
+2025-06-11 22:21:41,286 - __main__ - WARNING - 跳过无效歌曲数据: Lunak
+2025-06-11 22:21:41,286 - __main__ - WARNING - 跳过无效歌曲数据: ROSÉ
+2025-06-11 22:21:41,286 - __main__ - WARNING - 跳过无效歌曲数据: TF家族
+2025-06-11 22:21:41,286 - __main__ - WARNING - 跳过无效歌曲数据: XG
+2025-06-11 22:21:41,286 - __main__ - WARNING - 跳过无效歌曲数据: XMASwu吴骜
+2025-06-11 22:21:41,286 - __main__ - WARNING - 跳过无效歌曲数据: YOASOBI
+2025-06-11 22:21:41,286 - __main__ - WARNING - 跳过无效歌曲数据: Zzh
+2025-06-11 22:21:41,286 - __main__ - WARNING - 跳过无效歌曲数据: 布瑞吉Bridge
+2025-06-11 22:21:41,286 - __main__ - WARNING - 跳过无效歌曲数据: 陈楚生
+2025-06-11 22:21:41,286 - __main__ - WARNING - 跳过无效歌曲数据: 陈楚生
+2025-06-11 22:21:41,287 - __main__ - WARNING - 跳过无效歌曲数据: 陈昊宇
+2025-06-11 22:21:41,287 - __main__ - WARNING - 跳过无效歌曲数据: 承麟
+2025-06-11 22:21:41,287 - __main__ - WARNING - 跳过无效歌曲数据: 单依纯
+2025-06-11 22:21:41,287 - __main__ - WARNING - 跳过无效歌曲数据: 单依纯
+2025-06-11 22:21:41,287 - __main__ - WARNING - 跳过无效歌曲数据: 隔壁老樊
+2025-06-11 22:21:41,287 - __main__ - WARNING - 跳过无效歌曲数据: 海南小崇
+2025-06-11 22:21:41,287 - __main__ - WARNING - 跳过无效歌曲数据: 海洋Bo
+2025-06-11 22:21:41,287 - __main__ - WARNING - 跳过无效歌曲数据: 华云龙KLE
+2025-06-11 22:21:41,287 - __main__ - WARNING - 跳过无效歌曲数据: 华云龙KLE
+2025-06-11 22:21:41,287 - __main__ - WARNING - 跳过无效歌曲数据: 华云龙KLE
+2025-06-11 22:21:41,287 - __main__ - WARNING - 跳过无效歌曲数据: 黄子弘凡
+2025-06-11 22:21:41,287 - __main__ - WARNING - 跳过无效歌曲数据: 加木
+2025-06-11 22:21:41,288 - __main__ - WARNING - 跳过无效歌曲数据: 加木
+2025-06-11 22:21:41,288 - __main__ - WARNING - 跳过无效歌曲数据: 江泽伟
+2025-06-11 22:21:41,288 - __main__ - WARNING - 跳过无效歌曲数据: 空罐子
+2025-06-11 22:21:41,288 - __main__ - WARNING - 跳过无效歌曲数据: 棱镜乐队
+2025-06-11 22:21:41,288 - __main__ - WARNING - 跳过无效歌曲数据: 鹿晗
+2025-06-11 22:21:41,288 - __main__ - WARNING - 跳过无效歌曲数据: 鹿晗
+2025-06-11 22:21:41,288 - __main__ - WARNING - 跳过无效歌曲数据: 马伯骞Victor Ma
+2025-06-11 22:21:41,288 - __main__ - WARNING - 跳过无效歌曲数据: 马嘉祺
+2025-06-11 22:21:41,289 - __main__ - WARNING - 跳过无效歌曲数据: 马健博
+2025-06-11 22:21:41,289 - __main__ - WARNING - 跳过无效歌曲数据: 摩登兄弟刘宇宁
+2025-06-11 22:21:41,289 - __main__ - WARNING - 跳过无效歌曲数据: 摩登兄弟刘宇宁
+2025-06-11 22:21:41,289 - __main__ - WARNING - 跳过无效歌曲数据: 塞壬唱片
+2025-06-11 22:21:41,289 - __main__ - WARNING - 跳过无效歌曲数据: 石凯
+2025-06-11 22:21:41,289 - __main__ - WARNING - 跳过无效歌曲数据: 谭维维
+2025-06-11 22:21:41,289 - __main__ - WARNING - 跳过无效歌曲数据: 顽童MJ116
+2025-06-11 22:21:41,289 - __main__ - WARNING - 跳过无效歌曲数据: 王赫野
+2025-06-11 22:21:41,290 - __main__ - WARNING - 跳过无效歌曲数据: 王睿卓
+2025-06-11 22:21:41,290 - __main__ - WARNING - 跳过无效歌曲数据: 王源
+2025-06-11 22:21:41,290 - __main__ - WARNING - 跳过无效歌曲数据: 王源
+2025-06-11 22:21:41,290 - __main__ - WARNING - 跳过无效歌曲数据: 王子健
+2025-06-11 22:21:41,290 - __main__ - WARNING - 跳过无效歌曲数据: 吴亮希
+2025-06-11 22:21:41,290 - __main__ - WARNING - 跳过无效歌曲数据: 伍六七
+2025-06-11 22:21:41,290 - __main__ - WARNING - 跳过无效歌曲数据: 小七Max
+2025-06-11 22:21:41,291 - __main__ - WARNING - 跳过无效歌曲数据: 杨坤
+2025-06-11 22:21:41,291 - __main__ - WARNING - 跳过无效歌曲数据: 杨坤
+2025-06-11 22:21:41,291 - __main__ - WARNING - 跳过无效歌曲数据: 杨昔默
+2025-06-11 22:21:41,291 - __main__ - WARNING - 跳过无效歌曲数据: 姚晓棠
+2025-06-11 22:21:41,291 - __main__ - WARNING - 跳过无效歌曲数据: 张碧晨
+2025-06-11 22:21:41,291 - __main__ - WARNING - 跳过无效歌曲数据: 张靓颖
+2025-06-11 22:21:41,291 - __main__ - WARNING - 跳过无效歌曲数据: 张靓颖
+2025-06-11 22:21:41,291 - __main__ - WARNING - 跳过无效歌曲数据: 张震岳
+2025-06-11 22:21:41,291 - __main__ - INFO - 加载音乐索引成功，共 0 首有效歌曲
+2025-06-11 22:21:41,291 - __main__ - INFO - 搜索结果数量: 0
+2025-06-11 22:21:41,292 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2025 22:21:41] "GET /api/search?keyword=晚风&platform=local HTTP/1.1" 200 -
+2025-06-11 22:21:42,217 - __main__ - INFO - 接收到搜索请求: 晚风, 平台: local
+2025-06-11 22:21:42,217 - __main__ - INFO - 搜索结果数量: 0
+2025-06-11 22:21:42,218 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2025 22:21:42] "GET /api/search?keyword=晚风&platform=local HTTP/1.1" 200 -
+2025-06-11 22:22:09,203 - __main__ - INFO - 接收到搜索请求: 形容, 平台: local
+2025-06-11 22:22:09,203 - __main__ - INFO - 搜索结果数量: 0
+2025-06-11 22:22:09,203 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2025 22:22:09] "GET /api/search?keyword=形容&platform=local HTTP/1.1" 200 -

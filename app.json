@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/chat/chat",
+    "pages/user/user",
+    "pages/voice/voice",
+    "pages/image/image",
+    "pages/translate/translate",
+    "pages/history/history",
+    "pages/music/music"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3A7FED",
+    "navigationBarTitleText": "AI助手",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#3A7FED",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-active.png"
+      },
+      {
+        "pagePath": "pages/chat/chat",
+        "text": "对话",
+        "iconPath": "images/chat.png",
+        "selectedIconPath": "images/chat-active.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "images/user.png",
+        "selectedIconPath": "images/user-avatar.png"
+      }
+    ]
+  },
+  "requiredBackgroundModes": ["audio"],
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  }
+}

@@ -1,0 +1,138 @@
+<view class="container">
+  <!-- 页面头部 -->
+  <view class="header-section">
+    <view class="title-container">
+      <text class="page-title">图像识别</text>
+      <view class="model-selector" bindtap="switchModel">
+        <text class="model-name">{{selectedModel || 'Gemma 3'}}</text>
+        <image src="/images/switch.png" mode="aspectFit" class="model-icon"></image>
+      </view>
+    </view>
+    <text class="page-subtitle">上传图片或拍照进行智能识别</text>
+  </view>
+
+  <!-- 主要内容区域 - 使用卡片设计 -->
+  <view class="main-content">
+    <!-- 图片预览卡片 -->
+    <view class="card preview-card">
+      <view class="card-content preview-area" bindtap="{{imagePath ? 'previewImage' : 'chooseImage'}}" data-source="album">
+        <image 
+          wx:if="{{imagePath}}" 
+          src="{{imagePath}}" 
+          mode="aspectFit" 
+          class="preview-image"
+        ></image>
+        <view wx:else class="empty-preview">
+          <image src="/images/camera-large.png" mode="aspectFit" class="empty-icon"></image>
+          <text>点击选择或拍摄图片</text>
+        </view>
+      </view>
+      
+      <!-- 进度条 -->
+      <view class="progress-container" wx:if="{{showProgressBar}}">
+        <view class="progress-bar">
+          <view class="progress-fill" style="width: {{processingProgress}}%;"></view>
+        </view>
+        <text class="progress-text">正在处理图像 ({{Math.floor(processingProgress)}}%)</text>
+      </view>
+      
+      <!-- 图像操作按钮 -->
+      <view class="image-actions">
+        <view class="action-button primary" bindtap="chooseImage" data-source="album">
+          <image src="/images/album.png" mode="aspectFit" class="action-icon"></image>
+          <text>相册</text>
+        </view>
+        <view class="action-button primary" bindtap="chooseImage" data-source="camera">
+          <image src="/images/camera.png" mode="aspectFit" class="action-icon"></image>
+          <text>拍照</text>
+        </view>
+        <view class="action-button secondary" bindtap="resetImage" wx:if="{{imagePath}}">
+          <image src="/images/clear.png" mode="aspectFit" class="action-icon"></image>
+          <text>重置</text>
+        </view>
+      </view>
+    </view>
+
+    <!-- 自定义分析输入区域 -->
+    <view class="card analysis-card" wx:if="{{imagePath}}">
+      <view class="card-header">
+        <text class="card-title">自定义分析</text>
+      </view>
+      <view class="card-content">
+        <view class="analysis-input-area">
+          <input 
+            class="analysis-input" 
+            placeholder="输入你的分析要求，例如：提取图片中的文字、分析图片主题..."
+            value="{{customPrompt}}"
+            bindinput="updateCustomPrompt"
+            confirm-type="send"
+            bindconfirm="sendCustomAnalysis"
+          />
+          <view class="send-button" bindtap="sendCustomAnalysis">
+            <image src="/images/send.png" mode="aspectFit" class="send-icon"></image>
+          </view>
+        </view>
+        <view class="prompt-suggestions">
+          <view class="prompt-tag" bindtap="usePromptTemplate" data-prompt="提取图片中的所有文字">提取文字</view>
+          <view class="prompt-tag" bindtap="usePromptTemplate" data-prompt="这张图片的主题是什么？">主题分析</view>
+          <view class="prompt-tag" bindtap="usePromptTemplate" data-prompt="详细描述图片中的物体和场景">场景描述</view>
+        </view>
+      </view>
+    </view>
+
+    <!-- 识别结果卡片 -->
+    <view class="card result-card" wx:if="{{recognitionResult}}">
+      <view class="card-header">
+        <text class="card-title">识别结果</text>
+        <view class="card-actions">
+          <view class="card-action" bindtap="copyResult">
+            <image src="/images/copy.png" mode="aspectFit" class="action-icon"></image>
+            <text>复制</text>
+          </view>
+          <view class="card-action" bindtap="translateResult">
+            <image src="/images/switch.png" mode="aspectFit" class="action-icon"></image>
+            <text>翻译</text>
+          </view>
+        </view>
+      </view>
+      <scroll-view scroll-y class="result-content">
+        <text class="result-text">{{recognitionResult}}</text>
+      </scroll-view>
+    </view>
+
+    <!-- 历史记录区域 -->
+    <view class="card history-card" wx:if="{{imageHistory.length > 0}}">
+      <view class="card-header">
+        <text class="card-title">历史记录</text>
+        <view class="card-action" bindtap="clearHistory">
+          <image src="/images/delete.png" mode="aspectFit" class="action-icon"></image>
+          <text>清空</text>
+        </view>
+      </view>
+      <scroll-view scroll-y class="history-list">
+        <view class="history-item" wx:for="{{imageHistory}}" wx:key="time" bindtap="selectHistoryItem" data-index="{{index}}">
+          <image src="{{item.imagePath}}" mode="aspectFill" class="history-image"></image>
+          <view class="history-content">
+            <view class="history-item-header">
+              <text class="history-model-tag">{{item.model || 'AI'}}</text>
+              <text class="history-time">{{item.time}}</text>
+            </view>
+            <text class="history-text">{{item.result}}</text>
+            <view class="history-footer">
+              <view class="history-actions">
+                <image src="/images/copy.png" mode="aspectFit" class="history-action-icon" catchtap="copyHistoryItem" data-index="{{index}}"></image>
+              </view>
+            </view>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+
+  <!-- 加载中提示 -->
+  <view class="loading-mask" wx:if="{{showLoading && !showProgressBar}}">
+    <view class="loading-content">
+      <text>识别中...</text>
+    </view>
+  </view>
+</view> 

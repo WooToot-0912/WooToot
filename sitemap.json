@@ -1,0 +1,7 @@
+{
+  "desc": "Sitemap configuration - see docs for more info",
+  "rules": [{
+    "action": "allow",
+    "page": "*"
+  }]
+}

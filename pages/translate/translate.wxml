@@ -1,0 +1,160 @@
+<view class="container">
+  <view class="page-header">
+    <text class="page-title">智能翻译</text>
+    <view class="model-selector" bindtap="switchModel">
+      <text class="model-name">{{selectedModel}}</text>
+      <image src="/images/switch.png" mode="aspectFit" class="model-icon"></image>
+    </view>
+    <text class="page-subtitle">支持多语言互译，文本和语音输入</text>
+  </view>
+
+  <!-- 语言选择区域 -->
+  <view class="language-area">
+    <view class="language-selector" bindtap="showSourceLanguages">
+      <text>{{sourceLanguage.name}}</text>
+      <image src="/images/arrow-down.png" class="arrow-icon"></image>
+    </view>
+    
+    <view class="switch-button" bindtap="switchLanguages">
+      <image src="/images/switch.png" class="switch-icon"></image>
+    </view>
+    
+    <view class="language-selector" bindtap="showTargetLanguages">
+      <text>{{targetLanguage.name}}</text>
+      <image src="/images/arrow-down.png" class="arrow-icon"></image>
+    </view>
+  </view>
+
+  <!-- 输入区域 -->
+  <view class="input-area">
+    <view class="input-header">
+      <text class="input-title">输入文本</text>
+      <view class="input-tools">
+        <view class="tool-button" bindtouchstart="startVoiceInput" bindtouchend="stopVoiceInput">
+          <image src="/images/voice-input.png" class="tool-icon {{isRecording ? 'recording' : ''}}"></image>
+        </view>
+        <view class="tool-button" bindtap="clearInput" wx:if="{{inputText}}">
+          <image src="/images/clear.png" class="tool-icon"></image>
+        </view>
+        <view class="tool-button" bindtap="translate">
+          <image src="/images/translate-icon.png" class="tool-icon"></image>
+        </view>
+      </view>
+    </view>
+    <textarea
+      class="input-text"
+      placeholder="请输入要翻译的文本"
+      value="{{inputText}}"
+      bindinput="onInput"
+      maxlength="500"
+      show-confirm-bar="{{false}}"
+    ></textarea>
+    <text class="word-count">{{inputText.length}}/500</text>
+  </view>
+
+  <!-- 翻译结果区域 -->
+  <view class="result-area" wx:if="{{translatedText}}">
+    <view class="result-header">
+      <text class="result-title">翻译结果</text>
+      <view class="result-tools">
+        <view class="tool-button" bindtap="playTranslation">
+          <image src="/images/voice.png" class="tool-icon"></image>
+        </view>
+        <view class="tool-button" bindtap="copyResult">
+          <image src="/images/copy.png" class="tool-icon"></image>
+        </view>
+        <view class="tool-button" bindtap="shareResult">
+          <image src="/images/share.png" class="tool-icon"></image>
+        </view>
+      </view>
+    </view>
+    <view class="result-content">
+      <text class="result-text">{{translatedText}}</text>
+    </view>
+  </view>
+
+  <!-- 历史记录区域 -->
+  <scroll-view scroll-y class="history-area" wx:if="{{translateHistory.length > 0}}">
+    <view class="history-header">
+      <text class="history-title">历史记录</text>
+      <view class="clear-btn" bindtap="clearHistory">
+        <image src="/images/delete.png" class="btn-icon"></image>
+        <text>清空</text>
+      </view>
+    </view>
+    <view class="history-list">
+      <view class="history-item" wx:for="{{translateHistory}}" wx:key="time" bindtap="selectHistoryItem" data-index="{{index}}">
+        <view class="history-content">
+          <view class="history-languages">
+            <text class="language-direction">{{item.from}} → {{item.to}}</text>
+            <view class="history-actions">
+              <image src="/images/copy.png" class="history-action-icon" catchtap="copyHistoryItem" data-index="{{index}}"></image>
+            </view>
+          </view>
+          <text class="history-source">{{item.source}}</text>
+          <text class="history-result">{{item.result}}</text>
+          <view class="history-footer">
+            <text class="history-time">{{item.time}}</text>
+            <text class="history-model" wx:if="{{item.model}}">{{item.model}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+  
+  <view class="empty-history-placeholder" wx:if="{{!translateHistory.length && !translatedText}}">
+    <image src="/images/translate-empty.png" class="empty-icon"></image>
+    <text>输入文本开始翻译</text>
+  </view>
+
+  <!-- 语言选择弹窗 -->
+  <view class="language-picker-mask" wx:if="{{showLanguagePicker}}" bindtap="hideLanguagePicker">
+    <view class="language-picker" catchtap="stopPropagation">
+      <view class="picker-header">
+        <text class="picker-title">选择语言</text>
+        <image src="/images/close.png" class="close-icon" bindtap="hideLanguagePicker"></image>
+      </view>
+      <scroll-view scroll-y class="language-list">
+        <view 
+          class="language-item {{item.code === (isSelectingSource ? sourceLanguage.code : targetLanguage.code) ? 'selected' : ''}}"
+          wx:for="{{languages}}"
+          wx:key="code"
+          data-language="{{item}}"
+          bindtap="selectLanguage"
+        >
+          <text>{{item.name}}</text>
+          <image src="/images/check.png" class="check-icon" wx:if="{{item.code === (isSelectingSource ? sourceLanguage.code : targetLanguage.code)}}"></image>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+
+  <!-- 模型选择弹窗 -->
+  <view class="language-picker-mask" wx:if="{{showModelPicker}}" bindtap="hideModelPicker">
+    <view class="language-picker" catchtap="stopPropagation">
+      <view class="picker-header">
+        <text class="picker-title">选择模型</text>
+        <image src="/images/close.png" class="close-icon" bindtap="hideModelPicker"></image>
+      </view>
+      <scroll-view scroll-y class="language-list">
+        <view 
+          class="language-item {{item.name === selectedModel ? 'selected' : ''}}"
+          wx:for="{{models}}"
+          wx:key="value"
+          data-index="{{index}}"
+          bindtap="selectModel"
+        >
+          <text>{{item.name}}</text>
+          <image src="/images/check.png" class="check-icon" wx:if="{{item.name === selectedModel}}"></image>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+
+  <!-- 加载中提示 -->
+  <view class="loading-mask" wx:if="{{showLoading}}">
+    <view class="loading-content">
+      <text>翻译中...</text>
+    </view>
+  </view>
+</view> 

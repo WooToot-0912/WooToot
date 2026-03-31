@@ -1,0 +1,11 @@
+{
+  "description": "Private project configuration",
+  "projectname": "AI-Assistant",
+  "setting": {
+    "compileHotReLoad": true,
+    "urlCheck": false,
+    "useIsolateContext": true,
+    "bigPackageSizeSupport": true
+  },
+  "libVersion": "3.8.8"
+}

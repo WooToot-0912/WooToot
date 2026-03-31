@@ -1,0 +1,148 @@
+<view class="chat-container">
+  <view class="chat-header">
+    <view class="header-title">
+      <text class="title">AI助手</text>
+    </view>
+    <view class="header-actions">
+      <view class="action-btn model-select-btn" bindtap="toggleModelSelector">
+        <text class="model-name">{{currentModel || '选择模型'}}</text>
+        <image src="/images/arrow-down.png" mode="aspectFit" class="arrow-icon {{showModelSelector ? 'rotate' : ''}}"></image>
+      </view>
+      
+      <view class="action-btn" bindtap="clearChat">
+        <image src="/images/clear.png" mode="aspectFit"></image>
+      </view>
+    </view>
+  </view>
+
+  <view class="model-selector {{showModelSelector ? 'show' : ''}}" wx:if="{{showModelSelector}}">
+    <view class="model-list">
+      <view 
+        class="model-item {{item === currentModel ? 'active' : ''}}" 
+        wx:for="{{availableModels}}" 
+        wx:key="*this"
+        data-model="{{item}}"
+        bindtap="switchModel"
+      >
+        <text class="model-item-name">{{item}}</text>
+        <image 
+          wx:if="{{item === currentModel}}" 
+          class="model-selected-icon" 
+          src="/images/check.png" 
+          mode="aspectFit"
+        ></image>
+      </view>
+    </view>
+  </view>
+
+  <scroll-view 
+    class="chat-content" 
+    scroll-y 
+    scroll-into-view="{{scrollToMessage}}"
+    bindscrolltoupper="loadMoreMessages"
+    enhanced="true"
+    bounces="true"
+  >
+    <view class="chat-date-divider">
+      <text>{{currentDate}}</text>
+    </view>
+    
+    <block wx:for="{{messages}}" wx:key="id">
+      <view class="message {{item.type === 'user' ? 'message-user' : 'message-ai'}}" id="msg-{{item.id}}">
+        <view class="avatar-container">
+          <image 
+            class="avatar" 
+            src="{{item.type === 'user' ? (userInfo.avatarUrl || '/images/user-avatar.png') : '/images/ai-avatar.png'}}"
+            mode="aspectFill"
+          ></image>
+        </view>
+        
+        <view class="message-body">
+          <view class="message-bubble">
+            <!-- AI消息带代码块 -->
+            <block wx:if="{{item.type === 'ai' && item.parsedContent}}">
+              <view class="content-blocks">
+                <block wx:for="{{item.parsedContent}}" wx:key="index" wx:for-item="block">
+                  <!-- 普通文本 -->
+                  <text wx:if="{{!block.isCode}}" class="text-content">{{block.content}}</text>
+                  
+                  <!-- 代码块 -->
+                  <view wx:else class="code-block">
+                    <view class="code-header">
+                      <text class="lang-label">{{block.language || 'code'}}</text>
+                      <view class="copy-button" bindtap="copyCode" data-code="{{block.content}}">
+                        <image src="/images/copy.png" mode="aspectFit"></image>
+                        <text>复制</text>
+                      </view>
+                    </view>
+                    <scroll-view class="code-scroll" scroll-x enable-flex>
+                      <text class="code-content">{{block.content}}</text>
+                    </scroll-view>
+                  </view>
+                </block>
+              </view>
+            </block>
+            
+            <!-- 系统消息和提示 -->
+            <block wx:elif="{{item.type === 'info' || item.type === 'warning'}}">
+              <view class="system-message {{item.type}}">
+                <text class="text-content">{{item.content}}</text>
+              </view>
+            </block>
+            
+            <!-- 普通消息 -->
+            <text wx:else class="text-content">{{item.content}}</text>
+          </view>
+          
+          <view class="message-footer">
+            <text class="message-time">{{item.time}}</text>
+            
+            <!-- AI消息操作按钮 -->
+            <view wx:if="{{item.type === 'ai'}}" class="message-actions">
+              <view class="action-item" bindtap="copyMessage" data-content="{{item.content}}">
+                <image src="/images/copy.png" mode="aspectFit"></image>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </block>
+    
+    <!-- AI输入状态 -->
+    <view class="ai-typing" wx:if="{{isAiTyping}}">
+      <view class="avatar-container">
+        <image class="avatar" src="/images/ai-avatar.png" mode="aspectFill"></image>
+      </view>
+      <view class="typing-indicator">
+        <view class="typing-dot"></view>
+        <view class="typing-dot"></view>
+        <view class="typing-dot"></view>
+      </view>
+    </view>
+  </scroll-view>
+
+  <view class="input-area">
+    <view class="input-container">
+      <input 
+        class="message-input" 
+        value="{{inputMessage}}" 
+        bindinput="onInput"
+        placeholder="输入消息..."
+        confirm-type="send"
+        bindconfirm="sendMessage"
+        focus="{{inputFocus}}"
+      />
+      <view class="input-actions">
+        <view class="voice-btn" bindtap="startVoiceInput">
+          <image src="/images/voice.png" mode="aspectFit"></image>
+        </view>
+        <view 
+          class="send-btn {{inputMessage ? 'active' : 'disabled'}}" 
+          bindtap="sendMessage"
+        >
+          <image src="/images/send.png" mode="aspectFit"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</view> 

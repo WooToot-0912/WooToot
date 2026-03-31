@@ -1,0 +1,160 @@
+<view class="music-container">
+  <!-- 搜索框 -->
+  <view class="search-box">
+    <view class="search-input-container">
+      <input 
+        class="search-input" 
+        placeholder="搜索歌曲、歌手或专辑" 
+        value="{{keyword}}" 
+        bindinput="onInputChange"
+        confirm-type="search"
+        bindconfirm="search"
+      />
+      <view class="search-icon" bindtap="search">
+        <image src="/images/search.png" mode="aspectFit"></image>
+      </view>
+    </view>
+  </view>
+  
+  <!-- 提示信息 -->
+  <view class="tip-message">
+    <text>输入关键词搜索音乐，首次搜索可能需要等待下载</text>
+  </view>
+  
+  <!-- 平台切换区域 -->
+  <view class="platform-section" wx:if="{{!searchResults.length}}">
+    <view class="section-title">音乐搜索引擎</view>
+    <view class="platform-switch" bindtap="togglePlatform">
+      歌曲宝音乐
+    </view>
+  </view>
+  
+  <!-- 搜索历史 -->
+  <view class="history-section" wx:if="{{history.length > 0 && !searchResults.length}}">
+    <view class="section-header">
+      <text class="section-title">搜索历史</text>
+      <text class="clear-history" bindtap="clearHistory">清除</text>
+    </view>
+    <view class="history-list">
+      <view 
+        class="history-item" 
+        wx:for="{{history}}" 
+        wx:key="index" 
+        bindtap="onHistoryTap"
+        data-keyword="{{item}}"
+      >
+        <text>{{item}}</text>
+      </view>
+    </view>
+  </view>
+  
+  <!-- 搜索结果 -->
+  <view class="results-section" wx:if="{{searchResults.length > 0}}">
+    <view class="section-header">
+      <text class="section-title">搜索结果</text>
+      <text class="result-count">找到 {{searchResults.length}} 首歌曲</text>
+    </view>
+    <view class="loading-container" wx:if="{{loading}}">
+      <view class="loading-spinner"></view>
+    </view>
+    <view class="song-list" wx:else>
+      <!-- 歌曲项目 -->
+      <view 
+        class="song-item {{currentSong && currentSong.title === item.title ? 'song-item-active' : ''}}" 
+        wx:for="{{searchResults}}" 
+        wx:key="id"
+        bindtap="playSong"
+        data-index="{{index}}"
+      >
+        <image class="song-cover" src="{{item.cover_url}}" mode="aspectFill"></image>
+        <view class="song-info">
+          <view class="song-title">{{item.title}}</view>
+          <view class="song-artist">{{item.singer}}</view>
+        </view>
+        <view class="song-play-icon">
+          <image src="{{currentSong && currentSong.title === item.title && isPlaying ? '/images/pause.png' : '/images/play.png'}}" mode="aspectFit"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+  
+  <!-- 空状态 -->
+  <view class="empty-state" wx:if="{{!searchResults.length && keyword && !loading}}">
+    <image class="empty-icon" src="/images/music-cover.png" mode="aspectFit"></image>
+    <view class="empty-text">暂无相关音乐，换个关键词试试吧</view>
+  </view>
+  
+  <!-- 当前播放区域 - 升级版 -->
+  <view class="player-container" wx:if="{{currentSong}}">
+    <view class="player-backdrop" style="background-image: url({{currentSong.cover_url}})"></view>
+    <view class="player-content">
+      <!-- 播放器上半部分 -->
+      <view class="player-header">
+        <image class="player-cover {{isPlaying ? 'rotate' : ''}}" src="{{currentSong.cover_url}}" mode="aspectFill"></image>
+        <view class="player-info">
+          <view class="player-title">
+            <text>{{currentSong.title}}</text>
+            <view class="wave-animation" wx:if="{{isPlaying}}">
+              <view class="wave-bar"></view>
+              <view class="wave-bar"></view>
+              <view class="wave-bar"></view>
+              <view class="wave-bar"></view>
+            </view>
+          </view>
+          <view class="player-singer">{{currentSong.singer}}</view>
+        </view>
+      </view>
+      
+      <!-- 播放进度条 -->
+      <view class="progress-container">
+        <text class="time-text">{{formatTime(progress)}}</text>
+        <view class="slider-container">
+          <slider 
+            min="0" 
+            max="{{duration}}" 
+            value="{{progress}}" 
+            activeColor="#1aad19" 
+            backgroundColor="#e0e0e0"
+            block-size="12"
+            block-color="#1aad19"
+            bindchange="onSliderChange"
+            bindchanging="onSliderChanging"
+          />
+        </view>
+        <text class="time-text">{{formatTime(duration)}}</text>
+      </view>
+      
+      <!-- 控制按钮 -->
+      <view class="control-panel">
+        <view class="control-button" bindtap="stopMusic">
+          <image src="/images/stop.png" mode="aspectFit"></image>
+        </view>
+        <view class="control-button play-button" bindtap="togglePlay">
+          <image src="{{isPlaying ? '/images/pause.png' : '/images/play.png'}}" mode="aspectFit"></image>
+        </view>
+        <view class="control-button" bindtap="togglePlayMode">
+          <image src="/images/mode.png" mode="aspectFit"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+  
+  <!-- 迷你播放条 -->
+  <view class="mini-player" wx:if="{{currentSong && !showFullPlayer}}">
+    <view class="mini-player-content" bindtap="showFullPlayer">
+      <image class="mini-cover {{isPlaying ? 'rotate' : ''}}" src="{{currentSong.cover_url}}" mode="aspectFill"></image>
+      <view class="mini-info">
+        <view class="mini-title">{{currentSong.title}}</view>
+        <view class="mini-singer">{{currentSong.singer}}</view>
+      </view>
+      <view class="mini-progress">
+        <view class="mini-progress-bar" style="width: {{progress/duration*100}}%"></view>
+      </view>
+      <view class="mini-controls">
+        <view class="mini-button" catchtap="togglePlay">
+          <image src="{{isPlaying ? '/images/pause.png' : '/images/play.png'}}" mode="aspectFit"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

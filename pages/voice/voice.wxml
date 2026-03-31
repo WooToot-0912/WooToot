@@ -1,0 +1,82 @@
+<view class="container">
+  <view class="page-header">
+    <text class="page-title">语音识别</text>
+    <view class="page-subtitle-row">
+      <text class="page-subtitle">点击下方按钮开始录音，松开结束</text>
+      <view class="recognition-method" bindtap="switchRecognitionMethod">
+        <text class="method-text">{{recognitionMethod === 'wx' ? '微信语音' : '百度语音'}}</text>
+        <image src="/images/switch.png" mode="aspectFit" class="method-icon"></image>
+      </view>
+    </view>
+  </view>
+
+  <!-- 顶部结果显示区域 -->
+  <view class="result-area">
+    <view class="result-card">
+      <view class="result-text" wx:if="{{currentTranscript}}">{{currentTranscript}}</view>
+      <view class="empty-result" wx:else>
+        <image src="/images/voice-large.png" mode="aspectFit" class="empty-icon"></image>
+        <text>等待语音输入...</text>
+      </view>
+    </view>
+    <view class="action-buttons" wx:if="{{currentTranscript}}">
+      <view class="action-btn" bindtap="copyText">
+        <image src="/images/copy.png" mode="aspectFit" class="btn-icon"></image>
+        <text>复制</text>
+      </view>
+      <view class="action-btn" bindtap="clearText">
+        <image src="/images/clear.png" mode="aspectFit" class="btn-icon"></image>
+        <text>清除</text>
+      </view>
+      <view class="action-btn" bindtap="translateText" wx:if="{{currentTranscript}}">
+        <image src="/images/switch.png" mode="aspectFit" class="btn-icon"></image>
+        <text>翻译</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 历史记录区域 -->
+  <view class="history-area">
+    <view class="history-header">
+      <text class="history-title">历史记录</text>
+      <view class="clear-history" bindtap="clearHistory" wx:if="{{voiceList.length > 0}}">
+        <image src="/images/delete.png" mode="aspectFit" class="btn-icon"></image>
+        <text>清空</text>
+      </view>
+    </view>
+    <scroll-view scroll-y class="history-list">
+      <view class="history-item" wx:for="{{voiceList}}" wx:key="time" bindtap="selectHistoryItem" data-index="{{index}}">
+        <view class="history-content">
+          <text class="history-text">{{item.text}}</text>
+          <view class="history-footer">
+            <text class="history-time">{{item.time}}</text>
+            <view class="history-actions">
+              <image src="/images/copy.png" mode="aspectFit" class="history-action-icon" catchtap="copyHistoryItem" data-index="{{index}}"></image>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="empty-history" wx:if="{{voiceList.length === 0}}">
+        <text>暂无记录</text>
+      </view>
+    </scroll-view>
+  </view>
+
+  <!-- 底部录音按钮 -->
+  <view class="record-area">
+    <view class="record-button {{recording ? 'recording' : ''}}"
+          bindtouchstart="startRecord"
+          bindtouchend="stopRecord">
+      <image src="/images/voice.png" mode="aspectFit" class="record-icon"></image>
+      <text>{{recordStatus || '按住说话'}}</text>
+    </view>
+    <text class="record-tip">{{recording ? '松开结束' : '按住开始录音'}}</text>
+  </view>
+
+  <!-- 加载中提示 -->
+  <view class="loading-mask" wx:if="{{showLoading}}">
+    <view class="loading-content">
+      <text>识别中...</text>
+    </view>
+  </view>
+</view> 

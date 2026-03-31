@@ -1,0 +1,65 @@
+<view class="container">
+  <!-- 顶部用户信息区域 -->
+  <view class="user-info">
+    <view class="avatar-container">
+      <image class="avatar" src="{{userInfo.avatarUrl || '/images/default-avatar.png'}}" mode="aspectFill"></image>
+      <view class="avatar-glow"></view>
+    </view>
+    <text class="nickname">{{userInfo.nickName || '未登录'}}</text>
+    <text class="user-status">AI助手用户</text>
+    
+    <!-- 装饰元素 -->
+    <view class="decoration-circle circle-1"></view>
+    <view class="decoration-circle circle-2"></view>
+  </view>
+
+  <!-- 菜单列表 -->
+  <view class="menu-list">
+    <view class="menu-item" hover-class="menu-item-hover" bindtap="navigateToHistory">
+      <view class="menu-icon-container">
+        <image class="menu-icon" src="/images/history.png"></image>
+      </view>
+      <view class="menu-content">
+        <text class="menu-text">聊天记录</text>
+        <text class="menu-desc">查看您的聊天历史</text>
+      </view>
+      <image class="arrow" src="/images/arrow-right.png"></image>
+    </view>
+
+    <view class="menu-item" hover-class="menu-item-hover" bindtap="navigateToSettings">
+      <view class="menu-icon-container">
+        <image class="menu-icon" src="/images/settings.png"></image>
+      </view>
+      <view class="menu-content">
+        <text class="menu-text">设置</text>
+        <text class="menu-desc">自定义您的应用体验</text>
+      </view>
+      <image class="arrow" src="/images/arrow-right.png"></image>
+    </view>
+
+    <view class="menu-item" hover-class="menu-item-hover" bindtap="navigateToAbout">
+      <view class="menu-icon-container">
+        <image class="menu-icon" src="/images/about.png"></image>
+      </view>
+      <view class="menu-content">
+        <text class="menu-text">关于我们</text>
+        <text class="menu-desc">了解更多产品信息</text>
+      </view>
+      <image class="arrow" src="/images/arrow-right.png"></image>
+    </view>
+  </view>
+
+  <!-- 退出登录按钮 -->
+  <view class="logout-button" bindtap="handleLogout">
+    <button type="warn">
+      <view class="button-content">
+        <text>退出登录</text>
+      </view>
+    </button>
+  </view>
+  
+  <!-- 底部版权信息 -->
+  <view class="footer">
+    <text class="copyright">AI助手 © 2025</text>
+  </view>
+</view> 

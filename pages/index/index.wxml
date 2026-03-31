@@ -1,0 +1,72 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+  <view class="header">
+    <text class="title">AI助手</text>
+    <text class="subtitle">智能语音识别・图像识别・翻译</text>
+  </view>
+  
+  <view class="banner">
+    <image class="banner-image" src="/images/album.png" mode="aspectFill"></image>
+    <view class="banner-text">
+      <text class="banner-title">开始智能对话</text>
+      <text class="banner-desc">随时随地，智能助手为您服务</text>
+      <button class="start-chat-btn" bindtap="startChat">立即开始</button>
+    </view>
+  </view>
+  
+  <view class="section-title">功能导航</view>
+  <scroll-view scroll-y="true" class="card-scroll">
+    <view class="card-list">
+      <navigator url="/pages/voice/voice" class="card" hover-class="card-hover">
+        <image class="card-icon" src="/images/voice.png" />
+        <view class="card-content">
+          <text class="card-title">语音识别</text>
+          <text class="card-desc">实时语音转文字，支持多语言识别</text>
+        </view>
+        <image class="card-arrow" src="/images/arrow-right.png"></image>
+      </navigator>
+
+      <navigator url="/pages/image/image" class="card" hover-class="card-hover">
+        <image class="card-icon" src="/images/camera.png" />
+        <view class="card-content">
+          <text class="card-title">图像识别</text>
+          <text class="card-desc">智能识别图片内容，支持物体检测</text>
+        </view>
+        <image class="card-arrow" src="/images/arrow-right.png"></image>
+      </navigator>
+
+      <navigator url="/pages/translate/translate" class="card" hover-class="card-hover">
+        <image class="card-icon" src="/images/switch.png" />
+        <view class="card-content">
+          <text class="card-title">智能翻译</text>
+          <text class="card-desc">多语言互译，支持文本和语音</text>
+        </view>
+        <image class="card-arrow" src="/images/arrow-right.png"></image>
+      </navigator>
+      
+      <navigator url="/pages/chat/chat" class="card" hover-class="card-hover">
+        <image class="card-icon" src="/images/chat.png" />
+        <view class="card-content">
+          <text class="card-title">AI对话</text>
+          <text class="card-desc">智能助手，解答问题，提供帮助</text>
+        </view>
+        <image class="card-arrow" src="/images/arrow-right.png"></image>
+      </navigator>
+      
+      <navigator url="/pages/music/music" class="card" hover-class="card-hover">
+        <image class="card-icon" src="/images/music.png" />
+        <view class="card-content">
+          <text class="card-title">音乐搜索</text>
+          <text class="card-desc">搜索并播放你喜欢的音乐</text>
+        </view>
+        <image class="card-arrow" src="/images/arrow-right.png"></image>
+      </navigator>
+    </view>
+  </scroll-view>
+  
+  <!-- 添加测试按钮 -->
+  <view class="debug-section">
+    <button class="debug-btn" bindtap="testPlugin">测试插件</button>
+    <text class="debug-status">插件状态: {{pluginLoaded ? '已加载' : '未加载'}}</text>
+  </view>
+</view>

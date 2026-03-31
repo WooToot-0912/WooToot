@@ -1,0 +1,51 @@
+<view class="container">
+  <view class="header">
+    <image class="logo" src="/images/logo.png" mode="aspectFit"></image>
+    <text class="title">AI助手</text>
+    <text class="subtitle">基于本地Ollama模型的智能助手</text>
+  </view>
+  
+  <view class="login-box">
+    <view class="mode-title">请选择登录方式</view>
+    
+    <button class="login-btn" type="primary" bindtap="handleLogin" loading="{{loading}}">
+      <image src="/images/wechat.png" class="btn-icon"></image>
+      微信一键登录
+      <text class="btn-tag">推荐</text>
+    </button>
+    <view class="mode-desc">使用微信账号登录，可保存使用记录</view>
+    
+    <button class="guest-btn" bindtap="handleGuestLogin" loading="{{loading}}">
+      <image src="/images/user.png" class="btn-icon"></image>
+      游客模式
+    </button>
+    <view class="mode-desc">无需登录，不保存使用记录</view>
+    
+    <view class="privacy-policy">
+      登录即表示同意
+      <text class="link" bindtap="showPrivacyPolicy">《用户协议和隐私政策》</text>
+    </view>
+  </view>
+  
+  <view class="app-features">
+    <view class="feature-title">功能特色</view>
+    <view class="feature-list">
+      <view class="feature-item">
+        <image src="/images/chat.png" class="feature-icon"></image>
+        <text>智能对话</text>
+      </view>
+      <view class="feature-item">
+        <image src="/images/translate.png" class="feature-icon"></image>
+        <text>文本翻译</text>
+      </view>
+      <view class="feature-item">
+        <image src="/images/camera.png" class="feature-icon"></image>
+        <text>图像识别</text>
+      </view>
+      <view class="feature-item">
+        <image src="/images/voice.png" class="feature-icon"></image>
+        <text>语音转文字</text>
+      </view>
+    </view>
+  </view>
+</view> 

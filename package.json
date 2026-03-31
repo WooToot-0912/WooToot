@@ -1,0 +1,19 @@
+{
+  "name": "weixin-ai-assistant",
+  "version": "1.0.0",
+  "description": "微信小程序AI助手",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "weixin",
+    "miniprogram",
+    "ai",
+    "assistant"
+  ],
+  "author": "",
+  "license": "ISC"
+} 
