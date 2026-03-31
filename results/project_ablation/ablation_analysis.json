@@ -1,0 +1,98 @@
+{
+  "group_analysis": {
+    "baseline": {
+      "experiment_count": 1,
+      "avg_performance": 0.5240992703718297,
+      "max_performance": 0.5240992703718297,
+      "avg_fps": 57.384508195067184,
+      "avg_confidence": 0.31219854074365955
+    },
+    "full_stack": {
+      "experiment_count": 1,
+      "avg_performance": 0.6594261272251606,
+      "max_performance": 0.6594261272251606,
+      "avg_fps": 109.52143333685844,
+      "avg_confidence": 0.3988522544503212
+    }
+  },
+  "component_impact": {
+    "烟草数据集": {
+      "impact_score": 0.1353268568533309,
+      "with_component_avg": 0.6594261272251606,
+      "without_component_avg": 0.5240992703718297,
+      "experiments_with": 1,
+      "experiments_without": 1
+    },
+    "ECA注意力机制": {
+      "impact_score": 0.1353268568533309,
+      "with_component_avg": 0.6594261272251606,
+      "without_component_avg": 0.5240992703718297,
+      "experiments_with": 1,
+      "experiments_without": 1
+    },
+    "Focal Loss": {
+      "impact_score": 0.1353268568533309,
+      "with_component_avg": 0.6594261272251606,
+      "without_component_avg": 0.5240992703718297,
+      "experiments_with": 1,
+      "experiments_without": 1
+    },
+    "背景抑制分支": {
+      "impact_score": 0.1353268568533309,
+      "with_component_avg": 0.6594261272251606,
+      "without_component_avg": 0.5240992703718297,
+      "experiments_with": 1,
+      "experiments_without": 1
+    },
+    "多模态检测": {
+      "impact_score": 0.1353268568533309,
+      "with_component_avg": 0.6594261272251606,
+      "without_component_avg": 0.5240992703718297,
+      "experiments_with": 1,
+      "experiments_without": 1
+    },
+    "智能前景提取": {
+      "impact_score": 0.1353268568533309,
+      "with_component_avg": 0.6594261272251606,
+      "without_component_avg": 0.5240992703718297,
+      "experiments_with": 1,
+      "experiments_without": 1
+    },
+    "病害推断引擎": {
+      "impact_score": 0.1353268568533309,
+      "with_component_avg": 0.6594261272251606,
+      "without_component_avg": 0.5240992703718297,
+      "experiments_with": 1,
+      "experiments_without": 1
+    },
+    "平衡数据集训练": {
+      "impact_score": 0.1353268568533309,
+      "with_component_avg": 0.6594261272251606,
+      "without_component_avg": 0.5240992703718297,
+      "experiments_with": 1,
+      "experiments_without": 1
+    },
+    "GPU优化训练": {
+      "impact_score": 0.1353268568533309,
+      "with_component_avg": 0.6594261272251606,
+      "without_component_avg": 0.5240992703718297,
+      "experiments_with": 1,
+      "experiments_without": 1
+    },
+    "智能数据增强": {
+      "impact_score": 0.1353268568533309,
+      "with_component_avg": 0.6594261272251606,
+      "without_component_avg": 0.5240992703718297,
+      "experiments_with": 1,
+      "experiments_without": 1
+    },
+    "多源数据融合": {
+      "impact_score": 0.1353268568533309,
+      "with_component_avg": 0.6594261272251606,
+      "without_component_avg": 0.5240992703718297,
+      "experiments_with": 1,
+      "experiments_without": 1
+    }
+  },
+  "performance_progression": {}
+}

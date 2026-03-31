@@ -1,0 +1,6 @@
+Metric,Value
+mAP@0.5,0.995
+mAP@0.5-0.95,0.9949999999999999
+Precision,1.0
+Recall,1.0
+F1-Score,1.0

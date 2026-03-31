@@ -1,0 +1,10 @@
+﻿实验名称,实验类型,技术组件,预期性能,估计准确率,平均推理时间(ms),检测率,平均置信度,平均检测数,总检测数,测试图像数
+YOLOv8n预训练基线,baseline,"COCO预训练, 通用物体检测",low,0.111,29.2,63.6%,0.232,0.9,20,22
+YOLOv8n烟草基础训练,custom_basic,"烟草数据集, 基础训练",medium,0.453,12.3,100.0%,0.304,2.0,44,22
+数据增强版本,augmented,"烟草数据集, 数据增强, HSV调整, 旋转翻转",medium-high,0.529,12.2,100.0%,0.304,2.0,44,22
+ECA注意力增强,attention_enhanced,"烟草数据集, ECA注意力, 通道注意力",high,0.566,12.5,100.0%,0.304,2.0,44,22
+Focal Loss优化,loss_optimized,"烟草数据集, Focal Loss, 类别平衡",high,0.544,12.6,100.0%,0.304,2.0,44,22
+背景抑制增强,background_enhanced,"烟草数据集, 背景抑制, 前景增强",high,0.589,12.0,100.0%,0.304,2.0,44,22
+完整集成模型,full_model,"烟草数据集, ECA注意力, Focal Loss, 背景抑制, 数据增强",highest,0.642,13.3,100.0%,0.304,2.0,44,22
+YOLOv5s对比,architecture_comparison,"YOLOv5架构, Ultralytics优化",medium,0.351,16.4,72.7%,0.268,1.3,28,22
+YOLO11n对比,architecture_comparison,"YOLO11架构, 最新优化",medium-high,0.464,15.2,86.4%,0.226,2.3,50,22

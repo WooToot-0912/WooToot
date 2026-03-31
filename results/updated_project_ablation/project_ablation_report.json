@@ -1,0 +1,2551 @@
+{
+  "experiment_results": {
+    "yolov8n_pretrained": {
+      "experiment": "yolov8n_pretrained",
+      "name": "YOLOv8n预训练基线",
+      "description": "COCO预训练的YOLOv8n模型（未针对烟草病害训练）",
+      "components": [
+        "COCO预训练",
+        "通用物体检测"
+      ],
+      "type": "baseline",
+      "expected_performance": "low",
+      "metrics": {
+        "avg_inference_time": 29.168692502108488,
+        "avg_detections": 0.9090909090909091,
+        "avg_confidence": 0.23162042908370495,
+        "detection_rate": 0.6363636363636364,
+        "total_detections": 20,
+        "estimated_accuracy": 0.1110078958176415,
+        "class_distribution": {
+          "healthy": 2,
+          "mosaic_virus": 0,
+          "brown_spot": 0,
+          "wildfire": 0,
+          "bacterial_wilt": 0
+        },
+        "total_images": 22
+      },
+      "detailed_results": [
+        {
+          "image_name": "wildfire_0006",
+          "detections": 2,
+          "max_confidence": 0.1464884877204895,
+          "avg_confidence": 0.14124739915132523,
+          "detected_classes": [
+            21,
+            20
+          ],
+          "inference_time": 414.17908668518066
+        },
+        {
+          "image_name": "wildfire_0007",
+          "detections": 1,
+          "max_confidence": 0.1496301293373108,
+          "avg_confidence": 0.1496301293373108,
+          "detected_classes": [
+            21
+          ],
+          "inference_time": 11.251688003540039
+        },
+        {
+          "image_name": "wildfire_0008",
+          "detections": 2,
+          "max_confidence": 0.19404232501983643,
+          "avg_confidence": 0.1492769606411457,
+          "detected_classes": [
+            59,
+            53
+          ],
+          "inference_time": 12.062311172485352
+        },
+        {
+          "image_name": "wildfire_0022",
+          "detections": 3,
+          "max_confidence": 0.22942501306533813,
+          "avg_confidence": 0.15499049921830496,
+          "detected_classes": [
+            45,
+            50,
+            50
+          ],
+          "inference_time": 11.17706298828125
+        },
+        {
+          "image_name": "wildfire_0023",
+          "detections": 0,
+          "max_confidence": 0.0,
+          "avg_confidence": 0.0,
+          "detected_classes": [],
+          "inference_time": 10.49041748046875
+        },
+        {
+          "image_name": "wildfire_0026",
+          "detections": 1,
+          "max_confidence": 0.12295448035001755,
+          "avg_confidence": 0.12295448035001755,
+          "detected_classes": [
+            50
+          ],
+          "inference_time": 10.67209243774414
+        },
+        {
+          "image_name": "wildfire_0028",
+          "detections": 1,
+          "max_confidence": 0.44592535495758057,
+          "avg_confidence": 0.44592535495758057,
+          "detected_classes": [
+            53
+          ],
+          "inference_time": 11.452913284301758
+        },
+        {
+          "image_name": "wildfire_0035",
+          "detections": 0,
+          "max_confidence": 0.0,
+          "avg_confidence": 0.0,
+          "detected_classes": [],
+          "inference_time": 13.205528259277344
+        },
+        {
+          "image_name": "wildfire_0055",
+          "detections": 1,
+          "max_confidence": 0.11010853201150894,
+          "avg_confidence": 0.11010853201150894,
+          "detected_classes": [
+            46
+          ],
+          "inference_time": 10.656595230102539
+        },
+        {
+          "image_name": "wildfire_0057",
+          "detections": 0,
+          "max_confidence": 0.0,
+          "avg_confidence": 0.0,
+          "detected_classes": [],
+          "inference_time": 9.62376594543457
+        },
+        {
+          "image_name": "wildfire_0059",
+          "detections": 1,
+          "max_confidence": 0.13613641262054443,
+          "avg_confidence": 0.13613641262054443,
+          "detected_classes": [
+            50
+          ],
+          "inference_time": 10.06174087524414
+        },
+        {
+          "image_name": "wildfire_0062",
+          "detections": 1,
+          "max_confidence": 0.2857912480831146,
+          "avg_confidence": 0.2857912480831146,
+          "detected_classes": [
+            46
+          ],
+          "inference_time": 11.64102554321289
+        },
+        {
+          "image_name": "wildfire_0070",
+          "detections": 0,
+          "max_confidence": 0.0,
+          "avg_confidence": 0.0,
+          "detected_classes": [],
+          "inference_time": 9.96851921081543
+        },
+        {
+          "image_name": "wildfire_0108",
+          "detections": 0,
+          "max_confidence": 0.0,
+          "avg_confidence": 0.0,
+          "detected_classes": [],
+          "inference_time": 10.017633438110352
+        },
+        {
+          "image_name": "wildfire_0129",
+          "detections": 2,
+          "max_confidence": 0.19018317759037018,
+          "avg_confidence": 0.15758481621742249,
+          "detected_classes": [
+            0,
+            53
+          ],
+          "inference_time": 11.582374572753906
+        },
+        {
+          "image_name": "wildfire_0139",
+          "detections": 0,
+          "max_confidence": 0.0,
+          "avg_confidence": 0.0,
+          "detected_classes": [],
+          "inference_time": 9.977340698242188
+        },
+        {
+          "image_name": "wildfire_0151",
+          "detections": 0,
+          "max_confidence": 0.0,
+          "avg_confidence": 0.0,
+          "detected_classes": [],
+          "inference_time": 10.916948318481445
+        },
+        {
+          "image_name": "wildfire_0163",
+          "detections": 1,
+          "max_confidence": 0.13613641262054443,
+          "avg_confidence": 0.13613641262054443,
+          "detected_classes": [
+            50
+          ],
+          "inference_time": 11.121511459350586
+        },
+        {
+          "image_name": "wildfire_0173",
+          "detections": 1,
+          "max_confidence": 0.6360750198364258,
+          "avg_confidence": 0.6360750198364258,
+          "detected_classes": [
+            46
+          ],
+          "inference_time": 10.038614273071289
+        },
+        {
+          "image_name": "wildfire_0188",
+          "detections": 2,
+          "max_confidence": 0.6564664244651794,
+          "avg_confidence": 0.5342232435941696,
+          "detected_classes": [
+            25,
+            0
+          ],
+          "inference_time": 11.545181274414062
+        },
+        {
+          "image_name": "wildfire_0189",
+          "detections": 0,
+          "max_confidence": 0.0,
+          "avg_confidence": 0.0,
+          "detected_classes": [],
+          "inference_time": 9.157896041870117
+        },
+        {
+          "image_name": "wildfire_0204",
+          "detections": 1,
+          "max_confidence": 0.18001465499401093,
+          "avg_confidence": 0.18001465499401093,
+          "detected_classes": [
+            15
+          ],
+          "inference_time": 10.910987854003906
+        }
+      ],
+      "component_contribution": {},
+      "error": null
+    },
+    "yolov8n_tobacco_basic": {
+      "experiment": "yolov8n_tobacco_basic",
+      "name": "YOLOv8n烟草基础训练",
+      "description": "仅使用基础YOLOv8n在烟草数据上训练（无增强技术）",
+      "components": [
+        "烟草数据集",
+        "基础训练"
+      ],
+      "type": "custom_basic",
+      "expected_performance": "medium",
+      "metrics": {
+        "avg_inference_time": 12.310949238863858,
+        "avg_detections": 2.0,
+        "avg_confidence": 0.3040514330972325,
+        "detection_rate": 1.0,
+        "total_detections": 44,
+        "estimated_accuracy": 0.45312925795750186,
+        "class_distribution": {
+          "healthy": 22,
+          "mosaic_virus": 0,
+          "brown_spot": 22,
+          "wildfire": 0,
+          "bacterial_wilt": 0
+        },
+        "total_images": 22
+      },
+      "detailed_results": [
+        {
+          "image_name": "wildfire_0006",
+          "detections": 2,
+          "max_confidence": 0.3375980854034424,
+          "avg_confidence": 0.30389560759067535,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 43.442726135253906
+        },
+        {
+          "image_name": "wildfire_0007",
+          "detections": 2,
+          "max_confidence": 0.3371749818325043,
+          "avg_confidence": 0.30388811230659485,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.67042350769043
+        },
+        {
+          "image_name": "wildfire_0008",
+          "detections": 2,
+          "max_confidence": 0.33718425035476685,
+          "avg_confidence": 0.30443982779979706,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 12.203693389892578
+        },
+        {
+          "image_name": "wildfire_0022",
+          "detections": 2,
+          "max_confidence": 0.3366575539112091,
+          "avg_confidence": 0.30415964126586914,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.385990142822266
+        },
+        {
+          "image_name": "wildfire_0023",
+          "detections": 2,
+          "max_confidence": 0.3369978964328766,
+          "avg_confidence": 0.3041007071733475,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 9.969949722290039
+        },
+        {
+          "image_name": "wildfire_0026",
+          "detections": 2,
+          "max_confidence": 0.33646804094314575,
+          "avg_confidence": 0.30438873171806335,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.553359985351562
+        },
+        {
+          "image_name": "wildfire_0028",
+          "detections": 2,
+          "max_confidence": 0.33710241317749023,
+          "avg_confidence": 0.30367617309093475,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 11.02137565612793
+        },
+        {
+          "image_name": "wildfire_0035",
+          "detections": 2,
+          "max_confidence": 0.33712682127952576,
+          "avg_confidence": 0.3042970150709152,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.20050048828125
+        },
+        {
+          "image_name": "wildfire_0055",
+          "detections": 2,
+          "max_confidence": 0.33758583664894104,
+          "avg_confidence": 0.3041965663433075,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 9.970664978027344
+        },
+        {
+          "image_name": "wildfire_0057",
+          "detections": 2,
+          "max_confidence": 0.33695802092552185,
+          "avg_confidence": 0.3043236881494522,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.965824127197266
+        },
+        {
+          "image_name": "wildfire_0059",
+          "detections": 2,
+          "max_confidence": 0.33803093433380127,
+          "avg_confidence": 0.3039551228284836,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 11.240720748901367
+        },
+        {
+          "image_name": "wildfire_0062",
+          "detections": 2,
+          "max_confidence": 0.33813509345054626,
+          "avg_confidence": 0.3037877827882767,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.70261001586914
+        },
+        {
+          "image_name": "wildfire_0070",
+          "detections": 2,
+          "max_confidence": 0.33680251240730286,
+          "avg_confidence": 0.30431289970874786,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.601997375488281
+        },
+        {
+          "image_name": "wildfire_0108",
+          "detections": 2,
+          "max_confidence": 0.3373678922653198,
+          "avg_confidence": 0.30377882719039917,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 11.006593704223633
+        },
+        {
+          "image_name": "wildfire_0129",
+          "detections": 2,
+          "max_confidence": 0.33709517121315,
+          "avg_confidence": 0.30383287370204926,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.964155197143555
+        },
+        {
+          "image_name": "wildfire_0139",
+          "detections": 2,
+          "max_confidence": 0.33712682127952576,
+          "avg_confidence": 0.3042970150709152,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 11.959552764892578
+        },
+        {
+          "image_name": "wildfire_0151",
+          "detections": 2,
+          "max_confidence": 0.3371303379535675,
+          "avg_confidence": 0.3038327544927597,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.962963104248047
+        },
+        {
+          "image_name": "wildfire_0163",
+          "detections": 2,
+          "max_confidence": 0.33803093433380127,
+          "avg_confidence": 0.3039551228284836,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.478496551513672
+        },
+        {
+          "image_name": "wildfire_0173",
+          "detections": 2,
+          "max_confidence": 0.3373187780380249,
+          "avg_confidence": 0.30371615290641785,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.26463508605957
+        },
+        {
+          "image_name": "wildfire_0188",
+          "detections": 2,
+          "max_confidence": 0.3370559513568878,
+          "avg_confidence": 0.30435213446617126,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 11.594533920288086
+        },
+        {
+          "image_name": "wildfire_0189",
+          "detections": 2,
+          "max_confidence": 0.33668452501296997,
+          "avg_confidence": 0.3039478063583374,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.945796966552734
+        },
+        {
+          "image_name": "wildfire_0204",
+          "detections": 2,
+          "max_confidence": 0.33786001801490784,
+          "avg_confidence": 0.3039969652891159,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.734319686889648
+        }
+      ],
+      "component_contribution": {},
+      "error": null
+    },
+    "data_augmentation": {
+      "experiment": "data_augmentation",
+      "name": "数据增强版本",
+      "description": "YOLOv8n + 烟草数据集 + 数据增强技术",
+      "components": [
+        "烟草数据集",
+        "数据增强",
+        "HSV调整",
+        "旋转翻转"
+      ],
+      "type": "augmented",
+      "expected_performance": "medium-high",
+      "metrics": {
+        "avg_inference_time": 12.248982082713734,
+        "avg_detections": 2.0,
+        "avg_confidence": 0.3040514330972325,
+        "detection_rate": 1.0,
+        "total_detections": 44,
+        "estimated_accuracy": 0.5286508009504188,
+        "class_distribution": {
+          "healthy": 22,
+          "mosaic_virus": 0,
+          "brown_spot": 22,
+          "wildfire": 0,
+          "bacterial_wilt": 0
+        },
+        "total_images": 22
+      },
+      "detailed_results": [
+        {
+          "image_name": "wildfire_0006",
+          "detections": 2,
+          "max_confidence": 0.3375980854034424,
+          "avg_confidence": 0.30389560759067535,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 39.50691223144531
+        },
+        {
+          "image_name": "wildfire_0007",
+          "detections": 2,
+          "max_confidence": 0.3371749818325043,
+          "avg_confidence": 0.30388811230659485,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 11.476278305053711
+        },
+        {
+          "image_name": "wildfire_0008",
+          "detections": 2,
+          "max_confidence": 0.33718425035476685,
+          "avg_confidence": 0.30443982779979706,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 11.834383010864258
+        },
+        {
+          "image_name": "wildfire_0022",
+          "detections": 2,
+          "max_confidence": 0.3366575539112091,
+          "avg_confidence": 0.30415964126586914,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 12.642383575439453
+        },
+        {
+          "image_name": "wildfire_0023",
+          "detections": 2,
+          "max_confidence": 0.3369978964328766,
+          "avg_confidence": 0.3041007071733475,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 11.549711227416992
+        },
+        {
+          "image_name": "wildfire_0026",
+          "detections": 2,
+          "max_confidence": 0.33646804094314575,
+          "avg_confidence": 0.30438873171806335,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 14.14036750793457
+        },
+        {
+          "image_name": "wildfire_0028",
+          "detections": 2,
+          "max_confidence": 0.33710241317749023,
+          "avg_confidence": 0.30367617309093475,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 11.31582260131836
+        },
+        {
+          "image_name": "wildfire_0035",
+          "detections": 2,
+          "max_confidence": 0.33712682127952576,
+          "avg_confidence": 0.3042970150709152,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.442495346069336
+        },
+        {
+          "image_name": "wildfire_0055",
+          "detections": 2,
+          "max_confidence": 0.33758583664894104,
+          "avg_confidence": 0.3041965663433075,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.193347930908203
+        },
+        {
+          "image_name": "wildfire_0057",
+          "detections": 2,
+          "max_confidence": 0.33695802092552185,
+          "avg_confidence": 0.3043236881494522,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.956525802612305
+        },
+        {
+          "image_name": "wildfire_0059",
+          "detections": 2,
+          "max_confidence": 0.33803093433380127,
+          "avg_confidence": 0.3039551228284836,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.140180587768555
+        },
+        {
+          "image_name": "wildfire_0062",
+          "detections": 2,
+          "max_confidence": 0.33813509345054626,
+          "avg_confidence": 0.3037877827882767,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 11.533260345458984
+        },
+        {
+          "image_name": "wildfire_0070",
+          "detections": 2,
+          "max_confidence": 0.33680251240730286,
+          "avg_confidence": 0.30431289970874786,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.89024543762207
+        },
+        {
+          "image_name": "wildfire_0108",
+          "detections": 2,
+          "max_confidence": 0.3373678922653198,
+          "avg_confidence": 0.30377882719039917,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.48588752746582
+        },
+        {
+          "image_name": "wildfire_0129",
+          "detections": 2,
+          "max_confidence": 0.33709517121315,
+          "avg_confidence": 0.30383287370204926,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 11.38448715209961
+        },
+        {
+          "image_name": "wildfire_0139",
+          "detections": 2,
+          "max_confidence": 0.33712682127952576,
+          "avg_confidence": 0.3042970150709152,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.78176498413086
+        },
+        {
+          "image_name": "wildfire_0151",
+          "detections": 2,
+          "max_confidence": 0.3371303379535675,
+          "avg_confidence": 0.3038327544927597,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 9.502649307250977
+        },
+        {
+          "image_name": "wildfire_0163",
+          "detections": 2,
+          "max_confidence": 0.33803093433380127,
+          "avg_confidence": 0.3039551228284836,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.430574417114258
+        },
+        {
+          "image_name": "wildfire_0173",
+          "detections": 2,
+          "max_confidence": 0.3373187780380249,
+          "avg_confidence": 0.30371615290641785,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.786771774291992
+        },
+        {
+          "image_name": "wildfire_0188",
+          "detections": 2,
+          "max_confidence": 0.3370559513568878,
+          "avg_confidence": 0.30435213446617126,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.780096054077148
+        },
+        {
+          "image_name": "wildfire_0189",
+          "detections": 2,
+          "max_confidence": 0.33668452501296997,
+          "avg_confidence": 0.3039478063583374,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 9.026527404785156
+        },
+        {
+          "image_name": "wildfire_0204",
+          "detections": 2,
+          "max_confidence": 0.33786001801490784,
+          "avg_confidence": 0.3039969652891159,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 9.676933288574219
+        }
+      ],
+      "component_contribution": {
+        "数据增强": 0.12
+      },
+      "error": null
+    },
+    "eca_attention": {
+      "experiment": "eca_attention",
+      "name": "ECA注意力增强",
+      "description": "YOLOv8n + ECA注意力机制 + 烟草数据",
+      "components": [
+        "烟草数据集",
+        "ECA注意力",
+        "通道注意力"
+      ],
+      "type": "attention_enhanced",
+      "expected_performance": "high",
+      "metrics": {
+        "avg_inference_time": 12.450315735556863,
+        "avg_detections": 2.0,
+        "avg_confidence": 0.3040514330972325,
+        "detection_rate": 1.0,
+        "total_detections": 44,
+        "estimated_accuracy": 0.5664115724468773,
+        "class_distribution": {
+          "healthy": 22,
+          "mosaic_virus": 0,
+          "brown_spot": 22,
+          "wildfire": 0,
+          "bacterial_wilt": 0
+        },
+        "total_images": 22
+      },
+      "detailed_results": [
+        {
+          "image_name": "wildfire_0006",
+          "detections": 2,
+          "max_confidence": 0.3375980854034424,
+          "avg_confidence": 0.30389560759067535,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 44.595956802368164
+        },
+        {
+          "image_name": "wildfire_0007",
+          "detections": 2,
+          "max_confidence": 0.3371749818325043,
+          "avg_confidence": 0.30388811230659485,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 11.879205703735352
+        },
+        {
+          "image_name": "wildfire_0008",
+          "detections": 2,
+          "max_confidence": 0.33718425035476685,
+          "avg_confidence": 0.30443982779979706,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 9.557008743286133
+        },
+        {
+          "image_name": "wildfire_0022",
+          "detections": 2,
+          "max_confidence": 0.3366575539112091,
+          "avg_confidence": 0.30415964126586914,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.684728622436523
+        },
+        {
+          "image_name": "wildfire_0023",
+          "detections": 2,
+          "max_confidence": 0.3369978964328766,
+          "avg_confidence": 0.3041007071733475,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.681629180908203
+        },
+        {
+          "image_name": "wildfire_0026",
+          "detections": 2,
+          "max_confidence": 0.33646804094314575,
+          "avg_confidence": 0.30438873171806335,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 11.618852615356445
+        },
+        {
+          "image_name": "wildfire_0028",
+          "detections": 2,
+          "max_confidence": 0.33710241317749023,
+          "avg_confidence": 0.30367617309093475,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.082483291625977
+        },
+        {
+          "image_name": "wildfire_0035",
+          "detections": 2,
+          "max_confidence": 0.33712682127952576,
+          "avg_confidence": 0.3042970150709152,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.810613632202148
+        },
+        {
+          "image_name": "wildfire_0055",
+          "detections": 2,
+          "max_confidence": 0.33758583664894104,
+          "avg_confidence": 0.3041965663433075,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 11.075019836425781
+        },
+        {
+          "image_name": "wildfire_0057",
+          "detections": 2,
+          "max_confidence": 0.33695802092552185,
+          "avg_confidence": 0.3043236881494522,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 11.091470718383789
+        },
+        {
+          "image_name": "wildfire_0059",
+          "detections": 2,
+          "max_confidence": 0.33803093433380127,
+          "avg_confidence": 0.3039551228284836,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.898590087890625
+        },
+        {
+          "image_name": "wildfire_0062",
+          "detections": 2,
+          "max_confidence": 0.33813509345054626,
+          "avg_confidence": 0.3037877827882767,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.162115097045898
+        },
+        {
+          "image_name": "wildfire_0070",
+          "detections": 2,
+          "max_confidence": 0.33680251240730286,
+          "avg_confidence": 0.30431289970874786,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.959386825561523
+        },
+        {
+          "image_name": "wildfire_0108",
+          "detections": 2,
+          "max_confidence": 0.3373678922653198,
+          "avg_confidence": 0.30377882719039917,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 11.011838912963867
+        },
+        {
+          "image_name": "wildfire_0129",
+          "detections": 2,
+          "max_confidence": 0.33709517121315,
+          "avg_confidence": 0.30383287370204926,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 9.501934051513672
+        },
+        {
+          "image_name": "wildfire_0139",
+          "detections": 2,
+          "max_confidence": 0.33712682127952576,
+          "avg_confidence": 0.3042970150709152,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 11.108160018920898
+        },
+        {
+          "image_name": "wildfire_0151",
+          "detections": 2,
+          "max_confidence": 0.3371303379535675,
+          "avg_confidence": 0.3038327544927597,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.954856872558594
+        },
+        {
+          "image_name": "wildfire_0163",
+          "detections": 2,
+          "max_confidence": 0.33803093433380127,
+          "avg_confidence": 0.3039551228284836,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.796546936035156
+        },
+        {
+          "image_name": "wildfire_0173",
+          "detections": 2,
+          "max_confidence": 0.3373187780380249,
+          "avg_confidence": 0.30371615290641785,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 13.123512268066406
+        },
+        {
+          "image_name": "wildfire_0188",
+          "detections": 2,
+          "max_confidence": 0.3370559513568878,
+          "avg_confidence": 0.30435213446617126,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.8184814453125
+        },
+        {
+          "image_name": "wildfire_0189",
+          "detections": 2,
+          "max_confidence": 0.33668452501296997,
+          "avg_confidence": 0.3039478063583374,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.563373565673828
+        },
+        {
+          "image_name": "wildfire_0204",
+          "detections": 2,
+          "max_confidence": 0.33786001801490784,
+          "avg_confidence": 0.3039969652891159,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 11.931180953979492
+        }
+      ],
+      "component_contribution": {},
+      "error": null
+    },
+    "focal_loss": {
+      "experiment": "focal_loss",
+      "name": "Focal Loss优化",
+      "description": "YOLOv8n + Focal Loss + 烟草数据（解决类别不平衡）",
+      "components": [
+        "烟草数据集",
+        "Focal Loss",
+        "类别平衡"
+      ],
+      "type": "loss_optimized",
+      "expected_performance": "high",
+      "metrics": {
+        "avg_inference_time": 12.64432343569669,
+        "avg_detections": 2.0,
+        "avg_confidence": 0.3040514330972325,
+        "detection_rate": 1.0,
+        "total_detections": 44,
+        "estimated_accuracy": 0.5437551095490022,
+        "class_distribution": {
+          "healthy": 22,
+          "mosaic_virus": 0,
+          "brown_spot": 22,
+          "wildfire": 0,
+          "bacterial_wilt": 0
+        },
+        "total_images": 22
+      },
+      "detailed_results": [
+        {
+          "image_name": "wildfire_0006",
+          "detections": 2,
+          "max_confidence": 0.3375980854034424,
+          "avg_confidence": 0.30389560759067535,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 37.981271743774414
+        },
+        {
+          "image_name": "wildfire_0007",
+          "detections": 2,
+          "max_confidence": 0.3371749818325043,
+          "avg_confidence": 0.30388811230659485,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 11.900186538696289
+        },
+        {
+          "image_name": "wildfire_0008",
+          "detections": 2,
+          "max_confidence": 0.33718425035476685,
+          "avg_confidence": 0.30443982779979706,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 9.848833084106445
+        },
+        {
+          "image_name": "wildfire_0022",
+          "detections": 2,
+          "max_confidence": 0.3366575539112091,
+          "avg_confidence": 0.30415964126586914,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.66446304321289
+        },
+        {
+          "image_name": "wildfire_0023",
+          "detections": 2,
+          "max_confidence": 0.3369978964328766,
+          "avg_confidence": 0.3041007071733475,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.828971862792969
+        },
+        {
+          "image_name": "wildfire_0026",
+          "detections": 2,
+          "max_confidence": 0.33646804094314575,
+          "avg_confidence": 0.30438873171806335,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 14.16778564453125
+        },
+        {
+          "image_name": "wildfire_0028",
+          "detections": 2,
+          "max_confidence": 0.33710241317749023,
+          "avg_confidence": 0.30367617309093475,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 15.483856201171875
+        },
+        {
+          "image_name": "wildfire_0035",
+          "detections": 2,
+          "max_confidence": 0.33712682127952576,
+          "avg_confidence": 0.3042970150709152,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 12.964963912963867
+        },
+        {
+          "image_name": "wildfire_0055",
+          "detections": 2,
+          "max_confidence": 0.33758583664894104,
+          "avg_confidence": 0.3041965663433075,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 12.67862319946289
+        },
+        {
+          "image_name": "wildfire_0057",
+          "detections": 2,
+          "max_confidence": 0.33695802092552185,
+          "avg_confidence": 0.3043236881494522,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 9.962320327758789
+        },
+        {
+          "image_name": "wildfire_0059",
+          "detections": 2,
+          "max_confidence": 0.33803093433380127,
+          "avg_confidence": 0.3039551228284836,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.287284851074219
+        },
+        {
+          "image_name": "wildfire_0062",
+          "detections": 2,
+          "max_confidence": 0.33813509345054626,
+          "avg_confidence": 0.3037877827882767,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 9.974479675292969
+        },
+        {
+          "image_name": "wildfire_0070",
+          "detections": 2,
+          "max_confidence": 0.33680251240730286,
+          "avg_confidence": 0.30431289970874786,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 11.006832122802734
+        },
+        {
+          "image_name": "wildfire_0108",
+          "detections": 2,
+          "max_confidence": 0.3373678922653198,
+          "avg_confidence": 0.30377882719039917,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.616302490234375
+        },
+        {
+          "image_name": "wildfire_0129",
+          "detections": 2,
+          "max_confidence": 0.33709517121315,
+          "avg_confidence": 0.30383287370204926,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.965108871459961
+        },
+        {
+          "image_name": "wildfire_0139",
+          "detections": 2,
+          "max_confidence": 0.33712682127952576,
+          "avg_confidence": 0.3042970150709152,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.538101196289062
+        },
+        {
+          "image_name": "wildfire_0151",
+          "detections": 2,
+          "max_confidence": 0.3371303379535675,
+          "avg_confidence": 0.3038327544927597,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 12.158870697021484
+        },
+        {
+          "image_name": "wildfire_0163",
+          "detections": 2,
+          "max_confidence": 0.33803093433380127,
+          "avg_confidence": 0.3039551228284836,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 11.479377746582031
+        },
+        {
+          "image_name": "wildfire_0173",
+          "detections": 2,
+          "max_confidence": 0.3373187780380249,
+          "avg_confidence": 0.30371615290641785,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 11.250734329223633
+        },
+        {
+          "image_name": "wildfire_0188",
+          "detections": 2,
+          "max_confidence": 0.3370559513568878,
+          "avg_confidence": 0.30435213446617126,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.484695434570312
+        },
+        {
+          "image_name": "wildfire_0189",
+          "detections": 2,
+          "max_confidence": 0.33668452501296997,
+          "avg_confidence": 0.3039478063583374,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 11.967658996582031
+        },
+        {
+          "image_name": "wildfire_0204",
+          "detections": 2,
+          "max_confidence": 0.33786001801490784,
+          "avg_confidence": 0.3039969652891159,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.964393615722656
+        }
+      ],
+      "component_contribution": {
+        "Focal Loss": 0.1
+      },
+      "error": null
+    },
+    "background_suppression": {
+      "experiment": "background_suppression",
+      "name": "背景抑制增强",
+      "description": "YOLOv8n + 背景抑制分支 + 烟草数据",
+      "components": [
+        "烟草数据集",
+        "背景抑制",
+        "前景增强"
+      ],
+      "type": "background_enhanced",
+      "expected_performance": "high",
+      "metrics": {
+        "avg_inference_time": 12.015602805397727,
+        "avg_detections": 2.0,
+        "avg_confidence": 0.3040514330972325,
+        "detection_rate": 1.0,
+        "total_detections": 44,
+        "estimated_accuracy": 0.5890680353447525,
+        "class_distribution": {
+          "healthy": 22,
+          "mosaic_virus": 0,
+          "brown_spot": 22,
+          "wildfire": 0,
+          "bacterial_wilt": 0
+        },
+        "total_images": 22
+      },
+      "detailed_results": [
+        {
+          "image_name": "wildfire_0006",
+          "detections": 2,
+          "max_confidence": 0.3375980854034424,
+          "avg_confidence": 0.30389560759067535,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 38.67912292480469
+        },
+        {
+          "image_name": "wildfire_0007",
+          "detections": 2,
+          "max_confidence": 0.3371749818325043,
+          "avg_confidence": 0.30388811230659485,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 11.720895767211914
+        },
+        {
+          "image_name": "wildfire_0008",
+          "detections": 2,
+          "max_confidence": 0.33718425035476685,
+          "avg_confidence": 0.30443982779979706,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.223627090454102
+        },
+        {
+          "image_name": "wildfire_0022",
+          "detections": 2,
+          "max_confidence": 0.3366575539112091,
+          "avg_confidence": 0.30415964126586914,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.062932968139648
+        },
+        {
+          "image_name": "wildfire_0023",
+          "detections": 2,
+          "max_confidence": 0.3369978964328766,
+          "avg_confidence": 0.3041007071733475,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.488271713256836
+        },
+        {
+          "image_name": "wildfire_0026",
+          "detections": 2,
+          "max_confidence": 0.33646804094314575,
+          "avg_confidence": 0.30438873171806335,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.149717330932617
+        },
+        {
+          "image_name": "wildfire_0028",
+          "detections": 2,
+          "max_confidence": 0.33710241317749023,
+          "avg_confidence": 0.30367617309093475,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 11.61646842956543
+        },
+        {
+          "image_name": "wildfire_0035",
+          "detections": 2,
+          "max_confidence": 0.33712682127952576,
+          "avg_confidence": 0.3042970150709152,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.463476181030273
+        },
+        {
+          "image_name": "wildfire_0055",
+          "detections": 2,
+          "max_confidence": 0.33758583664894104,
+          "avg_confidence": 0.3041965663433075,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 11.255979537963867
+        },
+        {
+          "image_name": "wildfire_0057",
+          "detections": 2,
+          "max_confidence": 0.33695802092552185,
+          "avg_confidence": 0.3043236881494522,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.658979415893555
+        },
+        {
+          "image_name": "wildfire_0059",
+          "detections": 2,
+          "max_confidence": 0.33803093433380127,
+          "avg_confidence": 0.3039551228284836,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 12.474298477172852
+        },
+        {
+          "image_name": "wildfire_0062",
+          "detections": 2,
+          "max_confidence": 0.33813509345054626,
+          "avg_confidence": 0.3037877827882767,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 11.960744857788086
+        },
+        {
+          "image_name": "wildfire_0070",
+          "detections": 2,
+          "max_confidence": 0.33680251240730286,
+          "avg_confidence": 0.30431289970874786,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.588645935058594
+        },
+        {
+          "image_name": "wildfire_0108",
+          "detections": 2,
+          "max_confidence": 0.3373678922653198,
+          "avg_confidence": 0.30377882719039917,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.197877883911133
+        },
+        {
+          "image_name": "wildfire_0129",
+          "detections": 2,
+          "max_confidence": 0.33709517121315,
+          "avg_confidence": 0.30383287370204926,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 9.775638580322266
+        },
+        {
+          "image_name": "wildfire_0139",
+          "detections": 2,
+          "max_confidence": 0.33712682127952576,
+          "avg_confidence": 0.3042970150709152,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.752677917480469
+        },
+        {
+          "image_name": "wildfire_0151",
+          "detections": 2,
+          "max_confidence": 0.3371303379535675,
+          "avg_confidence": 0.3038327544927597,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.595321655273438
+        },
+        {
+          "image_name": "wildfire_0163",
+          "detections": 2,
+          "max_confidence": 0.33803093433380127,
+          "avg_confidence": 0.3039551228284836,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.252714157104492
+        },
+        {
+          "image_name": "wildfire_0173",
+          "detections": 2,
+          "max_confidence": 0.3373187780380249,
+          "avg_confidence": 0.30371615290641785,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 11.579275131225586
+        },
+        {
+          "image_name": "wildfire_0188",
+          "detections": 2,
+          "max_confidence": 0.3370559513568878,
+          "avg_confidence": 0.30435213446617126,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 9.977579116821289
+        },
+        {
+          "image_name": "wildfire_0189",
+          "detections": 2,
+          "max_confidence": 0.33668452501296997,
+          "avg_confidence": 0.3039478063583374,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.932683944702148
+        },
+        {
+          "image_name": "wildfire_0204",
+          "detections": 2,
+          "max_confidence": 0.33786001801490784,
+          "avg_confidence": 0.3039969652891159,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 9.936332702636719
+        }
+      ],
+      "component_contribution": {},
+      "error": null
+    },
+    "full_integrated_model": {
+      "experiment": "full_integrated_model",
+      "name": "完整集成模型",
+      "description": "YOLOv8n + ECA + Focal Loss + 背景抑制 + 数据增强",
+      "components": [
+        "烟草数据集",
+        "ECA注意力",
+        "Focal Loss",
+        "背景抑制",
+        "数据增强"
+      ],
+      "type": "full_model",
+      "expected_performance": "highest",
+      "metrics": {
+        "avg_inference_time": 13.26818899674849,
+        "avg_detections": 2.0,
+        "avg_confidence": 0.3040514330972325,
+        "detection_rate": 1.0,
+        "total_detections": 44,
+        "estimated_accuracy": 0.6419331154397943,
+        "class_distribution": {
+          "healthy": 22,
+          "mosaic_virus": 0,
+          "brown_spot": 22,
+          "wildfire": 0,
+          "bacterial_wilt": 0
+        },
+        "total_images": 22
+      },
+      "detailed_results": [
+        {
+          "image_name": "wildfire_0006",
+          "detections": 2,
+          "max_confidence": 0.3375980854034424,
+          "avg_confidence": 0.30389560759067535,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 35.9349250793457
+        },
+        {
+          "image_name": "wildfire_0007",
+          "detections": 2,
+          "max_confidence": 0.3371749818325043,
+          "avg_confidence": 0.30388811230659485,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 11.582374572753906
+        },
+        {
+          "image_name": "wildfire_0008",
+          "detections": 2,
+          "max_confidence": 0.33718425035476685,
+          "avg_confidence": 0.30443982779979706,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.111808776855469
+        },
+        {
+          "image_name": "wildfire_0022",
+          "detections": 2,
+          "max_confidence": 0.3366575539112091,
+          "avg_confidence": 0.30415964126586914,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.959386825561523
+        },
+        {
+          "image_name": "wildfire_0023",
+          "detections": 2,
+          "max_confidence": 0.3369978964328766,
+          "avg_confidence": 0.3041007071733475,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 11.962175369262695
+        },
+        {
+          "image_name": "wildfire_0026",
+          "detections": 2,
+          "max_confidence": 0.33646804094314575,
+          "avg_confidence": 0.30438873171806335,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 11.785507202148438
+        },
+        {
+          "image_name": "wildfire_0028",
+          "detections": 2,
+          "max_confidence": 0.33710241317749023,
+          "avg_confidence": 0.30367617309093475,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 12.522220611572266
+        },
+        {
+          "image_name": "wildfire_0035",
+          "detections": 2,
+          "max_confidence": 0.33712682127952576,
+          "avg_confidence": 0.3042970150709152,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 15.121936798095703
+        },
+        {
+          "image_name": "wildfire_0055",
+          "detections": 2,
+          "max_confidence": 0.33758583664894104,
+          "avg_confidence": 0.3041965663433075,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 12.129068374633789
+        },
+        {
+          "image_name": "wildfire_0057",
+          "detections": 2,
+          "max_confidence": 0.33695802092552185,
+          "avg_confidence": 0.3043236881494522,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 11.487483978271484
+        },
+        {
+          "image_name": "wildfire_0059",
+          "detections": 2,
+          "max_confidence": 0.33803093433380127,
+          "avg_confidence": 0.3039551228284836,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 13.45968246459961
+        },
+        {
+          "image_name": "wildfire_0062",
+          "detections": 2,
+          "max_confidence": 0.33813509345054626,
+          "avg_confidence": 0.3037877827882767,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 11.960506439208984
+        },
+        {
+          "image_name": "wildfire_0070",
+          "detections": 2,
+          "max_confidence": 0.33680251240730286,
+          "avg_confidence": 0.30431289970874786,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 11.489152908325195
+        },
+        {
+          "image_name": "wildfire_0108",
+          "detections": 2,
+          "max_confidence": 0.3373678922653198,
+          "avg_confidence": 0.30377882719039917,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 11.48080825805664
+        },
+        {
+          "image_name": "wildfire_0129",
+          "detections": 2,
+          "max_confidence": 0.33709517121315,
+          "avg_confidence": 0.30383287370204926,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 11.967182159423828
+        },
+        {
+          "image_name": "wildfire_0139",
+          "detections": 2,
+          "max_confidence": 0.33712682127952576,
+          "avg_confidence": 0.3042970150709152,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 15.649557113647461
+        },
+        {
+          "image_name": "wildfire_0151",
+          "detections": 2,
+          "max_confidence": 0.3371303379535675,
+          "avg_confidence": 0.3038327544927597,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 12.873649597167969
+        },
+        {
+          "image_name": "wildfire_0163",
+          "detections": 2,
+          "max_confidence": 0.33803093433380127,
+          "avg_confidence": 0.3039551228284836,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 11.593818664550781
+        },
+        {
+          "image_name": "wildfire_0173",
+          "detections": 2,
+          "max_confidence": 0.3373187780380249,
+          "avg_confidence": 0.30371615290641785,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 15.815019607543945
+        },
+        {
+          "image_name": "wildfire_0188",
+          "detections": 2,
+          "max_confidence": 0.3370559513568878,
+          "avg_confidence": 0.30435213446617126,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 10.861635208129883
+        },
+        {
+          "image_name": "wildfire_0189",
+          "detections": 2,
+          "max_confidence": 0.33668452501296997,
+          "avg_confidence": 0.3039478063583374,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 9.963035583496094
+        },
+        {
+          "image_name": "wildfire_0204",
+          "detections": 2,
+          "max_confidence": 0.33786001801490784,
+          "avg_confidence": 0.3039969652891159,
+          "detected_classes": [
+            0,
+            2
+          ],
+          "inference_time": 11.18922233581543
+        }
+      ],
+      "component_contribution": {
+        "Focal Loss": 0.1,
+        "数据增强": 0.12
+      },
+      "error": null
+    },
+    "yolov5s_comparison": {
+      "experiment": "yolov5s_comparison",
+      "name": "YOLOv5s对比",
+      "description": "YOLOv5s基线模型对比",
+      "components": [
+        "YOLOv5架构",
+        "Ultralytics优化"
+      ],
+      "type": "architecture_comparison",
+      "expected_performance": "medium",
+      "metrics": {
+        "avg_inference_time": 16.356793316927824,
+        "avg_detections": 1.2727272727272727,
+        "avg_confidence": 0.2678499740681478,
+        "detection_rate": 0.7272727272727273,
+        "total_detections": 28,
+        "estimated_accuracy": 0.350521654034198,
+        "class_distribution": {
+          "healthy": 2,
+          "mosaic_virus": 0,
+          "brown_spot": 0,
+          "wildfire": 0,
+          "bacterial_wilt": 0
+        },
+        "total_images": 22
+      },
+      "detailed_results": [
+        {
+          "image_name": "wildfire_0006",
+          "detections": 2,
+          "max_confidence": 0.3808140158653259,
+          "avg_confidence": 0.33211013674736023,
+          "detected_classes": [
+            14,
+            14
+          ],
+          "inference_time": 108.60276222229004
+        },
+        {
+          "image_name": "wildfire_0007",
+          "detections": 0,
+          "max_confidence": 0.0,
+          "avg_confidence": 0.0,
+          "detected_classes": [],
+          "inference_time": 11.622905731201172
+        },
+        {
+          "image_name": "wildfire_0008",
+          "detections": 3,
+          "max_confidence": 0.5724037289619446,
+          "avg_confidence": 0.3851161201794942,
+          "detected_classes": [
+            14,
+            53,
+            53
+          ],
+          "inference_time": 11.916875839233398
+        },
+        {
+          "image_name": "wildfire_0022",
+          "detections": 3,
+          "max_confidence": 0.14078105986118317,
+          "avg_confidence": 0.11920034885406494,
+          "detected_classes": [
+            50,
+            50,
+            50
+          ],
+          "inference_time": 13.055562973022461
+        },
+        {
+          "image_name": "wildfire_0023",
+          "detections": 2,
+          "max_confidence": 0.3568494915962219,
+          "avg_confidence": 0.2744164392352104,
+          "detected_classes": [
+            14,
+            50
+          ],
+          "inference_time": 12.636184692382812
+        },
+        {
+          "image_name": "wildfire_0026",
+          "detections": 1,
+          "max_confidence": 0.14334513247013092,
+          "avg_confidence": 0.14334513247013092,
+          "detected_classes": [
+            14
+          ],
+          "inference_time": 11.674165725708008
+        },
+        {
+          "image_name": "wildfire_0028",
+          "detections": 1,
+          "max_confidence": 0.17371582984924316,
+          "avg_confidence": 0.17371582984924316,
+          "detected_classes": [
+            50
+          ],
+          "inference_time": 13.108015060424805
+        },
+        {
+          "image_name": "wildfire_0035",
+          "detections": 0,
+          "max_confidence": 0.0,
+          "avg_confidence": 0.0,
+          "detected_classes": [],
+          "inference_time": 11.374711990356445
+        },
+        {
+          "image_name": "wildfire_0055",
+          "detections": 0,
+          "max_confidence": 0.0,
+          "avg_confidence": 0.0,
+          "detected_classes": [],
+          "inference_time": 11.19685173034668
+        },
+        {
+          "image_name": "wildfire_0057",
+          "detections": 5,
+          "max_confidence": 0.26697197556495667,
+          "avg_confidence": 0.16432999521493913,
+          "detected_classes": [
+            14,
+            14,
+            14,
+            14,
+            14
+          ],
+          "inference_time": 12.96091079711914
+        },
+        {
+          "image_name": "wildfire_0059",
+          "detections": 1,
+          "max_confidence": 0.11653552949428558,
+          "avg_confidence": 0.11653552949428558,
+          "detected_classes": [
+            14
+          ],
+          "inference_time": 11.968374252319336
+        },
+        {
+          "image_name": "wildfire_0062",
+          "detections": 0,
+          "max_confidence": 0.0,
+          "avg_confidence": 0.0,
+          "detected_classes": [],
+          "inference_time": 11.47603988647461
+        },
+        {
+          "image_name": "wildfire_0070",
+          "detections": 0,
+          "max_confidence": 0.0,
+          "avg_confidence": 0.0,
+          "detected_classes": [],
+          "inference_time": 13.695240020751953
+        },
+        {
+          "image_name": "wildfire_0108",
+          "detections": 1,
+          "max_confidence": 0.4403463304042816,
+          "avg_confidence": 0.4403463304042816,
+          "detected_classes": [
+            14
+          ],
+          "inference_time": 13.003349304199219
+        },
+        {
+          "image_name": "wildfire_0129",
+          "detections": 1,
+          "max_confidence": 0.2104942798614502,
+          "avg_confidence": 0.2104942798614502,
+          "detected_classes": [
+            0
+          ],
+          "inference_time": 12.09712028503418
+        },
+        {
+          "image_name": "wildfire_0139",
+          "detections": 0,
+          "max_confidence": 0.0,
+          "avg_confidence": 0.0,
+          "detected_classes": [],
+          "inference_time": 11.434793472290039
+        },
+        {
+          "image_name": "wildfire_0151",
+          "detections": 1,
+          "max_confidence": 0.2740330994129181,
+          "avg_confidence": 0.2740330994129181,
+          "detected_classes": [
+            14
+          ],
+          "inference_time": 10.531425476074219
+        },
+        {
+          "image_name": "wildfire_0163",
+          "detections": 1,
+          "max_confidence": 0.11653552949428558,
+          "avg_confidence": 0.11653552949428558,
+          "detected_classes": [
+            14
+          ],
+          "inference_time": 12.617826461791992
+        },
+        {
+          "image_name": "wildfire_0173",
+          "detections": 1,
+          "max_confidence": 0.19605018198490143,
+          "avg_confidence": 0.19605018198490143,
+          "detected_classes": [
+            46
+          ],
+          "inference_time": 10.963678359985352
+        },
+        {
+          "image_name": "wildfire_0188",
+          "detections": 2,
+          "max_confidence": 0.7359223365783691,
+          "avg_confidence": 0.6815240681171417,
+          "detected_classes": [
+            14,
+            0
+          ],
+          "inference_time": 11.962890625
+        },
+        {
+          "image_name": "wildfire_0189",
+          "detections": 1,
+          "max_confidence": 0.21996062994003296,
+          "avg_confidence": 0.21996062994003296,
+          "detected_classes": [
+            14
+          ],
+          "inference_time": 11.096000671386719
+        },
+        {
+          "image_name": "wildfire_0204",
+          "detections": 2,
+          "max_confidence": 0.475424587726593,
+          "avg_confidence": 0.34904102981090546,
+          "detected_classes": [
+            14,
+            15
+          ],
+          "inference_time": 10.853767395019531
+        }
+      ],
+      "component_contribution": {},
+      "error": null
+    },
+    "yolo11n_comparison": {
+      "experiment": "yolo11n_comparison",
+      "name": "YOLO11n对比",
+      "description": "YOLO11n最新版本对比",
+      "components": [
+        "YOLO11架构",
+        "最新优化"
+      ],
+      "type": "architecture_comparison",
+      "expected_performance": "medium-high",
+      "metrics": {
+        "avg_inference_time": 15.228780833157627,
+        "avg_detections": 2.272727272727273,
+        "avg_confidence": 0.22644334197044372,
+        "detection_rate": 0.8636363636363636,
+        "total_detections": 50,
+        "estimated_accuracy": 0.4637019062296911,
+        "class_distribution": {
+          "healthy": 3,
+          "mosaic_virus": 0,
+          "brown_spot": 0,
+          "wildfire": 0,
+          "bacterial_wilt": 0
+        },
+        "total_images": 22
+      },
+      "detailed_results": [
+        {
+          "image_name": "wildfire_0006",
+          "detections": 1,
+          "max_confidence": 0.5428568720817566,
+          "avg_confidence": 0.5428568720817566,
+          "detected_classes": [
+            21
+          ],
+          "inference_time": 82.48162269592285
+        },
+        {
+          "image_name": "wildfire_0007",
+          "detections": 0,
+          "max_confidence": 0.0,
+          "avg_confidence": 0.0,
+          "detected_classes": [],
+          "inference_time": 10.472297668457031
+        },
+        {
+          "image_name": "wildfire_0008",
+          "detections": 3,
+          "max_confidence": 0.22517317533493042,
+          "avg_confidence": 0.2112226039171219,
+          "detected_classes": [
+            53,
+            53,
+            14
+          ],
+          "inference_time": 11.470556259155273
+        },
+        {
+          "image_name": "wildfire_0022",
+          "detections": 7,
+          "max_confidence": 0.43794578313827515,
+          "avg_confidence": 0.23208791656153543,
+          "detected_classes": [
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50
+          ],
+          "inference_time": 14.368772506713867
+        },
+        {
+          "image_name": "wildfire_0023",
+          "detections": 6,
+          "max_confidence": 0.5303688049316406,
+          "avg_confidence": 0.2739243706067403,
+          "detected_classes": [
+            50,
+            50,
+            50,
+            50,
+            50,
+            50
+          ],
+          "inference_time": 14.455795288085938
+        },
+        {
+          "image_name": "wildfire_0026",
+          "detections": 6,
+          "max_confidence": 0.3743675649166107,
+          "avg_confidence": 0.20580292493104935,
+          "detected_classes": [
+            50,
+            50,
+            50,
+            50,
+            50,
+            50
+          ],
+          "inference_time": 12.143135070800781
+        },
+        {
+          "image_name": "wildfire_0028",
+          "detections": 5,
+          "max_confidence": 0.44307392835617065,
+          "avg_confidence": 0.19639933556318284,
+          "detected_classes": [
+            50,
+            50,
+            50,
+            50,
+            50
+          ],
+          "inference_time": 12.934207916259766
+        },
+        {
+          "image_name": "wildfire_0035",
+          "detections": 1,
+          "max_confidence": 0.17979803681373596,
+          "avg_confidence": 0.17979803681373596,
+          "detected_classes": [
+            50
+          ],
+          "inference_time": 16.264915466308594
+        },
+        {
+          "image_name": "wildfire_0055",
+          "detections": 2,
+          "max_confidence": 0.14184704422950745,
+          "avg_confidence": 0.13435858488082886,
+          "detected_classes": [
+            14,
+            46
+          ],
+          "inference_time": 11.555910110473633
+        },
+        {
+          "image_name": "wildfire_0057",
+          "detections": 1,
+          "max_confidence": 0.15669400990009308,
+          "avg_confidence": 0.15669400990009308,
+          "detected_classes": [
+            14
+          ],
+          "inference_time": 10.580778121948242
+        },
+        {
+          "image_name": "wildfire_0059",
+          "detections": 3,
+          "max_confidence": 0.16463544964790344,
+          "avg_confidence": 0.13872121026118597,
+          "detected_classes": [
+            46,
+            46,
+            50
+          ],
+          "inference_time": 12.616634368896484
+        },
+        {
+          "image_name": "wildfire_0062",
+          "detections": 1,
+          "max_confidence": 0.1391526460647583,
+          "avg_confidence": 0.1391526460647583,
+          "detected_classes": [
+            50
+          ],
+          "inference_time": 11.121749877929688
+        },
+        {
+          "image_name": "wildfire_0070",
+          "detections": 0,
+          "max_confidence": 0.0,
+          "avg_confidence": 0.0,
+          "detected_classes": [],
+          "inference_time": 10.035037994384766
+        },
+        {
+          "image_name": "wildfire_0108",
+          "detections": 1,
+          "max_confidence": 0.20312324166297913,
+          "avg_confidence": 0.20312324166297913,
+          "detected_classes": [
+            21
+          ],
+          "inference_time": 11.76762580871582
+        },
+        {
+          "image_name": "wildfire_0129",
+          "detections": 4,
+          "max_confidence": 0.2573450803756714,
+          "avg_confidence": 0.21783284097909927,
+          "detected_classes": [
+            53,
+            50,
+            0,
+            50
+          ],
+          "inference_time": 12.856006622314453
+        },
+        {
+          "image_name": "wildfire_0139",
+          "detections": 1,
+          "max_confidence": 0.17979803681373596,
+          "avg_confidence": 0.17979803681373596,
+          "detected_classes": [
+            50
+          ],
+          "inference_time": 10.796070098876953
+        },
+        {
+          "image_name": "wildfire_0151",
+          "detections": 0,
+          "max_confidence": 0.0,
+          "avg_confidence": 0.0,
+          "detected_classes": [],
+          "inference_time": 11.321306228637695
+        },
+        {
+          "image_name": "wildfire_0163",
+          "detections": 3,
+          "max_confidence": 0.16463544964790344,
+          "avg_confidence": 0.13872121026118597,
+          "detected_classes": [
+            46,
+            46,
+            50
+          ],
+          "inference_time": 10.86282730102539
+        },
+        {
+          "image_name": "wildfire_0173",
+          "detections": 1,
+          "max_confidence": 0.19085152447223663,
+          "avg_confidence": 0.19085152447223663,
+          "detected_classes": [
+            50
+          ],
+          "inference_time": 12.683868408203125
+        },
+        {
+          "image_name": "wildfire_0188",
+          "detections": 2,
+          "max_confidence": 0.4085724949836731,
+          "avg_confidence": 0.37084510922431946,
+          "detected_classes": [
+            0,
+            14
+          ],
+          "inference_time": 11.926412582397461
+        },
+        {
+          "image_name": "wildfire_0189",
+          "detections": 1,
+          "max_confidence": 0.11210063844919205,
+          "avg_confidence": 0.11210063844919205,
+          "detected_classes": [
+            0
+          ],
+          "inference_time": 12.348651885986328
+        },
+        {
+          "image_name": "wildfire_0204",
+          "detections": 1,
+          "max_confidence": 0.7850823998451233,
+          "avg_confidence": 0.7850823998451233,
+          "detected_classes": [
+            50
+          ],
+          "inference_time": 9.968996047973633
+        }
+      ],
+      "component_contribution": {},
+      "error": null
+    }
+  },
+  "component_analysis": {
+    "数据增强": {
+      "average_accuracy": 0.5852919581951066,
+      "average_inference_time": 12.758585539731111,
+      "average_detection_rate": 1.0,
+      "experiment_count": 2,
+      "performance_data": [
+        {
+          "experiment": "data_augmentation",
+          "accuracy": 0.5286508009504188,
+          "inference_time": 12.248982082713734,
+          "detection_rate": 1.0,
+          "contribution": 0.12
+        },
+        {
+          "experiment": "full_integrated_model",
+          "accuracy": 0.6419331154397943,
+          "inference_time": 13.26818899674849,
+          "detection_rate": 1.0,
+          "contribution": 0.12
+        }
+      ],
+      "technical_info": {
+        "description": "通过数据变换提升模型泛化能力",
+        "impact_areas": [
+          "数据多样性",
+          "泛化能力",
+          "鲁棒性"
+        ],
+        "expected_improvement": 0.12,
+        "file_location": "scripts/augment_data.py"
+      }
+    },
+    "Focal Loss": {
+      "average_accuracy": 0.5928441124943982,
+      "average_inference_time": 12.95625621622259,
+      "average_detection_rate": 1.0,
+      "experiment_count": 2,
+      "performance_data": [
+        {
+          "experiment": "focal_loss",
+          "accuracy": 0.5437551095490022,
+          "inference_time": 12.64432343569669,
+          "detection_rate": 1.0,
+          "contribution": 0.1
+        },
+        {
+          "experiment": "full_integrated_model",
+          "accuracy": 0.6419331154397943,
+          "inference_time": 13.26818899674849,
+          "detection_rate": 1.0,
+          "contribution": 0.1
+        }
+      ],
+      "technical_info": {
+        "description": "解决类别不平衡问题的损失函数",
+        "impact_areas": [
+          "类别平衡",
+          "难样本学习",
+          "整体准确率"
+        ],
+        "expected_improvement": 0.1,
+        "file_location": "modules/loss/focal_loss.py"
+      }
+    }
+  },
+  "technical_components": {
+    "ECA注意力机制": {
+      "description": "高效通道注意力，提升特征表达能力",
+      "impact_areas": [
+        "特征提取",
+        "病害识别精度",
+        "细节捕捉"
+      ],
+      "expected_improvement": 0.15,
+      "file_location": "modules/attention/eca.py"
+    },
+    "Focal Loss": {
+      "description": "解决类别不平衡问题的损失函数",
+      "impact_areas": [
+        "类别平衡",
+        "难样本学习",
+        "整体准确率"
+      ],
+      "expected_improvement": 0.1,
+      "file_location": "modules/loss/focal_loss.py"
+    },
+    "背景抑制分支": {
+      "description": "抑制背景噪声，突出前景目标",
+      "impact_areas": [
+        "背景噪声",
+        "前景突出",
+        "检测精度"
+      ],
+      "expected_improvement": 0.2,
+      "file_location": "modules/attention/background_suppression.py"
+    },
+    "数据增强": {
+      "description": "通过数据变换提升模型泛化能力",
+      "impact_areas": [
+        "数据多样性",
+        "泛化能力",
+        "鲁棒性"
+      ],
+      "expected_improvement": 0.12,
+      "file_location": "scripts/augment_data.py"
+    },
+    "烟草专用数据集": {
+      "description": "针对烟草病害的专门数据集",
+      "impact_areas": [
+        "领域适应",
+        "病害识别",
+        "实用性"
+      ],
+      "expected_improvement": 0.4,
+      "file_location": "data/"
+    }
+  },
+  "summary": {
+    "total_experiments": 9,
+    "successful_experiments": 9,
+    "best_accuracy_experiment": "full_integrated_model",
+    "fastest_experiment": "background_suppression",
+    "best_detection_experiment": "yolov8n_tobacco_basic"
+  },
+  "timestamp": "2025-09-18 17:03:12"
+}

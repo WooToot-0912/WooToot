@@ -1,0 +1,5 @@
+﻿算法名称,算法类型,核心技术,模型大小(MB),FPS,平均置信度,检测总数,检测率(%),性能等级,预期性能,复杂度
+YOLOv8n-COCO预训练,baseline,"COCO预训练, 通用目标检测",6.2,55.99,0.339,23,46.0,B,low,Low
+YOLOv5s-基线,baseline,"YOLOv5架构, Ultralytics优化",17.7,92.33,0.372,34,68.0,B+,medium-low,Low
+YOLO11n-最新版,latest,"YOLO11架构, 最新优化技术",5.4,98.76,0.412,34,68.0,A,medium-high,Medium
+完整技术栈模型,full_stack,"ECA注意力机制, Focal Loss, 背景抑制分支",6.0,113.53,0.399,50,100.0,B+,highest,High
