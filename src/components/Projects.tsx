@@ -37,8 +37,8 @@ export function Projects() {
       details: t('projects.list.p3.details'),
       image: '/images/projects/quant-trading.png',
       tags: ['Python', 'PyQt5', 'UI Automation', 'RPA'],
-      demoUrl: 'https://github.com/WooToot-0912/WooToot/tree/%E8%87%AA%E5%8A%A8%E4%BA%A4%E6%98%93%E6%9C%BA%E5%99%25A8%E4%25BA%25BA-RPA',
-      repoUrl: 'https://github.com/WooToot-0912/WooToot/tree/%E8%87%AA%E5%8A%A8%E4%BA%A4%E6%98%93%E6%9C%BA%E5%99%25A8%E4%25BA%25BA-RPA',
+      demoUrl: 'https://github.com/WooToot-0912/WooToot/tree/%E8%87%AA%E5%8A%A8%E4%BA%A4%E6%98%93%E6%9C%BA%E5%99%A8%E4%BA%BA-RPA',
+      repoUrl: 'https://github.com/WooToot-0912/WooToot/tree/%E8%87%AA%E5%8A%A8%E4%BA%A4%E6%98%93%E6%9C%BA%E5%99%A8%E4%BA%BA-RPA',
     },
     {
       id: 'p4',
@@ -67,8 +67,8 @@ export function Projects() {
       details: t('projects.list.p6.details'),
       image: '/images/projects/qq-manager.png',
       tags: ['C#', 'WinForms', 'MDI', 'SQL Server'],
-      demoUrl: 'https://github.com/WooToot-0912/WooToot/tree/QQ%E7%2599%25BB%25E5%2575%25E7%25AE%25A1%25E7%2590%2586%25E7%25B3%25BB%25E7%25BB%259F-WinForm',
-      repoUrl: 'https://github.com/WooToot-0912/WooToot/tree/QQ%E7%2599%25BB%25E5%2575%25E7%25AE%25A1%25E7%2590%2586%25E7%25B3%25BB%25E7%25BB%259F-WinForm',
+      demoUrl: 'https://github.com/WooToot-0912/WooToot/tree/QQ%E7%99%BB%E5%BD%95%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-WinForm',
+      repoUrl: 'https://github.com/WooToot-0912/WooToot/tree/QQ%E7%99%BB%E5%BD%95%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-WinForm',
     },
   ];
 
