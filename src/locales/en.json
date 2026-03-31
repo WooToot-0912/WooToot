@@ -21,17 +21,44 @@
     "skills": "Skills",
     "experience": "Experience",
     "stats": {
-      "exp": "Years Experience",
-      "pdone": "Projects Completed",
-      "clients": "Happy Clients"
+      "exp": "C++/Python/Java/C#",
+      "exp_val": "6+",
+      "pdone": "Lead Core Projects",
+      "pdone_val": "6+",
+      "clients": "100M+ Data Records",
+      "clients_val": "100M+"
     },
-    "skill_names": {
-       "frontend": "Frontend",
-       "backend": "Backend",
-       "database": "Database",
-       "devops": "DevOps",
-       "design": "Design",
-       "tools": "Tools"
+    "exp_list": {
+      "e1": {
+        "title": "CV & Industrial Algorithm Specialist",
+        "company": "Tobacco Quality System",
+        "desc": "Integrated custom ECA modules into YOLO architectures. Bridged data loops with OPC UA protocols for 100M+ defect record processing."
+      },
+      "e2": {
+        "title": "High-Performance Backend",
+        "company": "Concurrency & Processing",
+        "desc": "Architected concurrent services with thread pool scheduling. Implemented 12-dimensional feature extraction for high-throughput data."
+      },
+      "e3": {
+        "title": "Full Stack & AI Integration",
+        "company": "PostUniverse Platform",
+        "desc": "Led microservice design and integrated DeepSeek/OCR models. Optimized response to <300ms using Redis and distributed locking."
+      },
+      "e4": {
+        "title": "Quant Algorithms & Trading",
+        "company": "Intelligent Trading Engine",
+        "desc": "Implemented linear regression for trend prediction and CV-based UI automation for closed-loop trading execution."
+      },
+      "e5": {
+        "title": "Enterprise System Modeling",
+        "company": "TSA & Account Management",
+        "desc": "Built robust backends with Java DAO patterns and designed C# WinForm MDI interfaces for efficient business management."
+      },
+      "e6": {
+        "title": "AI Interaction & Mobile",
+        "company": "Voice AI Assistant",
+        "desc": "Integrated WechatSI Voice and OpenAI APIs via Flask async services to create seamless natural language interaction."
+      }
     }
   },
   "blog": {

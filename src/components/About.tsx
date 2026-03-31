@@ -9,9 +9,9 @@ export function About() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: '-100px' });
 
-  const experienceKeys = ['e1', 'e2', 'e3'];
-  const experiences = experienceKeys.map((key, index) => ({
-    period: ['2022 - Present', '2020 - 2022', '2018 - 2020'][index],
+  const experienceKeys = ['e1', 'e2', 'e3', 'e4', 'e5', 'e6'];
+  const experiences = experienceKeys.map((key) => ({
+    period: t(`about.exp_list.${key}.period`, '2022 - Present'), // Fallback if no period provided
     title: t(`about.exp_list.${key}.title`),
     company: t(`about.exp_list.${key}.company`),
     description: t(`about.exp_list.${key}.desc`),
@@ -71,17 +71,17 @@ export function About() {
                </p>
                <div className="flex items-center space-x-4 pt-4">
                  <div className="text-center">
-                   <div className="text-3xl font-bold gradient-text">5+</div>
+                   <div className="text-3xl font-bold gradient-text">{t('about.stats.exp_val', '5+')}</div>
                    <div className="text-sm text-muted-foreground">{t('about.stats.exp')}</div>
                  </div>
                  <div className="w-px h-12 bg-border" />
                  <div className="text-center">
-                   <div className="text-3xl font-bold gradient-text">50+</div>
+                   <div className="text-3xl font-bold gradient-text">{t('about.stats.pdone_val', '50+')}</div>
                    <div className="text-sm text-muted-foreground">{t('about.stats.pdone')}</div>
                  </div>
                  <div className="w-px h-12 bg-border" />
                  <div className="text-center">
-                   <div className="text-3xl font-bold gradient-text">20+</div>
+                   <div className="text-3xl font-bold gradient-text">{t('about.stats.clients_val', '20+')}</div>
                    <div className="text-sm text-muted-foreground">{t('about.stats.clients')}</div>
                  </div>
                </div>
