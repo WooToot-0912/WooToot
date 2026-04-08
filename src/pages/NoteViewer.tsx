@@ -1,12 +1,10 @@
 import { useEffect, useState } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { ArrowLeft, ShieldAlert, Lock } from 'lucide-react';
 import Watermark from '../components/Watermark';
 
 export default function NoteViewer({ slug, onClose }: { slug: string; onClose: () => void }) {
-  const navigate = useNavigate();
   const [content, setContent] = useState('');
 
   // 模拟加载本地 markdown 内容
