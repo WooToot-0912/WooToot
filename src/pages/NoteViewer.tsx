@@ -1,8 +1,8 @@
-import { useEffect, useState, useCallback } from 'react';
+import { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { ArrowLeft, ShieldAlert, Lock, FileText, Download, Loader2 } from 'lucide-react';
 import Watermark from '../components/Watermark';
-import { PDFDocument, rgb, StandardFonts } from 'pdf-lib';
+import { PDFDocument, rgb, StandardFonts, degrees } from 'pdf-lib';
 
 export default function NoteViewer() {
   const { slug } = useParams();
@@ -100,7 +100,7 @@ export default function NoteViewer() {
               size: 12,
               font: helveticaFont,
               color: rgb(0.7, 0.7, 0.7),
-              rotate: { angle: 45, type: 'degrees' },
+              rotate: degrees(45),
               opacity: 0.15,
             });
           }
@@ -108,7 +108,7 @@ export default function NoteViewer() {
       });
 
       const pdfBytes = await pdfDoc.save();
-      const blob = new Blob([pdfBytes], { type: 'application/pdf' });
+      const blob = new Blob([pdfBytes as any], { type: 'application/pdf' });
       const url = URL.createObjectURL(blob);
       const link = document.createElement('a');
       link.href = url;
