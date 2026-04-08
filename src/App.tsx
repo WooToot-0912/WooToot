@@ -11,47 +11,49 @@ import NoteViewer from './pages/NoteViewer';
 export default function App() {
   const [activeNote, setActiveNote] = useState<string | null>(null);
 
-  // 监听 URL 变化，支持前进后退关闭笔记
+  // 1. 初始化与 URL 同步
   useEffect(() => {
-    const handlePopState = () => {
+    const syncWithUrl = () => {
       const params = new URLSearchParams(window.location.search);
-      setActiveNote(params.get('note'));
+      const note = params.get('note');
+      console.log(`[WooToot-Debug] URL Note Parameter: ${note}`);
+      setActiveNote(note);
     };
-    window.addEventListener('popstate', handlePopState);
-    
-    const params = new URLSearchParams(window.location.search);
-    setActiveNote(params.get('note'));
-    
-    return () => window.removeEventListener('popstate', handlePopState);
+
+    window.addEventListener('popstate', syncWithUrl);
+    syncWithUrl(); // 首次加载检查
+
+    return () => window.removeEventListener('popstate', syncWithUrl);
   }, []);
 
   const openNote = (slug: string) => {
+    console.log(`[WooToot-Debug] Opening Note: ${slug}`);
     const url = new URL(window.location.href);
     url.searchParams.set('note', slug);
     window.history.pushState({}, '', url);
     setActiveNote(slug);
-    // 强制滚动到顶部
     window.scrollTo(0, 0);
   };
 
   const closeNote = () => {
+    console.log(`[WooToot-Debug] Closing Note`);
     const url = new URL(window.location.href);
     url.searchParams.delete('note');
     window.history.pushState({}, '', url);
     setActiveNote(null);
   };
 
-  // 核心逻辑：物理切换主页与笔记页
+  // 2. 物理渲染分支（绝对隔离）
   if (activeNote) {
     return (
-      <div className="min-h-screen bg-slate-900">
+      <div id="note-root" className="fixed inset-0 z-[10000] bg-background w-full h-full overflow-hidden">
         <NoteViewer slug={activeNote} onClose={closeNote} />
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen bg-background text-foreground animate-in fade-in duration-500">
+    <div id="home-root" className="min-h-screen bg-background text-foreground">
       <Navigation />
       <main>
         <Hero />
