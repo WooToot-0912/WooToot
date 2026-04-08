@@ -20,7 +20,8 @@ export function Blog() {
     date: ['2024-03-15', '2024-03-10', '2024-03-05', '2024-04-08'][index],
     readTime: ['8 min read', '6 min read', '10 min read', '5 min read'][index],
     githubUrl: t(`blog.posts.${key}.githubUrl`, { defaultValue: '' }),
-    slug: key,
+    slug: key === 'post4' ? '上位机通信' : key, // 映射到真实的 md 文件名
+    rawKey: key,
     content: `Detailed content for ${key} would go here...`
   }));
 
@@ -100,9 +101,34 @@ export function Blog() {
                   <p className="text-muted-foreground mb-4 line-clamp-3">
                     {post.excerpt}
                   </p>
-                  <div className="flex items-center text-primary font-medium">
-                    <span>{t('blog.readMore')}</span>
-                    <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-2 transition-transform" />
+                  <div className="flex flex-wrap gap-4 mt-4">
+                    {post.githubUrl && (
+                      <button 
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          window.open(post.githubUrl, '_blank');
+                        }}
+                        className="flex items-center text-primary font-medium hover:underline"
+                      >
+                        <span>查看项目</span>
+                        <ArrowRight className="w-4 h-4 ml-1" />
+                      </button>
+                    )}
+                    <button 
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        // 对于 post4，我们跳转到它的专属笔记页
+                        if (post.rawKey === 'post4') {
+                          window.location.href = `/note/${post.slug}`;
+                        } else {
+                          setSelectedPost(post);
+                        }
+                      }}
+                      className="flex items-center text-primary font-medium hover:underline"
+                    >
+                      <span>浏览笔记</span>
+                      <ArrowRight className="w-4 h-4 ml-1" />
+                    </button>
                   </div>
                 </div>
               </motion.article>
