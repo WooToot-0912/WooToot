@@ -46,8 +46,7 @@ temp
 /云南烤烟病害检测.zip
 /tobacco_detection.db
 
-*.pdf
-*.docx
-微信.png
+# Allow specific assets
+!/public/assets/pdf/*.pdf
 
 
