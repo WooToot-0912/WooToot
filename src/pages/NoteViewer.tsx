@@ -1,17 +1,16 @@
 import { useEffect, useState } from 'react';
+import { useParams, useNavigate } from 'react-router-dom';
 import { ArrowLeft, ShieldAlert, Lock, FileText } from 'lucide-react';
 import Watermark from '../components/Watermark';
 
-export default function NoteViewer({ slug, onClose }: { slug: string; onClose: () => void }) {
+export default function NoteViewer() {
+  const { slug } = useParams();
+  const navigate = useNavigate();
   const [loading, setLoading] = useState(true);
 
-  // 记录访问日志（可选）
+  // 基础安全：禁止右键、禁止 F12
   useEffect(() => {
-    console.log(`[Security] User accessing secure PDF note: ${slug}`);
-    
-    // 基础安全：禁止右键
     const handleContextMenu = (e: MouseEvent) => e.preventDefault();
-    // 基础安全：禁止 F12
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && e.key === 'I')) {
         e.preventDefault();
@@ -25,10 +24,15 @@ export default function NoteViewer({ slug, onClose }: { slug: string; onClose: (
       document.removeEventListener('contextmenu', handleContextMenu);
       document.removeEventListener('keydown', handleKeyDown);
     };
-  }, [slug]);
+  }, []);
 
-  // 构建 PDF 路径 (带上参数尝试隐藏工具栏)
+  // 构建 PDF 路径
   const pdfUrl = `/assets/pdf/${slug}.pdf#toolbar=0&navpanes=0&scrollbar=1`;
+
+  // 返回主页
+  const handleBack = () => {
+    navigate('/');
+  };
 
   return (
     <div className="flex flex-col h-screen bg-slate-900 overflow-hidden select-none">
@@ -36,7 +40,7 @@ export default function NoteViewer({ slug, onClose }: { slug: string; onClose: (
       <nav className="h-14 border-b border-white/10 bg-slate-900/80 backdrop-blur-md px-6 flex items-center justify-between shrink-0">
         <div className="flex items-center gap-4">
           <button 
-            onClick={onClose}
+            onClick={handleBack}
             className="flex items-center text-slate-400 hover:text-white transition-colors group"
           >
             <ArrowLeft className="w-5 h-5 mr-1 group-hover:-translate-x-1 transition-transform" />
@@ -63,12 +67,12 @@ export default function NoteViewer({ slug, onClose }: { slug: string; onClose: (
 
       {/* 核心内容区 */}
       <div className="relative flex-1 bg-slate-800">
-        {/* 全屏隐形水印层 - 置于最顶层且穿透点击 */}
+        {/* 全屏隐形水印层 */}
         <div className="absolute inset-0 z-[100] pointer-events-none opacity-[0.12]">
           <Watermark />
         </div>
 
-        {/* PDF 渲染层 */}
+        {/* Loading 状态 */}
         {loading && (
           <div className="absolute inset-0 flex items-center justify-center bg-slate-900 z-10">
             <div className="flex flex-col items-center">
@@ -85,7 +89,7 @@ export default function NoteViewer({ slug, onClose }: { slug: string; onClose: (
           title="Security Document Viewer"
         />
 
-        {/* 底部版权提示条 */}
+        {/* 底部提示 */}
         <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-[110] pointer-events-none px-6 py-2 bg-black/60 backdrop-blur-sm rounded-full border border-white/10">
           <p className="text-[10px] text-white/40 whitespace-nowrap">
             © WooToot 版权所有 · 本页面已开启全轨迹数字加密水印 · 违规传播将追究法律责任

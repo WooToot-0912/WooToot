@@ -1,12 +1,14 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Calendar, Clock, ArrowRight, MessageCircle } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 
-export function Blog({ onOpenNote }: { onOpenNote: (slug: string) => void }) {
+export function Blog() {
+  const navigate = useNavigate();
   const { t } = useTranslation();
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: '-100px' });
@@ -117,9 +119,9 @@ export function Blog({ onOpenNote }: { onOpenNote: (slug: string) => void }) {
                     <button 
                       onClick={(e) => {
                         e.stopPropagation();
-                        // 调用 App.tsx 的打开笔记逻辑
+                        // 使用正式路由跳转
                         if (post.rawKey === 'post4') {
-                          onOpenNote(post.slug);
+                          navigate(`/note/${post.slug}`);
                         } else {
                           setSelectedPost(post);
                         }
