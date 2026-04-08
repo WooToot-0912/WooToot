@@ -14,15 +14,21 @@ export function Blog() {
   const isInView = useInView(ref, { once: true, margin: '-100px' });
 
   const postKeys = ['post1', 'post2', 'post3', 'post4'];
+  const uploadDate = new Date().toISOString().split('T')[0];
+  const lastVisitorTime = () => {
+    const mins = Math.floor(Math.random() * 55) + 5;
+    return `${mins} min ago`;
+  };
+
   const blogPosts = postKeys.map((key, index) => ({
     id: index + 1,
     title: t(`blog.posts.${key}.title`),
     excerpt: t(`blog.posts.${key}.excerpt`),
     category: t(`blog.posts.${key}.category`),
-    date: ['2024-03-15', '2024-03-10', '2024-03-05', '2024-04-08'][index],
-    readTime: ['8 min read', '6 min read', '10 min read', '5 min read'][index],
+    date: uploadDate, // 动态使用上传/构建日期
+    readTime: lastVisitorTime(), // 动态显示前一个浏览者的访问时间（模拟）
     githubUrl: t(`blog.posts.${key}.githubUrl`, { defaultValue: '' }),
-    slug: key === 'post4' ? '上位机通信' : key, // 映射到真实的 pdf 文件名
+    slug: key === 'post4' ? '上位机通信' : key, 
     rawKey: key,
     content: `Detailed content for ${key} would go here...`
   }));
