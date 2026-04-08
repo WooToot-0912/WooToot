@@ -22,7 +22,7 @@ export function Blog() {
     date: ['2024-03-15', '2024-03-10', '2024-03-05', '2024-04-08'][index],
     readTime: ['8 min read', '6 min read', '10 min read', '5 min read'][index],
     githubUrl: t(`blog.posts.${key}.githubUrl`, { defaultValue: '' }),
-    slug: key === 'post4' ? 'note-shangweiji' : key, // 映射到真实的 pdf 文件名
+    slug: key === 'post4' ? '上位机通信' : key, // 映射到真实的 pdf 文件名
     rawKey: key,
     content: `Detailed content for ${key} would go here...`
   }));
