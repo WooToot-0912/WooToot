@@ -16,7 +16,7 @@ export default function NoteViewer({ slug, onClose }: { slug: string; onClose: (
       try {
           // 这里我们简单处理，直接把读取到的内容作为演示
           // 实际操作中，我们会将内容导出为一个常量或通过 fetch 加载
-          const res = await fetch(`/src/content/blog/${slug}.md`);
+          const res = await fetch(`/notes/${slug}.md`);
           if (res.ok) {
               const text = await res.text();
               setContent(text);
