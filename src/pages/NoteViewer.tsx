@@ -28,7 +28,7 @@ export default function NoteViewer({ slug, onClose }: { slug: string; onClose: (
   }, [slug]);
 
   // 构建 PDF 路径 (带上参数尝试隐藏工具栏)
-  const pdfUrl = `/notes/${slug}.pdf#toolbar=0&navpanes=0&scrollbar=1`;
+  const pdfUrl = `/assets/pdf/${slug}.pdf#toolbar=0&navpanes=0&scrollbar=1`;
 
   return (
     <div className="flex flex-col h-screen bg-slate-900 overflow-hidden select-none">

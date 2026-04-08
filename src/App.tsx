@@ -41,7 +41,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-background text-foreground relative">
       {/* 如果没有打开笔记，显示完整主页 */}
-      <div className={activeNote ? 'hidden' : 'block'}>
+      <div style={{ display: activeNote ? 'none' : 'block' }}>
         <Navigation />
         <main>
           <Hero />
