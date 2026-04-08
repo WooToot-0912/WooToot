@@ -18,9 +18,10 @@ export default function App() {
       setActiveNote(params.get('note'));
     };
     window.addEventListener('popstate', handlePopState);
-    // 初始化检查
+    
     const params = new URLSearchParams(window.location.search);
     setActiveNote(params.get('note'));
+    
     return () => window.removeEventListener('popstate', handlePopState);
   }, []);
 
@@ -29,6 +30,8 @@ export default function App() {
     url.searchParams.set('note', slug);
     window.history.pushState({}, '', url);
     setActiveNote(slug);
+    // 强制滚动到顶部
+    window.scrollTo(0, 0);
   };
 
   const closeNote = () => {
@@ -38,27 +41,26 @@ export default function App() {
     setActiveNote(null);
   };
 
-  return (
-    <div className="min-h-screen bg-background text-foreground relative">
-      {/* 如果没有打开笔记，显示完整主页 */}
-      <div style={{ display: activeNote ? 'none' : 'block' }}>
-        <Navigation />
-        <main>
-          <Hero />
-          <About />
-          <Blog onOpenNote={openNote} />
-          <Projects />
-          <Contact />
-        </main>
-        <Footer />
+  // 核心逻辑：物理切换主页与笔记页
+  if (activeNote) {
+    return (
+      <div className="min-h-screen bg-slate-900">
+        <NoteViewer slug={activeNote} onClose={closeNote} />
       </div>
+    );
+  }
 
-      {/* 如果打开了笔记，显示安全阅读层 */}
-      {activeNote && (
-        <div className="fixed inset-0 z-[9999] bg-background overflow-y-auto">
-          <NoteViewer slug={activeNote} onClose={closeNote} />
-        </div>
-      )}
+  return (
+    <div className="min-h-screen bg-background text-foreground animate-in fade-in duration-500">
+      <Navigation />
+      <main>
+        <Hero />
+        <About />
+        <Blog onOpenNote={openNote} />
+        <Projects />
+        <Contact />
+      </main>
+      <Footer />
     </div>
   );
 }
