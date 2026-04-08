@@ -11,14 +11,15 @@ export function Blog() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: '-100px' });
 
-  const postKeys = ['post1', 'post2', 'post3'];
+  const postKeys = ['post1', 'post2', 'post3', 'post4'];
   const blogPosts = postKeys.map((key, index) => ({
     id: index + 1,
     title: t(`blog.posts.${key}.title`),
     excerpt: t(`blog.posts.${key}.excerpt`),
     category: t(`blog.posts.${key}.category`),
-    date: ['2024-03-15', '2024-03-10', '2024-03-05'][index],
-    readTime: ['8 min read', '6 min read', '10 min read'][index],
+    date: ['2024-03-15', '2024-03-10', '2024-03-05', '2024-04-08'][index],
+    readTime: ['8 min read', '6 min read', '10 min read', '5 min read'][index],
+    githubUrl: t(`blog.posts.${key}.githubUrl`, { defaultValue: '' }),
     slug: key,
     content: `Detailed content for ${key} would go here...`
   }));
@@ -64,7 +65,13 @@ export function Blog() {
                 transition={{ delay: 0.4 + index * 0.1 }}
                 whileHover={{ y: -10 }}
                 className="group bg-card rounded-2xl overflow-hidden border border-border hover:border-primary/50 transition-all cursor-pointer"
-                onClick={() => setSelectedPost(post)}
+                onClick={() => {
+                  if (post.githubUrl) {
+                    window.open(post.githubUrl, '_blank');
+                  } else {
+                    setSelectedPost(post);
+                  }
+                }}
               >
                 <div className="aspect-video bg-gradient-to-br from-blue-500/20 via-purple-500/20 to-pink-500/20 relative overflow-hidden">
                   <div className="absolute inset-0 flex items-center justify-center">

@@ -90,6 +90,12 @@
         "title": "精通 Framer Motion 实现 React 动画",
         "excerpt": "使用 Framer Motion 在 React 中创建令人惊叹的高性能动画。从基础到高级技术全覆盖。",
         "category": "动画"
+      },
+      "post4": {
+        "title": "C# 串口通信上位机学习项目",
+        "excerpt": "基于 C# 开发的串口通信上位机项目，涵盖了数据解析、多窗口管理及实时监控，是学习工业上位机开发的绝佳实践。",
+        "category": "C# / 串口通信",
+        "githubUrl": "https://github.com/WooToot-0912/WooToot/tree/C%23%E4%B8%8A%E4%BD%8D%E6%9C%BA%E9%80%9A%E4%BF%A1"
       }
     }
   },

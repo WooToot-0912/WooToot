@@ -81,6 +81,12 @@
         "title": "Mastering Framer Motion for React Animations",
         "excerpt": "Create stunning, performant animations in React with Framer Motion.",
         "category": "Animation"
+      },
+      "post4": {
+        "title": "C# Serial Port Communication Project",
+        "excerpt": "Industrial-grade serial communication monitoring system developed with C# WinForm, featuring MDI management and real-time data parsing.",
+        "category": "C# / Industrial",
+        "githubUrl": "https://github.com/WooToot-0912/WooToot/tree/C%23%E4%B8%8A%E4%BD%8D%E6%9C%BA%E9%80%9A%E4%BF%A1"
       }
     }
   },
