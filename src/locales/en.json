@@ -5,6 +5,7 @@
     "about": "About",
     "blog": "Blog",
     "projects": "Projects",
+    "notes": "Notes",
     "contact": "Contact"
   },
   "hero": {
@@ -149,5 +150,52 @@
   },
   "common": {
     "brand": "WooToot"
+  },
+  "notes": {
+    "title": "Learning Notes",
+    "subtitle": "Capturing technical essence and growth milestones",
+    "viewNote": "View Notes",
+    "items": {
+      "note1": {
+        "title": "Embedded Project Overview & Environment",
+        "summary": "Full overview of embedded development lifecycle, toolchain configuration, and hardware setup.",
+        "category": "Embedded"
+      },
+      "note2": {
+        "title": "Linux System Development",
+        "summary": "Deep dive into Linux kernel and user-space development, covering process management and file systems.",
+        "category": "Linux"
+      },
+      "note3": {
+        "title": "OpenHarmony Development",
+        "summary": "All-scenario distributed OS practice, exploring componentized architecture and cross-device development.",
+        "category": "HarmonyOS/IoT"
+      },
+      "note4": {
+        "title": "BS vs. CS Architecture",
+        "summary": "In-depth comparison of Browser/Server and Client/Server architectures, use cases, and protocols.",
+        "category": "Architecture"
+      },
+      "note5": {
+        "title": "C# Core Syntax & Grammar",
+        "summary": "Comprehensive guide to C# core syntax, including OOP, collections, generics, and advanced features.",
+        "category": "Programming"
+      },
+      "note6": {
+        "title": "C# Multi-threaded Programming",
+        "summary": "Industrial solutions for threading deadlocks, synchronization, and safe cross-thread UI updates.",
+        "category": "Host Computer"
+      },
+      "note7": {
+        "title": "OPC UA Industrial Communication",
+        "summary": "Detailed cross-platform industrial protocol study, covering session models and data subscriptions.",
+        "category": "Industrial Comm"
+      },
+      "note8": {
+        "title": "Python Practical Dev Skills",
+        "summary": "Python practical development tips, covering data science, automation scripts, and multimodal projects.",
+        "category": "Python"
+      }
+    }
   }
 }

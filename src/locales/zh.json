@@ -4,7 +4,8 @@
     "home": "首页",
     "about": "关于",
     "blog": "博客",
-    "projects": "项目",
+    "projects": "作品集",
+    "notes": "笔记",
     "contact": "联系"
   },
   "hero": {
@@ -158,5 +159,52 @@
   },
   "common": {
     "brand": "WooToot"
+  },
+  "notes": {
+    "title": "个人学习笔记",
+    "subtitle": "沉淀技术精华，记录成长点滴",
+    "viewNote": "浏览笔记",
+    "items": {
+      "note1": {
+        "title": "嵌入式项目概述和环境搭建",
+        "summary": "嵌入式开发全流程概览，涉及工具链配置与基础硬件环境搭建。",
+        "category": "嵌入式"
+      },
+      "note2": {
+        "title": "Linux 系统开发",
+        "summary": "深入 Linux 内核与应用层开发，涵盖进程管理、文件系统及常用命令实战。",
+        "category": "Linux"
+      },
+      "note3": {
+        "title": "OpenHarmony 开发",
+        "summary": "全场景分布式操作系统实战，探索组件化架构与跨设备交互开发。",
+        "category": "鸿蒙/IoT"
+      },
+      "note4": {
+        "title": "BS 与 CS 架构对比",
+        "summary": "深度对比浏览器/服务器与客户端/服务器架构的优劣、适用场景及通信机制。",
+        "category": "架构"
+      },
+      "note5": {
+        "title": "C# 核心语法学习",
+        "summary": "C# 核心语法精讲，包含面向对象思想、集合、泛型及高级语言特性。",
+        "category": "编程语言"
+      },
+      "note6": {
+        "title": "C# 上位机：多线程编程实战",
+        "summary": "解决多线程死锁、同步锁及跨线程 UI 更新的工业级实战方案。",
+        "category": "上位机"
+      },
+      "note7": {
+        "title": "OPC UA 工业通信协议",
+        "summary": "详述跨平台工业通信协议，包含地址空间模型、会话建立与数据订阅机制。",
+        "category": "工业通讯"
+      },
+      "note8": {
+        "title": "Python 实训开发技巧",
+        "summary": "Python 实战开发技巧，涵盖数据科学基础、自动化脚本及多模态项目实践。",
+        "category": "Python"
+      }
+    }
   }
 }

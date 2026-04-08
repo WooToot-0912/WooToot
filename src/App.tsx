@@ -4,6 +4,7 @@ import { Hero } from './components/Hero';
 import { About } from './components/About';
 import { Blog } from './components/Blog';
 import { Projects } from './components/Projects';
+import { LearningNotes } from './components/LearningNotes';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 import NoteViewer from './pages/NoteViewer';
@@ -13,8 +14,8 @@ export default function App() {
     <div className="min-h-screen bg-background text-foreground animate-in fade-in duration-500">
       <Routes>
         {/* 路由 1: 个人主页 */}
-        <Route 
-          path="/" 
+        <Route
+          path="/"
           element={
             <>
               <Navigation />
@@ -22,18 +23,19 @@ export default function App() {
                 <Hero />
                 <About />
                 <Blog />
+                <LearningNotes />
                 <Projects />
                 <Contact />
               </main>
               <Footer />
             </>
-          } 
+          }
         />
 
         {/* 路由 2: 安全笔记阅读器 (绝对物理隔离) */}
-        <Route 
-          path="/note/:slug" 
-          element={<NoteViewer />} 
+        <Route
+          path="/note/:slug"
+          element={<NoteViewer />}
         />
       </Routes>
     </div>
