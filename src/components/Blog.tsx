@@ -6,7 +6,7 @@ import { Calendar, Clock, ArrowRight, MessageCircle } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 
-export function Blog() {
+export function Blog({ onOpenNote }: { onOpenNote: (slug: string) => void }) {
   const { t } = useTranslation();
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: '-100px' });
@@ -117,9 +117,9 @@ export function Blog() {
                     <button 
                       onClick={(e) => {
                         e.stopPropagation();
-                        // 对于 post4，我们跳转到它的专属笔记页
+                        // 调用 App.tsx 的打开笔记逻辑
                         if (post.rawKey === 'post4') {
-                          window.location.href = `/note/${post.slug}`;
+                          onOpenNote(post.slug);
                         } else {
                           setSelectedPost(post);
                         }

@@ -5,8 +5,7 @@ import remarkGfm from 'remark-gfm';
 import { ArrowLeft, ShieldAlert, Lock } from 'lucide-react';
 import Watermark from '../components/Watermark';
 
-export default function NoteViewer() {
-  const { slug } = useParams();
+export default function NoteViewer({ slug, onClose }: { slug: string; onClose: () => void }) {
   const navigate = useNavigate();
   const [content, setContent] = useState('');
 
@@ -70,11 +69,11 @@ export default function NoteViewer() {
       <nav className="sticky top-0 z-50 border-b bg-background/80 backdrop-blur-md">
         <div className="max-w-4xl mx-auto px-4 h-16 flex items-center justify-between">
           <button 
-            onClick={() => navigate(-1)}
+            onClick={onClose}
             className="flex items-center text-muted-foreground hover:text-primary transition-colors"
           >
             <ArrowLeft className="w-5 h-5 mr-1" />
-            返回
+            返回主页
           </button>
           <div className="flex items-center text-xs font-medium text-primary/60 bg-primary/5 px-3 py-1 rounded-full border border-primary/10">
             <Lock className="w-3 h-3 mr-1" />
