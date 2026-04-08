@@ -12,23 +12,26 @@ export default function App() {
   const [activeNote, setActiveNote] = useState<string | null>(null);
 
   const openNote = (slug: string) => {
-    console.log(`[WooToot-Final] Triggering Note: ${slug}`);
     setActiveNote(slug);
-    // 强制锁定滚动条，防止主页在下面滚动
+    // 固定身体防止滚动
     document.body.style.overflow = 'hidden';
   };
 
   const closeNote = () => {
-    console.log(`[WooToot-Final] Closing Note`);
     setActiveNote(null);
-    // 恢复滚动条
     document.body.style.overflow = 'unset';
   };
 
+  // 物理互斥渲染逻辑
   return (
-    <div className="min-h-screen bg-background text-foreground relative text-white">
-      {/* 1. 主页展示逻辑 */}
-      {!activeNote && (
+    <div className="min-h-screen bg-background text-foreground">
+      {activeNote ? (
+        /* 笔记视图：使用最顶层固定定位，背景加深 */
+        <div className="fixed inset-0 z-[99999] bg-slate-950 overflow-hidden">
+          <NoteViewer slug={activeNote} onClose={closeNote} />
+        </div>
+      ) : (
+        /* 主页视图：完全正常的各模块渲染 */
         <div className="animate-in fade-in duration-500">
           <Navigation />
           <main>
@@ -39,13 +42,6 @@ export default function App() {
             <Contact />
           </main>
           <Footer />
-        </div>
-      )}
-
-      {/* 2. 笔记页展示逻辑 (最高优先级全屏覆盖) */}
-      {activeNote && (
-        <div className="fixed inset-0 z-[99999] bg-slate-900 w-full h-full overflow-hidden">
-          <NoteViewer slug={activeNote} onClose={closeNote} />
         </div>
       )}
     </div>
