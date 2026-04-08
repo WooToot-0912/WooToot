@@ -1,122 +1,97 @@
 import { useEffect, useState } from 'react';
-import ReactMarkdown from 'react-markdown';
-import remarkGfm from 'remark-gfm';
-import { ArrowLeft, ShieldAlert, Lock } from 'lucide-react';
+import { ArrowLeft, ShieldAlert, Lock, FileText } from 'lucide-react';
 import Watermark from '../components/Watermark';
 
 export default function NoteViewer({ slug, onClose }: { slug: string; onClose: () => void }) {
-  const [content, setContent] = useState('');
+  const [loading, setLoading] = useState(true);
 
-  // 模拟加载本地 markdown 内容
-  // 实际生产中可以配合 Vite 的 glob import
+  // 记录访问日志（可选）
   useEffect(() => {
-    // 这里硬编码加载我们刚刚拷贝的内容字符串（为了演示和稳定）
-    // 之后可以通过 fetch 或 dynamic import 扩展建议
-    const loadContent = async () => {
-      try {
-          // 这里我们简单处理，直接把读取到的内容作为演示
-          // 实际操作中，我们会将内容导出为一个常量或通过 fetch 加载
-          const res = await fetch(`/notes/${slug}.md`);
-          if (res.ok) {
-              const text = await res.text();
-              setContent(text);
-          } else {
-              setContent('# 笔记内容加载失败，请检查文件是否存在。\n\n我们将很快更新更多内容。');
-          }
-      } catch (e) {
-          console.error(e);
-      }
-    };
-    loadContent();
-
-    // --- 安全保护逻辑 ---
+    console.log(`[Security] User accessing secure PDF note: ${slug}`);
     
-    // 1. 禁止右键
+    // 基础安全：禁止右键
     const handleContextMenu = (e: MouseEvent) => e.preventDefault();
-    // 2. 禁止选中（JS 兜底）
-    const handleSelectStart = (e: Event) => e.preventDefault();
-    // 3. 禁止复制和快捷键
+    // 基础安全：禁止 F12
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (
-        (e.ctrlKey && (e.key === 'c' || e.key === 'u' || e.key === 'p' || e.key === 's')) || 
-        e.key === 'F12'
-      ) {
+      if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && e.key === 'I')) {
         e.preventDefault();
-        alert('此内容受版权保护 (WooToot)，禁止复制或打印。');
-        return false;
       }
     };
 
     document.addEventListener('contextmenu', handleContextMenu);
-    document.addEventListener('selectstart', handleSelectStart);
     document.addEventListener('keydown', handleKeyDown);
 
     return () => {
       document.removeEventListener('contextmenu', handleContextMenu);
-      document.removeEventListener('selectstart', handleSelectStart);
       document.removeEventListener('keydown', handleKeyDown);
     };
   }, [slug]);
 
+  // 构建 PDF 路径 (带上参数尝试隐藏工具栏)
+  const pdfUrl = `/notes/${slug}.pdf#toolbar=0&navpanes=0&scrollbar=1`;
+
   return (
-    <div className="min-h-screen bg-background text-foreground relative selection:bg-transparent">
-      {/* 隐形平铺水印 */}
-      <Watermark text="WooToot" opacity={0.04} fontSize={22} gap={180} />
-      
-      {/* 顶部导航 */}
-      <nav className="sticky top-0 z-50 border-b bg-background/80 backdrop-blur-md">
-        <div className="max-w-4xl mx-auto px-4 h-16 flex items-center justify-between">
+    <div className="flex flex-col h-screen bg-slate-900 overflow-hidden select-none">
+      {/* 顶部安全状态栏 */}
+      <nav className="h-14 border-b border-white/10 bg-slate-900/80 backdrop-blur-md px-6 flex items-center justify-between shrink-0">
+        <div className="flex items-center gap-4">
           <button 
             onClick={onClose}
-            className="flex items-center text-muted-foreground hover:text-primary transition-colors"
+            className="flex items-center text-slate-400 hover:text-white transition-colors group"
           >
-            <ArrowLeft className="w-5 h-5 mr-1" />
-            返回主页
+            <ArrowLeft className="w-5 h-5 mr-1 group-hover:-translate-x-1 transition-transform" />
+            返回列表
           </button>
-          <div className="flex items-center text-xs font-medium text-primary/60 bg-primary/5 px-3 py-1 rounded-full border border-primary/10">
+          <div className="h-4 w-[1px] bg-white/10" />
+          <div className="flex items-center text-slate-300 font-medium">
+            <FileText className="w-4 h-4 mr-2 text-primary" />
+            {slug} - 专供阅读
+          </div>
+        </div>
+
+        <div className="flex items-center gap-3">
+          <div className="flex items-center text-[10px] uppercase tracking-wider text-primary/80 bg-primary/10 px-3 py-1 rounded-full border border-primary/20">
             <Lock className="w-3 h-3 mr-1" />
-            版权保护模式 (Anti-Copy)
+            Encrypted Source
+          </div>
+          <div className="flex items-center text-[10px] uppercase tracking-wider text-amber-500/80 bg-amber-500/10 px-3 py-1 rounded-full border border-amber-500/20">
+            <ShieldAlert className="w-3 h-3 mr-1" />
+            Anti-Theft Active
           </div>
         </div>
       </nav>
 
-      {/* 主体内容 */}
-      <main className="max-w-4xl mx-auto px-4 py-12 md:py-20 relative">
-        <div className="mb-10 p-4 rounded-xl bg-amber-500/10 border border-amber-500/20 text-amber-500 flex items-start gap-3">
-          <ShieldAlert className="w-5 h-5 mt-0.5 flex-shrink-0" />
-          <p className="text-sm">
-             <strong>版权提示：</strong> 本笔记受专利与版权保护。系统已开启全屏隐形水印（WooToot）和行为监控，任何截屏、录屏或尝试解析源码的行为均会带有版权标记。
-          </p>
+      {/* 核心内容区 */}
+      <div className="relative flex-1 bg-slate-800">
+        {/* 全屏隐形水印层 - 置于最顶层且穿透点击 */}
+        <div className="absolute inset-0 z-[100] pointer-events-none opacity-[0.12]">
+          <Watermark />
         </div>
 
-        <article className="prose prose-lg dark:prose-invert max-w-none 
-          [user-select:none] 
-          [&_img]:pointer-events-none 
-          [&_pre]:bg-secondary/50 [&_pre]:rounded-xl [&_pre]:p-6
-          [&_h1]:text-4xl [&_h1]:font-bold [&_h1]:mb-8
-          [&_h2]:text-2xl [&_h2]:mt-12 [&_h2]:mb-6 [&_h2]:border-b [&_h2]:pb-2
-        ">
-          <ReactMarkdown remarkPlugins={[remarkGfm]}>
-            {content}
-          </ReactMarkdown>
-        </article>
+        {/* PDF 渲染层 */}
+        {loading && (
+          <div className="absolute inset-0 flex items-center justify-center bg-slate-900 z-10">
+            <div className="flex flex-col items-center">
+              <div className="w-10 h-10 border-2 border-primary border-t-transparent rounded-full animate-spin" />
+              <p className="mt-4 text-slate-400 text-sm">正在解密安全文档...</p>
+            </div>
+          </div>
+        )}
+        
+        <iframe
+          src={pdfUrl}
+          className="w-full h-full border-none"
+          onLoad={() => setLoading(false)}
+          title="Security Document Viewer"
+        />
 
-        {/* 底部版权声明 */}
-        <footer className="mt-24 pt-8 border-t text-center text-muted-foreground text-sm">
-          <p>© {new Date().getFullYear()} WooToot. All rights reserved.</p>
-          <p className="mt-2">未经许可，严禁转载或作为商业用途使用。</p>
-        </footer>
-      </main>
-
-      {/* 打印时显示的深色水印逻辑 (CSS) */}
-      <style>{`
-        @media print {
-          body { display: none; }
-        }
-        ::selection {
-          background: transparent;
-        }
-      `}</style>
+        {/* 底部版权提示条 */}
+        <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-[110] pointer-events-none px-6 py-2 bg-black/60 backdrop-blur-sm rounded-full border border-white/10">
+          <p className="text-[10px] text-white/40 whitespace-nowrap">
+            © WooToot 版权所有 · 本页面已开启全轨迹数字加密水印 · 违规传播将追究法律责任
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
