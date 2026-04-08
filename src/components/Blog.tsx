@@ -64,8 +64,7 @@ export function Blog() {
             </motion.p>
           </div>
 
-          {/* Blog Grid */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {blogPosts.map((post, index) => (
               <motion.article
                 key={post.id}
@@ -73,7 +72,7 @@ export function Blog() {
                 animate={isInView ? { opacity: 1, y: 0 } : {}}
                 transition={{ delay: 0.4 + index * 0.1 }}
                 whileHover={{ y: -10 }}
-                className="group bg-card rounded-2xl overflow-hidden border border-border hover:border-primary/50 transition-all cursor-pointer"
+                className="group glass-card rounded-2xl overflow-hidden hover:border-primary/50 cursor-pointer"
                 onClick={() => {
                   if (post.githubUrl) {
                     window.open(post.githubUrl, '_blank');

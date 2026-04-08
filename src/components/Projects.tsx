@@ -112,7 +112,7 @@ export function Projects() {
                 animate={isInView ? { opacity: 1, y: 0 } : {}}
                 transition={{ delay: 0.4 + index * 0.1 }}
                 whileHover={{ y: -10 }}
-                className="group bg-card rounded-2xl overflow-hidden border border-border hover:border-primary/50 transition-all cursor-pointer"
+                className="group glass-card rounded-2xl overflow-hidden border border-white/10 hover:border-primary/50 cursor-pointer"
                 onClick={() => setSelectedProject(project)}
               >
                 <div className="aspect-video bg-gradient-to-br from-blue-500/20 via-purple-500/20 to-pink-500/20 relative overflow-hidden">

@@ -80,7 +80,7 @@ export function LearningNotes() {
                 animate={isInView ? { opacity: 1, y: 0 } : {}}
                 transition={{ delay: 0.2 + index * 0.05 }}
                 whileHover={{ y: -5 }}
-                className="group bg-card/50 backdrop-blur-sm rounded-xl p-6 border border-border hover:border-primary/50 transition-all cursor-pointer relative flex flex-col h-full"
+                className="group glass-card rounded-xl p-6 hover:border-primary/50 cursor-pointer relative flex flex-col h-full"
                 onClick={() => navigate(`/note/${note.slug}`)}
               >
                 <div className="flex items-center justify-between mb-4">
