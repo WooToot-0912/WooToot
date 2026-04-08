@@ -1,0 +1,99 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C#\\Zhaoxi.SeralPortCommunication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE66F3B1-7525-42A5-8EEB-03855D4C74F3}|Zhaoxi.SocketCommunication\\Zhaoxi.SocketCommunication.csproj|d:\\c#\\zhaoxi.seralportcommunication\\zhaoxi.socketcommunication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE66F3B1-7525-42A5-8EEB-03855D4C74F3}|Zhaoxi.SocketCommunication\\Zhaoxi.SocketCommunication.csproj|solutionrelative:zhaoxi.socketcommunication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E21215EC-1497-4CAE-8934-9AE3DEA00232}|Zhaoxi.SeralPortCommunication\\Zhaoxi.SeralPortCommunication.csproj|d:\\c#\\zhaoxi.seralportcommunication\\zhaoxi.seralportcommunication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E21215EC-1497-4CAE-8934-9AE3DEA00232}|Zhaoxi.SeralPortCommunication\\Zhaoxi.SeralPortCommunication.csproj|solutionrelative:zhaoxi.seralportcommunication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662F90B0-0B3D-49BC-A6D5-8E3CA986D940}|Zhaoxi.SeralPortCommunication.FW\\Zhaoxi.SeralPortCommunication.FW.csproj|D:\\C#\\Zhaoxi.SeralPortCommunication\\zhaoxi.seralportcommunication.fw\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662F90B0-0B3D-49BC-A6D5-8E3CA986D940}|Zhaoxi.SeralPortCommunication.FW\\Zhaoxi.SeralPortCommunication.FW.csproj|solutionrelative:zhaoxi.seralportcommunication.fw\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E21215EC-1497-4CAE-8934-9AE3DEA00232}|Zhaoxi.SeralPortCommunication\\Zhaoxi.SeralPortCommunication.csproj|d:\\c#\\zhaoxi.seralportcommunication\\zhaoxi.seralportcommunication\\zhaoxi.seralportcommunication.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{E21215EC-1497-4CAE-8934-9AE3DEA00232}|Zhaoxi.SeralPortCommunication\\Zhaoxi.SeralPortCommunication.csproj|solutionrelative:zhaoxi.seralportcommunication\\zhaoxi.seralportcommunication.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C#\\Zhaoxi.SeralPortCommunication\\Zhaoxi.SocketCommunication\\Program.cs",
+              "RelativeDocumentMoniker": "Zhaoxi.SocketCommunication\\Program.cs",
+              "ToolTip": "D:\\C#\\Zhaoxi.SeralPortCommunication\\Zhaoxi.SocketCommunication\\Program.cs",
+              "RelativeToolTip": "Zhaoxi.SocketCommunication\\Program.cs",
+              "ViewState": "AgIAAAwBAAAAAAAAAAAywBQBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T06:57:26.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Zhaoxi.SeralPortCommunication",
+              "DocumentMoniker": "D:\\C#\\Zhaoxi.SeralPortCommunication\\Zhaoxi.SeralPortCommunication\\Zhaoxi.SeralPortCommunication.csproj",
+              "RelativeDocumentMoniker": "Zhaoxi.SeralPortCommunication\\Zhaoxi.SeralPortCommunication.csproj",
+              "ToolTip": "D:\\C#\\Zhaoxi.SeralPortCommunication\\Zhaoxi.SeralPortCommunication\\Zhaoxi.SeralPortCommunication.csproj",
+              "RelativeToolTip": "Zhaoxi.SeralPortCommunication\\Zhaoxi.SeralPortCommunication.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-03T03:15:58.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C#\\Zhaoxi.SeralPortCommunication\\Zhaoxi.SeralPortCommunication\\Program.cs",
+              "RelativeDocumentMoniker": "Zhaoxi.SeralPortCommunication\\Program.cs",
+              "ToolTip": "D:\\C#\\Zhaoxi.SeralPortCommunication\\Zhaoxi.SeralPortCommunication\\Program.cs",
+              "RelativeToolTip": "Zhaoxi.SeralPortCommunication\\Program.cs",
+              "ViewState": "AgIAAGQBAAAAAAAAAAAywHIBAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T08:52:30.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C#\\Zhaoxi.SeralPortCommunication\\Zhaoxi.SeralPortCommunication.FW\\Program.cs",
+              "RelativeDocumentMoniker": "Zhaoxi.SeralPortCommunication.FW\\Program.cs",
+              "ToolTip": "D:\\C#\\Zhaoxi.SeralPortCommunication\\Zhaoxi.SeralPortCommunication.FW\\Program.cs",
+              "RelativeToolTip": "Zhaoxi.SeralPortCommunication.FW\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T08:56:43.58Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

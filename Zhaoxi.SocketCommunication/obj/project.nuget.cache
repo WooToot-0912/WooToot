@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "dgSpecHash": "X+yeabFJdOY=",
+  "success": true,
+  "projectFilePath": "D:\\C#\\Zhaoxi.SeralPortCommunication\\Zhaoxi.SocketCommunication\\Zhaoxi.SocketCommunication.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\鲁博\\.nuget\\packages\\nmodbus4\\2.1.0\\nmodbus4.2.1.0.nupkg.sha512",
+    "C:\\Users\\鲁博\\.nuget\\packages\\runtime.android-arm.runtime.native.system.io.ports\\10.0.5\\runtime.android-arm.runtime.native.system.io.ports.10.0.5.nupkg.sha512",
+    "C:\\Users\\鲁博\\.nuget\\packages\\runtime.android-arm64.runtime.native.system.io.ports\\10.0.5\\runtime.android-arm64.runtime.native.system.io.ports.10.0.5.nupkg.sha512",
+    "C:\\Users\\鲁博\\.nuget\\packages\\runtime.android-x64.runtime.native.system.io.ports\\10.0.5\\runtime.android-x64.runtime.native.system.io.ports.10.0.5.nupkg.sha512",
+    "C:\\Users\\鲁博\\.nuget\\packages\\runtime.android-x86.runtime.native.system.io.ports\\10.0.5\\runtime.android-x86.runtime.native.system.io.ports.10.0.5.nupkg.sha512",
+    "C:\\Users\\鲁博\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\10.0.5\\runtime.linux-arm.runtime.native.system.io.ports.10.0.5.nupkg.sha512",
+    "C:\\Users\\鲁博\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\10.0.5\\runtime.linux-arm64.runtime.native.system.io.ports.10.0.5.nupkg.sha512",
+    "C:\\Users\\鲁博\\.nuget\\packages\\runtime.linux-bionic-arm64.runtime.native.system.io.ports\\10.0.5\\runtime.linux-bionic-arm64.runtime.native.system.io.ports.10.0.5.nupkg.sha512",
+    "C:\\Users\\鲁博\\.nuget\\packages\\runtime.linux-bionic-x64.runtime.native.system.io.ports\\10.0.5\\runtime.linux-bionic-x64.runtime.native.system.io.ports.10.0.5.nupkg.sha512",
+    "C:\\Users\\鲁博\\.nuget\\packages\\runtime.linux-musl-arm.runtime.native.system.io.ports\\10.0.5\\runtime.linux-musl-arm.runtime.native.system.io.ports.10.0.5.nupkg.sha512",
+    "C:\\Users\\鲁博\\.nuget\\packages\\runtime.linux-musl-arm64.runtime.native.system.io.ports\\10.0.5\\runtime.linux-musl-arm64.runtime.native.system.io.ports.10.0.5.nupkg.sha512",
+    "C:\\Users\\鲁博\\.nuget\\packages\\runtime.linux-musl-x64.runtime.native.system.io.ports\\10.0.5\\runtime.linux-musl-x64.runtime.native.system.io.ports.10.0.5.nupkg.sha512",
+    "C:\\Users\\鲁博\\.nuget\\packages\\runtime.linux-x64.runtime.native.system.io.ports\\10.0.5\\runtime.linux-x64.runtime.native.system.io.ports.10.0.5.nupkg.sha512",
+    "C:\\Users\\鲁博\\.nuget\\packages\\runtime.maccatalyst-arm64.runtime.native.system.io.ports\\10.0.5\\runtime.maccatalyst-arm64.runtime.native.system.io.ports.10.0.5.nupkg.sha512",
+    "C:\\Users\\鲁博\\.nuget\\packages\\runtime.maccatalyst-x64.runtime.native.system.io.ports\\10.0.5\\runtime.maccatalyst-x64.runtime.native.system.io.ports.10.0.5.nupkg.sha512",
+    "C:\\Users\\鲁博\\.nuget\\packages\\runtime.native.system.io.ports\\10.0.5\\runtime.native.system.io.ports.10.0.5.nupkg.sha512",
+    "C:\\Users\\鲁博\\.nuget\\packages\\runtime.osx-arm64.runtime.native.system.io.ports\\10.0.5\\runtime.osx-arm64.runtime.native.system.io.ports.10.0.5.nupkg.sha512",
+    "C:\\Users\\鲁博\\.nuget\\packages\\runtime.osx-x64.runtime.native.system.io.ports\\10.0.5\\runtime.osx-x64.runtime.native.system.io.ports.10.0.5.nupkg.sha512",
+    "C:\\Users\\鲁博\\.nuget\\packages\\system.io.ports\\10.0.5\\system.io.ports.10.0.5.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net9.0”还原包“NModbus4 2.1.0”。此包可能与项目不完全兼容。",
+      "projectPath": "D:\\C#\\Zhaoxi.SeralPortCommunication\\Zhaoxi.SocketCommunication\\Zhaoxi.SocketCommunication.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\C#\\Zhaoxi.SeralPortCommunication\\Zhaoxi.SocketCommunication\\Zhaoxi.SocketCommunication.csproj",
+      "libraryId": "NModbus4",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
+}
